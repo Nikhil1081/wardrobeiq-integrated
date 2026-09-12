@@ -9,6 +9,8 @@
     envVars:
       - key: NODE_ENV
         value: production
+      - key: NPM_CONFIG_PRODUCTION
+        value: "false"
       - key: GROQ_API_KEY
         sync: false
       - key: GROQ_MODEL
