@@ -15,6 +15,7 @@ import {
   Heart,
   Plus,
   Compass,
+  CloudSun,
 } from 'lucide-react';
 
 export const HomePage: React.FC = () => {
@@ -92,6 +93,12 @@ export const HomePage: React.FC = () => {
       count: stats?.categoryCounts?.accessory || 0,
       image: 'https://images.unsplash.com/photo-1611085583191-a3b181a88401?auto=format&fit=crop&w=600&q=80',
     },
+    {
+      category: 'traditional',
+      label: 'TRADITIONAL',
+      count: stats?.categoryCounts?.traditional || 0,
+      image: 'https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=600&q=80',
+    },
   ];
 
   return (
@@ -140,12 +147,35 @@ export const HomePage: React.FC = () => {
             >
               Explore My Closet
             </button>
+
+            <button
+              onClick={() => setActiveTab('today')}
+              className="flex items-center gap-2 px-6 py-3.5 rounded-2xl text-xs font-bold uppercase tracking-wider bg-amber-400/15 border border-amber-400/30 text-amber-300 hover:bg-amber-400/25 transition-all cursor-pointer shadow-sm"
+              title="What Should I Wear Today? Weather-aware wardrobe engine"
+            >
+              <CloudSun className="w-4 h-4 text-amber-400" />
+              <span>Wear Today (Weather)</span>
+            </button>
           </div>
         </div>
 
         {/* Floating Insight Cards (Subtle animated badge pills) */}
         <div className="hidden lg:flex flex-col gap-3 absolute right-12 top-1/2 -translate-y-1/2 z-10">
-          <div className="glass-panel-elevated p-4 rounded-2xl border border-white/10 shadow-xl animate-float">
+          <div
+            onClick={() => setActiveTab('today')}
+            className="glass-panel-elevated p-4 rounded-2xl border border-amber-400/30 shadow-xl animate-float cursor-pointer hover:border-amber-400/60 transition-colors"
+          >
+            <div className="flex items-center gap-1.5 text-[10px] uppercase tracking-widest text-amber-400 font-bold">
+              <CloudSun className="w-3.5 h-3.5" />
+              <span>Weather Stylist</span>
+            </div>
+            <div className="text-xl font-bold text-luxury-cream font-mono">
+              Live Forecast
+            </div>
+            <div className="text-xs text-gray-400">Click for instant outfit &amp; gaps &rarr;</div>
+          </div>
+
+          <div className="glass-panel-elevated p-4 rounded-2xl border border-white/10 shadow-xl animate-float" style={{ animationDelay: '1.5s' }}>
             <div className="text-[10px] uppercase tracking-widest text-luxury-peach font-bold">
               Detected In MongoDB
             </div>
@@ -157,7 +187,7 @@ export const HomePage: React.FC = () => {
 
           <div
             className="glass-panel-elevated p-4 rounded-2xl border border-white/10 shadow-xl animate-float"
-            style={{ animationDelay: '2s' }}
+            style={{ animationDelay: '3s' }}
           >
             <div className="text-[10px] uppercase tracking-widest text-luxury-lavender font-bold">
               Outfits Generated
