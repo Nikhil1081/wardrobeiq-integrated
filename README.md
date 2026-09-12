@@ -1,5 +1,11 @@
 # WardrobeIQ — Integrated Frontend + Backend
 
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Nikhil1081/wardrobeiq-integrated)
+
+> **Deploy to Render Link:** [https://render.com/deploy?repo=https://github.com/Nikhil1081/wardrobeiq-integrated](https://render.com/deploy?repo=https://github.com/Nikhil1081/wardrobeiq-integrated)
+> 
+> **GitHub Repository:** [https://github.com/Nikhil1081/wardrobeiq-integrated](https://github.com/Nikhil1081/wardrobeiq-integrated)
+
 This repo contains two apps that were already built to talk to each other:
 
 - `backend/backend` — Express + TypeScript API (MongoDB, LangGraph AI stylist agent)
