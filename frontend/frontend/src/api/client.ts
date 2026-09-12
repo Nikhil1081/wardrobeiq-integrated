@@ -12,8 +12,18 @@ import {
 } from '../types/dto';
 import { Category, Occasion, Season, FeedbackType, BrowsingEventType } from '../types/domain';
 
-const RAW_BASE = (import.meta.env.VITE_API_BASE_URL as string) || '';
-const BASE_URL = RAW_BASE.replace(/\/$/, '');
+const getApiBaseUrl = (): string => {
+  if (import.meta.env.VITE_API_BASE_URL) {
+    return (import.meta.env.VITE_API_BASE_URL as string).replace(/\/$/, '');
+  }
+  // Auto-connect to live Render backend when deployed on Vercel
+  if (typeof window !== 'undefined' && window.location.hostname.includes('vercel.app')) {
+    return 'https://wardrobeiq.onrender.com';
+  }
+  return '';
+};
+
+const BASE_URL = getApiBaseUrl();
 const API_BASE = `${BASE_URL}/api/v1`;
 
 async function fetchJson<T>(url: string, options?: RequestInit): Promise<T> {

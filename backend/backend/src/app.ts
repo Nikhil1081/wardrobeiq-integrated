@@ -40,7 +40,8 @@ export function createApp(): Express {
         if (
           allowedOrigins.includes(origin) ||
           origin.startsWith('http://localhost:') ||
-          origin.endsWith('.onrender.com')
+          origin.endsWith('.onrender.com') ||
+          origin.endsWith('.vercel.app')
         ) {
           return callback(null, true);
         }
