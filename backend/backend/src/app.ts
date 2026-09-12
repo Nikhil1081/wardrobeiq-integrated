@@ -80,9 +80,12 @@ export function createApp(): Express {
 
   // Serve frontend static build if available (single-service production hosting)
   const possibleDistPaths = [
-    path.resolve(__dirname, '..', '..', '..', 'frontend', 'frontend', 'dist'),
+    path.resolve(process.cwd(), 'frontend', 'frontend', 'dist'),
     path.resolve(process.cwd(), '..', '..', 'frontend', 'frontend', 'dist'),
+    path.resolve(__dirname, '..', '..', '..', 'frontend', 'frontend', 'dist'),
+    path.resolve(__dirname, '..', '..', 'frontend', 'frontend', 'dist'),
     path.resolve(__dirname, '..', 'public'),
+    path.resolve(__dirname, 'public'),
     path.resolve(process.cwd(), 'public'),
   ];
   const frontendDistPath = possibleDistPaths.find((p) => fs.existsSync(p) && fs.existsSync(path.join(p, 'index.html')));

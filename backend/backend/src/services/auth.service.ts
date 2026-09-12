@@ -1,4 +1,4 @@
-﻿import bcrypt from 'bcryptjs';
+import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
 import { getUsersCollection, getCustomersCollection } from '../db/collections.js';
 import { UserDocument, CustomerDocument } from '../types/domain.js';
