@@ -1,4 +1,4 @@
-﻿services:
+services:
   - type: web
     name: wardrobeiq
     runtime: node
@@ -11,6 +11,8 @@
         value: production
       - key: NPM_CONFIG_PRODUCTION
         value: "false"
+      - key: MONGOMS_DISABLE_POSTINSTALL
+        value: "1"
       - key: GROQ_API_KEY
         sync: false
       - key: GROQ_MODEL
