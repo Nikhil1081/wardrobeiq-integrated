@@ -1,0 +1,47 @@
+services:
+  mongo:
+    image: mongo:7
+    container_name: wardrobeiq-mongo
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+    healthcheck:
+      test: ["CMD", "mongosh", "--eval", "db.adminCommand('ping')"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  backend:
+    build: ./backend/backend
+    container_name: wardrobeiq-backend
+    ports:
+      - "3000:3000"
+    environment:
+      MONGODB_URI: mongodb://mongo:27017
+      MONGODB_DB_NAME: wardrobe_agent
+      PORT: 3000
+      NODE_ENV: development
+      FRONTEND_URL: http://localhost:5173
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      OPENAI_MODEL: ${OPENAI_MODEL:-gpt-4o-mini}
+    depends_on:
+      mongo:
+        condition: service_healthy
+    volumes:
+      - ./backend/backend/src:/app/src
+
+  frontend:
+    build: ./frontend/frontend
+    container_name: wardrobeiq-frontend
+    ports:
+      - "5173:5173"
+    environment:
+      VITE_API_BASE_URL: http://localhost:3000
+    depends_on:
+      - backend
+    volumes:
+      - ./frontend/frontend/src:/app/src
+
+volumes:
+  mongo_data:

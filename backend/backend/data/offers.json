@@ -1,0 +1,667 @@
+[
+  {
+    "offerId": "O001",
+    "productId": "P0009",
+    "offerType": "percentage_off",
+    "discountPercentage": 20,
+    "conditionType": "none",
+    "validUntil": "2027-12-31T23:59:59.000Z",
+    "active": true
+  },
+  {
+    "offerId": "O002",
+    "productId": "P0017",
+    "offerType": "free_shipping",
+    "discountPercentage": 25,
+    "conditionType": "none",
+    "validUntil": "2027-12-31T23:59:59.000Z",
+    "active": true
+  },
+  {
+    "offerId": "O003",
+    "productId": "P0025",
+    "offerType": "seasonal_sale",
+    "discountPercentage": 30,
+    "conditionType": "minimum_purchase",
+    "validUntil": "2027-12-31T23:59:59.000Z",
+    "minimumPurchase": 1999,
+    "active": true
+  },
+  {
+    "offerId": "O004",
+    "productId": "P0033",
+    "offerType": "bundle_discount",
+    "discountPercentage": 15,
+    "conditionType": "category_pair",
+    "conditionCategory": "top",
+    "validUntil": "2027-12-31T23:59:59.000Z",
+    "active": true
+  },
+  {
+    "offerId": "O005",
+    "productId": "P0041",
+    "offerType": "percentage_off",
+    "discountPercentage": 20,
+    "conditionType": "none",
+    "validUntil": "2027-12-31T23:59:59.000Z",
+    "active": true
+  },
+  {
+    "offerId": "O006",
+    "productId": "P0049",
+    "offerType": "free_shipping",
+    "discountPercentage": 25,
+    "conditionType": "minimum_purchase",
+    "validUntil": "2027-12-31T23:59:59.000Z",
+    "minimumPurchase": 1999,
+    "active": true
+  },
+  {
+    "offerId": "O007",
+    "productId": "P0057",
+    "offerType": "seasonal_sale",
+    "discountPercentage": 30,
+    "conditionType": "none",
+    "validUntil": "2027-12-31T23:59:59.000Z",
+    "active": true
+  },
+  {
+    "offerId": "O008",
+    "productId": "P0065",
+    "offerType": "bundle_discount",
+    "discountPercentage": 15,
+    "conditionType": "category_pair",
+    "conditionCategory": "top",
+    "validUntil": "2027-12-31T23:59:59.000Z",
+    "active": true
+  },
+  {
+    "offerId": "O009",
+    "productId": "P0073",
+    "offerType": "percentage_off",
+    "discountPercentage": 20,
+    "conditionType": "minimum_purchase",
+    "validUntil": "2027-12-31T23:59:59.000Z",
+    "minimumPurchase": 1999,
+    "active": true
+  },
+  {
+    "offerId": "O010",
+    "productId": "P0081",
+    "offerType": "free_shipping",
+    "discountPercentage": 25,
+    "conditionType": "none",
+    "validUntil": "2027-12-31T23:59:59.000Z",
+    "active": true
+  },
+  {
+    "offerId": "O011",
+    "productId": "P0089",
+    "offerType": "seasonal_sale",
+    "discountPercentage": 30,
+    "conditionType": "none",
+    "validUntil": "2027-12-31T23:59:59.000Z",
+    "active": true
+  },
+  {
+    "offerId": "O012",
+    "productId": "P0097",
+    "offerType": "bundle_discount",
+    "discountPercentage": 15,
+    "conditionType": "category_pair",
+    "conditionCategory": "top",
+    "validUntil": "2027-12-31T23:59:59.000Z",
+    "active": true
+  },
+  {
+    "offerId": "O013",
+    "productId": "P0105",
+    "offerType": "percentage_off",
+    "discountPercentage": 20,
+    "conditionType": "none",
+    "validUntil": "2027-12-31T23:59:59.000Z",
+    "active": true
+  },
+  {
+    "offerId": "O014",
+    "productId": "P0113",
+    "offerType": "free_shipping",
+    "discountPercentage": 25,
+    "conditionType": "none",
+    "validUntil": "2027-12-31T23:59:59.000Z",
+    "active": true
+  },
+  {
+    "offerId": "O015",
+    "productId": "P0121",
+    "offerType": "seasonal_sale",
+    "discountPercentage": 30,
+    "conditionType": "minimum_purchase",
+    "validUntil": "2027-12-31T23:59:59.000Z",
+    "minimumPurchase": 1999,
+    "active": true
+  },
+  {
+    "offerId": "O016",
+    "productId": "P0129",
+    "offerType": "bundle_discount",
+    "discountPercentage": 15,
+    "conditionType": "category_pair",
+    "conditionCategory": "top",
+    "validUntil": "2027-12-31T23:59:59.000Z",
+    "active": true
+  },
+  {
+    "offerId": "O017",
+    "productId": "P0137",
+    "offerType": "percentage_off",
+    "discountPercentage": 20,
+    "conditionType": "none",
+    "validUntil": "2027-12-31T23:59:59.000Z",
+    "active": true
+  },
+  {
+    "offerId": "O018",
+    "productId": "P0145",
+    "offerType": "free_shipping",
+    "discountPercentage": 25,
+    "conditionType": "minimum_purchase",
+    "validUntil": "2027-12-31T23:59:59.000Z",
+    "minimumPurchase": 1999,
+    "active": true
+  },
+  {
+    "offerId": "O019",
+    "productId": "P0153",
+    "offerType": "seasonal_sale",
+    "discountPercentage": 30,
+    "conditionType": "none",
+    "validUntil": "2027-12-31T23:59:59.000Z",
+    "active": true
+  },
+  {
+    "offerId": "O020",
+    "productId": "P0161",
+    "offerType": "bundle_discount",
+    "discountPercentage": 15,
+    "conditionType": "category_pair",
+    "conditionCategory": "top",
+    "validUntil": "2027-12-31T23:59:59.000Z",
+    "active": true
+  },
+  {
+    "offerId": "O021",
+    "productId": "P0169",
+    "offerType": "percentage_off",
+    "discountPercentage": 20,
+    "conditionType": "minimum_purchase",
+    "validUntil": "2027-12-31T23:59:59.000Z",
+    "minimumPurchase": 1999,
+    "active": true
+  },
+  {
+    "offerId": "O022",
+    "productId": "P0177",
+    "offerType": "free_shipping",
+    "discountPercentage": 25,
+    "conditionType": "none",
+    "validUntil": "2027-12-31T23:59:59.000Z",
+    "active": true
+  },
+  {
+    "offerId": "O023",
+    "productId": "P0185",
+    "offerType": "seasonal_sale",
+    "discountPercentage": 30,
+    "conditionType": "none",
+    "validUntil": "2027-12-31T23:59:59.000Z",
+    "active": true
+  },
+  {
+    "offerId": "O024",
+    "productId": "P0193",
+    "offerType": "bundle_discount",
+    "discountPercentage": 15,
+    "conditionType": "category_pair",
+    "conditionCategory": "top",
+    "validUntil": "2027-12-31T23:59:59.000Z",
+    "active": true
+  },
+  {
+    "offerId": "O025",
+    "productId": "P0201",
+    "offerType": "percentage_off",
+    "discountPercentage": 20,
+    "conditionType": "none",
+    "validUntil": "2027-12-31T23:59:59.000Z",
+    "active": true
+  },
+  {
+    "offerId": "O026",
+    "productId": "P0209",
+    "offerType": "free_shipping",
+    "discountPercentage": 25,
+    "conditionType": "none",
+    "validUntil": "2027-12-31T23:59:59.000Z",
+    "active": true
+  },
+  {
+    "offerId": "O027",
+    "productId": "P0217",
+    "offerType": "seasonal_sale",
+    "discountPercentage": 30,
+    "conditionType": "minimum_purchase",
+    "validUntil": "2027-12-31T23:59:59.000Z",
+    "minimumPurchase": 1999,
+    "active": true
+  },
+  {
+    "offerId": "O028",
+    "productId": "P0225",
+    "offerType": "bundle_discount",
+    "discountPercentage": 15,
+    "conditionType": "category_pair",
+    "conditionCategory": "top",
+    "validUntil": "2027-12-31T23:59:59.000Z",
+    "active": true
+  },
+  {
+    "offerId": "O029",
+    "productId": "P0233",
+    "offerType": "percentage_off",
+    "discountPercentage": 20,
+    "conditionType": "none",
+    "validUntil": "2027-12-31T23:59:59.000Z",
+    "active": true
+  },
+  {
+    "offerId": "O030",
+    "productId": "P0241",
+    "offerType": "free_shipping",
+    "discountPercentage": 25,
+    "conditionType": "minimum_purchase",
+    "validUntil": "2027-12-31T23:59:59.000Z",
+    "minimumPurchase": 1999,
+    "active": true
+  },
+  {
+    "offerId": "O031",
+    "productId": "P0249",
+    "offerType": "seasonal_sale",
+    "discountPercentage": 30,
+    "conditionType": "none",
+    "validUntil": "2027-12-31T23:59:59.000Z",
+    "active": true
+  },
+  {
+    "offerId": "O032",
+    "productId": "P0257",
+    "offerType": "bundle_discount",
+    "discountPercentage": 15,
+    "conditionType": "category_pair",
+    "conditionCategory": "top",
+    "validUntil": "2027-12-31T23:59:59.000Z",
+    "active": true
+  },
+  {
+    "offerId": "O033",
+    "productId": "P0265",
+    "offerType": "percentage_off",
+    "discountPercentage": 20,
+    "conditionType": "minimum_purchase",
+    "validUntil": "2027-12-31T23:59:59.000Z",
+    "minimumPurchase": 1999,
+    "active": true
+  },
+  {
+    "offerId": "O034",
+    "productId": "P0273",
+    "offerType": "free_shipping",
+    "discountPercentage": 25,
+    "conditionType": "none",
+    "validUntil": "2027-12-31T23:59:59.000Z",
+    "active": true
+  },
+  {
+    "offerId": "O035",
+    "productId": "P0281",
+    "offerType": "seasonal_sale",
+    "discountPercentage": 30,
+    "conditionType": "none",
+    "validUntil": "2027-12-31T23:59:59.000Z",
+    "active": true
+  },
+  {
+    "offerId": "O036",
+    "productId": "P0289",
+    "offerType": "bundle_discount",
+    "discountPercentage": 15,
+    "conditionType": "category_pair",
+    "conditionCategory": "top",
+    "validUntil": "2027-12-31T23:59:59.000Z",
+    "active": true
+  },
+  {
+    "offerId": "O037",
+    "productId": "P0297",
+    "offerType": "percentage_off",
+    "discountPercentage": 20,
+    "conditionType": "none",
+    "validUntil": "2027-12-31T23:59:59.000Z",
+    "active": true
+  },
+  {
+    "offerId": "O038",
+    "productId": "P0305",
+    "offerType": "free_shipping",
+    "discountPercentage": 25,
+    "conditionType": "none",
+    "validUntil": "2027-12-31T23:59:59.000Z",
+    "active": true
+  },
+  {
+    "offerId": "O039",
+    "productId": "P0313",
+    "offerType": "seasonal_sale",
+    "discountPercentage": 30,
+    "conditionType": "minimum_purchase",
+    "validUntil": "2027-12-31T23:59:59.000Z",
+    "minimumPurchase": 1999,
+    "active": true
+  },
+  {
+    "offerId": "O040",
+    "productId": "P0321",
+    "offerType": "bundle_discount",
+    "discountPercentage": 15,
+    "conditionType": "category_pair",
+    "conditionCategory": "top",
+    "validUntil": "2027-12-31T23:59:59.000Z",
+    "active": true
+  },
+  {
+    "offerId": "O041",
+    "productId": "P0329",
+    "offerType": "percentage_off",
+    "discountPercentage": 20,
+    "conditionType": "none",
+    "validUntil": "2027-12-31T23:59:59.000Z",
+    "active": true
+  },
+  {
+    "offerId": "O042",
+    "productId": "P0337",
+    "offerType": "free_shipping",
+    "discountPercentage": 25,
+    "conditionType": "minimum_purchase",
+    "validUntil": "2027-12-31T23:59:59.000Z",
+    "minimumPurchase": 1999,
+    "active": true
+  },
+  {
+    "offerId": "O043",
+    "productId": "P0345",
+    "offerType": "seasonal_sale",
+    "discountPercentage": 30,
+    "conditionType": "none",
+    "validUntil": "2027-12-31T23:59:59.000Z",
+    "active": true
+  },
+  {
+    "offerId": "O044",
+    "productId": "P0353",
+    "offerType": "bundle_discount",
+    "discountPercentage": 15,
+    "conditionType": "category_pair",
+    "conditionCategory": "top",
+    "validUntil": "2027-12-31T23:59:59.000Z",
+    "active": true
+  },
+  {
+    "offerId": "O045",
+    "productId": "P0361",
+    "offerType": "percentage_off",
+    "discountPercentage": 20,
+    "conditionType": "minimum_purchase",
+    "validUntil": "2027-12-31T23:59:59.000Z",
+    "minimumPurchase": 1999,
+    "active": true
+  },
+  {
+    "offerId": "O046",
+    "productId": "P0369",
+    "offerType": "free_shipping",
+    "discountPercentage": 25,
+    "conditionType": "none",
+    "validUntil": "2027-12-31T23:59:59.000Z",
+    "active": true
+  },
+  {
+    "offerId": "O047",
+    "productId": "P0377",
+    "offerType": "seasonal_sale",
+    "discountPercentage": 30,
+    "conditionType": "none",
+    "validUntil": "2027-12-31T23:59:59.000Z",
+    "active": true
+  },
+  {
+    "offerId": "O048",
+    "productId": "P0385",
+    "offerType": "bundle_discount",
+    "discountPercentage": 15,
+    "conditionType": "category_pair",
+    "conditionCategory": "bottom",
+    "validUntil": "2027-12-31T23:59:59.000Z",
+    "active": true
+  },
+  {
+    "offerId": "O049",
+    "productId": "P0393",
+    "offerType": "percentage_off",
+    "discountPercentage": 20,
+    "conditionType": "none",
+    "validUntil": "2027-12-31T23:59:59.000Z",
+    "active": true
+  },
+  {
+    "offerId": "O050",
+    "productId": "P0401",
+    "offerType": "free_shipping",
+    "discountPercentage": 25,
+    "conditionType": "none",
+    "validUntil": "2027-12-31T23:59:59.000Z",
+    "active": true
+  },
+  {
+    "offerId": "O051",
+    "productId": "P0409",
+    "offerType": "seasonal_sale",
+    "discountPercentage": 30,
+    "conditionType": "minimum_purchase",
+    "validUntil": "2027-12-31T23:59:59.000Z",
+    "minimumPurchase": 1999,
+    "active": true
+  },
+  {
+    "offerId": "O052",
+    "productId": "P0417",
+    "offerType": "bundle_discount",
+    "discountPercentage": 15,
+    "conditionType": "category_pair",
+    "conditionCategory": "bottom",
+    "validUntil": "2027-12-31T23:59:59.000Z",
+    "active": true
+  },
+  {
+    "offerId": "O053",
+    "productId": "P0425",
+    "offerType": "percentage_off",
+    "discountPercentage": 20,
+    "conditionType": "none",
+    "validUntil": "2027-12-31T23:59:59.000Z",
+    "active": true
+  },
+  {
+    "offerId": "O054",
+    "productId": "P0433",
+    "offerType": "free_shipping",
+    "discountPercentage": 25,
+    "conditionType": "minimum_purchase",
+    "validUntil": "2027-12-31T23:59:59.000Z",
+    "minimumPurchase": 1999,
+    "active": true
+  },
+  {
+    "offerId": "O055",
+    "productId": "P0441",
+    "offerType": "seasonal_sale",
+    "discountPercentage": 30,
+    "conditionType": "none",
+    "validUntil": "2027-12-31T23:59:59.000Z",
+    "active": true
+  },
+  {
+    "offerId": "O056",
+    "productId": "P0449",
+    "offerType": "bundle_discount",
+    "discountPercentage": 15,
+    "conditionType": "category_pair",
+    "conditionCategory": "bottom",
+    "validUntil": "2025-12-31T23:59:59.000Z",
+    "active": false
+  },
+  {
+    "offerId": "O057",
+    "productId": "P0457",
+    "offerType": "percentage_off",
+    "discountPercentage": 20,
+    "conditionType": "minimum_purchase",
+    "validUntil": "2025-12-31T23:59:59.000Z",
+    "minimumPurchase": 1999,
+    "active": false
+  },
+  {
+    "offerId": "O058",
+    "productId": "P0465",
+    "offerType": "free_shipping",
+    "discountPercentage": 25,
+    "conditionType": "none",
+    "validUntil": "2025-12-31T23:59:59.000Z",
+    "active": false
+  },
+  {
+    "offerId": "O059",
+    "productId": "P0473",
+    "offerType": "seasonal_sale",
+    "discountPercentage": 30,
+    "conditionType": "none",
+    "validUntil": "2025-12-31T23:59:59.000Z",
+    "active": false
+  },
+  {
+    "offerId": "O060",
+    "productId": "P0481",
+    "offerType": "bundle_discount",
+    "discountPercentage": 15,
+    "conditionType": "category_pair",
+    "conditionCategory": "top",
+    "validUntil": "2025-12-31T23:59:59.000Z",
+    "active": false
+  },
+  {
+    "offerId": "O061",
+    "productId": "P0489",
+    "offerType": "percentage_off",
+    "discountPercentage": 20,
+    "conditionType": "none",
+    "validUntil": "2025-12-31T23:59:59.000Z",
+    "active": false
+  },
+  {
+    "offerId": "O062",
+    "productId": "P0497",
+    "offerType": "free_shipping",
+    "discountPercentage": 25,
+    "conditionType": "none",
+    "validUntil": "2025-12-31T23:59:59.000Z",
+    "active": false
+  },
+  {
+    "offerId": "O063",
+    "productId": "P0505",
+    "offerType": "seasonal_sale",
+    "discountPercentage": 30,
+    "conditionType": "minimum_purchase",
+    "validUntil": "2025-12-31T23:59:59.000Z",
+    "minimumPurchase": 1999,
+    "active": false
+  },
+  {
+    "offerId": "O064",
+    "productId": "P0513",
+    "offerType": "bundle_discount",
+    "discountPercentage": 15,
+    "conditionType": "category_pair",
+    "conditionCategory": "top",
+    "validUntil": "2025-12-31T23:59:59.000Z",
+    "active": false
+  },
+  {
+    "offerId": "O065",
+    "productId": "P0521",
+    "offerType": "percentage_off",
+    "discountPercentage": 20,
+    "conditionType": "none",
+    "validUntil": "2025-12-31T23:59:59.000Z",
+    "active": false
+  },
+  {
+    "offerId": "O066",
+    "productId": "P0529",
+    "offerType": "free_shipping",
+    "discountPercentage": 25,
+    "conditionType": "minimum_purchase",
+    "validUntil": "2025-12-31T23:59:59.000Z",
+    "minimumPurchase": 1999,
+    "active": false
+  },
+  {
+    "offerId": "O067",
+    "productId": "P0537",
+    "offerType": "seasonal_sale",
+    "discountPercentage": 30,
+    "conditionType": "none",
+    "validUntil": "2025-12-31T23:59:59.000Z",
+    "active": false
+  },
+  {
+    "offerId": "O068",
+    "productId": "P0545",
+    "offerType": "bundle_discount",
+    "discountPercentage": 15,
+    "conditionType": "category_pair",
+    "conditionCategory": "top",
+    "validUntil": "2025-12-31T23:59:59.000Z",
+    "active": false
+  },
+  {
+    "offerId": "O069",
+    "productId": "P0553",
+    "offerType": "percentage_off",
+    "discountPercentage": 20,
+    "conditionType": "minimum_purchase",
+    "validUntil": "2025-12-31T23:59:59.000Z",
+    "minimumPurchase": 1999,
+    "active": false
+  },
+  {
+    "offerId": "O070",
+    "productId": "P0561",
+    "offerType": "free_shipping",
+    "discountPercentage": 25,
+    "conditionType": "none",
+    "validUntil": "2025-12-31T23:59:59.000Z",
+    "active": false
+  }
+]

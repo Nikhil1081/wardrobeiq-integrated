@@ -1,0 +1,6174 @@
+[
+  {
+    "itemId": "item_00001",
+    "customerId": "C001",
+    "productId": "P0001",
+    "name": "White Relaxed Fit Linen Shirt",
+    "category": "top",
+    "subcategory": "shirt",
+    "color": "white",
+    "styleTags": [
+      "smart-casual",
+      "casual",
+      "minimalist",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "weekend",
+      "college"
+    ],
+    "season": [
+      "summer",
+      "all-season"
+    ],
+    "price": 2600,
+    "store": "FabIndia",
+    "imageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2600,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00002",
+    "customerId": "C001",
+    "productId": "P0002",
+    "name": "Beige Relaxed Fit Linen Shirt",
+    "category": "top",
+    "subcategory": "shirt",
+    "color": "beige",
+    "styleTags": [
+      "smart-casual",
+      "casual",
+      "minimalist",
+      "trending"
+    ],
+    "occasion": [
+      "workwear",
+      "weekend",
+      "college"
+    ],
+    "season": [
+      "summer",
+      "all-season"
+    ],
+    "price": 1650,
+    "store": "Marks & Spencer",
+    "imageUrl": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 1650,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00003",
+    "customerId": "C001",
+    "productId": "P0003",
+    "name": "Blue Relaxed Fit Linen Shirt",
+    "category": "top",
+    "subcategory": "shirt",
+    "color": "blue",
+    "styleTags": [
+      "smart-casual",
+      "casual",
+      "minimalist",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "weekend",
+      "college"
+    ],
+    "season": [
+      "summer",
+      "all-season"
+    ],
+    "price": 2250,
+    "store": "Biba",
+    "imageUrl": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2250,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00004",
+    "customerId": "C001",
+    "productId": "P0004",
+    "name": "Olive Relaxed Fit Linen Shirt",
+    "category": "top",
+    "subcategory": "shirt",
+    "color": "olive",
+    "styleTags": [
+      "smart-casual",
+      "casual",
+      "minimalist",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "weekend",
+      "college"
+    ],
+    "season": [
+      "summer",
+      "all-season"
+    ],
+    "price": 2550,
+    "store": "Mango",
+    "imageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2550,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00005",
+    "customerId": "C001",
+    "productId": "P0005",
+    "name": "Black Relaxed Fit Linen Shirt",
+    "category": "top",
+    "subcategory": "shirt",
+    "color": "black",
+    "styleTags": [
+      "smart-casual",
+      "casual",
+      "minimalist",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "weekend",
+      "college"
+    ],
+    "season": [
+      "summer",
+      "all-season"
+    ],
+    "price": 2100,
+    "store": "Uniqlo",
+    "imageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2100,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00006",
+    "customerId": "C001",
+    "productId": "P0171",
+    "name": "Beige Slim Stretch Cotton Chinos",
+    "category": "bottom",
+    "subcategory": "chinos",
+    "color": "beige",
+    "styleTags": [
+      "smart-casual",
+      "casual",
+      "formal",
+      "trending"
+    ],
+    "occasion": [
+      "workwear",
+      "college",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "summer"
+    ],
+    "price": 2500,
+    "store": "Mango",
+    "imageUrl": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2500,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00007",
+    "customerId": "C001",
+    "productId": "P0172",
+    "name": "Navy Slim Stretch Cotton Chinos",
+    "category": "bottom",
+    "subcategory": "chinos",
+    "color": "navy",
+    "styleTags": [
+      "smart-casual",
+      "casual",
+      "formal",
+      "trending"
+    ],
+    "occasion": [
+      "workwear",
+      "college",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "summer"
+    ],
+    "price": 2050,
+    "store": "FabIndia",
+    "imageUrl": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2050,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00008",
+    "customerId": "C001",
+    "productId": "P0173",
+    "name": "Olive Slim Stretch Cotton Chinos",
+    "category": "bottom",
+    "subcategory": "chinos",
+    "color": "olive",
+    "styleTags": [
+      "smart-casual",
+      "casual",
+      "formal",
+      "trending"
+    ],
+    "occasion": [
+      "workwear",
+      "college",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "summer"
+    ],
+    "price": 2600,
+    "store": "Marks & Spencer",
+    "imageUrl": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2600,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00009",
+    "customerId": "C001",
+    "productId": "P0174",
+    "name": "Khaki Slim Stretch Cotton Chinos",
+    "category": "bottom",
+    "subcategory": "chinos",
+    "color": "khaki",
+    "styleTags": [
+      "smart-casual",
+      "casual",
+      "formal",
+      "trending"
+    ],
+    "occasion": [
+      "workwear",
+      "college",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "summer"
+    ],
+    "price": 1500,
+    "store": "Allen Solly",
+    "imageUrl": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 1500,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00010",
+    "customerId": "C001",
+    "productId": "P0175",
+    "name": "Black Slim Stretch Cotton Chinos",
+    "category": "bottom",
+    "subcategory": "chinos",
+    "color": "black",
+    "styleTags": [
+      "smart-casual",
+      "casual",
+      "formal",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "college",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "summer"
+    ],
+    "price": 2300,
+    "store": "H&M",
+    "imageUrl": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2300,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00011",
+    "customerId": "C001",
+    "productId": "P0176",
+    "name": "Blue Straight Fit Washed Selvedge Denim",
+    "category": "bottom",
+    "subcategory": "jeans",
+    "color": "blue",
+    "styleTags": [
+      "casual",
+      "streetwear",
+      "trending"
+    ],
+    "occasion": [
+      "college",
+      "casual",
+      "weekend"
+    ],
+    "season": [
+      "all-season"
+    ],
+    "price": 3350,
+    "store": "Biba",
+    "imageUrl": "https://images.unsplash.com/photo-1542272604-780c96856592?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 3350,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00012",
+    "customerId": "C001",
+    "productId": "P0451",
+    "name": "White Low-Top Minimal Leather Sneakers",
+    "category": "shoes",
+    "subcategory": "sneakers",
+    "color": "white",
+    "styleTags": [
+      "casual",
+      "streetwear",
+      "minimalist",
+      "basic"
+    ],
+    "occasion": [
+      "college",
+      "casual",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "summer"
+    ],
+    "price": 2550,
+    "store": "Zara",
+    "imageUrl": "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2550,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00013",
+    "customerId": "C001",
+    "productId": "P0452",
+    "name": "Black Low-Top Minimal Leather Sneakers",
+    "category": "shoes",
+    "subcategory": "sneakers",
+    "color": "black",
+    "styleTags": [
+      "casual",
+      "streetwear",
+      "minimalist",
+      "basic"
+    ],
+    "occasion": [
+      "college",
+      "casual",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "summer"
+    ],
+    "price": 2150,
+    "store": "Westside",
+    "imageUrl": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2150,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00014",
+    "customerId": "C001",
+    "name": "Custom Tailored Linen Shirt",
+    "category": "top",
+    "subcategory": "shirt",
+    "color": "beige",
+    "styleTags": [
+      "custom",
+      "smart-casual"
+    ],
+    "occasion": [
+      "casual",
+      "workwear"
+    ],
+    "season": [
+      "summer",
+      "all-season"
+    ],
+    "price": 1500,
+    "store": "Bespoke Tailors",
+    "imageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-12-01",
+    "pricePaid": 1500,
+    "isCustom": true,
+    "createdAt": "2025-12-01T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00015",
+    "customerId": "C002",
+    "productId": "P0005",
+    "name": "Black Relaxed Fit Linen Shirt",
+    "category": "top",
+    "subcategory": "shirt",
+    "color": "black",
+    "styleTags": [
+      "smart-casual",
+      "casual",
+      "minimalist",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "weekend",
+      "college"
+    ],
+    "season": [
+      "summer",
+      "all-season"
+    ],
+    "price": 2100,
+    "store": "Uniqlo",
+    "imageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2100,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00016",
+    "customerId": "C002",
+    "productId": "P0006",
+    "name": "Black Heavyweight Oversized Cotton Tee",
+    "category": "top",
+    "subcategory": "t-shirt",
+    "color": "black",
+    "styleTags": [
+      "streetwear",
+      "casual",
+      "minimalist",
+      "basic"
+    ],
+    "occasion": [
+      "college",
+      "casual",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "summer"
+    ],
+    "price": 1350,
+    "store": "Snitch",
+    "imageUrl": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 1350,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00017",
+    "customerId": "C002",
+    "productId": "P0014",
+    "name": "Black Fine Pique Cotton Polo",
+    "category": "top",
+    "subcategory": "polo",
+    "color": "black",
+    "styleTags": [
+      "smart-casual",
+      "casual",
+      "trending"
+    ],
+    "occasion": [
+      "workwear",
+      "college",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "summer"
+    ],
+    "price": 1650,
+    "store": "Snitch",
+    "imageUrl": "https://images.unsplash.com/photo-1625910513413-568393c528f1?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 1650,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00018",
+    "customerId": "C002",
+    "productId": "P0019",
+    "name": "Black Satin Bow Collar Blouse",
+    "category": "top",
+    "subcategory": "blouse",
+    "color": "black",
+    "styleTags": [
+      "formal",
+      "smart-casual",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "dateNight",
+      "party"
+    ],
+    "season": [
+      "all-season"
+    ],
+    "price": 1750,
+    "store": "Snitch",
+    "imageUrl": "https://images.unsplash.com/photo-1564257631407-4deb1f99d992?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 1750,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00019",
+    "customerId": "C002",
+    "productId": "P0028",
+    "name": "Black Relaxed Fit Linen Shirt",
+    "category": "top",
+    "subcategory": "shirt",
+    "color": "black",
+    "styleTags": [
+      "smart-casual",
+      "casual",
+      "minimalist",
+      "trending"
+    ],
+    "occasion": [
+      "workwear",
+      "weekend",
+      "college"
+    ],
+    "season": [
+      "summer",
+      "all-season"
+    ],
+    "price": 2300,
+    "store": "Nike",
+    "imageUrl": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2300,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00020",
+    "customerId": "C002",
+    "productId": "P0008",
+    "name": "Grey Heavyweight Oversized Cotton Tee",
+    "category": "top",
+    "subcategory": "t-shirt",
+    "color": "grey",
+    "styleTags": [
+      "streetwear",
+      "casual",
+      "minimalist",
+      "basic"
+    ],
+    "occasion": [
+      "college",
+      "casual",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "summer"
+    ],
+    "price": 1350,
+    "store": "Biba",
+    "imageUrl": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 1350,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00021",
+    "customerId": "C002",
+    "productId": "P0021",
+    "name": "Grey Ribbed Merino Crewneck Sweater",
+    "category": "top",
+    "subcategory": "knitwear",
+    "color": "grey",
+    "styleTags": [
+      "smart-casual",
+      "minimalist",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "casual",
+      "dateNight"
+    ],
+    "season": [
+      "winter",
+      "monsoon"
+    ],
+    "price": 3450,
+    "store": "Biba",
+    "imageUrl": "https://images.unsplash.com/photo-1614975058789-41316d0e2e9c?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 3450,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00022",
+    "customerId": "C002",
+    "productId": "P0031",
+    "name": "Grey Heavyweight Oversized Cotton Tee",
+    "category": "top",
+    "subcategory": "t-shirt",
+    "color": "grey",
+    "styleTags": [
+      "streetwear",
+      "casual",
+      "minimalist",
+      "trending"
+    ],
+    "occasion": [
+      "college",
+      "casual",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "summer"
+    ],
+    "price": 1150,
+    "store": "Snitch",
+    "imageUrl": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 1150,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00023",
+    "customerId": "C002",
+    "productId": "P0175",
+    "name": "Black Slim Stretch Cotton Chinos",
+    "category": "bottom",
+    "subcategory": "chinos",
+    "color": "black",
+    "styleTags": [
+      "smart-casual",
+      "casual",
+      "formal",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "college",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "summer"
+    ],
+    "price": 2300,
+    "store": "H&M",
+    "imageUrl": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2300,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00024",
+    "customerId": "C002",
+    "productId": "P0178",
+    "name": "Black Straight Fit Washed Selvedge Denim",
+    "category": "bottom",
+    "subcategory": "jeans",
+    "color": "black",
+    "styleTags": [
+      "casual",
+      "streetwear",
+      "basic"
+    ],
+    "occasion": [
+      "college",
+      "casual",
+      "weekend"
+    ],
+    "season": [
+      "all-season"
+    ],
+    "price": 3300,
+    "store": "Nike",
+    "imageUrl": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 3300,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00025",
+    "customerId": "C002",
+    "productId": "P0183",
+    "name": "Black Pleated Tailored Wool Trousers",
+    "category": "bottom",
+    "subcategory": "trousers",
+    "color": "black",
+    "styleTags": [
+      "formal",
+      "smart-casual",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "dateNight"
+    ],
+    "season": [
+      "winter",
+      "all-season"
+    ],
+    "price": 2800,
+    "store": "Snitch",
+    "imageUrl": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2800,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00026",
+    "customerId": "C002",
+    "productId": "P0186",
+    "name": "Black Relaxed Utility Cargo Pants",
+    "category": "bottom",
+    "subcategory": "cargo",
+    "color": "black",
+    "styleTags": [
+      "streetwear",
+      "casual",
+      "basic"
+    ],
+    "occasion": [
+      "college",
+      "casual",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "monsoon"
+    ],
+    "price": 2250,
+    "store": "Mango",
+    "imageUrl": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2250,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00027",
+    "customerId": "C002",
+    "productId": "P0452",
+    "name": "Black Low-Top Minimal Leather Sneakers",
+    "category": "shoes",
+    "subcategory": "sneakers",
+    "color": "black",
+    "styleTags": [
+      "casual",
+      "streetwear",
+      "minimalist",
+      "basic"
+    ],
+    "occasion": [
+      "college",
+      "casual",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "summer"
+    ],
+    "price": 2150,
+    "store": "Westside",
+    "imageUrl": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2150,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00028",
+    "customerId": "C002",
+    "productId": "P0456",
+    "name": "Black Classic Italian Leather Penny Loafers",
+    "category": "shoes",
+    "subcategory": "loafers",
+    "color": "black",
+    "styleTags": [
+      "smart-casual",
+      "formal",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "dateNight",
+      "party"
+    ],
+    "season": [
+      "all-season"
+    ],
+    "price": 4600,
+    "store": "Nike",
+    "imageUrl": "https://images.unsplash.com/photo-1533867617858-e7b97e060509?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 4600,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00029",
+    "customerId": "C002",
+    "name": "Custom Tailored Linen Shirt",
+    "category": "top",
+    "subcategory": "shirt",
+    "color": "beige",
+    "styleTags": [
+      "custom",
+      "smart-casual"
+    ],
+    "occasion": [
+      "casual",
+      "workwear"
+    ],
+    "season": [
+      "summer",
+      "all-season"
+    ],
+    "price": 1500,
+    "store": "Bespoke Tailors",
+    "imageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-12-01",
+    "pricePaid": 1500,
+    "isCustom": true,
+    "createdAt": "2025-12-01T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00030",
+    "customerId": "C003",
+    "productId": "P0001",
+    "name": "White Relaxed Fit Linen Shirt",
+    "category": "top",
+    "subcategory": "shirt",
+    "color": "white",
+    "styleTags": [
+      "smart-casual",
+      "casual",
+      "minimalist",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "weekend",
+      "college"
+    ],
+    "season": [
+      "summer",
+      "all-season"
+    ],
+    "price": 2600,
+    "store": "FabIndia",
+    "imageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2600,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00031",
+    "customerId": "C003",
+    "productId": "P0002",
+    "name": "Beige Relaxed Fit Linen Shirt",
+    "category": "top",
+    "subcategory": "shirt",
+    "color": "beige",
+    "styleTags": [
+      "smart-casual",
+      "casual",
+      "minimalist",
+      "trending"
+    ],
+    "occasion": [
+      "workwear",
+      "weekend",
+      "college"
+    ],
+    "season": [
+      "summer",
+      "all-season"
+    ],
+    "price": 1650,
+    "store": "Marks & Spencer",
+    "imageUrl": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 1650,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00032",
+    "customerId": "C003",
+    "productId": "P0003",
+    "name": "Blue Relaxed Fit Linen Shirt",
+    "category": "top",
+    "subcategory": "shirt",
+    "color": "blue",
+    "styleTags": [
+      "smart-casual",
+      "casual",
+      "minimalist",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "weekend",
+      "college"
+    ],
+    "season": [
+      "summer",
+      "all-season"
+    ],
+    "price": 2250,
+    "store": "Biba",
+    "imageUrl": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2250,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00033",
+    "customerId": "C003",
+    "productId": "P0004",
+    "name": "Olive Relaxed Fit Linen Shirt",
+    "category": "top",
+    "subcategory": "shirt",
+    "color": "olive",
+    "styleTags": [
+      "smart-casual",
+      "casual",
+      "minimalist",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "weekend",
+      "college"
+    ],
+    "season": [
+      "summer",
+      "all-season"
+    ],
+    "price": 2550,
+    "store": "Mango",
+    "imageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2550,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00034",
+    "customerId": "C003",
+    "productId": "P0005",
+    "name": "Black Relaxed Fit Linen Shirt",
+    "category": "top",
+    "subcategory": "shirt",
+    "color": "black",
+    "styleTags": [
+      "smart-casual",
+      "casual",
+      "minimalist",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "weekend",
+      "college"
+    ],
+    "season": [
+      "summer",
+      "all-season"
+    ],
+    "price": 2100,
+    "store": "Uniqlo",
+    "imageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2100,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00035",
+    "customerId": "C003",
+    "productId": "P0171",
+    "name": "Beige Slim Stretch Cotton Chinos",
+    "category": "bottom",
+    "subcategory": "chinos",
+    "color": "beige",
+    "styleTags": [
+      "smart-casual",
+      "casual",
+      "formal",
+      "trending"
+    ],
+    "occasion": [
+      "workwear",
+      "college",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "summer"
+    ],
+    "price": 2500,
+    "store": "Mango",
+    "imageUrl": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2500,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00036",
+    "customerId": "C003",
+    "productId": "P0172",
+    "name": "Navy Slim Stretch Cotton Chinos",
+    "category": "bottom",
+    "subcategory": "chinos",
+    "color": "navy",
+    "styleTags": [
+      "smart-casual",
+      "casual",
+      "formal",
+      "trending"
+    ],
+    "occasion": [
+      "workwear",
+      "college",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "summer"
+    ],
+    "price": 2050,
+    "store": "FabIndia",
+    "imageUrl": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2050,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00037",
+    "customerId": "C003",
+    "productId": "P0173",
+    "name": "Olive Slim Stretch Cotton Chinos",
+    "category": "bottom",
+    "subcategory": "chinos",
+    "color": "olive",
+    "styleTags": [
+      "smart-casual",
+      "casual",
+      "formal",
+      "trending"
+    ],
+    "occasion": [
+      "workwear",
+      "college",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "summer"
+    ],
+    "price": 2600,
+    "store": "Marks & Spencer",
+    "imageUrl": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2600,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00038",
+    "customerId": "C003",
+    "productId": "P0174",
+    "name": "Khaki Slim Stretch Cotton Chinos",
+    "category": "bottom",
+    "subcategory": "chinos",
+    "color": "khaki",
+    "styleTags": [
+      "smart-casual",
+      "casual",
+      "formal",
+      "trending"
+    ],
+    "occasion": [
+      "workwear",
+      "college",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "summer"
+    ],
+    "price": 1500,
+    "store": "Allen Solly",
+    "imageUrl": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 1500,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00039",
+    "customerId": "C003",
+    "productId": "P0451",
+    "name": "White Low-Top Minimal Leather Sneakers",
+    "category": "shoes",
+    "subcategory": "sneakers",
+    "color": "white",
+    "styleTags": [
+      "casual",
+      "streetwear",
+      "minimalist",
+      "basic"
+    ],
+    "occasion": [
+      "college",
+      "casual",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "summer"
+    ],
+    "price": 2550,
+    "store": "Zara",
+    "imageUrl": "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2550,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00040",
+    "customerId": "C003",
+    "productId": "P0465",
+    "name": "White Low-Top Minimal Leather Sneakers",
+    "category": "shoes",
+    "subcategory": "sneakers",
+    "color": "white",
+    "styleTags": [
+      "casual",
+      "streetwear",
+      "minimalist",
+      "basic"
+    ],
+    "occasion": [
+      "college",
+      "casual",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "summer"
+    ],
+    "price": 3750,
+    "store": "Biba",
+    "imageUrl": "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 3750,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00041",
+    "customerId": "C003",
+    "name": "Custom Tailored Linen Shirt",
+    "category": "top",
+    "subcategory": "shirt",
+    "color": "beige",
+    "styleTags": [
+      "custom",
+      "smart-casual"
+    ],
+    "occasion": [
+      "casual",
+      "workwear"
+    ],
+    "season": [
+      "summer",
+      "all-season"
+    ],
+    "price": 1500,
+    "store": "Bespoke Tailors",
+    "imageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-12-01",
+    "pricePaid": 1500,
+    "isCustom": true,
+    "createdAt": "2025-12-01T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00042",
+    "customerId": "C004",
+    "productId": "P0006",
+    "name": "Black Heavyweight Oversized Cotton Tee",
+    "category": "top",
+    "subcategory": "t-shirt",
+    "color": "black",
+    "styleTags": [
+      "streetwear",
+      "casual",
+      "minimalist",
+      "basic"
+    ],
+    "occasion": [
+      "college",
+      "casual",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "summer"
+    ],
+    "price": 1350,
+    "store": "Snitch",
+    "imageUrl": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 1350,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00043",
+    "customerId": "C004",
+    "productId": "P0007",
+    "name": "White Heavyweight Oversized Cotton Tee",
+    "category": "top",
+    "subcategory": "t-shirt",
+    "color": "white",
+    "styleTags": [
+      "streetwear",
+      "casual",
+      "minimalist",
+      "basic"
+    ],
+    "occasion": [
+      "college",
+      "casual",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "summer"
+    ],
+    "price": 700,
+    "store": "Levi's",
+    "imageUrl": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 700,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00044",
+    "customerId": "C004",
+    "productId": "P0008",
+    "name": "Grey Heavyweight Oversized Cotton Tee",
+    "category": "top",
+    "subcategory": "t-shirt",
+    "color": "grey",
+    "styleTags": [
+      "streetwear",
+      "casual",
+      "minimalist",
+      "basic"
+    ],
+    "occasion": [
+      "college",
+      "casual",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "summer"
+    ],
+    "price": 1350,
+    "store": "Biba",
+    "imageUrl": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 1350,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00045",
+    "customerId": "C004",
+    "productId": "P0009",
+    "name": "Charcoal Heavyweight Oversized Cotton Tee",
+    "category": "top",
+    "subcategory": "t-shirt",
+    "color": "charcoal",
+    "styleTags": [
+      "streetwear",
+      "casual",
+      "minimalist",
+      "trending"
+    ],
+    "occasion": [
+      "college",
+      "casual",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "summer"
+    ],
+    "price": 1450,
+    "store": "Marks & Spencer",
+    "imageUrl": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 1450,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00046",
+    "customerId": "C004",
+    "productId": "P0010",
+    "name": "Navy Heavyweight Oversized Cotton Tee",
+    "category": "top",
+    "subcategory": "t-shirt",
+    "color": "navy",
+    "styleTags": [
+      "streetwear",
+      "casual",
+      "minimalist",
+      "basic"
+    ],
+    "occasion": [
+      "college",
+      "casual",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "summer"
+    ],
+    "price": 1150,
+    "store": "Zara",
+    "imageUrl": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 1150,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00047",
+    "customerId": "C004",
+    "productId": "P0177",
+    "name": "Dark-blue Straight Fit Washed Selvedge Denim",
+    "category": "bottom",
+    "subcategory": "jeans",
+    "color": "dark-blue",
+    "styleTags": [
+      "casual",
+      "streetwear",
+      "basic"
+    ],
+    "occasion": [
+      "college",
+      "casual",
+      "weekend"
+    ],
+    "season": [
+      "all-season"
+    ],
+    "price": 2200,
+    "store": "Snitch",
+    "imageUrl": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2200,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00048",
+    "customerId": "C004",
+    "productId": "P0178",
+    "name": "Black Straight Fit Washed Selvedge Denim",
+    "category": "bottom",
+    "subcategory": "jeans",
+    "color": "black",
+    "styleTags": [
+      "casual",
+      "streetwear",
+      "basic"
+    ],
+    "occasion": [
+      "college",
+      "casual",
+      "weekend"
+    ],
+    "season": [
+      "all-season"
+    ],
+    "price": 3300,
+    "store": "Nike",
+    "imageUrl": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 3300,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00049",
+    "customerId": "C004",
+    "productId": "P0179",
+    "name": "Grey Straight Fit Washed Selvedge Denim",
+    "category": "bottom",
+    "subcategory": "jeans",
+    "color": "grey",
+    "styleTags": [
+      "casual",
+      "streetwear",
+      "basic"
+    ],
+    "occasion": [
+      "college",
+      "casual",
+      "weekend"
+    ],
+    "season": [
+      "all-season"
+    ],
+    "price": 3350,
+    "store": "Uniqlo",
+    "imageUrl": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 3350,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00050",
+    "customerId": "C004",
+    "productId": "P0180",
+    "name": "Charcoal Pleated Tailored Wool Trousers",
+    "category": "bottom",
+    "subcategory": "trousers",
+    "color": "charcoal",
+    "styleTags": [
+      "formal",
+      "smart-casual",
+      "trending"
+    ],
+    "occasion": [
+      "workwear",
+      "dateNight"
+    ],
+    "season": [
+      "winter",
+      "all-season"
+    ],
+    "price": 2600,
+    "store": "Nike",
+    "imageUrl": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2600,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00051",
+    "customerId": "C004",
+    "productId": "P0366",
+    "name": "Blue Classic Denim Trucker Jacket",
+    "category": "outerwear",
+    "subcategory": "jacket",
+    "color": "blue",
+    "styleTags": [
+      "casual",
+      "streetwear",
+      "trending"
+    ],
+    "occasion": [
+      "college",
+      "casual",
+      "weekend"
+    ],
+    "season": [
+      "monsoon",
+      "winter",
+      "all-season"
+    ],
+    "price": 2600,
+    "store": "Allen Solly",
+    "imageUrl": "https://images.unsplash.com/photo-1521223890158-f9f7c3d5d504?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2600,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00052",
+    "customerId": "C004",
+    "productId": "P0367",
+    "name": "Black Classic Denim Trucker Jacket",
+    "category": "outerwear",
+    "subcategory": "jacket",
+    "color": "black",
+    "styleTags": [
+      "casual",
+      "streetwear",
+      "basic"
+    ],
+    "occasion": [
+      "college",
+      "casual",
+      "weekend"
+    ],
+    "season": [
+      "monsoon",
+      "winter",
+      "all-season"
+    ],
+    "price": 2300,
+    "store": "Allen Solly",
+    "imageUrl": "https://images.unsplash.com/photo-1521223890158-f9f7c3d5d504?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2300,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00053",
+    "customerId": "C004",
+    "productId": "P0451",
+    "name": "White Low-Top Minimal Leather Sneakers",
+    "category": "shoes",
+    "subcategory": "sneakers",
+    "color": "white",
+    "styleTags": [
+      "casual",
+      "streetwear",
+      "minimalist",
+      "basic"
+    ],
+    "occasion": [
+      "college",
+      "casual",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "summer"
+    ],
+    "price": 2550,
+    "store": "Zara",
+    "imageUrl": "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2550,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00054",
+    "customerId": "C004",
+    "name": "Custom Tailored Linen Shirt",
+    "category": "top",
+    "subcategory": "shirt",
+    "color": "beige",
+    "styleTags": [
+      "custom",
+      "smart-casual"
+    ],
+    "occasion": [
+      "casual",
+      "workwear"
+    ],
+    "season": [
+      "summer",
+      "all-season"
+    ],
+    "price": 1500,
+    "store": "Bespoke Tailors",
+    "imageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-12-01",
+    "pricePaid": 1500,
+    "isCustom": true,
+    "createdAt": "2025-12-01T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00055",
+    "customerId": "C005",
+    "productId": "P0006",
+    "name": "Black Heavyweight Oversized Cotton Tee",
+    "category": "top",
+    "subcategory": "t-shirt",
+    "color": "black",
+    "styleTags": [
+      "streetwear",
+      "casual",
+      "minimalist",
+      "basic"
+    ],
+    "occasion": [
+      "college",
+      "casual",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "summer"
+    ],
+    "price": 1350,
+    "store": "Snitch",
+    "imageUrl": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 1350,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00056",
+    "customerId": "C005",
+    "productId": "P0007",
+    "name": "White Heavyweight Oversized Cotton Tee",
+    "category": "top",
+    "subcategory": "t-shirt",
+    "color": "white",
+    "styleTags": [
+      "streetwear",
+      "casual",
+      "minimalist",
+      "basic"
+    ],
+    "occasion": [
+      "college",
+      "casual",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "summer"
+    ],
+    "price": 700,
+    "store": "Levi's",
+    "imageUrl": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 700,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00057",
+    "customerId": "C005",
+    "productId": "P0008",
+    "name": "Grey Heavyweight Oversized Cotton Tee",
+    "category": "top",
+    "subcategory": "t-shirt",
+    "color": "grey",
+    "styleTags": [
+      "streetwear",
+      "casual",
+      "minimalist",
+      "basic"
+    ],
+    "occasion": [
+      "college",
+      "casual",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "summer"
+    ],
+    "price": 1350,
+    "store": "Biba",
+    "imageUrl": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 1350,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00058",
+    "customerId": "C005",
+    "productId": "P0009",
+    "name": "Charcoal Heavyweight Oversized Cotton Tee",
+    "category": "top",
+    "subcategory": "t-shirt",
+    "color": "charcoal",
+    "styleTags": [
+      "streetwear",
+      "casual",
+      "minimalist",
+      "trending"
+    ],
+    "occasion": [
+      "college",
+      "casual",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "summer"
+    ],
+    "price": 1450,
+    "store": "Marks & Spencer",
+    "imageUrl": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 1450,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00059",
+    "customerId": "C005",
+    "productId": "P0010",
+    "name": "Navy Heavyweight Oversized Cotton Tee",
+    "category": "top",
+    "subcategory": "t-shirt",
+    "color": "navy",
+    "styleTags": [
+      "streetwear",
+      "casual",
+      "minimalist",
+      "basic"
+    ],
+    "occasion": [
+      "college",
+      "casual",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "summer"
+    ],
+    "price": 1150,
+    "store": "Zara",
+    "imageUrl": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 1150,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00060",
+    "customerId": "C005",
+    "productId": "P0011",
+    "name": "Navy Fine Pique Cotton Polo",
+    "category": "top",
+    "subcategory": "polo",
+    "color": "navy",
+    "styleTags": [
+      "smart-casual",
+      "casual",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "college",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "summer"
+    ],
+    "price": 1850,
+    "store": "Nike",
+    "imageUrl": "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 1850,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00061",
+    "customerId": "C005",
+    "productId": "P0186",
+    "name": "Black Relaxed Utility Cargo Pants",
+    "category": "bottom",
+    "subcategory": "cargo",
+    "color": "black",
+    "styleTags": [
+      "streetwear",
+      "casual",
+      "basic"
+    ],
+    "occasion": [
+      "college",
+      "casual",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "monsoon"
+    ],
+    "price": 2250,
+    "store": "Mango",
+    "imageUrl": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2250,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00062",
+    "customerId": "C005",
+    "productId": "P0187",
+    "name": "Khaki Relaxed Utility Cargo Pants",
+    "category": "bottom",
+    "subcategory": "cargo",
+    "color": "khaki",
+    "styleTags": [
+      "streetwear",
+      "casual",
+      "basic"
+    ],
+    "occasion": [
+      "college",
+      "casual",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "monsoon"
+    ],
+    "price": 2000,
+    "store": "Levi's",
+    "imageUrl": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2000,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00063",
+    "customerId": "C005",
+    "productId": "P0188",
+    "name": "Beige Slim Stretch Cotton Chinos",
+    "category": "bottom",
+    "subcategory": "chinos",
+    "color": "beige",
+    "styleTags": [
+      "smart-casual",
+      "casual",
+      "formal",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "college",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "summer"
+    ],
+    "price": 1950,
+    "store": "FabIndia",
+    "imageUrl": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 1950,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00064",
+    "customerId": "C005",
+    "productId": "P0189",
+    "name": "Navy Slim Stretch Cotton Chinos",
+    "category": "bottom",
+    "subcategory": "chinos",
+    "color": "navy",
+    "styleTags": [
+      "smart-casual",
+      "casual",
+      "formal",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "college",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "summer"
+    ],
+    "price": 2550,
+    "store": "Biba",
+    "imageUrl": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2550,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00065",
+    "customerId": "C005",
+    "productId": "P0190",
+    "name": "Olive Slim Stretch Cotton Chinos",
+    "category": "bottom",
+    "subcategory": "chinos",
+    "color": "olive",
+    "styleTags": [
+      "smart-casual",
+      "casual",
+      "formal",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "college",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "summer"
+    ],
+    "price": 2200,
+    "store": "Marks & Spencer",
+    "imageUrl": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2200,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00066",
+    "customerId": "C005",
+    "productId": "P0381",
+    "name": "Navy Flight Satin Utility Bomber Jacket",
+    "category": "outerwear",
+    "subcategory": "bomber",
+    "color": "navy",
+    "styleTags": [
+      "streetwear",
+      "casual",
+      "basic"
+    ],
+    "occasion": [
+      "college",
+      "casual",
+      "weekend"
+    ],
+    "season": [
+      "winter",
+      "monsoon"
+    ],
+    "price": 3850,
+    "store": "Mango",
+    "imageUrl": "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 3850,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00067",
+    "customerId": "C005",
+    "productId": "P0382",
+    "name": "Burgundy Flight Satin Utility Bomber Jacket",
+    "category": "outerwear",
+    "subcategory": "bomber",
+    "color": "burgundy",
+    "styleTags": [
+      "streetwear",
+      "casual",
+      "basic"
+    ],
+    "occasion": [
+      "college",
+      "casual",
+      "weekend"
+    ],
+    "season": [
+      "winter",
+      "monsoon"
+    ],
+    "price": 2700,
+    "store": "Snitch",
+    "imageUrl": "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2700,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00068",
+    "customerId": "C005",
+    "productId": "P0476",
+    "name": "Grey Suede Chelsea Ankle Boots",
+    "category": "shoes",
+    "subcategory": "boots",
+    "color": "grey",
+    "styleTags": [
+      "smart-casual",
+      "streetwear",
+      "basic"
+    ],
+    "occasion": [
+      "weekend",
+      "dateNight",
+      "casual"
+    ],
+    "season": [
+      "winter",
+      "monsoon"
+    ],
+    "price": 4800,
+    "store": "Snitch",
+    "imageUrl": "https://images.unsplash.com/photo-1608256246200-53e635b5b65f?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 4800,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00069",
+    "customerId": "C005",
+    "productId": "P0477",
+    "name": "Black Cap-Toe Leather Formal Oxfords",
+    "category": "shoes",
+    "subcategory": "oxfords",
+    "color": "black",
+    "styleTags": [
+      "formal",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "party"
+    ],
+    "season": [
+      "all-season"
+    ],
+    "price": 3950,
+    "store": "Allen Solly",
+    "imageUrl": "https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 3950,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00070",
+    "customerId": "C005",
+    "productId": "P0478",
+    "name": "Dark-brown Cap-Toe Leather Formal Oxfords",
+    "category": "shoes",
+    "subcategory": "oxfords",
+    "color": "dark-brown",
+    "styleTags": [
+      "formal",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "party"
+    ],
+    "season": [
+      "all-season"
+    ],
+    "price": 6500,
+    "store": "H&M",
+    "imageUrl": "https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 6500,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00071",
+    "customerId": "C005",
+    "productId": "P0566",
+    "name": "Black Full-Grain Leather Messenger Bag",
+    "category": "accessory",
+    "subcategory": "bag",
+    "color": "black",
+    "styleTags": [
+      "smart-casual",
+      "formal",
+      "trending"
+    ],
+    "occasion": [
+      "workwear",
+      "college"
+    ],
+    "season": [
+      "all-season"
+    ],
+    "price": 4500,
+    "store": "Levi's",
+    "imageUrl": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 4500,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00072",
+    "customerId": "C005",
+    "productId": "P0567",
+    "name": "Tan Full-Grain Leather Messenger Bag",
+    "category": "accessory",
+    "subcategory": "bag",
+    "color": "tan",
+    "styleTags": [
+      "smart-casual",
+      "formal",
+      "trending"
+    ],
+    "occasion": [
+      "workwear",
+      "college"
+    ],
+    "season": [
+      "all-season"
+    ],
+    "price": 5300,
+    "store": "Zara",
+    "imageUrl": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 5300,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00073",
+    "customerId": "C005",
+    "name": "Custom Tailored Linen Shirt",
+    "category": "top",
+    "subcategory": "shirt",
+    "color": "beige",
+    "styleTags": [
+      "custom",
+      "smart-casual"
+    ],
+    "occasion": [
+      "casual",
+      "workwear"
+    ],
+    "season": [
+      "summer",
+      "all-season"
+    ],
+    "price": 1500,
+    "store": "Bespoke Tailors",
+    "imageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-12-01",
+    "pricePaid": 1500,
+    "isCustom": true,
+    "createdAt": "2025-12-01T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00074",
+    "customerId": "C006",
+    "productId": "P0025",
+    "name": "Beige Relaxed Fit Linen Shirt",
+    "category": "top",
+    "subcategory": "shirt",
+    "color": "beige",
+    "styleTags": [
+      "smart-casual",
+      "casual",
+      "minimalist",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "weekend",
+      "college"
+    ],
+    "season": [
+      "summer",
+      "all-season"
+    ],
+    "price": 2500,
+    "store": "Allen Solly",
+    "imageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2500,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00075",
+    "customerId": "C006",
+    "productId": "P0026",
+    "name": "Blue Relaxed Fit Linen Shirt",
+    "category": "top",
+    "subcategory": "shirt",
+    "color": "blue",
+    "styleTags": [
+      "smart-casual",
+      "casual",
+      "minimalist",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "weekend",
+      "college"
+    ],
+    "season": [
+      "summer",
+      "all-season"
+    ],
+    "price": 1350,
+    "store": "Westside",
+    "imageUrl": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 1350,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00076",
+    "customerId": "C006",
+    "productId": "P0027",
+    "name": "Olive Relaxed Fit Linen Shirt",
+    "category": "top",
+    "subcategory": "shirt",
+    "color": "olive",
+    "styleTags": [
+      "smart-casual",
+      "casual",
+      "minimalist",
+      "trending"
+    ],
+    "occasion": [
+      "workwear",
+      "weekend",
+      "college"
+    ],
+    "season": [
+      "summer",
+      "all-season"
+    ],
+    "price": 2800,
+    "store": "Mango",
+    "imageUrl": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2800,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00077",
+    "customerId": "C006",
+    "productId": "P0028",
+    "name": "Black Relaxed Fit Linen Shirt",
+    "category": "top",
+    "subcategory": "shirt",
+    "color": "black",
+    "styleTags": [
+      "smart-casual",
+      "casual",
+      "minimalist",
+      "trending"
+    ],
+    "occasion": [
+      "workwear",
+      "weekend",
+      "college"
+    ],
+    "season": [
+      "summer",
+      "all-season"
+    ],
+    "price": 2300,
+    "store": "Nike",
+    "imageUrl": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2300,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00078",
+    "customerId": "C006",
+    "productId": "P0029",
+    "name": "Black Heavyweight Oversized Cotton Tee",
+    "category": "top",
+    "subcategory": "t-shirt",
+    "color": "black",
+    "styleTags": [
+      "streetwear",
+      "casual",
+      "minimalist",
+      "basic"
+    ],
+    "occasion": [
+      "college",
+      "casual",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "summer"
+    ],
+    "price": 1150,
+    "store": "Biba",
+    "imageUrl": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 1150,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00079",
+    "customerId": "C006",
+    "productId": "P0030",
+    "name": "White Heavyweight Oversized Cotton Tee",
+    "category": "top",
+    "subcategory": "t-shirt",
+    "color": "white",
+    "styleTags": [
+      "streetwear",
+      "casual",
+      "minimalist",
+      "basic"
+    ],
+    "occasion": [
+      "college",
+      "casual",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "summer"
+    ],
+    "price": 1100,
+    "store": "Westside",
+    "imageUrl": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 1100,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00080",
+    "customerId": "C006",
+    "productId": "P0205",
+    "name": "Beige Slim Stretch Cotton Chinos",
+    "category": "bottom",
+    "subcategory": "chinos",
+    "color": "beige",
+    "styleTags": [
+      "smart-casual",
+      "casual",
+      "formal",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "college",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "summer"
+    ],
+    "price": 1600,
+    "store": "FabIndia",
+    "imageUrl": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 1600,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00081",
+    "customerId": "C006",
+    "productId": "P0206",
+    "name": "Navy Slim Stretch Cotton Chinos",
+    "category": "bottom",
+    "subcategory": "chinos",
+    "color": "navy",
+    "styleTags": [
+      "smart-casual",
+      "casual",
+      "formal",
+      "trending"
+    ],
+    "occasion": [
+      "workwear",
+      "college",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "summer"
+    ],
+    "price": 2100,
+    "store": "H&M",
+    "imageUrl": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2100,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00082",
+    "customerId": "C006",
+    "productId": "P0207",
+    "name": "Olive Slim Stretch Cotton Chinos",
+    "category": "bottom",
+    "subcategory": "chinos",
+    "color": "olive",
+    "styleTags": [
+      "smart-casual",
+      "casual",
+      "formal",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "college",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "summer"
+    ],
+    "price": 1650,
+    "store": "Biba",
+    "imageUrl": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 1650,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00083",
+    "customerId": "C006",
+    "productId": "P0208",
+    "name": "Khaki Slim Stretch Cotton Chinos",
+    "category": "bottom",
+    "subcategory": "chinos",
+    "color": "khaki",
+    "styleTags": [
+      "smart-casual",
+      "casual",
+      "formal",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "college",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "summer"
+    ],
+    "price": 2400,
+    "store": "Marks & Spencer",
+    "imageUrl": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2400,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00084",
+    "customerId": "C006",
+    "productId": "P0209",
+    "name": "Black Slim Stretch Cotton Chinos",
+    "category": "bottom",
+    "subcategory": "chinos",
+    "color": "black",
+    "styleTags": [
+      "smart-casual",
+      "casual",
+      "formal",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "college",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "summer"
+    ],
+    "price": 1850,
+    "store": "H&M",
+    "imageUrl": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 1850,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00085",
+    "customerId": "C006",
+    "productId": "P0380",
+    "name": "Black Flight Satin Utility Bomber Jacket",
+    "category": "outerwear",
+    "subcategory": "bomber",
+    "color": "black",
+    "styleTags": [
+      "streetwear",
+      "casual",
+      "trending"
+    ],
+    "occasion": [
+      "college",
+      "casual",
+      "weekend"
+    ],
+    "season": [
+      "winter",
+      "monsoon"
+    ],
+    "price": 3950,
+    "store": "Biba",
+    "imageUrl": "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 3950,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00086",
+    "customerId": "C006",
+    "productId": "P0381",
+    "name": "Navy Flight Satin Utility Bomber Jacket",
+    "category": "outerwear",
+    "subcategory": "bomber",
+    "color": "navy",
+    "styleTags": [
+      "streetwear",
+      "casual",
+      "basic"
+    ],
+    "occasion": [
+      "college",
+      "casual",
+      "weekend"
+    ],
+    "season": [
+      "winter",
+      "monsoon"
+    ],
+    "price": 3850,
+    "store": "Mango",
+    "imageUrl": "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 3850,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00087",
+    "customerId": "C006",
+    "productId": "P0465",
+    "name": "White Low-Top Minimal Leather Sneakers",
+    "category": "shoes",
+    "subcategory": "sneakers",
+    "color": "white",
+    "styleTags": [
+      "casual",
+      "streetwear",
+      "minimalist",
+      "basic"
+    ],
+    "occasion": [
+      "college",
+      "casual",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "summer"
+    ],
+    "price": 3750,
+    "store": "Biba",
+    "imageUrl": "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 3750,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00088",
+    "customerId": "C006",
+    "productId": "P0466",
+    "name": "Black Low-Top Minimal Leather Sneakers",
+    "category": "shoes",
+    "subcategory": "sneakers",
+    "color": "black",
+    "styleTags": [
+      "casual",
+      "streetwear",
+      "minimalist",
+      "basic"
+    ],
+    "occasion": [
+      "college",
+      "casual",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "summer"
+    ],
+    "price": 2900,
+    "store": "FabIndia",
+    "imageUrl": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2900,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00089",
+    "customerId": "C006",
+    "productId": "P0467",
+    "name": "Grey Low-Top Minimal Leather Sneakers",
+    "category": "shoes",
+    "subcategory": "sneakers",
+    "color": "grey",
+    "styleTags": [
+      "casual",
+      "streetwear",
+      "minimalist",
+      "trending"
+    ],
+    "occasion": [
+      "college",
+      "casual",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "summer"
+    ],
+    "price": 3200,
+    "store": "H&M",
+    "imageUrl": "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 3200,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00090",
+    "customerId": "C006",
+    "productId": "P0585",
+    "name": "Brown Reversible Italian Full-Grain Belt",
+    "category": "accessory",
+    "subcategory": "belt",
+    "color": "brown",
+    "styleTags": [
+      "formal",
+      "smart-casual",
+      "trending"
+    ],
+    "occasion": [
+      "workwear",
+      "dateNight"
+    ],
+    "season": [
+      "all-season"
+    ],
+    "price": 1000,
+    "store": "Marks & Spencer",
+    "imageUrl": "https://images.unsplash.com/photo-1624222247344-550fb60583dc?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 1000,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00091",
+    "customerId": "C006",
+    "productId": "P0586",
+    "name": "Tan Reversible Italian Full-Grain Belt",
+    "category": "accessory",
+    "subcategory": "belt",
+    "color": "tan",
+    "styleTags": [
+      "formal",
+      "smart-casual",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "dateNight"
+    ],
+    "season": [
+      "all-season"
+    ],
+    "price": 1050,
+    "store": "Westside",
+    "imageUrl": "https://images.unsplash.com/photo-1624222247344-550fb60583dc?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 1050,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00092",
+    "customerId": "C006",
+    "name": "Custom Tailored Linen Shirt",
+    "category": "top",
+    "subcategory": "shirt",
+    "color": "beige",
+    "styleTags": [
+      "custom",
+      "smart-casual"
+    ],
+    "occasion": [
+      "casual",
+      "workwear"
+    ],
+    "season": [
+      "summer",
+      "all-season"
+    ],
+    "price": 1500,
+    "store": "Bespoke Tailors",
+    "imageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-12-01",
+    "pricePaid": 1500,
+    "isCustom": true,
+    "createdAt": "2025-12-01T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00093",
+    "customerId": "C007",
+    "productId": "P0044",
+    "name": "Grey Ribbed Merino Crewneck Sweater",
+    "category": "top",
+    "subcategory": "knitwear",
+    "color": "grey",
+    "styleTags": [
+      "smart-casual",
+      "minimalist",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "casual",
+      "dateNight"
+    ],
+    "season": [
+      "winter",
+      "monsoon"
+    ],
+    "price": 3200,
+    "store": "Levi's",
+    "imageUrl": "https://images.unsplash.com/photo-1614975058789-41316d0e2e9c?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 3200,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00094",
+    "customerId": "C007",
+    "productId": "P0045",
+    "name": "Navy Ribbed Merino Crewneck Sweater",
+    "category": "top",
+    "subcategory": "knitwear",
+    "color": "navy",
+    "styleTags": [
+      "smart-casual",
+      "minimalist",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "casual",
+      "dateNight"
+    ],
+    "season": [
+      "winter",
+      "monsoon"
+    ],
+    "price": 2200,
+    "store": "Nike",
+    "imageUrl": "https://images.unsplash.com/photo-1614975058789-41316d0e2e9c?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2200,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00095",
+    "customerId": "C007",
+    "productId": "P0046",
+    "name": "Olive Ribbed Merino Crewneck Sweater",
+    "category": "top",
+    "subcategory": "knitwear",
+    "color": "olive",
+    "styleTags": [
+      "smart-casual",
+      "minimalist",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "casual",
+      "dateNight"
+    ],
+    "season": [
+      "winter",
+      "monsoon"
+    ],
+    "price": 2000,
+    "store": "Mango",
+    "imageUrl": "https://images.unsplash.com/photo-1614975058789-41316d0e2e9c?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2000,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00096",
+    "customerId": "C007",
+    "productId": "P0047",
+    "name": "White Relaxed Fit Linen Shirt",
+    "category": "top",
+    "subcategory": "shirt",
+    "color": "white",
+    "styleTags": [
+      "smart-casual",
+      "casual",
+      "minimalist",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "weekend",
+      "college"
+    ],
+    "season": [
+      "summer",
+      "all-season"
+    ],
+    "price": 1900,
+    "store": "Mango",
+    "imageUrl": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 1900,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00097",
+    "customerId": "C007",
+    "productId": "P0048",
+    "name": "Beige Relaxed Fit Linen Shirt",
+    "category": "top",
+    "subcategory": "shirt",
+    "color": "beige",
+    "styleTags": [
+      "smart-casual",
+      "casual",
+      "minimalist",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "weekend",
+      "college"
+    ],
+    "season": [
+      "summer",
+      "all-season"
+    ],
+    "price": 2400,
+    "store": "H&M",
+    "imageUrl": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2400,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00098",
+    "customerId": "C007",
+    "productId": "P0049",
+    "name": "Blue Relaxed Fit Linen Shirt",
+    "category": "top",
+    "subcategory": "shirt",
+    "color": "blue",
+    "styleTags": [
+      "smart-casual",
+      "casual",
+      "minimalist",
+      "trending"
+    ],
+    "occasion": [
+      "workwear",
+      "weekend",
+      "college"
+    ],
+    "season": [
+      "summer",
+      "all-season"
+    ],
+    "price": 1500,
+    "store": "Levi's",
+    "imageUrl": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 1500,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00099",
+    "customerId": "C007",
+    "productId": "P0184",
+    "name": "Navy Pleated Tailored Wool Trousers",
+    "category": "bottom",
+    "subcategory": "trousers",
+    "color": "navy",
+    "styleTags": [
+      "formal",
+      "smart-casual",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "dateNight"
+    ],
+    "season": [
+      "winter",
+      "all-season"
+    ],
+    "price": 2250,
+    "store": "Marks & Spencer",
+    "imageUrl": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2250,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00100",
+    "customerId": "C007",
+    "productId": "P0185",
+    "name": "Olive Relaxed Utility Cargo Pants",
+    "category": "bottom",
+    "subcategory": "cargo",
+    "color": "olive",
+    "styleTags": [
+      "streetwear",
+      "casual",
+      "basic"
+    ],
+    "occasion": [
+      "college",
+      "casual",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "monsoon"
+    ],
+    "price": 2150,
+    "store": "Zara",
+    "imageUrl": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2150,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00101",
+    "customerId": "C007",
+    "productId": "P0186",
+    "name": "Black Relaxed Utility Cargo Pants",
+    "category": "bottom",
+    "subcategory": "cargo",
+    "color": "black",
+    "styleTags": [
+      "streetwear",
+      "casual",
+      "basic"
+    ],
+    "occasion": [
+      "college",
+      "casual",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "monsoon"
+    ],
+    "price": 2250,
+    "store": "Mango",
+    "imageUrl": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2250,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00102",
+    "customerId": "C007",
+    "productId": "P0187",
+    "name": "Khaki Relaxed Utility Cargo Pants",
+    "category": "bottom",
+    "subcategory": "cargo",
+    "color": "khaki",
+    "styleTags": [
+      "streetwear",
+      "casual",
+      "basic"
+    ],
+    "occasion": [
+      "college",
+      "casual",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "monsoon"
+    ],
+    "price": 2000,
+    "store": "Levi's",
+    "imageUrl": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2000,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00103",
+    "customerId": "C007",
+    "productId": "P0188",
+    "name": "Beige Slim Stretch Cotton Chinos",
+    "category": "bottom",
+    "subcategory": "chinos",
+    "color": "beige",
+    "styleTags": [
+      "smart-casual",
+      "casual",
+      "formal",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "college",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "summer"
+    ],
+    "price": 1950,
+    "store": "FabIndia",
+    "imageUrl": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 1950,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00104",
+    "customerId": "C007",
+    "productId": "P0379",
+    "name": "Olive Flight Satin Utility Bomber Jacket",
+    "category": "outerwear",
+    "subcategory": "bomber",
+    "color": "olive",
+    "styleTags": [
+      "streetwear",
+      "casual",
+      "basic"
+    ],
+    "occasion": [
+      "college",
+      "casual",
+      "weekend"
+    ],
+    "season": [
+      "winter",
+      "monsoon"
+    ],
+    "price": 4050,
+    "store": "Mango",
+    "imageUrl": "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 4050,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00105",
+    "customerId": "C007",
+    "productId": "P0380",
+    "name": "Black Flight Satin Utility Bomber Jacket",
+    "category": "outerwear",
+    "subcategory": "bomber",
+    "color": "black",
+    "styleTags": [
+      "streetwear",
+      "casual",
+      "trending"
+    ],
+    "occasion": [
+      "college",
+      "casual",
+      "weekend"
+    ],
+    "season": [
+      "winter",
+      "monsoon"
+    ],
+    "price": 3950,
+    "store": "Biba",
+    "imageUrl": "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 3950,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00106",
+    "customerId": "C007",
+    "productId": "P0454",
+    "name": "Beige Low-Top Minimal Leather Sneakers",
+    "category": "shoes",
+    "subcategory": "sneakers",
+    "color": "beige",
+    "styleTags": [
+      "casual",
+      "streetwear",
+      "minimalist",
+      "basic"
+    ],
+    "occasion": [
+      "college",
+      "casual",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "summer"
+    ],
+    "price": 2900,
+    "store": "Uniqlo",
+    "imageUrl": "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2900,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00107",
+    "customerId": "C007",
+    "productId": "P0455",
+    "name": "Brown Classic Italian Leather Penny Loafers",
+    "category": "shoes",
+    "subcategory": "loafers",
+    "color": "brown",
+    "styleTags": [
+      "smart-casual",
+      "formal",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "dateNight",
+      "party"
+    ],
+    "season": [
+      "all-season"
+    ],
+    "price": 4500,
+    "store": "Mango",
+    "imageUrl": "https://images.unsplash.com/photo-1533867617858-e7b97e060509?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 4500,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00108",
+    "customerId": "C007",
+    "productId": "P0456",
+    "name": "Black Classic Italian Leather Penny Loafers",
+    "category": "shoes",
+    "subcategory": "loafers",
+    "color": "black",
+    "styleTags": [
+      "smart-casual",
+      "formal",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "dateNight",
+      "party"
+    ],
+    "season": [
+      "all-season"
+    ],
+    "price": 4600,
+    "store": "Nike",
+    "imageUrl": "https://images.unsplash.com/photo-1533867617858-e7b97e060509?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 4600,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00109",
+    "customerId": "C007",
+    "productId": "P0579",
+    "name": "Black Full-Grain Leather Messenger Bag",
+    "category": "accessory",
+    "subcategory": "bag",
+    "color": "black",
+    "styleTags": [
+      "smart-casual",
+      "formal",
+      "trending"
+    ],
+    "occasion": [
+      "workwear",
+      "college"
+    ],
+    "season": [
+      "all-season"
+    ],
+    "price": 3400,
+    "store": "Nike",
+    "imageUrl": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 3400,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00110",
+    "customerId": "C007",
+    "productId": "P0580",
+    "name": "Tan Full-Grain Leather Messenger Bag",
+    "category": "accessory",
+    "subcategory": "bag",
+    "color": "tan",
+    "styleTags": [
+      "smart-casual",
+      "formal",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "college"
+    ],
+    "season": [
+      "all-season"
+    ],
+    "price": 4600,
+    "store": "Nike",
+    "imageUrl": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 4600,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00111",
+    "customerId": "C007",
+    "name": "Custom Tailored Linen Shirt",
+    "category": "top",
+    "subcategory": "shirt",
+    "color": "beige",
+    "styleTags": [
+      "custom",
+      "smart-casual"
+    ],
+    "occasion": [
+      "casual",
+      "workwear"
+    ],
+    "season": [
+      "summer",
+      "all-season"
+    ],
+    "price": 1500,
+    "store": "Bespoke Tailors",
+    "imageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-12-01",
+    "pricePaid": 1500,
+    "isCustom": true,
+    "createdAt": "2025-12-01T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00112",
+    "customerId": "C008",
+    "productId": "P0013",
+    "name": "White Fine Pique Cotton Polo",
+    "category": "top",
+    "subcategory": "polo",
+    "color": "white",
+    "styleTags": [
+      "smart-casual",
+      "casual",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "college",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "summer"
+    ],
+    "price": 1600,
+    "store": "Allen Solly",
+    "imageUrl": "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 1600,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00113",
+    "customerId": "C008",
+    "productId": "P0014",
+    "name": "Black Fine Pique Cotton Polo",
+    "category": "top",
+    "subcategory": "polo",
+    "color": "black",
+    "styleTags": [
+      "smart-casual",
+      "casual",
+      "trending"
+    ],
+    "occasion": [
+      "workwear",
+      "college",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "summer"
+    ],
+    "price": 1650,
+    "store": "Snitch",
+    "imageUrl": "https://images.unsplash.com/photo-1625910513413-568393c528f1?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 1650,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00114",
+    "customerId": "C008",
+    "productId": "P0015",
+    "name": "Green Fine Pique Cotton Polo",
+    "category": "top",
+    "subcategory": "polo",
+    "color": "green",
+    "styleTags": [
+      "smart-casual",
+      "casual",
+      "trending"
+    ],
+    "occasion": [
+      "workwear",
+      "college",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "summer"
+    ],
+    "price": 1450,
+    "store": "Levi's",
+    "imageUrl": "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 1450,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00115",
+    "customerId": "C008",
+    "productId": "P0016",
+    "name": "Cream Satin Bow Collar Blouse",
+    "category": "top",
+    "subcategory": "blouse",
+    "color": "cream",
+    "styleTags": [
+      "formal",
+      "smart-casual",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "dateNight",
+      "party"
+    ],
+    "season": [
+      "all-season"
+    ],
+    "price": 2550,
+    "store": "Snitch",
+    "imageUrl": "https://images.unsplash.com/photo-1564257631407-4deb1f99d992?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2550,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00116",
+    "customerId": "C008",
+    "productId": "P0017",
+    "name": "Champagne Satin Bow Collar Blouse",
+    "category": "top",
+    "subcategory": "blouse",
+    "color": "champagne",
+    "styleTags": [
+      "formal",
+      "smart-casual",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "dateNight",
+      "party"
+    ],
+    "season": [
+      "all-season"
+    ],
+    "price": 2700,
+    "store": "Allen Solly",
+    "imageUrl": "https://images.unsplash.com/photo-1564257631407-4deb1f99d992?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2700,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00117",
+    "customerId": "C008",
+    "productId": "P0018",
+    "name": "Emerald Satin Bow Collar Blouse",
+    "category": "top",
+    "subcategory": "blouse",
+    "color": "emerald",
+    "styleTags": [
+      "formal",
+      "smart-casual",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "dateNight",
+      "party"
+    ],
+    "season": [
+      "all-season"
+    ],
+    "price": 1750,
+    "store": "Snitch",
+    "imageUrl": "https://images.unsplash.com/photo-1564257631407-4deb1f99d992?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 1750,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00118",
+    "customerId": "C008",
+    "productId": "P0203",
+    "name": "Black Relaxed Utility Cargo Pants",
+    "category": "bottom",
+    "subcategory": "cargo",
+    "color": "black",
+    "styleTags": [
+      "streetwear",
+      "casual",
+      "basic"
+    ],
+    "occasion": [
+      "college",
+      "casual",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "monsoon"
+    ],
+    "price": 1550,
+    "store": "FabIndia",
+    "imageUrl": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 1550,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00119",
+    "customerId": "C008",
+    "productId": "P0204",
+    "name": "Khaki Relaxed Utility Cargo Pants",
+    "category": "bottom",
+    "subcategory": "cargo",
+    "color": "khaki",
+    "styleTags": [
+      "streetwear",
+      "casual",
+      "basic"
+    ],
+    "occasion": [
+      "college",
+      "casual",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "monsoon"
+    ],
+    "price": 1700,
+    "store": "Marks & Spencer",
+    "imageUrl": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 1700,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00120",
+    "customerId": "C008",
+    "productId": "P0205",
+    "name": "Beige Slim Stretch Cotton Chinos",
+    "category": "bottom",
+    "subcategory": "chinos",
+    "color": "beige",
+    "styleTags": [
+      "smart-casual",
+      "casual",
+      "formal",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "college",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "summer"
+    ],
+    "price": 1600,
+    "store": "FabIndia",
+    "imageUrl": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 1600,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00121",
+    "customerId": "C008",
+    "productId": "P0206",
+    "name": "Navy Slim Stretch Cotton Chinos",
+    "category": "bottom",
+    "subcategory": "chinos",
+    "color": "navy",
+    "styleTags": [
+      "smart-casual",
+      "casual",
+      "formal",
+      "trending"
+    ],
+    "occasion": [
+      "workwear",
+      "college",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "summer"
+    ],
+    "price": 2100,
+    "store": "H&M",
+    "imageUrl": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2100,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00122",
+    "customerId": "C008",
+    "productId": "P0207",
+    "name": "Olive Slim Stretch Cotton Chinos",
+    "category": "bottom",
+    "subcategory": "chinos",
+    "color": "olive",
+    "styleTags": [
+      "smart-casual",
+      "casual",
+      "formal",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "college",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "summer"
+    ],
+    "price": 1650,
+    "store": "Biba",
+    "imageUrl": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 1650,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00123",
+    "customerId": "C008",
+    "productId": "P0378",
+    "name": "Navy Water-Resistant Double Breasted Trench Coat",
+    "category": "outerwear",
+    "subcategory": "trench",
+    "color": "navy",
+    "styleTags": [
+      "smart-casual",
+      "formal",
+      "minimalist",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "weekend",
+      "dateNight"
+    ],
+    "season": [
+      "monsoon",
+      "winter"
+    ],
+    "price": 6700,
+    "store": "FabIndia",
+    "imageUrl": "https://images.unsplash.com/photo-1544022613-e87ca75a784a?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 6700,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00124",
+    "customerId": "C008",
+    "productId": "P0379",
+    "name": "Olive Flight Satin Utility Bomber Jacket",
+    "category": "outerwear",
+    "subcategory": "bomber",
+    "color": "olive",
+    "styleTags": [
+      "streetwear",
+      "casual",
+      "basic"
+    ],
+    "occasion": [
+      "college",
+      "casual",
+      "weekend"
+    ],
+    "season": [
+      "winter",
+      "monsoon"
+    ],
+    "price": 4050,
+    "store": "Mango",
+    "imageUrl": "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 4050,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00125",
+    "customerId": "C008",
+    "productId": "P0473",
+    "name": "Tan Suede Chelsea Ankle Boots",
+    "category": "shoes",
+    "subcategory": "boots",
+    "color": "tan",
+    "styleTags": [
+      "smart-casual",
+      "streetwear",
+      "basic"
+    ],
+    "occasion": [
+      "weekend",
+      "dateNight",
+      "casual"
+    ],
+    "season": [
+      "winter",
+      "monsoon"
+    ],
+    "price": 6250,
+    "store": "Nike",
+    "imageUrl": "https://images.unsplash.com/photo-1608256246200-53e635b5b65f?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 6250,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00126",
+    "customerId": "C008",
+    "productId": "P0474",
+    "name": "Black Suede Chelsea Ankle Boots",
+    "category": "shoes",
+    "subcategory": "boots",
+    "color": "black",
+    "styleTags": [
+      "smart-casual",
+      "streetwear",
+      "basic"
+    ],
+    "occasion": [
+      "weekend",
+      "dateNight",
+      "casual"
+    ],
+    "season": [
+      "winter",
+      "monsoon"
+    ],
+    "price": 4750,
+    "store": "Allen Solly",
+    "imageUrl": "https://images.unsplash.com/photo-1608256246200-53e635b5b65f?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 4750,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00127",
+    "customerId": "C008",
+    "productId": "P0475",
+    "name": "Brown Suede Chelsea Ankle Boots",
+    "category": "shoes",
+    "subcategory": "boots",
+    "color": "brown",
+    "styleTags": [
+      "smart-casual",
+      "streetwear",
+      "trending"
+    ],
+    "occasion": [
+      "weekend",
+      "dateNight",
+      "casual"
+    ],
+    "season": [
+      "winter",
+      "monsoon"
+    ],
+    "price": 4000,
+    "store": "Biba",
+    "imageUrl": "https://images.unsplash.com/photo-1608256246200-53e635b5b65f?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 4000,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00128",
+    "customerId": "C008",
+    "productId": "P0573",
+    "name": "Tan Reversible Italian Full-Grain Belt",
+    "category": "accessory",
+    "subcategory": "belt",
+    "color": "tan",
+    "styleTags": [
+      "formal",
+      "smart-casual",
+      "trending"
+    ],
+    "occasion": [
+      "workwear",
+      "dateNight"
+    ],
+    "season": [
+      "all-season"
+    ],
+    "price": 1000,
+    "store": "Snitch",
+    "imageUrl": "https://images.unsplash.com/photo-1624222247344-550fb60583dc?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 1000,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00129",
+    "customerId": "C008",
+    "productId": "P0574",
+    "name": "Silver Minimalist Sapphire Dial Watch",
+    "category": "accessory",
+    "subcategory": "watch",
+    "color": "silver",
+    "styleTags": [
+      "smart-casual",
+      "formal",
+      "minimalist",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "dateNight",
+      "weekend"
+    ],
+    "season": [
+      "all-season"
+    ],
+    "price": 5050,
+    "store": "Zara",
+    "imageUrl": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 5050,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00130",
+    "customerId": "C008",
+    "name": "Custom Tailored Linen Shirt",
+    "category": "top",
+    "subcategory": "shirt",
+    "color": "beige",
+    "styleTags": [
+      "custom",
+      "smart-casual"
+    ],
+    "occasion": [
+      "casual",
+      "workwear"
+    ],
+    "season": [
+      "summer",
+      "all-season"
+    ],
+    "price": 1500,
+    "store": "Bespoke Tailors",
+    "imageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-12-01",
+    "pricePaid": 1500,
+    "isCustom": true,
+    "createdAt": "2025-12-01T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00131",
+    "customerId": "C009",
+    "productId": "P0032",
+    "name": "Charcoal Heavyweight Oversized Cotton Tee",
+    "category": "top",
+    "subcategory": "t-shirt",
+    "color": "charcoal",
+    "styleTags": [
+      "streetwear",
+      "casual",
+      "minimalist",
+      "trending"
+    ],
+    "occasion": [
+      "college",
+      "casual",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "summer"
+    ],
+    "price": 1150,
+    "store": "Levi's",
+    "imageUrl": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 1150,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00132",
+    "customerId": "C009",
+    "productId": "P0033",
+    "name": "Navy Heavyweight Oversized Cotton Tee",
+    "category": "top",
+    "subcategory": "t-shirt",
+    "color": "navy",
+    "styleTags": [
+      "streetwear",
+      "casual",
+      "minimalist",
+      "basic"
+    ],
+    "occasion": [
+      "college",
+      "casual",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "summer"
+    ],
+    "price": 1000,
+    "store": "Snitch",
+    "imageUrl": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 1000,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00133",
+    "customerId": "C009",
+    "productId": "P0034",
+    "name": "Navy Fine Pique Cotton Polo",
+    "category": "top",
+    "subcategory": "polo",
+    "color": "navy",
+    "styleTags": [
+      "smart-casual",
+      "casual",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "college",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "summer"
+    ],
+    "price": 1700,
+    "store": "Snitch",
+    "imageUrl": "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 1700,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00134",
+    "customerId": "C009",
+    "productId": "P0035",
+    "name": "Burgundy Fine Pique Cotton Polo",
+    "category": "top",
+    "subcategory": "polo",
+    "color": "burgundy",
+    "styleTags": [
+      "smart-casual",
+      "casual",
+      "trending"
+    ],
+    "occasion": [
+      "workwear",
+      "college",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "summer"
+    ],
+    "price": 1600,
+    "store": "Marks & Spencer",
+    "imageUrl": "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 1600,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00135",
+    "customerId": "C009",
+    "productId": "P0036",
+    "name": "White Fine Pique Cotton Polo",
+    "category": "top",
+    "subcategory": "polo",
+    "color": "white",
+    "styleTags": [
+      "smart-casual",
+      "casual",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "college",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "summer"
+    ],
+    "price": 1250,
+    "store": "Allen Solly",
+    "imageUrl": "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 1250,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00136",
+    "customerId": "C009",
+    "productId": "P0037",
+    "name": "Black Fine Pique Cotton Polo",
+    "category": "top",
+    "subcategory": "polo",
+    "color": "black",
+    "styleTags": [
+      "smart-casual",
+      "casual",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "college",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "summer"
+    ],
+    "price": 1100,
+    "store": "Marks & Spencer",
+    "imageUrl": "https://images.unsplash.com/photo-1625910513413-568393c528f1?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 1100,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00137",
+    "customerId": "C009",
+    "productId": "P0182",
+    "name": "Brown Pleated Tailored Wool Trousers",
+    "category": "bottom",
+    "subcategory": "trousers",
+    "color": "brown",
+    "styleTags": [
+      "formal",
+      "smart-casual",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "dateNight"
+    ],
+    "season": [
+      "winter",
+      "all-season"
+    ],
+    "price": 2800,
+    "store": "Biba",
+    "imageUrl": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2800,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00138",
+    "customerId": "C009",
+    "productId": "P0183",
+    "name": "Black Pleated Tailored Wool Trousers",
+    "category": "bottom",
+    "subcategory": "trousers",
+    "color": "black",
+    "styleTags": [
+      "formal",
+      "smart-casual",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "dateNight"
+    ],
+    "season": [
+      "winter",
+      "all-season"
+    ],
+    "price": 2800,
+    "store": "Snitch",
+    "imageUrl": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2800,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00139",
+    "customerId": "C009",
+    "productId": "P0184",
+    "name": "Navy Pleated Tailored Wool Trousers",
+    "category": "bottom",
+    "subcategory": "trousers",
+    "color": "navy",
+    "styleTags": [
+      "formal",
+      "smart-casual",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "dateNight"
+    ],
+    "season": [
+      "winter",
+      "all-season"
+    ],
+    "price": 2250,
+    "store": "Marks & Spencer",
+    "imageUrl": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2250,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00140",
+    "customerId": "C009",
+    "productId": "P0185",
+    "name": "Olive Relaxed Utility Cargo Pants",
+    "category": "bottom",
+    "subcategory": "cargo",
+    "color": "olive",
+    "styleTags": [
+      "streetwear",
+      "casual",
+      "basic"
+    ],
+    "occasion": [
+      "college",
+      "casual",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "monsoon"
+    ],
+    "price": 2150,
+    "store": "Zara",
+    "imageUrl": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2150,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00141",
+    "customerId": "C009",
+    "productId": "P0186",
+    "name": "Black Relaxed Utility Cargo Pants",
+    "category": "bottom",
+    "subcategory": "cargo",
+    "color": "black",
+    "styleTags": [
+      "streetwear",
+      "casual",
+      "basic"
+    ],
+    "occasion": [
+      "college",
+      "casual",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "monsoon"
+    ],
+    "price": 2250,
+    "store": "Mango",
+    "imageUrl": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2250,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00142",
+    "customerId": "C009",
+    "productId": "P0377",
+    "name": "Black Water-Resistant Double Breasted Trench Coat",
+    "category": "outerwear",
+    "subcategory": "trench",
+    "color": "black",
+    "styleTags": [
+      "smart-casual",
+      "formal",
+      "minimalist",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "weekend",
+      "dateNight"
+    ],
+    "season": [
+      "monsoon",
+      "winter"
+    ],
+    "price": 7850,
+    "store": "Biba",
+    "imageUrl": "https://images.unsplash.com/photo-1544022613-e87ca75a784a?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 7850,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00143",
+    "customerId": "C009",
+    "productId": "P0378",
+    "name": "Navy Water-Resistant Double Breasted Trench Coat",
+    "category": "outerwear",
+    "subcategory": "trench",
+    "color": "navy",
+    "styleTags": [
+      "smart-casual",
+      "formal",
+      "minimalist",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "weekend",
+      "dateNight"
+    ],
+    "season": [
+      "monsoon",
+      "winter"
+    ],
+    "price": 6700,
+    "store": "FabIndia",
+    "imageUrl": "https://images.unsplash.com/photo-1544022613-e87ca75a784a?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 6700,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00144",
+    "customerId": "C009",
+    "productId": "P0462",
+    "name": "Grey Suede Chelsea Ankle Boots",
+    "category": "shoes",
+    "subcategory": "boots",
+    "color": "grey",
+    "styleTags": [
+      "smart-casual",
+      "streetwear",
+      "trending"
+    ],
+    "occasion": [
+      "weekend",
+      "dateNight",
+      "casual"
+    ],
+    "season": [
+      "winter",
+      "monsoon"
+    ],
+    "price": 3900,
+    "store": "Zara",
+    "imageUrl": "https://images.unsplash.com/photo-1608256246200-53e635b5b65f?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 3900,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00145",
+    "customerId": "C009",
+    "productId": "P0463",
+    "name": "Black Cap-Toe Leather Formal Oxfords",
+    "category": "shoes",
+    "subcategory": "oxfords",
+    "color": "black",
+    "styleTags": [
+      "formal",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "party"
+    ],
+    "season": [
+      "all-season"
+    ],
+    "price": 4050,
+    "store": "Nike",
+    "imageUrl": "https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 4050,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00146",
+    "customerId": "C009",
+    "productId": "P0464",
+    "name": "Dark-brown Cap-Toe Leather Formal Oxfords",
+    "category": "shoes",
+    "subcategory": "oxfords",
+    "color": "dark-brown",
+    "styleTags": [
+      "formal",
+      "trending"
+    ],
+    "occasion": [
+      "workwear",
+      "party"
+    ],
+    "season": [
+      "all-season"
+    ],
+    "price": 3600,
+    "store": "Snitch",
+    "imageUrl": "https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 3600,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00147",
+    "customerId": "C009",
+    "productId": "P0567",
+    "name": "Tan Full-Grain Leather Messenger Bag",
+    "category": "accessory",
+    "subcategory": "bag",
+    "color": "tan",
+    "styleTags": [
+      "smart-casual",
+      "formal",
+      "trending"
+    ],
+    "occasion": [
+      "workwear",
+      "college"
+    ],
+    "season": [
+      "all-season"
+    ],
+    "price": 5300,
+    "store": "Zara",
+    "imageUrl": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 5300,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00148",
+    "customerId": "C009",
+    "productId": "P0568",
+    "name": "Brown Vintage Tortoiseshell Polarized Sunglasses",
+    "category": "accessory",
+    "subcategory": "sunglasses",
+    "color": "brown",
+    "styleTags": [
+      "casual",
+      "streetwear",
+      "minimalist",
+      "basic"
+    ],
+    "occasion": [
+      "weekend",
+      "casual",
+      "college"
+    ],
+    "season": [
+      "summer",
+      "all-season"
+    ],
+    "price": 2100,
+    "store": "Zara",
+    "imageUrl": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2100,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00149",
+    "customerId": "C009",
+    "name": "Custom Tailored Linen Shirt",
+    "category": "top",
+    "subcategory": "shirt",
+    "color": "beige",
+    "styleTags": [
+      "custom",
+      "smart-casual"
+    ],
+    "occasion": [
+      "casual",
+      "workwear"
+    ],
+    "season": [
+      "summer",
+      "all-season"
+    ],
+    "price": 1500,
+    "store": "Bespoke Tailors",
+    "imageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-12-01",
+    "pricePaid": 1500,
+    "isCustom": true,
+    "createdAt": "2025-12-01T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00150",
+    "customerId": "C010",
+    "productId": "P0001",
+    "name": "White Relaxed Fit Linen Shirt",
+    "category": "top",
+    "subcategory": "shirt",
+    "color": "white",
+    "styleTags": [
+      "smart-casual",
+      "casual",
+      "minimalist",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "weekend",
+      "college"
+    ],
+    "season": [
+      "summer",
+      "all-season"
+    ],
+    "price": 2600,
+    "store": "FabIndia",
+    "imageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2600,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00151",
+    "customerId": "C010",
+    "productId": "P0002",
+    "name": "Beige Relaxed Fit Linen Shirt",
+    "category": "top",
+    "subcategory": "shirt",
+    "color": "beige",
+    "styleTags": [
+      "smart-casual",
+      "casual",
+      "minimalist",
+      "trending"
+    ],
+    "occasion": [
+      "workwear",
+      "weekend",
+      "college"
+    ],
+    "season": [
+      "summer",
+      "all-season"
+    ],
+    "price": 1650,
+    "store": "Marks & Spencer",
+    "imageUrl": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 1650,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00152",
+    "customerId": "C010",
+    "productId": "P0003",
+    "name": "Blue Relaxed Fit Linen Shirt",
+    "category": "top",
+    "subcategory": "shirt",
+    "color": "blue",
+    "styleTags": [
+      "smart-casual",
+      "casual",
+      "minimalist",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "weekend",
+      "college"
+    ],
+    "season": [
+      "summer",
+      "all-season"
+    ],
+    "price": 2250,
+    "store": "Biba",
+    "imageUrl": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2250,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00153",
+    "customerId": "C010",
+    "productId": "P0004",
+    "name": "Olive Relaxed Fit Linen Shirt",
+    "category": "top",
+    "subcategory": "shirt",
+    "color": "olive",
+    "styleTags": [
+      "smart-casual",
+      "casual",
+      "minimalist",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "weekend",
+      "college"
+    ],
+    "season": [
+      "summer",
+      "all-season"
+    ],
+    "price": 2550,
+    "store": "Mango",
+    "imageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2550,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00154",
+    "customerId": "C010",
+    "productId": "P0005",
+    "name": "Black Relaxed Fit Linen Shirt",
+    "category": "top",
+    "subcategory": "shirt",
+    "color": "black",
+    "styleTags": [
+      "smart-casual",
+      "casual",
+      "minimalist",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "weekend",
+      "college"
+    ],
+    "season": [
+      "summer",
+      "all-season"
+    ],
+    "price": 2100,
+    "store": "Uniqlo",
+    "imageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2100,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00155",
+    "customerId": "C010",
+    "productId": "P0006",
+    "name": "Black Heavyweight Oversized Cotton Tee",
+    "category": "top",
+    "subcategory": "t-shirt",
+    "color": "black",
+    "styleTags": [
+      "streetwear",
+      "casual",
+      "minimalist",
+      "basic"
+    ],
+    "occasion": [
+      "college",
+      "casual",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "summer"
+    ],
+    "price": 1350,
+    "store": "Snitch",
+    "imageUrl": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 1350,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00156",
+    "customerId": "C010",
+    "productId": "P0201",
+    "name": "Navy Pleated Tailored Wool Trousers",
+    "category": "bottom",
+    "subcategory": "trousers",
+    "color": "navy",
+    "styleTags": [
+      "formal",
+      "smart-casual",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "dateNight"
+    ],
+    "season": [
+      "winter",
+      "all-season"
+    ],
+    "price": 2400,
+    "store": "Allen Solly",
+    "imageUrl": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2400,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00157",
+    "customerId": "C010",
+    "productId": "P0202",
+    "name": "Olive Relaxed Utility Cargo Pants",
+    "category": "bottom",
+    "subcategory": "cargo",
+    "color": "olive",
+    "styleTags": [
+      "streetwear",
+      "casual",
+      "trending"
+    ],
+    "occasion": [
+      "college",
+      "casual",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "monsoon"
+    ],
+    "price": 1450,
+    "store": "Levi's",
+    "imageUrl": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 1450,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00158",
+    "customerId": "C010",
+    "productId": "P0203",
+    "name": "Black Relaxed Utility Cargo Pants",
+    "category": "bottom",
+    "subcategory": "cargo",
+    "color": "black",
+    "styleTags": [
+      "streetwear",
+      "casual",
+      "basic"
+    ],
+    "occasion": [
+      "college",
+      "casual",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "monsoon"
+    ],
+    "price": 1550,
+    "store": "FabIndia",
+    "imageUrl": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 1550,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00159",
+    "customerId": "C010",
+    "productId": "P0204",
+    "name": "Khaki Relaxed Utility Cargo Pants",
+    "category": "bottom",
+    "subcategory": "cargo",
+    "color": "khaki",
+    "styleTags": [
+      "streetwear",
+      "casual",
+      "basic"
+    ],
+    "occasion": [
+      "college",
+      "casual",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "monsoon"
+    ],
+    "price": 1700,
+    "store": "Marks & Spencer",
+    "imageUrl": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 1700,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00160",
+    "customerId": "C010",
+    "productId": "P0205",
+    "name": "Beige Slim Stretch Cotton Chinos",
+    "category": "bottom",
+    "subcategory": "chinos",
+    "color": "beige",
+    "styleTags": [
+      "smart-casual",
+      "casual",
+      "formal",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "college",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "summer"
+    ],
+    "price": 1600,
+    "store": "FabIndia",
+    "imageUrl": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 1600,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00161",
+    "customerId": "C010",
+    "productId": "P0376",
+    "name": "Khaki Water-Resistant Double Breasted Trench Coat",
+    "category": "outerwear",
+    "subcategory": "trench",
+    "color": "khaki",
+    "styleTags": [
+      "smart-casual",
+      "formal",
+      "minimalist",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "weekend",
+      "dateNight"
+    ],
+    "season": [
+      "monsoon",
+      "winter"
+    ],
+    "price": 7000,
+    "store": "Marks & Spencer",
+    "imageUrl": "https://images.unsplash.com/photo-1544022613-e87ca75a784a?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 7000,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00162",
+    "customerId": "C010",
+    "productId": "P0377",
+    "name": "Black Water-Resistant Double Breasted Trench Coat",
+    "category": "outerwear",
+    "subcategory": "trench",
+    "color": "black",
+    "styleTags": [
+      "smart-casual",
+      "formal",
+      "minimalist",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "weekend",
+      "dateNight"
+    ],
+    "season": [
+      "monsoon",
+      "winter"
+    ],
+    "price": 7850,
+    "store": "Biba",
+    "imageUrl": "https://images.unsplash.com/photo-1544022613-e87ca75a784a?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 7850,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00163",
+    "customerId": "C010",
+    "productId": "P0451",
+    "name": "White Low-Top Minimal Leather Sneakers",
+    "category": "shoes",
+    "subcategory": "sneakers",
+    "color": "white",
+    "styleTags": [
+      "casual",
+      "streetwear",
+      "minimalist",
+      "basic"
+    ],
+    "occasion": [
+      "college",
+      "casual",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "summer"
+    ],
+    "price": 2550,
+    "store": "Zara",
+    "imageUrl": "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2550,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00164",
+    "customerId": "C010",
+    "productId": "P0452",
+    "name": "Black Low-Top Minimal Leather Sneakers",
+    "category": "shoes",
+    "subcategory": "sneakers",
+    "color": "black",
+    "styleTags": [
+      "casual",
+      "streetwear",
+      "minimalist",
+      "basic"
+    ],
+    "occasion": [
+      "college",
+      "casual",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "summer"
+    ],
+    "price": 2150,
+    "store": "Westside",
+    "imageUrl": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2150,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00165",
+    "customerId": "C010",
+    "productId": "P0453",
+    "name": "Grey Low-Top Minimal Leather Sneakers",
+    "category": "shoes",
+    "subcategory": "sneakers",
+    "color": "grey",
+    "styleTags": [
+      "casual",
+      "streetwear",
+      "minimalist",
+      "basic"
+    ],
+    "occasion": [
+      "college",
+      "casual",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "summer"
+    ],
+    "price": 3400,
+    "store": "FabIndia",
+    "imageUrl": "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 3400,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00166",
+    "customerId": "C010",
+    "productId": "P0561",
+    "name": "Silver Minimalist Sapphire Dial Watch",
+    "category": "accessory",
+    "subcategory": "watch",
+    "color": "silver",
+    "styleTags": [
+      "smart-casual",
+      "formal",
+      "minimalist",
+      "trending"
+    ],
+    "occasion": [
+      "workwear",
+      "dateNight",
+      "weekend"
+    ],
+    "season": [
+      "all-season"
+    ],
+    "price": 6600,
+    "store": "Snitch",
+    "imageUrl": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 6600,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00167",
+    "customerId": "C010",
+    "productId": "P0562",
+    "name": "Black Minimalist Sapphire Dial Watch",
+    "category": "accessory",
+    "subcategory": "watch",
+    "color": "black",
+    "styleTags": [
+      "smart-casual",
+      "formal",
+      "minimalist",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "dateNight",
+      "weekend"
+    ],
+    "season": [
+      "all-season"
+    ],
+    "price": 3100,
+    "store": "Snitch",
+    "imageUrl": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 3100,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00168",
+    "customerId": "C010",
+    "name": "Custom Tailored Linen Shirt",
+    "category": "top",
+    "subcategory": "shirt",
+    "color": "beige",
+    "styleTags": [
+      "custom",
+      "smart-casual"
+    ],
+    "occasion": [
+      "casual",
+      "workwear"
+    ],
+    "season": [
+      "summer",
+      "all-season"
+    ],
+    "price": 1500,
+    "store": "Bespoke Tailors",
+    "imageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-12-01",
+    "pricePaid": 1500,
+    "isCustom": true,
+    "createdAt": "2025-12-01T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00169",
+    "customerId": "C011",
+    "productId": "P0020",
+    "name": "Camel Ribbed Merino Crewneck Sweater",
+    "category": "top",
+    "subcategory": "knitwear",
+    "color": "camel",
+    "styleTags": [
+      "smart-casual",
+      "minimalist",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "casual",
+      "dateNight"
+    ],
+    "season": [
+      "winter",
+      "monsoon"
+    ],
+    "price": 2900,
+    "store": "Biba",
+    "imageUrl": "https://images.unsplash.com/photo-1614975058789-41316d0e2e9c?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2900,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00170",
+    "customerId": "C011",
+    "productId": "P0021",
+    "name": "Grey Ribbed Merino Crewneck Sweater",
+    "category": "top",
+    "subcategory": "knitwear",
+    "color": "grey",
+    "styleTags": [
+      "smart-casual",
+      "minimalist",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "casual",
+      "dateNight"
+    ],
+    "season": [
+      "winter",
+      "monsoon"
+    ],
+    "price": 3450,
+    "store": "Biba",
+    "imageUrl": "https://images.unsplash.com/photo-1614975058789-41316d0e2e9c?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 3450,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00171",
+    "customerId": "C011",
+    "productId": "P0022",
+    "name": "Navy Ribbed Merino Crewneck Sweater",
+    "category": "top",
+    "subcategory": "knitwear",
+    "color": "navy",
+    "styleTags": [
+      "smart-casual",
+      "minimalist",
+      "trending"
+    ],
+    "occasion": [
+      "workwear",
+      "casual",
+      "dateNight"
+    ],
+    "season": [
+      "winter",
+      "monsoon"
+    ],
+    "price": 3500,
+    "store": "Zara",
+    "imageUrl": "https://images.unsplash.com/photo-1614975058789-41316d0e2e9c?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 3500,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00172",
+    "customerId": "C011",
+    "productId": "P0023",
+    "name": "Olive Ribbed Merino Crewneck Sweater",
+    "category": "top",
+    "subcategory": "knitwear",
+    "color": "olive",
+    "styleTags": [
+      "smart-casual",
+      "minimalist",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "casual",
+      "dateNight"
+    ],
+    "season": [
+      "winter",
+      "monsoon"
+    ],
+    "price": 3500,
+    "store": "Marks & Spencer",
+    "imageUrl": "https://images.unsplash.com/photo-1614975058789-41316d0e2e9c?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 3500,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00173",
+    "customerId": "C011",
+    "productId": "P0024",
+    "name": "White Relaxed Fit Linen Shirt",
+    "category": "top",
+    "subcategory": "shirt",
+    "color": "white",
+    "styleTags": [
+      "smart-casual",
+      "casual",
+      "minimalist",
+      "trending"
+    ],
+    "occasion": [
+      "workwear",
+      "weekend",
+      "college"
+    ],
+    "season": [
+      "summer",
+      "all-season"
+    ],
+    "price": 2050,
+    "store": "Uniqlo",
+    "imageUrl": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2050,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00174",
+    "customerId": "C011",
+    "productId": "P0025",
+    "name": "Beige Relaxed Fit Linen Shirt",
+    "category": "top",
+    "subcategory": "shirt",
+    "color": "beige",
+    "styleTags": [
+      "smart-casual",
+      "casual",
+      "minimalist",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "weekend",
+      "college"
+    ],
+    "season": [
+      "summer",
+      "all-season"
+    ],
+    "price": 2500,
+    "store": "Allen Solly",
+    "imageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2500,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00175",
+    "customerId": "C011",
+    "productId": "P0180",
+    "name": "Charcoal Pleated Tailored Wool Trousers",
+    "category": "bottom",
+    "subcategory": "trousers",
+    "color": "charcoal",
+    "styleTags": [
+      "formal",
+      "smart-casual",
+      "trending"
+    ],
+    "occasion": [
+      "workwear",
+      "dateNight"
+    ],
+    "season": [
+      "winter",
+      "all-season"
+    ],
+    "price": 2600,
+    "store": "Nike",
+    "imageUrl": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2600,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00176",
+    "customerId": "C011",
+    "productId": "P0181",
+    "name": "Grey Pleated Tailored Wool Trousers",
+    "category": "bottom",
+    "subcategory": "trousers",
+    "color": "grey",
+    "styleTags": [
+      "formal",
+      "smart-casual",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "dateNight"
+    ],
+    "season": [
+      "winter",
+      "all-season"
+    ],
+    "price": 2400,
+    "store": "Marks & Spencer",
+    "imageUrl": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2400,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00177",
+    "customerId": "C011",
+    "productId": "P0182",
+    "name": "Brown Pleated Tailored Wool Trousers",
+    "category": "bottom",
+    "subcategory": "trousers",
+    "color": "brown",
+    "styleTags": [
+      "formal",
+      "smart-casual",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "dateNight"
+    ],
+    "season": [
+      "winter",
+      "all-season"
+    ],
+    "price": 2800,
+    "store": "Biba",
+    "imageUrl": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2800,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00178",
+    "customerId": "C011",
+    "productId": "P0183",
+    "name": "Black Pleated Tailored Wool Trousers",
+    "category": "bottom",
+    "subcategory": "trousers",
+    "color": "black",
+    "styleTags": [
+      "formal",
+      "smart-casual",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "dateNight"
+    ],
+    "season": [
+      "winter",
+      "all-season"
+    ],
+    "price": 2800,
+    "store": "Snitch",
+    "imageUrl": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2800,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00179",
+    "customerId": "C011",
+    "productId": "P0184",
+    "name": "Navy Pleated Tailored Wool Trousers",
+    "category": "bottom",
+    "subcategory": "trousers",
+    "color": "navy",
+    "styleTags": [
+      "formal",
+      "smart-casual",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "dateNight"
+    ],
+    "season": [
+      "winter",
+      "all-season"
+    ],
+    "price": 2250,
+    "store": "Marks & Spencer",
+    "imageUrl": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2250,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00180",
+    "customerId": "C011",
+    "productId": "P0375",
+    "name": "Beige Water-Resistant Double Breasted Trench Coat",
+    "category": "outerwear",
+    "subcategory": "trench",
+    "color": "beige",
+    "styleTags": [
+      "smart-casual",
+      "formal",
+      "minimalist",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "weekend",
+      "dateNight"
+    ],
+    "season": [
+      "monsoon",
+      "winter"
+    ],
+    "price": 7450,
+    "store": "Mango",
+    "imageUrl": "https://images.unsplash.com/photo-1544022613-e87ca75a784a?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 7450,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00181",
+    "customerId": "C011",
+    "productId": "P0376",
+    "name": "Khaki Water-Resistant Double Breasted Trench Coat",
+    "category": "outerwear",
+    "subcategory": "trench",
+    "color": "khaki",
+    "styleTags": [
+      "smart-casual",
+      "formal",
+      "minimalist",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "weekend",
+      "dateNight"
+    ],
+    "season": [
+      "monsoon",
+      "winter"
+    ],
+    "price": 7000,
+    "store": "Marks & Spencer",
+    "imageUrl": "https://images.unsplash.com/photo-1544022613-e87ca75a784a?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 7000,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00182",
+    "customerId": "C011",
+    "productId": "P0470",
+    "name": "Black Classic Italian Leather Penny Loafers",
+    "category": "shoes",
+    "subcategory": "loafers",
+    "color": "black",
+    "styleTags": [
+      "smart-casual",
+      "formal",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "dateNight",
+      "party"
+    ],
+    "season": [
+      "all-season"
+    ],
+    "price": 3950,
+    "store": "Biba",
+    "imageUrl": "https://images.unsplash.com/photo-1533867617858-e7b97e060509?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 3950,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00183",
+    "customerId": "C011",
+    "productId": "P0471",
+    "name": "Tan Classic Italian Leather Penny Loafers",
+    "category": "shoes",
+    "subcategory": "loafers",
+    "color": "tan",
+    "styleTags": [
+      "smart-casual",
+      "formal",
+      "trending"
+    ],
+    "occasion": [
+      "workwear",
+      "dateNight",
+      "party"
+    ],
+    "season": [
+      "all-season"
+    ],
+    "price": 4200,
+    "store": "Mango",
+    "imageUrl": "https://images.unsplash.com/photo-1533867617858-e7b97e060509?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 4200,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00184",
+    "customerId": "C011",
+    "productId": "P0472",
+    "name": "Burgundy Classic Italian Leather Penny Loafers",
+    "category": "shoes",
+    "subcategory": "loafers",
+    "color": "burgundy",
+    "styleTags": [
+      "smart-casual",
+      "formal",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "dateNight",
+      "party"
+    ],
+    "season": [
+      "all-season"
+    ],
+    "price": 4600,
+    "store": "Snitch",
+    "imageUrl": "https://images.unsplash.com/photo-1533867617858-e7b97e060509?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 4600,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00185",
+    "customerId": "C011",
+    "productId": "P0580",
+    "name": "Tan Full-Grain Leather Messenger Bag",
+    "category": "accessory",
+    "subcategory": "bag",
+    "color": "tan",
+    "styleTags": [
+      "smart-casual",
+      "formal",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "college"
+    ],
+    "season": [
+      "all-season"
+    ],
+    "price": 4600,
+    "store": "Nike",
+    "imageUrl": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 4600,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00186",
+    "customerId": "C011",
+    "productId": "P0581",
+    "name": "Brown Vintage Tortoiseshell Polarized Sunglasses",
+    "category": "accessory",
+    "subcategory": "sunglasses",
+    "color": "brown",
+    "styleTags": [
+      "casual",
+      "streetwear",
+      "minimalist",
+      "basic"
+    ],
+    "occasion": [
+      "weekend",
+      "casual",
+      "college"
+    ],
+    "season": [
+      "summer",
+      "all-season"
+    ],
+    "price": 1700,
+    "store": "Levi's",
+    "imageUrl": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 1700,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00187",
+    "customerId": "C011",
+    "name": "Custom Tailored Linen Shirt",
+    "category": "top",
+    "subcategory": "shirt",
+    "color": "beige",
+    "styleTags": [
+      "custom",
+      "smart-casual"
+    ],
+    "occasion": [
+      "casual",
+      "workwear"
+    ],
+    "season": [
+      "summer",
+      "all-season"
+    ],
+    "price": 1500,
+    "store": "Bespoke Tailors",
+    "imageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-12-01",
+    "pricePaid": 1500,
+    "isCustom": true,
+    "createdAt": "2025-12-01T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00188",
+    "customerId": "C012",
+    "productId": "P0039",
+    "name": "Cream Satin Bow Collar Blouse",
+    "category": "top",
+    "subcategory": "blouse",
+    "color": "cream",
+    "styleTags": [
+      "formal",
+      "smart-casual",
+      "trending"
+    ],
+    "occasion": [
+      "workwear",
+      "dateNight",
+      "party"
+    ],
+    "season": [
+      "all-season"
+    ],
+    "price": 1600,
+    "store": "H&M",
+    "imageUrl": "https://images.unsplash.com/photo-1564257631407-4deb1f99d992?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 1600,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00189",
+    "customerId": "C012",
+    "productId": "P0040",
+    "name": "Champagne Satin Bow Collar Blouse",
+    "category": "top",
+    "subcategory": "blouse",
+    "color": "champagne",
+    "styleTags": [
+      "formal",
+      "smart-casual",
+      "trending"
+    ],
+    "occasion": [
+      "workwear",
+      "dateNight",
+      "party"
+    ],
+    "season": [
+      "all-season"
+    ],
+    "price": 2650,
+    "store": "Westside",
+    "imageUrl": "https://images.unsplash.com/photo-1564257631407-4deb1f99d992?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2650,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00190",
+    "customerId": "C012",
+    "productId": "P0041",
+    "name": "Emerald Satin Bow Collar Blouse",
+    "category": "top",
+    "subcategory": "blouse",
+    "color": "emerald",
+    "styleTags": [
+      "formal",
+      "smart-casual",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "dateNight",
+      "party"
+    ],
+    "season": [
+      "all-season"
+    ],
+    "price": 2500,
+    "store": "Nike",
+    "imageUrl": "https://images.unsplash.com/photo-1564257631407-4deb1f99d992?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2500,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00191",
+    "customerId": "C012",
+    "productId": "P0042",
+    "name": "Black Satin Bow Collar Blouse",
+    "category": "top",
+    "subcategory": "blouse",
+    "color": "black",
+    "styleTags": [
+      "formal",
+      "smart-casual",
+      "trending"
+    ],
+    "occasion": [
+      "workwear",
+      "dateNight",
+      "party"
+    ],
+    "season": [
+      "all-season"
+    ],
+    "price": 1750,
+    "store": "H&M",
+    "imageUrl": "https://images.unsplash.com/photo-1564257631407-4deb1f99d992?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 1750,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00192",
+    "customerId": "C012",
+    "productId": "P0043",
+    "name": "Camel Ribbed Merino Crewneck Sweater",
+    "category": "top",
+    "subcategory": "knitwear",
+    "color": "camel",
+    "styleTags": [
+      "smart-casual",
+      "minimalist",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "casual",
+      "dateNight"
+    ],
+    "season": [
+      "winter",
+      "monsoon"
+    ],
+    "price": 2200,
+    "store": "Levi's",
+    "imageUrl": "https://images.unsplash.com/photo-1614975058789-41316d0e2e9c?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2200,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00193",
+    "customerId": "C012",
+    "productId": "P0044",
+    "name": "Grey Ribbed Merino Crewneck Sweater",
+    "category": "top",
+    "subcategory": "knitwear",
+    "color": "grey",
+    "styleTags": [
+      "smart-casual",
+      "minimalist",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "casual",
+      "dateNight"
+    ],
+    "season": [
+      "winter",
+      "monsoon"
+    ],
+    "price": 3200,
+    "store": "Levi's",
+    "imageUrl": "https://images.unsplash.com/photo-1614975058789-41316d0e2e9c?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 3200,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00194",
+    "customerId": "C012",
+    "productId": "P0199",
+    "name": "Brown Pleated Tailored Wool Trousers",
+    "category": "bottom",
+    "subcategory": "trousers",
+    "color": "brown",
+    "styleTags": [
+      "formal",
+      "smart-casual",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "dateNight"
+    ],
+    "season": [
+      "winter",
+      "all-season"
+    ],
+    "price": 2800,
+    "store": "Mango",
+    "imageUrl": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2800,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00195",
+    "customerId": "C012",
+    "productId": "P0200",
+    "name": "Black Pleated Tailored Wool Trousers",
+    "category": "bottom",
+    "subcategory": "trousers",
+    "color": "black",
+    "styleTags": [
+      "formal",
+      "smart-casual",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "dateNight"
+    ],
+    "season": [
+      "winter",
+      "all-season"
+    ],
+    "price": 3900,
+    "store": "Marks & Spencer",
+    "imageUrl": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 3900,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00196",
+    "customerId": "C012",
+    "productId": "P0201",
+    "name": "Navy Pleated Tailored Wool Trousers",
+    "category": "bottom",
+    "subcategory": "trousers",
+    "color": "navy",
+    "styleTags": [
+      "formal",
+      "smart-casual",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "dateNight"
+    ],
+    "season": [
+      "winter",
+      "all-season"
+    ],
+    "price": 2400,
+    "store": "Allen Solly",
+    "imageUrl": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 2400,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00197",
+    "customerId": "C012",
+    "productId": "P0202",
+    "name": "Olive Relaxed Utility Cargo Pants",
+    "category": "bottom",
+    "subcategory": "cargo",
+    "color": "olive",
+    "styleTags": [
+      "streetwear",
+      "casual",
+      "trending"
+    ],
+    "occasion": [
+      "college",
+      "casual",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "monsoon"
+    ],
+    "price": 1450,
+    "store": "Levi's",
+    "imageUrl": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 1450,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00198",
+    "customerId": "C012",
+    "productId": "P0203",
+    "name": "Black Relaxed Utility Cargo Pants",
+    "category": "bottom",
+    "subcategory": "cargo",
+    "color": "black",
+    "styleTags": [
+      "streetwear",
+      "casual",
+      "basic"
+    ],
+    "occasion": [
+      "college",
+      "casual",
+      "weekend"
+    ],
+    "season": [
+      "all-season",
+      "monsoon"
+    ],
+    "price": 1550,
+    "store": "FabIndia",
+    "imageUrl": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 1550,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00199",
+    "customerId": "C012",
+    "productId": "P0374",
+    "name": "Brown Structured Tailored Wool-Blend Blazer",
+    "category": "outerwear",
+    "subcategory": "blazer",
+    "color": "brown",
+    "styleTags": [
+      "formal",
+      "smart-casual",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "dateNight",
+      "party"
+    ],
+    "season": [
+      "winter",
+      "all-season"
+    ],
+    "price": 3850,
+    "store": "Nike",
+    "imageUrl": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 3850,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00200",
+    "customerId": "C012",
+    "productId": "P0375",
+    "name": "Beige Water-Resistant Double Breasted Trench Coat",
+    "category": "outerwear",
+    "subcategory": "trench",
+    "color": "beige",
+    "styleTags": [
+      "smart-casual",
+      "formal",
+      "minimalist",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "weekend",
+      "dateNight"
+    ],
+    "season": [
+      "monsoon",
+      "winter"
+    ],
+    "price": 7450,
+    "store": "Mango",
+    "imageUrl": "https://images.unsplash.com/photo-1544022613-e87ca75a784a?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 7450,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00201",
+    "customerId": "C012",
+    "productId": "P0459",
+    "name": "Tan Suede Chelsea Ankle Boots",
+    "category": "shoes",
+    "subcategory": "boots",
+    "color": "tan",
+    "styleTags": [
+      "smart-casual",
+      "streetwear",
+      "basic"
+    ],
+    "occasion": [
+      "weekend",
+      "dateNight",
+      "casual"
+    ],
+    "season": [
+      "winter",
+      "monsoon"
+    ],
+    "price": 4500,
+    "store": "Biba",
+    "imageUrl": "https://images.unsplash.com/photo-1608256246200-53e635b5b65f?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 4500,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00202",
+    "customerId": "C012",
+    "productId": "P0460",
+    "name": "Black Suede Chelsea Ankle Boots",
+    "category": "shoes",
+    "subcategory": "boots",
+    "color": "black",
+    "styleTags": [
+      "smart-casual",
+      "streetwear",
+      "basic"
+    ],
+    "occasion": [
+      "weekend",
+      "dateNight",
+      "casual"
+    ],
+    "season": [
+      "winter",
+      "monsoon"
+    ],
+    "price": 3500,
+    "store": "Uniqlo",
+    "imageUrl": "https://images.unsplash.com/photo-1608256246200-53e635b5b65f?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 3500,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00203",
+    "customerId": "C012",
+    "productId": "P0461",
+    "name": "Brown Suede Chelsea Ankle Boots",
+    "category": "shoes",
+    "subcategory": "boots",
+    "color": "brown",
+    "styleTags": [
+      "smart-casual",
+      "streetwear",
+      "trending"
+    ],
+    "occasion": [
+      "weekend",
+      "dateNight",
+      "casual"
+    ],
+    "season": [
+      "winter",
+      "monsoon"
+    ],
+    "price": 6400,
+    "store": "FabIndia",
+    "imageUrl": "https://images.unsplash.com/photo-1608256246200-53e635b5b65f?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 6400,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00204",
+    "customerId": "C012",
+    "productId": "P0574",
+    "name": "Silver Minimalist Sapphire Dial Watch",
+    "category": "accessory",
+    "subcategory": "watch",
+    "color": "silver",
+    "styleTags": [
+      "smart-casual",
+      "formal",
+      "minimalist",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "dateNight",
+      "weekend"
+    ],
+    "season": [
+      "all-season"
+    ],
+    "price": 5050,
+    "store": "Zara",
+    "imageUrl": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 5050,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00205",
+    "customerId": "C012",
+    "productId": "P0575",
+    "name": "Black Minimalist Sapphire Dial Watch",
+    "category": "accessory",
+    "subcategory": "watch",
+    "color": "black",
+    "styleTags": [
+      "smart-casual",
+      "formal",
+      "minimalist",
+      "basic"
+    ],
+    "occasion": [
+      "workwear",
+      "dateNight",
+      "weekend"
+    ],
+    "season": [
+      "all-season"
+    ],
+    "price": 6650,
+    "store": "Zara",
+    "imageUrl": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-11-15",
+    "pricePaid": 6650,
+    "isCustom": false,
+    "createdAt": "2025-11-15T12:00:00.000Z"
+  },
+  {
+    "itemId": "item_00206",
+    "customerId": "C012",
+    "name": "Custom Tailored Linen Shirt",
+    "category": "top",
+    "subcategory": "shirt",
+    "color": "beige",
+    "styleTags": [
+      "custom",
+      "smart-casual"
+    ],
+    "occasion": [
+      "casual",
+      "workwear"
+    ],
+    "season": [
+      "summer",
+      "all-season"
+    ],
+    "price": 1500,
+    "store": "Bespoke Tailors",
+    "imageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80",
+    "dateAcquired": "2025-12-01",
+    "pricePaid": 1500,
+    "isCustom": true,
+    "createdAt": "2025-12-01T12:00:00.000Z"
+  }
+]
