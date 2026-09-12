@@ -15,6 +15,7 @@ import { SavedPage } from './components/pages/SavedPage';
 import { ProfilePage } from './components/pages/ProfilePage';
 import { SettingsPage } from './components/pages/SettingsPage';
 import { AdminQualityPage } from './components/pages/AdminQualityPage';
+import { AuthPage } from './components/pages/AuthPage';
 
 // Modals & Drawers
 import { AddItemModal } from './components/modals/AddItemModal';
@@ -54,6 +55,8 @@ const AppContent: React.FC = () => {
         return <SettingsPage />;
       case 'admin':
         return <AdminQualityPage />;
+      case 'auth':
+        return <AuthPage />;
       default:
         return <HomePage />;
     }

@@ -42,6 +42,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ collapsed, onToggleCollapse })
   ];
 
   const bottomNavItems: Array<{ id: NavigationTab; label: string; icon: React.ReactNode }> = [
+    { id: 'auth', label: isAuthenticated ? 'Account & Personas' : 'Sign In / Register', icon: <LogIn className="w-4 h-4 text-luxury-rose" /> },
     { id: 'admin', label: 'Admin Quality', icon: <ShieldCheck className="w-4 h-4 text-emerald-400" /> },
     { id: 'profile', label: 'Profile', icon: <User className="w-4 h-4" /> },
     { id: 'settings', label: 'Settings', icon: <Settings className="w-4 h-4" /> },
@@ -161,11 +162,11 @@ export const Sidebar: React.FC<SidebarProps> = ({ collapsed, onToggleCollapse })
       {/* User Account / Switch Persona Trigger */}
       <div className="p-3 border-t border-white/5">
         <button
-          onClick={openAuthModal}
+          onClick={() => setActiveTab('auth')}
           className={`w-full flex items-center gap-3 p-2.5 rounded-xl border border-white/10 bg-white/5 hover:bg-white/10 transition-all ${
             collapsed ? 'justify-center' : ''
           }`}
-          title="Account / Switch Persona"
+          title="Sign In / Register / Switch Persona"
         >
           {user ? (
             <img

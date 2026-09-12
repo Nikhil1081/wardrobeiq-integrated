@@ -17,6 +17,7 @@ import {
   CloudSun,
   User,
   Globe,
+  LogIn,
 } from 'lucide-react';
 
 export const TopCommandBar: React.FC = () => {
@@ -147,6 +148,16 @@ export const TopCommandBar: React.FC = () => {
 
       {/* Right Actions: Viewport preview, Notifications, Persona Switcher */}
       <div className="flex items-center gap-3">
+        {/* Sign In / Register Page Quick Link */}
+        <button
+          onClick={() => setActiveTab('auth')}
+          className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-luxury-rose/20 text-luxury-cream border border-luxury-rose/40 text-xs font-semibold hover:bg-luxury-rose/30 transition-all cursor-pointer shadow-sm"
+          title="Sign In, Register, or switch between 105 global personas"
+        >
+          <LogIn className="w-3.5 h-3.5 text-luxury-rose" />
+          <span>{user ? 'Account' : 'Sign In / Register'}</span>
+        </button>
+
         {/* Wear Today Quick Action */}
         <button
           onClick={() => setActiveTab('today')}

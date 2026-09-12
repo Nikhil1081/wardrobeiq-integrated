@@ -24,7 +24,8 @@ export type NavigationTab =
   | 'saved'
   | 'profile'
   | 'settings'
-  | 'admin';
+  | 'admin'
+  | 'auth';
 
 export interface ToastItem {
   id: string;
