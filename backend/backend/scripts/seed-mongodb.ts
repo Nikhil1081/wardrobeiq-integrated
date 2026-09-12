@@ -9,6 +9,7 @@ import {
   getWardrobesCollection,
   getBrowsingHistoryCollection,
   getOffersCollection,
+  getUsersCollection,
 } from '../src/db/collections.js';
 import { logger } from '../src/utils/logger.js';
 
@@ -29,6 +30,9 @@ async function seedMongoDB() {
     const wardrobes = JSON.parse(fs.readFileSync(path.join(dataDir, 'wardrobes.json'), 'utf-8'));
     const browsing = JSON.parse(fs.readFileSync(path.join(dataDir, 'browsing_history.json'), 'utf-8'));
     const offers = JSON.parse(fs.readFileSync(path.join(dataDir, 'offers.json'), 'utf-8'));
+    const users = fs.existsSync(path.join(dataDir, 'users.json'))
+      ? JSON.parse(fs.readFileSync(path.join(dataDir, 'users.json'), 'utf-8'))
+      : [];
 
     // Collections
     const productsCol = getProductsCollection();
@@ -36,6 +40,7 @@ async function seedMongoDB() {
     const wardrobesCol = getWardrobesCollection();
     const browsingCol = getBrowsingHistoryCollection();
     const offersCol = getOffersCollection();
+    const usersCol = getUsersCollection();
 
     if (isClean) {
       logger.info('Wiping existing data for clean seed...');
@@ -45,6 +50,7 @@ async function seedMongoDB() {
         wardrobesCol.deleteMany({}),
         browsingCol.deleteMany({}),
         offersCol.deleteMany({}),
+        usersCol.deleteMany({}),
       ]);
     }
 
@@ -82,11 +88,20 @@ async function seedMongoDB() {
       await offersCol.updateOne({ offerId: o.offerId }, { $set: o }, { upsert: true });
     }
 
+    // Upsert Demo Users
+    if (users.length > 0) {
+      logger.info(`Seeding ${users.length} authenticated users...`);
+      for (const u of users) {
+        await usersCol.updateOne({ email: u.email }, { $set: u }, { upsert: true });
+      }
+    }
+
     logger.info('=============================================');
     logger.info('MONGODB ATLAS SEED COMPLETED SUCCESSFULLY!');
     logger.info(`- Products in DB: ${await productsCol.countDocuments()}`);
     logger.info(`- Customers in DB: ${await customersCol.countDocuments()}`);
     logger.info(`- Wardrobe items in DB: ${await wardrobesCol.countDocuments()}`);
+    logger.info(`- Users in DB: ${await usersCol.countDocuments()}`);
     logger.info(`- Browsing events in DB: ${await browsingCol.countDocuments()}`);
     logger.info(`- Offers in DB: ${await offersCol.countDocuments()}`);
     logger.info('=============================================');

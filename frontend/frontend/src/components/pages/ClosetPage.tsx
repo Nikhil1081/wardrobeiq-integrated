@@ -13,6 +13,7 @@ import {
   Sparkles,
   Shirt,
 } from 'lucide-react';
+import { ClothingImage } from '../common/ClothingImage';
 
 export const ClosetPage: React.FC = () => {
   const { closetItems, openModal, openEditItem, loading } = useWardrobe();
@@ -28,6 +29,7 @@ export const ClosetPage: React.FC = () => {
     { id: 'all', label: 'All Pieces' },
     { id: 'top', label: 'Tops' },
     { id: 'bottom', label: 'Bottoms' },
+    { id: 'traditional', label: 'Traditional & Ethnic' },
     { id: 'dress', label: 'Dresses' },
     { id: 'outerwear', label: 'Outerwear' },
     { id: 'shoes', label: 'Shoes' },
@@ -201,13 +203,19 @@ export const ClosetPage: React.FC = () => {
               className="group rounded-2xl overflow-hidden glass-panel border border-white/5 hover:border-luxury-rose/30 transition-all duration-300 flex flex-col justify-between relative"
             >
               {/* Product Image */}
-              <div className="relative aspect-[3/4] overflow-hidden">
-                <img
+              <div className="relative overflow-hidden">
+                <ClothingImage
                   src={item.imageUrl}
+                  backupSrc={item.backupImageUrl}
                   alt={item.name}
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  category={item.category}
+                  color={item.color}
+                  isTraditional={item.isTraditional}
+                  culturalOrigin={item.culturalOrigin}
+                  aspectRatio="tall"
+                  className="w-full group-hover:scale-105 transition-transform duration-500"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-dark-950/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end justify-between p-3">
+                <div className="absolute inset-0 bg-gradient-to-t from-dark-950/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end justify-between p-3 z-20">
                   <span className="text-[10px] font-mono text-gray-300 uppercase tracking-widest">
                     {item.subcategory}
                   </span>
@@ -251,10 +259,15 @@ export const ClosetPage: React.FC = () => {
               className="flex items-center justify-between p-3 rounded-2xl glass-panel hover:border-white/20 transition-all gap-4"
             >
               <div className="flex items-center gap-3 min-w-0">
-                <img
+                <ClothingImage
                   src={item.imageUrl}
+                  backupSrc={item.backupImageUrl}
                   alt={item.name}
-                  className="w-12 h-14 rounded-xl object-cover border border-white/10 shrink-0"
+                  category={item.category}
+                  color={item.color}
+                  isTraditional={item.isTraditional}
+                  culturalOrigin={item.culturalOrigin}
+                  className="w-12 h-14 shrink-0 rounded-xl"
                 />
                 <div className="min-w-0">
                   <h4 className="text-xs font-bold text-luxury-cream truncate">{item.name}</h4>

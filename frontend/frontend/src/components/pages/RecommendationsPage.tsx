@@ -13,6 +13,7 @@ import {
   Tag,
   AlertCircle,
 } from 'lucide-react';
+import { ClothingImage } from '../common/ClothingImage';
 
 export const RecommendationsPage: React.FC = () => {
   const {
@@ -121,12 +122,17 @@ export const RecommendationsPage: React.FC = () => {
                 className="group rounded-3xl overflow-hidden glass-panel border border-white/5 hover:border-luxury-rose/30 transition-all duration-300 flex flex-col justify-between"
               >
                 {/* Product Image Area */}
-                <div className="relative aspect-[3/4] overflow-hidden">
-                  <img
+                <div className="relative overflow-hidden cursor-pointer" onClick={() => openProductDetail(rec)}>
+                  <ClothingImage
                     src={rec.imageUrl}
+                    backupSrc={rec.backupImageUrl}
                     alt={rec.name}
-                    onClick={() => openProductDetail(rec)}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 cursor-pointer"
+                    category={rec.category}
+                    color={rec.color}
+                    isTraditional={rec.isTraditional}
+                    culturalOrigin={rec.culturalOrigin}
+                    aspectRatio="tall"
+                    className="w-full group-hover:scale-105 transition-transform duration-500"
                   />
 
                   {/* Wishlist Heart */}

@@ -1,5 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { useWardrobe } from '../../store/WardrobeContext';
+import { useTheme } from '../../store/ThemeContext';
+import { useAuth } from '../../store/AuthContext';
 import {
   Search,
   Sparkles,
@@ -10,6 +12,11 @@ import {
   Smartphone,
   Check,
   Zap,
+  Sun,
+  Moon,
+  CloudSun,
+  User,
+  Globe,
 } from 'lucide-react';
 
 export const TopCommandBar: React.FC = () => {
@@ -23,11 +30,14 @@ export const TopCommandBar: React.FC = () => {
     viewportMode,
     setViewportMode,
   } = useWardrobe();
+  const { theme, setTheme, isDark, toggleTheme } = useTheme();
+  const { user, openAuthModal } = useAuth();
 
   const [searchFocused, setSearchFocused] = useState(false);
   const [searchValue, setSearchValue] = useState('');
   const [personaOpen, setPersonaOpen] = useState(false);
   const [notifOpen, setNotifOpen] = useState(false);
+  const [personaSearch, setPersonaSearch] = useState('');
 
   const personaRef = useRef<HTMLDivElement>(null);
   const notifRef = useRef<HTMLDivElement>(null);
@@ -137,6 +147,25 @@ export const TopCommandBar: React.FC = () => {
 
       {/* Right Actions: Viewport preview, Notifications, Persona Switcher */}
       <div className="flex items-center gap-3">
+        {/* Wear Today Quick Action */}
+        <button
+          onClick={() => setActiveTab('today')}
+          className="hidden sm:flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-luxury-rose/15 text-luxury-rose border border-luxury-rose/30 text-xs font-semibold hover:bg-luxury-rose/25 transition-all"
+          title="What Should I Wear Today? Weather-aware outfit engine"
+        >
+          <CloudSun className="w-3.5 h-3.5 text-amber-400" />
+          <span>Wear Today</span>
+        </button>
+
+        {/* Theme Toggle (Light / Dark) */}
+        <button
+          onClick={toggleTheme}
+          className="p-2.5 rounded-xl glass-panel text-gray-400 hover:text-white transition-colors"
+          title={`Switch to ${isDark ? 'Light' : 'Dark'} Mode`}
+        >
+          {isDark ? <Sun className="w-4 h-4 text-amber-300" /> : <Moon className="w-4 h-4 text-indigo-400" />}
+        </button>
+
         {/* Device Viewport Switcher */}
         <div className="hidden sm:flex items-center p-1 rounded-xl glass-panel border border-white/5 gap-1">
           <button
@@ -205,7 +234,7 @@ export const TopCommandBar: React.FC = () => {
           )}
         </div>
 
-        {/* Customer Persona Switcher (All 12 from MongoDB) */}
+        {/* Customer Persona Switcher (100+ Personas from MongoDB) */}
         <div ref={personaRef} className="relative">
           <button
             onClick={() => setPersonaOpen(!personaOpen)}
@@ -218,7 +247,7 @@ export const TopCommandBar: React.FC = () => {
             />
             <div className="hidden md:flex flex-col text-left">
               <span className="text-xs font-semibold text-luxury-cream leading-tight">
-                {currentCustomer?.name || 'Neha Gupta'}
+                {currentCustomer?.name || 'Aarav Sharma'}
               </span>
               <span className="text-[10px] text-gray-400 font-mono">
                 {currentCustomerId}
@@ -229,49 +258,76 @@ export const TopCommandBar: React.FC = () => {
 
           {/* Persona Switcher Dropdown */}
           {personaOpen && (
-            <div className="absolute right-0 mt-2 w-72 rounded-2xl glass-panel-elevated border border-white/10 shadow-2xl p-3 z-50">
-              <div className="px-2 py-1.5 border-b border-white/5 mb-2">
-                <span className="text-xs font-bold uppercase tracking-wider text-luxury-blush">
-                  Switch Persona (12 Customers)
-                </span>
-                <p className="text-[10px] text-gray-400 mt-0.5">
-                  Dynamically queries MongoDB wardrobe, gaps &amp; scores
-                </p>
+            <div className="absolute right-0 mt-2 w-80 rounded-2xl glass-panel-elevated border border-white/10 shadow-2xl p-3 z-50">
+              <div className="px-2 py-1.5 border-b border-white/5 mb-2 flex items-center justify-between">
+                <div>
+                  <span className="text-xs font-bold uppercase tracking-wider text-luxury-blush">
+                    Switch Persona ({customers.length} Global)
+                  </span>
+                  <p className="text-[10px] text-gray-400">
+                    Live wardrobe, gaps &amp; scores per user
+                  </p>
+                </div>
+                <button
+                  onClick={() => {
+                    setPersonaOpen(false);
+                    openAuthModal();
+                  }}
+                  className="px-2 py-1 rounded-lg text-[10px] font-semibold bg-luxury-rose/20 text-luxury-rose hover:bg-luxury-rose/30 transition-colors"
+                >
+                  All 105 Personas
+                </button>
               </div>
 
+              {/* Filter Search Input */}
+              <input
+                type="text"
+                placeholder="Search by name, country (India, UK...)"
+                value={personaSearch}
+                onChange={(e) => setPersonaSearch(e.target.value)}
+                className="w-full mb-2 px-3 py-1.5 rounded-xl text-xs bg-white/5 border border-white/10 focus:outline-none focus:border-luxury-rose text-white"
+              />
+
               <div className="max-h-72 overflow-y-auto space-y-1">
-                {customers.map((c) => {
-                  const isSelected = c.customerId === currentCustomerId;
-                  return (
-                    <button
-                      key={c.customerId}
-                      onClick={() => {
-                        setCurrentCustomerId(c.customerId);
-                        setPersonaOpen(false);
-                      }}
-                      className={`w-full flex items-center justify-between p-2 rounded-xl text-left transition-all ${
-                        isSelected
-                          ? 'bg-luxury-rose/20 border border-luxury-rose/40 text-luxury-cream'
-                          : 'hover:bg-white/[0.04] text-gray-300'
-                      }`}
-                    >
-                      <div className="flex items-center gap-2.5">
-                        <img
-                          src={c.avatar}
-                          alt={c.name}
-                          className="w-7 h-7 rounded-lg object-cover border border-white/10"
-                        />
-                        <div>
-                          <div className="text-xs font-semibold">{c.name}</div>
-                          <div className="text-[10px] text-gray-400 capitalize">
-                            {c.preferredStyles?.join(', ') || 'Casual'}
+                {customers
+                  .filter(
+                    (c) =>
+                      c.name.toLowerCase().includes(personaSearch.toLowerCase()) ||
+                      (c.country || '').toLowerCase().includes(personaSearch.toLowerCase()) ||
+                      (c.preferredStyles || []).some((s) => s.toLowerCase().includes(personaSearch.toLowerCase()))
+                  )
+                  .map((c) => {
+                    const isSelected = c.customerId === currentCustomerId;
+                    return (
+                      <button
+                        key={c.customerId}
+                        onClick={() => {
+                          setCurrentCustomerId(c.customerId);
+                          setPersonaOpen(false);
+                        }}
+                        className={`w-full flex items-center justify-between p-2 rounded-xl text-left transition-all ${
+                          isSelected
+                            ? 'bg-luxury-rose/20 border border-luxury-rose/40 text-luxury-cream'
+                            : 'hover:bg-white/[0.04] text-gray-300'
+                        }`}
+                      >
+                        <div className="flex items-center gap-2.5">
+                          <img
+                            src={c.avatar}
+                            alt={c.name}
+                            className="w-7 h-7 rounded-lg object-cover border border-white/10"
+                          />
+                          <div>
+                            <div className="text-xs font-semibold">{c.name}</div>
+                            <div className="text-[10px] text-gray-400 capitalize">
+                              {c.country || 'Global'} • {c.preferredStyles?.slice(0, 2).join(', ') || 'Casual'}
+                            </div>
                           </div>
                         </div>
-                      </div>
-                      {isSelected && <Check className="w-4 h-4 text-luxury-blush" />}
-                    </button>
-                  );
-                })}
+                        {isSelected && <Check className="w-4 h-4 text-luxury-blush" />}
+                      </button>
+                    );
+                  })}
               </div>
             </div>
           )}

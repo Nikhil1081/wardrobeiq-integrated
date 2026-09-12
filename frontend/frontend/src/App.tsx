@@ -1,7 +1,10 @@
 import React from 'react';
 import { WardrobeProvider, useWardrobe } from './store/WardrobeContext';
+import { ThemeProvider } from './store/ThemeContext';
+import { AuthProvider } from './store/AuthContext';
 import { AppShell } from './components/layout/AppShell';
 import { HomePage } from './components/pages/HomePage';
+import { TodayOutfitPage } from './components/pages/TodayOutfitPage';
 import { ClosetPage } from './components/pages/ClosetPage';
 import { GapsPage } from './components/pages/GapsPage';
 import { RecommendationsPage } from './components/pages/RecommendationsPage';
@@ -11,6 +14,7 @@ import { ExplorePage } from './components/pages/ExplorePage';
 import { SavedPage } from './components/pages/SavedPage';
 import { ProfilePage } from './components/pages/ProfilePage';
 import { SettingsPage } from './components/pages/SettingsPage';
+import { AdminQualityPage } from './components/pages/AdminQualityPage';
 
 // Modals & Drawers
 import { AddItemModal } from './components/modals/AddItemModal';
@@ -19,6 +23,7 @@ import { GapDetailDrawer } from './components/modals/GapDetailDrawer';
 import { WhyThisDrawer } from './components/modals/WhyThisDrawer';
 import { ProductDetailDrawer } from './components/modals/ProductDetailDrawer';
 import { OfferModal } from './components/modals/OfferModal';
+import { AuthModal } from './components/modals/AuthModal';
 
 const AppContent: React.FC = () => {
   const { activeTab } = useWardrobe();
@@ -27,6 +32,8 @@ const AppContent: React.FC = () => {
     switch (activeTab) {
       case 'home':
         return <HomePage />;
+      case 'today':
+        return <TodayOutfitPage />;
       case 'closet':
         return <ClosetPage />;
       case 'gaps':
@@ -45,6 +52,8 @@ const AppContent: React.FC = () => {
         return <ProfilePage />;
       case 'settings':
         return <SettingsPage />;
+      case 'admin':
+        return <AdminQualityPage />;
       default:
         return <HomePage />;
     }
@@ -61,15 +70,20 @@ const AppContent: React.FC = () => {
       <WhyThisDrawer />
       <ProductDetailDrawer />
       <OfferModal />
+      <AuthModal />
     </AppShell>
   );
 };
 
 export const App: React.FC = () => {
   return (
-    <WardrobeProvider>
-      <AppContent />
-    </WardrobeProvider>
+    <ThemeProvider>
+      <AuthProvider>
+        <WardrobeProvider>
+          <AppContent />
+        </WardrobeProvider>
+      </AuthProvider>
+    </ThemeProvider>
   );
 };
 

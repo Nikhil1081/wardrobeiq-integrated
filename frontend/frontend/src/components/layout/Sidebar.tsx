@@ -1,5 +1,6 @@
 import React from 'react';
 import { useWardrobe, NavigationTab } from '../../store/WardrobeContext';
+import { useAuth } from '../../store/AuthContext';
 import {
   Home,
   Grid,
@@ -14,6 +15,9 @@ import {
   ChevronLeft,
   ChevronRight,
   Shirt,
+  CloudSun,
+  ShieldCheck,
+  LogIn,
 } from 'lucide-react';
 
 interface SidebarProps {
@@ -23,9 +27,11 @@ interface SidebarProps {
 
 export const Sidebar: React.FC<SidebarProps> = ({ collapsed, onToggleCollapse }) => {
   const { activeTab, setActiveTab, dashboard } = useWardrobe();
+  const { user, openAuthModal, isAuthenticated } = useAuth();
 
   const navItems: Array<{ id: NavigationTab; label: string; icon: React.ReactNode; badge?: number }> = [
     { id: 'home', label: 'Home', icon: <Home className="w-4 h-4" /> },
+    { id: 'today', label: 'Wear Today (Weather)', icon: <CloudSun className="w-4 h-4 text-amber-400" /> },
     { id: 'closet', label: 'My Closet', icon: <Shirt className="w-4 h-4" />, badge: dashboard?.wardrobeStatistics?.totalItems },
     { id: 'gaps', label: 'Wardrobe Gaps', icon: <Split className="w-4 h-4" />, badge: dashboard?.topWardrobeGaps?.length },
     { id: 'recommendations', label: 'Recommendations', icon: <Sparkles className="w-4 h-4 text-luxury-blush" /> },
@@ -36,6 +42,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ collapsed, onToggleCollapse })
   ];
 
   const bottomNavItems: Array<{ id: NavigationTab; label: string; icon: React.ReactNode }> = [
+    { id: 'admin', label: 'Admin Quality', icon: <ShieldCheck className="w-4 h-4 text-emerald-400" /> },
     { id: 'profile', label: 'Profile', icon: <User className="w-4 h-4" /> },
     { id: 'settings', label: 'Settings', icon: <Settings className="w-4 h-4" /> },
   ];
@@ -151,14 +158,44 @@ export const Sidebar: React.FC<SidebarProps> = ({ collapsed, onToggleCollapse })
         })}
       </div>
 
+      {/* User Account / Switch Persona Trigger */}
+      <div className="p-3 border-t border-white/5">
+        <button
+          onClick={openAuthModal}
+          className={`w-full flex items-center gap-3 p-2.5 rounded-xl border border-white/10 bg-white/5 hover:bg-white/10 transition-all ${
+            collapsed ? 'justify-center' : ''
+          }`}
+          title="Account / Switch Persona"
+        >
+          {user ? (
+            <img
+              src={user.avatar}
+              alt={user.name}
+              className="w-8 h-8 rounded-full object-cover border border-luxury-rose/40 shrink-0"
+            />
+          ) : (
+            <div className="w-8 h-8 rounded-full bg-luxury-rose/20 text-luxury-rose flex items-center justify-center shrink-0">
+              <User className="w-4 h-4" />
+            </div>
+          )}
+          {!collapsed && (
+            <div className="flex-1 min-w-0 text-left">
+              <p className="text-xs font-semibold text-gray-900 dark:text-white truncate">
+                {user?.name || 'Guest / Demo Persona'}
+              </p>
+              <p className="text-[10px] text-luxury-rose font-medium truncate">
+                {user?.role === 'admin' ? 'Administrator' : '100+ Personas • Switch'}
+              </p>
+            </div>
+          )}
+        </button>
+      </div>
+
       {/* Bottom Editorial Quote */}
       {!collapsed && (
-        <div className="p-4 border-t border-white/5 bg-white/[0.01]">
+        <div className="p-3 border-t border-white/5 bg-white/[0.01]">
           <p className="font-editorial italic text-xs text-luxury-peach/80 leading-relaxed text-center">
             &ldquo;Your style begins with what you already have.&rdquo;
-          </p>
-          <p className="text-[9px] uppercase tracking-widest text-center text-gray-400 mt-1">
-            Wardrobe Intelligence
           </p>
         </div>
       )}

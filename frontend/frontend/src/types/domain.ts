@@ -1,6 +1,6 @@
-export type Category = 'top' | 'bottom' | 'dress' | 'outerwear' | 'shoes' | 'accessory';
-export type Occasion = 'casual' | 'college' | 'workwear' | 'dateNight' | 'weekend' | 'party';
-export type Season = 'summer' | 'monsoon' | 'winter' | 'all-season';
+export type Category = 'top' | 'bottom' | 'dress' | 'outerwear' | 'shoes' | 'accessory' | 'traditional';
+export type Occasion = 'casual' | 'college' | 'workwear' | 'dateNight' | 'weekend' | 'party' | 'wedding' | 'festival' | 'formal' | 'travel';
+export type Season = 'summer' | 'monsoon' | 'winter' | 'spring' | 'autumn' | 'tropical' | 'all-season';
 export type Priority = 'very_high' | 'high' | 'medium' | 'low';
 export type BrowsingEventType = 'viewed' | 'saved' | 'added_to_cart' | 'abandoned_cart';
 export type FeedbackType = 'love' | 'not_for_me';
@@ -21,6 +21,9 @@ export interface ProductDocument {
   originalPrice: number;
   store: string;
   imageUrl: string;
+  backupImageUrl?: string;
+  isTraditional?: boolean;
+  culturalOrigin?: string;
   available: boolean;
   createdAt: string;
 }
@@ -30,6 +33,9 @@ export interface CustomerDocument {
   customerId: string;
   name: string;
   avatar: string;
+  country?: string;
+  city?: string;
+  climate?: string;
   preferredStyles: string[];
   preferredColors: string[];
   avoidedColors: string[];

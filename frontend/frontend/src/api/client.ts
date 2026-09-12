@@ -17,9 +17,13 @@ const BASE_URL = RAW_BASE.replace(/\/$/, '');
 const API_BASE = `${BASE_URL}/api/v1`;
 
 async function fetchJson<T>(url: string, options?: RequestInit): Promise<T> {
+  const token = typeof window !== 'undefined' ? localStorage.getItem('wardrobeiq_token') : null;
+  const authHeaders: Record<string, string> = token ? { Authorization: `Bearer ${token}` } : {};
+
   const res = await fetch(url, {
     headers: {
       'Content-Type': 'application/json',
+      ...authHeaders,
       ...options?.headers,
     },
     ...options,
@@ -99,6 +103,7 @@ export const apiClient = {
       outerwear: 0,
       shoes: 0,
       accessory: 0,
+      traditional: 0,
     };
     for (const item of items) {
       if (item.category && categoryBreakdown[item.category] !== undefined) {
@@ -495,4 +500,88 @@ export const apiClient = {
       onError(err);
     }
   },
+  
+  // What Should I Wear Today (Weather-Aware Styling Engine)
+  getTodayOutfit: async (params: {
+    customerId: string;
+    city?: string;
+    occasion?: string;
+    preset?: string;
+  }): Promise<any> => {
+    return fetchJson<any>(`${API_BASE}/outfits/today`, {
+      method: 'POST',
+      body: JSON.stringify(params),
+    });
+  },
+
+  // Auth Endpoints
+  auth: {
+    register: async (data: {
+      email: string;
+      password: string;
+      name: string;
+      country?: string;
+      city?: string;
+      preferredStyles?: string[];
+      themePreference?: 'light' | 'dark' | 'system';
+    }): Promise<{ user: any; token: string }> => {
+      return fetchJson<{ user: any; token: string }>(`${API_BASE}/auth/register`, {
+        method: 'POST',
+        body: JSON.stringify(data),
+      });
+    },
+
+    login: async (credentials: {
+      email: string;
+      password: string;
+    }): Promise<{ user: any; token: string }> => {
+      return fetchJson<{ user: any; token: string }>(`${API_BASE}/auth/login`, {
+        method: 'POST',
+        body: JSON.stringify(credentials),
+      });
+    },
+
+    getMe: async (): Promise<any> => {
+      return fetchJson<any>(`${API_BASE}/auth/me`);
+    },
+
+    getDemoPersonas: async (): Promise<any[]> => {
+      return fetchJson<any[]>(`${API_BASE}/auth/personas`);
+    },
+
+    updateProfile: async (updates: any): Promise<any> => {
+      return fetchJson<any>(`${API_BASE}/auth/profile`, {
+        method: 'PUT',
+        body: JSON.stringify(updates),
+      });
+    },
+
+    resetPassword: async (data: { email: string; newPassword: string }): Promise<void> => {
+      return fetchJson<void>(`${API_BASE}/auth/reset-password`, {
+        method: 'POST',
+        body: JSON.stringify(data),
+      });
+    },
+  },
+
+  // Admin Dataset Quality Endpoints
+  admin: {
+    getAudit: async (): Promise<any> => {
+      return fetchJson<any>(`${API_BASE}/admin/dataset/audit`);
+    },
+
+    repairDataset: async (): Promise<any> => {
+      return fetchJson<any>(`${API_BASE}/admin/dataset/repair`, {
+        method: 'POST',
+      });
+    },
+
+    validateImage: async (url: string): Promise<any> => {
+      return fetchJson<any>(`${API_BASE}/admin/dataset/validate-image`, {
+        method: 'POST',
+        body: JSON.stringify({ url }),
+      });
+    },
+  },
 };
+

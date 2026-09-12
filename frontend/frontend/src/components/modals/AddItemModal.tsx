@@ -22,9 +22,36 @@ export const AddItemModal: React.FC = () => {
 
   if (!activeModal.addItem) return null;
 
-  const categories: Category[] = ['top', 'bottom', 'dress', 'outerwear', 'shoes', 'accessory'];
+  const categories: Category[] = ['top', 'bottom', 'dress', 'outerwear', 'shoes', 'accessory', 'traditional'];
 
   const samplePresets = [
+    {
+      label: 'FabIndia Chanderi Silk Kurta',
+      category: 'traditional' as Category,
+      subcategory: 'kurta',
+      color: 'maroon',
+      price: 3499,
+      store: 'FabIndia',
+      image: 'https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=600&q=80',
+    },
+    {
+      label: 'Kanjeevaram Silk Saree',
+      category: 'traditional' as Category,
+      subcategory: 'saree',
+      color: 'red',
+      price: 12999,
+      store: 'Heritage Guild',
+      image: 'https://images.unsplash.com/photo-1610030469668-93510cb2866c?auto=format&fit=crop&w=600&q=80',
+    },
+    {
+      label: 'Kyoto Silk Kimono & Haori',
+      category: 'traditional' as Category,
+      subcategory: 'kimono',
+      color: 'indigo',
+      price: 9800,
+      store: 'Kyoto Silks',
+      image: 'https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=600&q=80',
+    },
     {
       label: 'Neutral Wool Blazer',
       category: 'outerwear' as Category,
@@ -42,15 +69,6 @@ export const AddItemModal: React.FC = () => {
       price: 2499,
       store: 'Mango',
       image: 'https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?auto=format&fit=crop&w=600&q=80',
-    },
-    {
-      label: 'Silk Slip Dress',
-      category: 'dress' as Category,
-      subcategory: 'slip dress',
-      color: 'black',
-      price: 4200,
-      store: 'Massimo Dutti',
-      image: 'https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=600&q=80',
     },
   ];
 

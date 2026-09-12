@@ -24,11 +24,13 @@
     ],
     "price": 2600,
     "store": "FabIndia",
-    "imageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80&v=p1500",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2600,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=600&q=80&v=b1500",
+    "imageHash": "361e2f03c7b5a9ff"
   },
   {
     "itemId": "item_00002",
@@ -55,11 +57,13 @@
     ],
     "price": 1650,
     "store": "Marks & Spencer",
-    "imageUrl": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1564257631407-4deb1f99d992?auto=format&fit=crop&w=600&q=80&v=p1501",
     "dateAcquired": "2025-11-15",
     "pricePaid": 1650,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=600&q=80&v=b1501",
+    "imageHash": "f85edbd8889db736"
   },
   {
     "itemId": "item_00003",
@@ -86,11 +90,13 @@
     ],
     "price": 2250,
     "store": "Biba",
-    "imageUrl": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1578932750294-f5075e85f44a?auto=format&fit=crop&w=600&q=80&v=p1502",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2250,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1625910513413-568393c528f1?auto=format&fit=crop&w=600&q=80&v=b1502",
+    "imageHash": "c10ed99d8a7e8eaa"
   },
   {
     "itemId": "item_00004",
@@ -117,11 +123,13 @@
     ],
     "price": 2550,
     "store": "Mango",
-    "imageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=600&q=80&v=p1503",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2550,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?auto=format&fit=crop&w=600&q=80&v=b1503",
+    "imageHash": "51a3f132e838bc8e"
   },
   {
     "itemId": "item_00005",
@@ -148,11 +156,13 @@
     ],
     "price": 2100,
     "store": "Uniqlo",
-    "imageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=600&q=80&v=p1504",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2100,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=600&q=80&v=b1504",
+    "imageHash": "d4f7201c6f80cfee"
   },
   {
     "itemId": "item_00006",
@@ -179,11 +189,13 @@
     ],
     "price": 2500,
     "store": "Mango",
-    "imageUrl": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?auto=format&fit=crop&w=600&q=80&v=p1505",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2500,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?auto=format&fit=crop&w=600&q=80&v=b1505",
+    "imageHash": "d574b44d0b675b44"
   },
   {
     "itemId": "item_00007",
@@ -210,11 +222,13 @@
     ],
     "price": 2050,
     "store": "FabIndia",
-    "imageUrl": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1542272604-780c96856592?auto=format&fit=crop&w=600&q=80&v=p1506",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2050,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=600&q=80&v=b1506",
+    "imageHash": "ada25ced23cf001d"
   },
   {
     "itemId": "item_00008",
@@ -241,11 +255,13 @@
     ],
     "price": 2600,
     "store": "Marks & Spencer",
-    "imageUrl": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=600&q=80&v=p1507",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2600,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1582552938357-32b906df40cb?auto=format&fit=crop&w=600&q=80&v=b1507",
+    "imageHash": "b9597ef57f8ee039"
   },
   {
     "itemId": "item_00009",
@@ -272,11 +288,13 @@
     ],
     "price": 1500,
     "store": "Allen Solly",
-    "imageUrl": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1582552938357-32b906df40cb?auto=format&fit=crop&w=600&q=80&v=p1508",
     "dateAcquired": "2025-11-15",
     "pricePaid": 1500,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1542272604-780c96856592?auto=format&fit=crop&w=600&q=80&v=b1508",
+    "imageHash": "29af414bc9e2da66"
   },
   {
     "itemId": "item_00010",
@@ -303,11 +321,13 @@
     ],
     "price": 2300,
     "store": "H&M",
-    "imageUrl": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?auto=format&fit=crop&w=600&q=80&v=p1509",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2300,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?auto=format&fit=crop&w=600&q=80&v=b1509",
+    "imageHash": "d33b6b2c5f4b8c0f"
   },
   {
     "itemId": "item_00011",
@@ -332,11 +352,13 @@
     ],
     "price": 3350,
     "store": "Biba",
-    "imageUrl": "https://images.unsplash.com/photo-1542272604-780c96856592?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=600&q=80&v=p1510",
     "dateAcquired": "2025-11-15",
     "pricePaid": 3350,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1582552938357-32b906df40cb?auto=format&fit=crop&w=600&q=80&v=b1510",
+    "imageHash": "01844f5c538ce720"
   },
   {
     "itemId": "item_00012",
@@ -363,11 +385,13 @@
     ],
     "price": 2550,
     "store": "Zara",
-    "imageUrl": "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=600&q=80&v=p1511",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2550,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?auto=format&fit=crop&w=600&q=80&v=b1511",
+    "imageHash": "db79582605bffad2"
   },
   {
     "itemId": "item_00013",
@@ -394,11 +418,13 @@
     ],
     "price": 2150,
     "store": "Westside",
-    "imageUrl": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?auto=format&fit=crop&w=600&q=80&v=p1512",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2150,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=600&q=80&v=b1512",
+    "imageHash": "a8d18280c437c28c"
   },
   {
     "itemId": "item_00014",
@@ -421,11 +447,13 @@
     ],
     "price": 1500,
     "store": "Bespoke Tailors",
-    "imageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1564257631407-4deb1f99d992?auto=format&fit=crop&w=600&q=80&v=p1513",
     "dateAcquired": "2025-12-01",
     "pricePaid": 1500,
     "isCustom": true,
-    "createdAt": "2025-12-01T12:00:00.000Z"
+    "createdAt": "2025-12-01T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=600&q=80&v=b1513",
+    "imageHash": "34f89ea09a818c7c"
   },
   {
     "itemId": "item_00015",
@@ -452,11 +480,13 @@
     ],
     "price": 2100,
     "store": "Uniqlo",
-    "imageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?auto=format&fit=crop&w=600&q=80&v=p1514",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2100,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?auto=format&fit=crop&w=600&q=80&v=b1514",
+    "imageHash": "327c6b47730c1e64"
   },
   {
     "itemId": "item_00016",
@@ -483,11 +513,13 @@
     ],
     "price": 1350,
     "store": "Snitch",
-    "imageUrl": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?auto=format&fit=crop&w=600&q=80&v=p1515",
     "dateAcquired": "2025-11-15",
     "pricePaid": 1350,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=600&q=80&v=b1515",
+    "imageHash": "af7ecf78ed13f0ea"
   },
   {
     "itemId": "item_00017",
@@ -513,11 +545,13 @@
     ],
     "price": 1650,
     "store": "Snitch",
-    "imageUrl": "https://images.unsplash.com/photo-1625910513413-568393c528f1?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=600&q=80&v=p1516",
     "dateAcquired": "2025-11-15",
     "pricePaid": 1650,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=600&q=80&v=b1516",
+    "imageHash": "9bd95cacc40a50e0"
   },
   {
     "itemId": "item_00018",
@@ -542,11 +576,13 @@
     ],
     "price": 1750,
     "store": "Snitch",
-    "imageUrl": "https://images.unsplash.com/photo-1564257631407-4deb1f99d992?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=600&q=80&v=p1517",
     "dateAcquired": "2025-11-15",
     "pricePaid": 1750,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?auto=format&fit=crop&w=600&q=80&v=b1517",
+    "imageHash": "c65ce437b9a701e6"
   },
   {
     "itemId": "item_00019",
@@ -573,11 +609,13 @@
     ],
     "price": 2300,
     "store": "Nike",
-    "imageUrl": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?auto=format&fit=crop&w=600&q=80&v=p1518",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2300,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?auto=format&fit=crop&w=600&q=80&v=b1518",
+    "imageHash": "c53529bb66c10022"
   },
   {
     "itemId": "item_00020",
@@ -604,11 +642,13 @@
     ],
     "price": 1350,
     "store": "Biba",
-    "imageUrl": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?auto=format&fit=crop&w=600&q=80&v=p1519",
     "dateAcquired": "2025-11-15",
     "pricePaid": 1350,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80&v=b1519",
+    "imageHash": "c3a7abec664cc4a3"
   },
   {
     "itemId": "item_00021",
@@ -634,11 +674,13 @@
     ],
     "price": 3450,
     "store": "Biba",
-    "imageUrl": "https://images.unsplash.com/photo-1614975058789-41316d0e2e9c?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80&v=p1520",
     "dateAcquired": "2025-11-15",
     "pricePaid": 3450,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=600&q=80&v=b1520",
+    "imageHash": "34be5cff1da6d191"
   },
   {
     "itemId": "item_00022",
@@ -665,11 +707,13 @@
     ],
     "price": 1150,
     "store": "Snitch",
-    "imageUrl": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=600&q=80&v=p1521",
     "dateAcquired": "2025-11-15",
     "pricePaid": 1150,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=600&q=80&v=b1521",
+    "imageHash": "394e412eb988c5a9"
   },
   {
     "itemId": "item_00023",
@@ -696,11 +740,13 @@
     ],
     "price": 2300,
     "store": "H&M",
-    "imageUrl": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?auto=format&fit=crop&w=600&q=80&v=p1522",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2300,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=600&q=80&v=b1522",
+    "imageHash": "255174582628a093"
   },
   {
     "itemId": "item_00024",
@@ -725,11 +771,13 @@
     ],
     "price": 3300,
     "store": "Nike",
-    "imageUrl": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=600&q=80&v=p1523",
     "dateAcquired": "2025-11-15",
     "pricePaid": 3300,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?auto=format&fit=crop&w=600&q=80&v=b1523",
+    "imageHash": "d65549ff9a398294"
   },
   {
     "itemId": "item_00025",
@@ -754,11 +802,13 @@
     ],
     "price": 2800,
     "store": "Snitch",
-    "imageUrl": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?auto=format&fit=crop&w=600&q=80&v=p1524",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2800,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?auto=format&fit=crop&w=600&q=80&v=b1524",
+    "imageHash": "9cf03b7143da3e56"
   },
   {
     "itemId": "item_00026",
@@ -784,11 +834,13 @@
     ],
     "price": 2250,
     "store": "Mango",
-    "imageUrl": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?auto=format&fit=crop&w=600&q=80&v=p1525",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2250,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=600&q=80&v=b1525",
+    "imageHash": "1445a3eef0b037a9"
   },
   {
     "itemId": "item_00027",
@@ -815,11 +867,13 @@
     ],
     "price": 2150,
     "store": "Westside",
-    "imageUrl": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=600&q=80&v=p1526",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2150,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=600&q=80&v=b1526",
+    "imageHash": "4d21c713ba356211"
   },
   {
     "itemId": "item_00028",
@@ -844,11 +898,13 @@
     ],
     "price": 4600,
     "store": "Nike",
-    "imageUrl": "https://images.unsplash.com/photo-1533867617858-e7b97e060509?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=600&q=80&v=p1527",
     "dateAcquired": "2025-11-15",
     "pricePaid": 4600,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?auto=format&fit=crop&w=600&q=80&v=b1527",
+    "imageHash": "147e012f066c6808"
   },
   {
     "itemId": "item_00029",
@@ -871,11 +927,13 @@
     ],
     "price": 1500,
     "store": "Bespoke Tailors",
-    "imageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1564257631407-4deb1f99d992?auto=format&fit=crop&w=600&q=80&v=p1528",
     "dateAcquired": "2025-12-01",
     "pricePaid": 1500,
     "isCustom": true,
-    "createdAt": "2025-12-01T12:00:00.000Z"
+    "createdAt": "2025-12-01T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=600&q=80&v=b1528",
+    "imageHash": "2ea4b3ba8ec6174f"
   },
   {
     "itemId": "item_00030",
@@ -902,11 +960,13 @@
     ],
     "price": 2600,
     "store": "FabIndia",
-    "imageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?auto=format&fit=crop&w=600&q=80&v=p1529",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2600,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80&v=b1529",
+    "imageHash": "998dd64572adcfec"
   },
   {
     "itemId": "item_00031",
@@ -933,11 +993,13 @@
     ],
     "price": 1650,
     "store": "Marks & Spencer",
-    "imageUrl": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1614975058789-41316d0e2e9c?auto=format&fit=crop&w=600&q=80&v=p1530",
     "dateAcquired": "2025-11-15",
     "pricePaid": 1650,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1564257631407-4deb1f99d992?auto=format&fit=crop&w=600&q=80&v=b1530",
+    "imageHash": "2bf720841569b783"
   },
   {
     "itemId": "item_00032",
@@ -964,11 +1026,13 @@
     ],
     "price": 2250,
     "store": "Biba",
-    "imageUrl": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80&v=p1531",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2250,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1578932750294-f5075e85f44a?auto=format&fit=crop&w=600&q=80&v=b1531",
+    "imageHash": "9c30a3fa49d4e6ac"
   },
   {
     "itemId": "item_00033",
@@ -995,11 +1059,13 @@
     ],
     "price": 2550,
     "store": "Mango",
-    "imageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=600&q=80&v=p1532",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2550,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=600&q=80&v=b1532",
+    "imageHash": "8587f80a5e65a1b5"
   },
   {
     "itemId": "item_00034",
@@ -1026,11 +1092,13 @@
     ],
     "price": 2100,
     "store": "Uniqlo",
-    "imageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=600&q=80&v=p1533",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2100,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?auto=format&fit=crop&w=600&q=80&v=b1533",
+    "imageHash": "81e038803af6dc6c"
   },
   {
     "itemId": "item_00035",
@@ -1057,11 +1125,13 @@
     ],
     "price": 2500,
     "store": "Mango",
-    "imageUrl": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?auto=format&fit=crop&w=600&q=80&v=p1534",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2500,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?auto=format&fit=crop&w=600&q=80&v=b1534",
+    "imageHash": "21f1562e4b5303fa"
   },
   {
     "itemId": "item_00036",
@@ -1088,11 +1158,13 @@
     ],
     "price": 2050,
     "store": "FabIndia",
-    "imageUrl": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1582552938357-32b906df40cb?auto=format&fit=crop&w=600&q=80&v=p1535",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2050,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1542272604-780c96856592?auto=format&fit=crop&w=600&q=80&v=b1535",
+    "imageHash": "b0acb5b530c558e3"
   },
   {
     "itemId": "item_00037",
@@ -1119,11 +1191,13 @@
     ],
     "price": 2600,
     "store": "Marks & Spencer",
-    "imageUrl": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1542272604-780c96856592?auto=format&fit=crop&w=600&q=80&v=p1536",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2600,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=600&q=80&v=b1536",
+    "imageHash": "06e5727fdd713e38"
   },
   {
     "itemId": "item_00038",
@@ -1150,11 +1224,13 @@
     ],
     "price": 1500,
     "store": "Allen Solly",
-    "imageUrl": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=600&q=80&v=p1537",
     "dateAcquired": "2025-11-15",
     "pricePaid": 1500,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1582552938357-32b906df40cb?auto=format&fit=crop&w=600&q=80&v=b1537",
+    "imageHash": "8a790d9fd6d459ad"
   },
   {
     "itemId": "item_00039",
@@ -1181,11 +1257,13 @@
     ],
     "price": 2550,
     "store": "Zara",
-    "imageUrl": "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=600&q=80&v=p1538",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2550,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=600&q=80&v=b1538",
+    "imageHash": "be734902028f1a6d"
   },
   {
     "itemId": "item_00040",
@@ -1212,11 +1290,13 @@
     ],
     "price": 3750,
     "store": "Biba",
-    "imageUrl": "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=600&q=80&v=p1539",
     "dateAcquired": "2025-11-15",
     "pricePaid": 3750,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=600&q=80&v=b1539",
+    "imageHash": "fd45bfd26657abe7"
   },
   {
     "itemId": "item_00041",
@@ -1239,11 +1319,13 @@
     ],
     "price": 1500,
     "store": "Bespoke Tailors",
-    "imageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1564257631407-4deb1f99d992?auto=format&fit=crop&w=600&q=80&v=p1540",
     "dateAcquired": "2025-12-01",
     "pricePaid": 1500,
     "isCustom": true,
-    "createdAt": "2025-12-01T12:00:00.000Z"
+    "createdAt": "2025-12-01T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=600&q=80&v=b1540",
+    "imageHash": "b7dc5d077efe6cb1"
   },
   {
     "itemId": "item_00042",
@@ -1270,11 +1352,13 @@
     ],
     "price": 1350,
     "store": "Snitch",
-    "imageUrl": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=600&q=80&v=p1541",
     "dateAcquired": "2025-11-15",
     "pricePaid": 1350,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?auto=format&fit=crop&w=600&q=80&v=b1541",
+    "imageHash": "18686099f8a1facd"
   },
   {
     "itemId": "item_00043",
@@ -1301,11 +1385,13 @@
     ],
     "price": 700,
     "store": "Levi's",
-    "imageUrl": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=600&q=80&v=p1542",
     "dateAcquired": "2025-11-15",
     "pricePaid": 700,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=600&q=80&v=b1542",
+    "imageHash": "e2553378cd7d51f2"
   },
   {
     "itemId": "item_00044",
@@ -1332,11 +1418,13 @@
     ],
     "price": 1350,
     "store": "Biba",
-    "imageUrl": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=600&q=80&v=p1543",
     "dateAcquired": "2025-11-15",
     "pricePaid": 1350,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?auto=format&fit=crop&w=600&q=80&v=b1543",
+    "imageHash": "8607493c1e518ed1"
   },
   {
     "itemId": "item_00045",
@@ -1363,11 +1451,13 @@
     ],
     "price": 1450,
     "store": "Marks & Spencer",
-    "imageUrl": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?auto=format&fit=crop&w=600&q=80&v=p1544",
     "dateAcquired": "2025-11-15",
     "pricePaid": 1450,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80&v=b1544",
+    "imageHash": "811d7b64cc07a311"
   },
   {
     "itemId": "item_00046",
@@ -1394,11 +1484,13 @@
     ],
     "price": 1150,
     "store": "Zara",
-    "imageUrl": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80&v=p1545",
     "dateAcquired": "2025-11-15",
     "pricePaid": 1150,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=600&q=80&v=b1545",
+    "imageHash": "0140780b1b20b887"
   },
   {
     "itemId": "item_00047",
@@ -1423,11 +1515,13 @@
     ],
     "price": 2200,
     "store": "Snitch",
-    "imageUrl": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=600&q=80&v=p1546",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2200,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1582552938357-32b906df40cb?auto=format&fit=crop&w=600&q=80&v=b1546",
+    "imageHash": "c84ca28d9fe21a13"
   },
   {
     "itemId": "item_00048",
@@ -1452,11 +1546,13 @@
     ],
     "price": 3300,
     "store": "Nike",
-    "imageUrl": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=600&q=80&v=p1547",
     "dateAcquired": "2025-11-15",
     "pricePaid": 3300,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?auto=format&fit=crop&w=600&q=80&v=b1547",
+    "imageHash": "6bc5d16bfb85aa9c"
   },
   {
     "itemId": "item_00049",
@@ -1481,11 +1577,13 @@
     ],
     "price": 3350,
     "store": "Uniqlo",
-    "imageUrl": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?auto=format&fit=crop&w=600&q=80&v=p1548",
     "dateAcquired": "2025-11-15",
     "pricePaid": 3350,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1582552938357-32b906df40cb?auto=format&fit=crop&w=600&q=80&v=b1548",
+    "imageHash": "ee83fa83dd93d326"
   },
   {
     "itemId": "item_00050",
@@ -1510,11 +1608,13 @@
     ],
     "price": 2600,
     "store": "Nike",
-    "imageUrl": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=600&q=80&v=p1549",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2600,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1582552938357-32b906df40cb?auto=format&fit=crop&w=600&q=80&v=b1549",
+    "imageHash": "e1bf248b664aa980"
   },
   {
     "itemId": "item_00051",
@@ -1541,11 +1641,13 @@
     ],
     "price": 2600,
     "store": "Allen Solly",
-    "imageUrl": "https://images.unsplash.com/photo-1521223890158-f9f7c3d5d504?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?auto=format&fit=crop&w=600&q=80&v=p1550",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2600,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1544441893-675973e31985?auto=format&fit=crop&w=600&q=80&v=b1550",
+    "imageHash": "5f9e755b000581b2"
   },
   {
     "itemId": "item_00052",
@@ -1572,11 +1674,13 @@
     ],
     "price": 2300,
     "store": "Allen Solly",
-    "imageUrl": "https://images.unsplash.com/photo-1521223890158-f9f7c3d5d504?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=600&q=80&v=p1551",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2300,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1521223890158-f9f7c3d5d504?auto=format&fit=crop&w=600&q=80&v=b1551",
+    "imageHash": "6d4c837df5d27c5e"
   },
   {
     "itemId": "item_00053",
@@ -1603,11 +1707,13 @@
     ],
     "price": 2550,
     "store": "Zara",
-    "imageUrl": "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?auto=format&fit=crop&w=600&q=80&v=p1552",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2550,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=600&q=80&v=b1552",
+    "imageHash": "dbd876a630524d7f"
   },
   {
     "itemId": "item_00054",
@@ -1630,11 +1736,13 @@
     ],
     "price": 1500,
     "store": "Bespoke Tailors",
-    "imageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=600&q=80&v=p1553",
     "dateAcquired": "2025-12-01",
     "pricePaid": 1500,
     "isCustom": true,
-    "createdAt": "2025-12-01T12:00:00.000Z"
+    "createdAt": "2025-12-01T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1614975058789-41316d0e2e9c?auto=format&fit=crop&w=600&q=80&v=b1553",
+    "imageHash": "5324e51ea3ef0f55"
   },
   {
     "itemId": "item_00055",
@@ -1661,11 +1769,13 @@
     ],
     "price": 1350,
     "store": "Snitch",
-    "imageUrl": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?auto=format&fit=crop&w=600&q=80&v=p1554",
     "dateAcquired": "2025-11-15",
     "pricePaid": 1350,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?auto=format&fit=crop&w=600&q=80&v=b1554",
+    "imageHash": "059f081bb28bd880"
   },
   {
     "itemId": "item_00056",
@@ -1692,11 +1802,13 @@
     ],
     "price": 700,
     "store": "Levi's",
-    "imageUrl": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80&v=p1555",
     "dateAcquired": "2025-11-15",
     "pricePaid": 700,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=600&q=80&v=b1555",
+    "imageHash": "361b06965cc47135"
   },
   {
     "itemId": "item_00057",
@@ -1723,11 +1835,13 @@
     ],
     "price": 1350,
     "store": "Biba",
-    "imageUrl": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=600&q=80&v=p1556",
     "dateAcquired": "2025-11-15",
     "pricePaid": 1350,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=600&q=80&v=b1556",
+    "imageHash": "72cb9f49e88675ac"
   },
   {
     "itemId": "item_00058",
@@ -1754,11 +1868,13 @@
     ],
     "price": 1450,
     "store": "Marks & Spencer",
-    "imageUrl": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=600&q=80&v=p1557",
     "dateAcquired": "2025-11-15",
     "pricePaid": 1450,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=600&q=80&v=b1557",
+    "imageHash": "4bd1395ffd672e79"
   },
   {
     "itemId": "item_00059",
@@ -1785,11 +1901,13 @@
     ],
     "price": 1150,
     "store": "Zara",
-    "imageUrl": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=600&q=80&v=p1558",
     "dateAcquired": "2025-11-15",
     "pricePaid": 1150,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?auto=format&fit=crop&w=600&q=80&v=b1558",
+    "imageHash": "6969db3973a5eece"
   },
   {
     "itemId": "item_00060",
@@ -1815,11 +1933,13 @@
     ],
     "price": 1850,
     "store": "Nike",
-    "imageUrl": "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?auto=format&fit=crop&w=600&q=80&v=p1559",
     "dateAcquired": "2025-11-15",
     "pricePaid": 1850,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80&v=b1559",
+    "imageHash": "e9927ee44b955c57"
   },
   {
     "itemId": "item_00061",
@@ -1845,11 +1965,13 @@
     ],
     "price": 2250,
     "store": "Mango",
-    "imageUrl": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?auto=format&fit=crop&w=600&q=80&v=p1560",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2250,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?auto=format&fit=crop&w=600&q=80&v=b1560",
+    "imageHash": "788cc53bedc33ef0"
   },
   {
     "itemId": "item_00062",
@@ -1875,11 +1997,13 @@
     ],
     "price": 2000,
     "store": "Levi's",
-    "imageUrl": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=600&q=80&v=p1561",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2000,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1582552938357-32b906df40cb?auto=format&fit=crop&w=600&q=80&v=b1561",
+    "imageHash": "b0006276390a85e7"
   },
   {
     "itemId": "item_00063",
@@ -1906,11 +2030,13 @@
     ],
     "price": 1950,
     "store": "FabIndia",
-    "imageUrl": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?auto=format&fit=crop&w=600&q=80&v=p1562",
     "dateAcquired": "2025-11-15",
     "pricePaid": 1950,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?auto=format&fit=crop&w=600&q=80&v=b1562",
+    "imageHash": "523d3f39553f1ebf"
   },
   {
     "itemId": "item_00064",
@@ -1937,11 +2063,13 @@
     ],
     "price": 2550,
     "store": "Biba",
-    "imageUrl": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1542272604-780c96856592?auto=format&fit=crop&w=600&q=80&v=p1563",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2550,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=600&q=80&v=b1563",
+    "imageHash": "7303446ffa1fc103"
   },
   {
     "itemId": "item_00065",
@@ -1968,11 +2096,13 @@
     ],
     "price": 2200,
     "store": "Marks & Spencer",
-    "imageUrl": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=600&q=80&v=p1564",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2200,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1582552938357-32b906df40cb?auto=format&fit=crop&w=600&q=80&v=b1564",
+    "imageHash": "e764ff4fab8d3199"
   },
   {
     "itemId": "item_00066",
@@ -1998,11 +2128,13 @@
     ],
     "price": 3850,
     "store": "Mango",
-    "imageUrl": "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=600&q=80&v=p1565",
     "dateAcquired": "2025-11-15",
     "pricePaid": 3850,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=600&q=80&v=b1565",
+    "imageHash": "7632d90da3a0d8ce"
   },
   {
     "itemId": "item_00067",
@@ -2028,11 +2160,13 @@
     ],
     "price": 2700,
     "store": "Snitch",
-    "imageUrl": "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=600&q=80&v=p1566",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2700,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1521223890158-f9f7c3d5d504?auto=format&fit=crop&w=600&q=80&v=b1566",
+    "imageHash": "1a5f97dedaa77177"
   },
   {
     "itemId": "item_00068",
@@ -2058,11 +2192,13 @@
     ],
     "price": 4800,
     "store": "Snitch",
-    "imageUrl": "https://images.unsplash.com/photo-1608256246200-53e635b5b65f?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=600&q=80&v=p1567",
     "dateAcquired": "2025-11-15",
     "pricePaid": 4800,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?auto=format&fit=crop&w=600&q=80&v=b1567",
+    "imageHash": "8e75c519682715dd"
   },
   {
     "itemId": "item_00069",
@@ -2085,11 +2221,13 @@
     ],
     "price": 3950,
     "store": "Allen Solly",
-    "imageUrl": "https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?auto=format&fit=crop&w=600&q=80&v=p1568",
     "dateAcquired": "2025-11-15",
     "pricePaid": 3950,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=600&q=80&v=b1568",
+    "imageHash": "63f37cb3923f6a5d"
   },
   {
     "itemId": "item_00070",
@@ -2112,11 +2250,13 @@
     ],
     "price": 6500,
     "store": "H&M",
-    "imageUrl": "https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=600&q=80&v=p1569",
     "dateAcquired": "2025-11-15",
     "pricePaid": 6500,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=600&q=80&v=b1569",
+    "imageHash": "a5cd3b1b9c6058bd"
   },
   {
     "itemId": "item_00071",
@@ -2140,11 +2280,13 @@
     ],
     "price": 4500,
     "store": "Levi's",
-    "imageUrl": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=600&q=80&v=p1570",
     "dateAcquired": "2025-11-15",
     "pricePaid": 4500,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=600&q=80&v=b1570",
+    "imageHash": "8982b4d131586ba3"
   },
   {
     "itemId": "item_00072",
@@ -2168,11 +2310,13 @@
     ],
     "price": 5300,
     "store": "Zara",
-    "imageUrl": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=600&q=80&v=p1571",
     "dateAcquired": "2025-11-15",
     "pricePaid": 5300,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=600&q=80&v=b1571",
+    "imageHash": "8df4f986188735df"
   },
   {
     "itemId": "item_00073",
@@ -2195,11 +2339,13 @@
     ],
     "price": 1500,
     "store": "Bespoke Tailors",
-    "imageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1614975058789-41316d0e2e9c?auto=format&fit=crop&w=600&q=80&v=p1572",
     "dateAcquired": "2025-12-01",
     "pricePaid": 1500,
     "isCustom": true,
-    "createdAt": "2025-12-01T12:00:00.000Z"
+    "createdAt": "2025-12-01T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1564257631407-4deb1f99d992?auto=format&fit=crop&w=600&q=80&v=b1572",
+    "imageHash": "e887e67396769022"
   },
   {
     "itemId": "item_00074",
@@ -2226,11 +2372,13 @@
     ],
     "price": 2500,
     "store": "Allen Solly",
-    "imageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1564257631407-4deb1f99d992?auto=format&fit=crop&w=600&q=80&v=p1573",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2500,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=600&q=80&v=b1573",
+    "imageHash": "cc7309ef7f175482"
   },
   {
     "itemId": "item_00075",
@@ -2257,11 +2405,13 @@
     ],
     "price": 1350,
     "store": "Westside",
-    "imageUrl": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1578932750294-f5075e85f44a?auto=format&fit=crop&w=600&q=80&v=p1574",
     "dateAcquired": "2025-11-15",
     "pricePaid": 1350,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1625910513413-568393c528f1?auto=format&fit=crop&w=600&q=80&v=b1574",
+    "imageHash": "ad2f960f425721fe"
   },
   {
     "itemId": "item_00076",
@@ -2288,11 +2438,13 @@
     ],
     "price": 2800,
     "store": "Mango",
-    "imageUrl": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80&v=p1575",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2800,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=600&q=80&v=b1575",
+    "imageHash": "bdcd9dbe990ac45f"
   },
   {
     "itemId": "item_00077",
@@ -2319,11 +2471,13 @@
     ],
     "price": 2300,
     "store": "Nike",
-    "imageUrl": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=600&q=80&v=p1576",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2300,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=600&q=80&v=b1576",
+    "imageHash": "dd774bc5423252a0"
   },
   {
     "itemId": "item_00078",
@@ -2350,11 +2504,13 @@
     ],
     "price": 1150,
     "store": "Biba",
-    "imageUrl": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=600&q=80&v=p1577",
     "dateAcquired": "2025-11-15",
     "pricePaid": 1150,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?auto=format&fit=crop&w=600&q=80&v=b1577",
+    "imageHash": "e8f76d398367c321"
   },
   {
     "itemId": "item_00079",
@@ -2381,11 +2537,13 @@
     ],
     "price": 1100,
     "store": "Westside",
-    "imageUrl": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=600&q=80&v=p1578",
     "dateAcquired": "2025-11-15",
     "pricePaid": 1100,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?auto=format&fit=crop&w=600&q=80&v=b1578",
+    "imageHash": "f762670f195655c1"
   },
   {
     "itemId": "item_00080",
@@ -2412,11 +2570,13 @@
     ],
     "price": 1600,
     "store": "FabIndia",
-    "imageUrl": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?auto=format&fit=crop&w=600&q=80&v=p1579",
     "dateAcquired": "2025-11-15",
     "pricePaid": 1600,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?auto=format&fit=crop&w=600&q=80&v=b1579",
+    "imageHash": "dd773b5b78e69b41"
   },
   {
     "itemId": "item_00081",
@@ -2443,11 +2603,13 @@
     ],
     "price": 2100,
     "store": "H&M",
-    "imageUrl": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1582552938357-32b906df40cb?auto=format&fit=crop&w=600&q=80&v=p1580",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2100,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1542272604-780c96856592?auto=format&fit=crop&w=600&q=80&v=b1580",
+    "imageHash": "6db0e707244a07e9"
   },
   {
     "itemId": "item_00082",
@@ -2474,11 +2636,13 @@
     ],
     "price": 1650,
     "store": "Biba",
-    "imageUrl": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1542272604-780c96856592?auto=format&fit=crop&w=600&q=80&v=p1581",
     "dateAcquired": "2025-11-15",
     "pricePaid": 1650,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=600&q=80&v=b1581",
+    "imageHash": "00a111d79c5143d4"
   },
   {
     "itemId": "item_00083",
@@ -2505,11 +2669,13 @@
     ],
     "price": 2400,
     "store": "Marks & Spencer",
-    "imageUrl": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=600&q=80&v=p1582",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2400,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1582552938357-32b906df40cb?auto=format&fit=crop&w=600&q=80&v=b1582",
+    "imageHash": "bce4c4c6eb65d7fb"
   },
   {
     "itemId": "item_00084",
@@ -2536,11 +2702,13 @@
     ],
     "price": 1850,
     "store": "H&M",
-    "imageUrl": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=600&q=80&v=p1583",
     "dateAcquired": "2025-11-15",
     "pricePaid": 1850,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?auto=format&fit=crop&w=600&q=80&v=b1583",
+    "imageHash": "be7edb93aa7797cd"
   },
   {
     "itemId": "item_00085",
@@ -2566,11 +2734,13 @@
     ],
     "price": 3950,
     "store": "Biba",
-    "imageUrl": "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=600&q=80&v=p1584",
     "dateAcquired": "2025-11-15",
     "pricePaid": 3950,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1521223890158-f9f7c3d5d504?auto=format&fit=crop&w=600&q=80&v=b1584",
+    "imageHash": "6b3154e99c908586"
   },
   {
     "itemId": "item_00086",
@@ -2596,11 +2766,13 @@
     ],
     "price": 3850,
     "store": "Mango",
-    "imageUrl": "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1521223890158-f9f7c3d5d504?auto=format&fit=crop&w=600&q=80&v=p1585",
     "dateAcquired": "2025-11-15",
     "pricePaid": 3850,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=600&q=80&v=b1585",
+    "imageHash": "d9bcdca6548d50aa"
   },
   {
     "itemId": "item_00087",
@@ -2627,11 +2799,13 @@
     ],
     "price": 3750,
     "store": "Biba",
-    "imageUrl": "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=600&q=80&v=p1586",
     "dateAcquired": "2025-11-15",
     "pricePaid": 3750,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=600&q=80&v=b1586",
+    "imageHash": "beb379cc564eb093"
   },
   {
     "itemId": "item_00088",
@@ -2658,11 +2832,13 @@
     ],
     "price": 2900,
     "store": "FabIndia",
-    "imageUrl": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=600&q=80&v=p1587",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2900,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=600&q=80&v=b1587",
+    "imageHash": "00acab90ea5b4de6"
   },
   {
     "itemId": "item_00089",
@@ -2689,11 +2865,13 @@
     ],
     "price": 3200,
     "store": "H&M",
-    "imageUrl": "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=600&q=80&v=p1588",
     "dateAcquired": "2025-11-15",
     "pricePaid": 3200,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80&v=b1588",
+    "imageHash": "9a5ebdaf8ab9ac20"
   },
   {
     "itemId": "item_00090",
@@ -2717,11 +2895,13 @@
     ],
     "price": 1000,
     "store": "Marks & Spencer",
-    "imageUrl": "https://images.unsplash.com/photo-1624222247344-550fb60583dc?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80&v=p1589",
     "dateAcquired": "2025-11-15",
     "pricePaid": 1000,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=600&q=80&v=b1589",
+    "imageHash": "d2abc1bfb6fe138c"
   },
   {
     "itemId": "item_00091",
@@ -2745,11 +2925,13 @@
     ],
     "price": 1050,
     "store": "Westside",
-    "imageUrl": "https://images.unsplash.com/photo-1624222247344-550fb60583dc?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=600&q=80&v=p1590",
     "dateAcquired": "2025-11-15",
     "pricePaid": 1050,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=600&q=80&v=b1590",
+    "imageHash": "322c01ffcd11e13b"
   },
   {
     "itemId": "item_00092",
@@ -2772,11 +2954,13 @@
     ],
     "price": 1500,
     "store": "Bespoke Tailors",
-    "imageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1564257631407-4deb1f99d992?auto=format&fit=crop&w=600&q=80&v=p1591",
     "dateAcquired": "2025-12-01",
     "pricePaid": 1500,
     "isCustom": true,
-    "createdAt": "2025-12-01T12:00:00.000Z"
+    "createdAt": "2025-12-01T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=600&q=80&v=b1591",
+    "imageHash": "2806500da4f4764e"
   },
   {
     "itemId": "item_00093",
@@ -2802,11 +2986,13 @@
     ],
     "price": 3200,
     "store": "Levi's",
-    "imageUrl": "https://images.unsplash.com/photo-1614975058789-41316d0e2e9c?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=600&q=80&v=p1592",
     "dateAcquired": "2025-11-15",
     "pricePaid": 3200,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=600&q=80&v=b1592",
+    "imageHash": "bfaebac1f31c7934"
   },
   {
     "itemId": "item_00094",
@@ -2832,11 +3018,13 @@
     ],
     "price": 2200,
     "store": "Nike",
-    "imageUrl": "https://images.unsplash.com/photo-1614975058789-41316d0e2e9c?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=600&q=80&v=p1593",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2200,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?auto=format&fit=crop&w=600&q=80&v=b1593",
+    "imageHash": "7c1343cd357d1e8f"
   },
   {
     "itemId": "item_00095",
@@ -2862,11 +3050,13 @@
     ],
     "price": 2000,
     "store": "Mango",
-    "imageUrl": "https://images.unsplash.com/photo-1614975058789-41316d0e2e9c?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?auto=format&fit=crop&w=600&q=80&v=p1594",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2000,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80&v=b1594",
+    "imageHash": "28cfb0bc54abf736"
   },
   {
     "itemId": "item_00096",
@@ -2893,11 +3083,13 @@
     ],
     "price": 1900,
     "store": "Mango",
-    "imageUrl": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80&v=p1595",
     "dateAcquired": "2025-11-15",
     "pricePaid": 1900,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=600&q=80&v=b1595",
+    "imageHash": "9c32f321d83b1071"
   },
   {
     "itemId": "item_00097",
@@ -2924,11 +3116,13 @@
     ],
     "price": 2400,
     "store": "H&M",
-    "imageUrl": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1614975058789-41316d0e2e9c?auto=format&fit=crop&w=600&q=80&v=p1596",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2400,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1564257631407-4deb1f99d992?auto=format&fit=crop&w=600&q=80&v=b1596",
+    "imageHash": "e7aabdc7a51c401b"
   },
   {
     "itemId": "item_00098",
@@ -2955,11 +3149,13 @@
     ],
     "price": 1500,
     "store": "Levi's",
-    "imageUrl": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80&v=p1597",
     "dateAcquired": "2025-11-15",
     "pricePaid": 1500,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1578932750294-f5075e85f44a?auto=format&fit=crop&w=600&q=80&v=b1597",
+    "imageHash": "0d2f9b65b5c26545"
   },
   {
     "itemId": "item_00099",
@@ -2984,11 +3180,13 @@
     ],
     "price": 2250,
     "store": "Marks & Spencer",
-    "imageUrl": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1582552938357-32b906df40cb?auto=format&fit=crop&w=600&q=80&v=p1598",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2250,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1542272604-780c96856592?auto=format&fit=crop&w=600&q=80&v=b1598",
+    "imageHash": "e192729ec9974fec"
   },
   {
     "itemId": "item_00100",
@@ -3014,11 +3212,13 @@
     ],
     "price": 2150,
     "store": "Zara",
-    "imageUrl": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1542272604-780c96856592?auto=format&fit=crop&w=600&q=80&v=p1599",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2150,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=600&q=80&v=b1599",
+    "imageHash": "2d271265c17ed7c3"
   },
   {
     "itemId": "item_00101",
@@ -3044,11 +3244,13 @@
     ],
     "price": 2250,
     "store": "Mango",
-    "imageUrl": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?auto=format&fit=crop&w=600&q=80&v=p1600",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2250,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=600&q=80&v=b1600",
+    "imageHash": "aa11dcc500400133"
   },
   {
     "itemId": "item_00102",
@@ -3074,11 +3276,13 @@
     ],
     "price": 2000,
     "store": "Levi's",
-    "imageUrl": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1582552938357-32b906df40cb?auto=format&fit=crop&w=600&q=80&v=p1601",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2000,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1542272604-780c96856592?auto=format&fit=crop&w=600&q=80&v=b1601",
+    "imageHash": "0d048fa378c66f7c"
   },
   {
     "itemId": "item_00103",
@@ -3105,11 +3309,13 @@
     ],
     "price": 1950,
     "store": "FabIndia",
-    "imageUrl": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?auto=format&fit=crop&w=600&q=80&v=p1602",
     "dateAcquired": "2025-11-15",
     "pricePaid": 1950,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?auto=format&fit=crop&w=600&q=80&v=b1602",
+    "imageHash": "4b95f7c285025acb"
   },
   {
     "itemId": "item_00104",
@@ -3135,11 +3341,13 @@
     ],
     "price": 4050,
     "store": "Mango",
-    "imageUrl": "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1521223890158-f9f7c3d5d504?auto=format&fit=crop&w=600&q=80&v=p1603",
     "dateAcquired": "2025-11-15",
     "pricePaid": 4050,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=600&q=80&v=b1603",
+    "imageHash": "8812689d8a77572f"
   },
   {
     "itemId": "item_00105",
@@ -3165,11 +3373,13 @@
     ],
     "price": 3950,
     "store": "Biba",
-    "imageUrl": "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=600&q=80&v=p1604",
     "dateAcquired": "2025-11-15",
     "pricePaid": 3950,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=600&q=80&v=b1604",
+    "imageHash": "2e218cf8c69fe94e"
   },
   {
     "itemId": "item_00106",
@@ -3196,11 +3406,13 @@
     ],
     "price": 2900,
     "store": "Uniqlo",
-    "imageUrl": "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80&v=p1605",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2900,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=600&q=80&v=b1605",
+    "imageHash": "526e5fa1583fb82f"
   },
   {
     "itemId": "item_00107",
@@ -3225,11 +3437,13 @@
     ],
     "price": 4500,
     "store": "Mango",
-    "imageUrl": "https://images.unsplash.com/photo-1533867617858-e7b97e060509?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=600&q=80&v=p1606",
     "dateAcquired": "2025-11-15",
     "pricePaid": 4500,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=600&q=80&v=b1606",
+    "imageHash": "6f41f9b47d4d6552"
   },
   {
     "itemId": "item_00108",
@@ -3254,11 +3468,13 @@
     ],
     "price": 4600,
     "store": "Nike",
-    "imageUrl": "https://images.unsplash.com/photo-1533867617858-e7b97e060509?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=600&q=80&v=p1607",
     "dateAcquired": "2025-11-15",
     "pricePaid": 4600,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?auto=format&fit=crop&w=600&q=80&v=b1607",
+    "imageHash": "6c574493176d9fee"
   },
   {
     "itemId": "item_00109",
@@ -3282,11 +3498,13 @@
     ],
     "price": 3400,
     "store": "Nike",
-    "imageUrl": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?auto=format&fit=crop&w=600&q=80&v=p1608",
     "dateAcquired": "2025-11-15",
     "pricePaid": 3400,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=600&q=80&v=b1608",
+    "imageHash": "780a8bbfbf53aec2"
   },
   {
     "itemId": "item_00110",
@@ -3310,11 +3528,13 @@
     ],
     "price": 4600,
     "store": "Nike",
-    "imageUrl": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=600&q=80&v=p1609",
     "dateAcquired": "2025-11-15",
     "pricePaid": 4600,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=600&q=80&v=b1609",
+    "imageHash": "e30b4b9c3763e841"
   },
   {
     "itemId": "item_00111",
@@ -3337,11 +3557,13 @@
     ],
     "price": 1500,
     "store": "Bespoke Tailors",
-    "imageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=600&q=80&v=p1610",
     "dateAcquired": "2025-12-01",
     "pricePaid": 1500,
     "isCustom": true,
-    "createdAt": "2025-12-01T12:00:00.000Z"
+    "createdAt": "2025-12-01T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1614975058789-41316d0e2e9c?auto=format&fit=crop&w=600&q=80&v=b1610",
+    "imageHash": "383462f5892a68cb"
   },
   {
     "itemId": "item_00112",
@@ -3367,11 +3589,13 @@
     ],
     "price": 1600,
     "store": "Allen Solly",
-    "imageUrl": "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=600&q=80&v=p1611",
     "dateAcquired": "2025-11-15",
     "pricePaid": 1600,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=600&q=80&v=b1611",
+    "imageHash": "ec339e15c3c5f577"
   },
   {
     "itemId": "item_00113",
@@ -3397,11 +3621,13 @@
     ],
     "price": 1650,
     "store": "Snitch",
-    "imageUrl": "https://images.unsplash.com/photo-1625910513413-568393c528f1?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=600&q=80&v=p1612",
     "dateAcquired": "2025-11-15",
     "pricePaid": 1650,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=600&q=80&v=b1612",
+    "imageHash": "c709cfad1280e405"
   },
   {
     "itemId": "item_00114",
@@ -3427,11 +3653,13 @@
     ],
     "price": 1450,
     "store": "Levi's",
-    "imageUrl": "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1625910513413-568393c528f1?auto=format&fit=crop&w=600&q=80&v=p1613",
     "dateAcquired": "2025-11-15",
     "pricePaid": 1450,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1603252109303-2751441dd157?auto=format&fit=crop&w=600&q=80&v=b1613",
+    "imageHash": "c5f06dff3c0e8f67"
   },
   {
     "itemId": "item_00115",
@@ -3456,11 +3684,13 @@
     ],
     "price": 2550,
     "store": "Snitch",
-    "imageUrl": "https://images.unsplash.com/photo-1564257631407-4deb1f99d992?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?auto=format&fit=crop&w=600&q=80&v=p1614",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2550,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80&v=b1614",
+    "imageHash": "08e48d7ee639820b"
   },
   {
     "itemId": "item_00116",
@@ -3485,11 +3715,13 @@
     ],
     "price": 2700,
     "store": "Allen Solly",
-    "imageUrl": "https://images.unsplash.com/photo-1564257631407-4deb1f99d992?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80&v=p1615",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2700,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=600&q=80&v=b1615",
+    "imageHash": "9b13828953b3cb25"
   },
   {
     "itemId": "item_00117",
@@ -3514,11 +3746,13 @@
     ],
     "price": 1750,
     "store": "Snitch",
-    "imageUrl": "https://images.unsplash.com/photo-1564257631407-4deb1f99d992?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=600&q=80&v=p1616",
     "dateAcquired": "2025-11-15",
     "pricePaid": 1750,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=600&q=80&v=b1616",
+    "imageHash": "4f21a6931cfee9b8"
   },
   {
     "itemId": "item_00118",
@@ -3544,11 +3778,13 @@
     ],
     "price": 1550,
     "store": "FabIndia",
-    "imageUrl": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?auto=format&fit=crop&w=600&q=80&v=p1617",
     "dateAcquired": "2025-11-15",
     "pricePaid": 1550,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?auto=format&fit=crop&w=600&q=80&v=b1617",
+    "imageHash": "31c9468d24177f92"
   },
   {
     "itemId": "item_00119",
@@ -3574,11 +3810,13 @@
     ],
     "price": 1700,
     "store": "Marks & Spencer",
-    "imageUrl": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=600&q=80&v=p1618",
     "dateAcquired": "2025-11-15",
     "pricePaid": 1700,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1582552938357-32b906df40cb?auto=format&fit=crop&w=600&q=80&v=b1618",
+    "imageHash": "658c8540c377b9c8"
   },
   {
     "itemId": "item_00120",
@@ -3605,11 +3843,13 @@
     ],
     "price": 1600,
     "store": "FabIndia",
-    "imageUrl": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?auto=format&fit=crop&w=600&q=80&v=p1619",
     "dateAcquired": "2025-11-15",
     "pricePaid": 1600,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?auto=format&fit=crop&w=600&q=80&v=b1619",
+    "imageHash": "0fb9bb7e3a49a6b8"
   },
   {
     "itemId": "item_00121",
@@ -3636,11 +3876,13 @@
     ],
     "price": 2100,
     "store": "H&M",
-    "imageUrl": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1542272604-780c96856592?auto=format&fit=crop&w=600&q=80&v=p1620",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2100,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=600&q=80&v=b1620",
+    "imageHash": "9187865e72bd744f"
   },
   {
     "itemId": "item_00122",
@@ -3667,11 +3909,13 @@
     ],
     "price": 1650,
     "store": "Biba",
-    "imageUrl": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=600&q=80&v=p1621",
     "dateAcquired": "2025-11-15",
     "pricePaid": 1650,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1582552938357-32b906df40cb?auto=format&fit=crop&w=600&q=80&v=b1621",
+    "imageHash": "a845b6eb417fcf08"
   },
   {
     "itemId": "item_00123",
@@ -3698,11 +3942,13 @@
     ],
     "price": 6700,
     "store": "FabIndia",
-    "imageUrl": "https://images.unsplash.com/photo-1544022613-e87ca75a784a?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=600&q=80&v=p1622",
     "dateAcquired": "2025-11-15",
     "pricePaid": 6700,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=600&q=80&v=b1622",
+    "imageHash": "2188b66641d34cba"
   },
   {
     "itemId": "item_00124",
@@ -3728,11 +3974,13 @@
     ],
     "price": 4050,
     "store": "Mango",
-    "imageUrl": "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=600&q=80&v=p1623",
     "dateAcquired": "2025-11-15",
     "pricePaid": 4050,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1521223890158-f9f7c3d5d504?auto=format&fit=crop&w=600&q=80&v=b1623",
+    "imageHash": "395d8a239b948d18"
   },
   {
     "itemId": "item_00125",
@@ -3758,11 +4006,13 @@
     ],
     "price": 6250,
     "store": "Nike",
-    "imageUrl": "https://images.unsplash.com/photo-1608256246200-53e635b5b65f?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?auto=format&fit=crop&w=600&q=80&v=p1624",
     "dateAcquired": "2025-11-15",
     "pricePaid": 6250,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=600&q=80&v=b1624",
+    "imageHash": "7cb308dcb75d0675"
   },
   {
     "itemId": "item_00126",
@@ -3788,11 +4038,13 @@
     ],
     "price": 4750,
     "store": "Allen Solly",
-    "imageUrl": "https://images.unsplash.com/photo-1608256246200-53e635b5b65f?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=600&q=80&v=p1625",
     "dateAcquired": "2025-11-15",
     "pricePaid": 4750,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=600&q=80&v=b1625",
+    "imageHash": "89c03b4b78b0849f"
   },
   {
     "itemId": "item_00127",
@@ -3818,11 +4070,13 @@
     ],
     "price": 4000,
     "store": "Biba",
-    "imageUrl": "https://images.unsplash.com/photo-1608256246200-53e635b5b65f?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=600&q=80&v=p1626",
     "dateAcquired": "2025-11-15",
     "pricePaid": 4000,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=600&q=80&v=b1626",
+    "imageHash": "ba1ee8c7b13128d4"
   },
   {
     "itemId": "item_00128",
@@ -3846,11 +4100,13 @@
     ],
     "price": 1000,
     "store": "Snitch",
-    "imageUrl": "https://images.unsplash.com/photo-1624222247344-550fb60583dc?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=600&q=80&v=p1627",
     "dateAcquired": "2025-11-15",
     "pricePaid": 1000,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=600&q=80&v=b1627",
+    "imageHash": "9623ffe1375765d2"
   },
   {
     "itemId": "item_00129",
@@ -3876,11 +4132,13 @@
     ],
     "price": 5050,
     "store": "Zara",
-    "imageUrl": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=600&q=80&v=p1628",
     "dateAcquired": "2025-11-15",
     "pricePaid": 5050,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80&v=b1628",
+    "imageHash": "94c78d5240d0baef"
   },
   {
     "itemId": "item_00130",
@@ -3903,11 +4161,13 @@
     ],
     "price": 1500,
     "store": "Bespoke Tailors",
-    "imageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1614975058789-41316d0e2e9c?auto=format&fit=crop&w=600&q=80&v=p1629",
     "dateAcquired": "2025-12-01",
     "pricePaid": 1500,
     "isCustom": true,
-    "createdAt": "2025-12-01T12:00:00.000Z"
+    "createdAt": "2025-12-01T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1564257631407-4deb1f99d992?auto=format&fit=crop&w=600&q=80&v=b1629",
+    "imageHash": "f337313a54be319b"
   },
   {
     "itemId": "item_00131",
@@ -3934,11 +4194,13 @@
     ],
     "price": 1150,
     "store": "Levi's",
-    "imageUrl": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80&v=p1630",
     "dateAcquired": "2025-11-15",
     "pricePaid": 1150,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=600&q=80&v=b1630",
+    "imageHash": "5e3a83a165d9fcfd"
   },
   {
     "itemId": "item_00132",
@@ -3965,11 +4227,13 @@
     ],
     "price": 1000,
     "store": "Snitch",
-    "imageUrl": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=600&q=80&v=p1631",
     "dateAcquired": "2025-11-15",
     "pricePaid": 1000,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=600&q=80&v=b1631",
+    "imageHash": "0cf2d31228081406"
   },
   {
     "itemId": "item_00133",
@@ -3995,11 +4259,13 @@
     ],
     "price": 1700,
     "store": "Snitch",
-    "imageUrl": "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=600&q=80&v=p1632",
     "dateAcquired": "2025-11-15",
     "pricePaid": 1700,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=600&q=80&v=b1632",
+    "imageHash": "df5b7ea6fdadc592"
   },
   {
     "itemId": "item_00134",
@@ -4025,11 +4291,13 @@
     ],
     "price": 1600,
     "store": "Marks & Spencer",
-    "imageUrl": "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=600&q=80&v=p1633",
     "dateAcquired": "2025-11-15",
     "pricePaid": 1600,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?auto=format&fit=crop&w=600&q=80&v=b1633",
+    "imageHash": "31d9761981fc052b"
   },
   {
     "itemId": "item_00135",
@@ -4055,11 +4323,13 @@
     ],
     "price": 1250,
     "store": "Allen Solly",
-    "imageUrl": "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?auto=format&fit=crop&w=600&q=80&v=p1634",
     "dateAcquired": "2025-11-15",
     "pricePaid": 1250,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80&v=b1634",
+    "imageHash": "4228a69ac823cd5e"
   },
   {
     "itemId": "item_00136",
@@ -4085,11 +4355,13 @@
     ],
     "price": 1100,
     "store": "Marks & Spencer",
-    "imageUrl": "https://images.unsplash.com/photo-1625910513413-568393c528f1?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?auto=format&fit=crop&w=600&q=80&v=p1635",
     "dateAcquired": "2025-11-15",
     "pricePaid": 1100,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=600&q=80&v=b1635",
+    "imageHash": "f3dc798b401951cb"
   },
   {
     "itemId": "item_00137",
@@ -4114,11 +4386,13 @@
     ],
     "price": 2800,
     "store": "Biba",
-    "imageUrl": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=600&q=80&v=p1636",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2800,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1582552938357-32b906df40cb?auto=format&fit=crop&w=600&q=80&v=b1636",
+    "imageHash": "1d60dffaf80ec8c4"
   },
   {
     "itemId": "item_00138",
@@ -4143,11 +4417,13 @@
     ],
     "price": 2800,
     "store": "Snitch",
-    "imageUrl": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=600&q=80&v=p1637",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2800,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?auto=format&fit=crop&w=600&q=80&v=b1637",
+    "imageHash": "196bb9f5f012c5f4"
   },
   {
     "itemId": "item_00139",
@@ -4172,11 +4448,13 @@
     ],
     "price": 2250,
     "store": "Marks & Spencer",
-    "imageUrl": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1542272604-780c96856592?auto=format&fit=crop&w=600&q=80&v=p1638",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2250,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=600&q=80&v=b1638",
+    "imageHash": "3ca1ab395bdb3325"
   },
   {
     "itemId": "item_00140",
@@ -4202,11 +4480,13 @@
     ],
     "price": 2150,
     "store": "Zara",
-    "imageUrl": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=600&q=80&v=p1639",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2150,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1582552938357-32b906df40cb?auto=format&fit=crop&w=600&q=80&v=b1639",
+    "imageHash": "b577b9043479fdb4"
   },
   {
     "itemId": "item_00141",
@@ -4232,11 +4512,13 @@
     ],
     "price": 2250,
     "store": "Mango",
-    "imageUrl": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=600&q=80&v=p1640",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2250,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?auto=format&fit=crop&w=600&q=80&v=b1640",
+    "imageHash": "4b1413e80abcae4f"
   },
   {
     "itemId": "item_00142",
@@ -4263,11 +4545,13 @@
     ],
     "price": 7850,
     "store": "Biba",
-    "imageUrl": "https://images.unsplash.com/photo-1544022613-e87ca75a784a?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=600&q=80&v=p1641",
     "dateAcquired": "2025-11-15",
     "pricePaid": 7850,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1521223890158-f9f7c3d5d504?auto=format&fit=crop&w=600&q=80&v=b1641",
+    "imageHash": "119114fff8fd7bb2"
   },
   {
     "itemId": "item_00143",
@@ -4294,11 +4578,13 @@
     ],
     "price": 6700,
     "store": "FabIndia",
-    "imageUrl": "https://images.unsplash.com/photo-1544022613-e87ca75a784a?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1521223890158-f9f7c3d5d504?auto=format&fit=crop&w=600&q=80&v=p1642",
     "dateAcquired": "2025-11-15",
     "pricePaid": 6700,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=600&q=80&v=b1642",
+    "imageHash": "9c4523e32034e524"
   },
   {
     "itemId": "item_00144",
@@ -4324,11 +4610,13 @@
     ],
     "price": 3900,
     "store": "Zara",
-    "imageUrl": "https://images.unsplash.com/photo-1608256246200-53e635b5b65f?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=600&q=80&v=p1643",
     "dateAcquired": "2025-11-15",
     "pricePaid": 3900,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=600&q=80&v=b1643",
+    "imageHash": "f575f5e037a32dbb"
   },
   {
     "itemId": "item_00145",
@@ -4351,11 +4639,13 @@
     ],
     "price": 4050,
     "store": "Nike",
-    "imageUrl": "https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=600&q=80&v=p1644",
     "dateAcquired": "2025-11-15",
     "pricePaid": 4050,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80&v=b1644",
+    "imageHash": "ad1fc75f6c1e8bb7"
   },
   {
     "itemId": "item_00146",
@@ -4378,11 +4668,13 @@
     ],
     "price": 3600,
     "store": "Snitch",
-    "imageUrl": "https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80&v=p1645",
     "dateAcquired": "2025-11-15",
     "pricePaid": 3600,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=600&q=80&v=b1645",
+    "imageHash": "629162ef77fba612"
   },
   {
     "itemId": "item_00147",
@@ -4406,11 +4698,13 @@
     ],
     "price": 5300,
     "store": "Zara",
-    "imageUrl": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=600&q=80&v=p1646",
     "dateAcquired": "2025-11-15",
     "pricePaid": 5300,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=600&q=80&v=b1646",
+    "imageHash": "64a3c353cdcee55a"
   },
   {
     "itemId": "item_00148",
@@ -4437,11 +4731,13 @@
     ],
     "price": 2100,
     "store": "Zara",
-    "imageUrl": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=600&q=80&v=p1647",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2100,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?auto=format&fit=crop&w=600&q=80&v=b1647",
+    "imageHash": "da18b5f33f155fc7"
   },
   {
     "itemId": "item_00149",
@@ -4464,11 +4760,13 @@
     ],
     "price": 1500,
     "store": "Bespoke Tailors",
-    "imageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1564257631407-4deb1f99d992?auto=format&fit=crop&w=600&q=80&v=p1648",
     "dateAcquired": "2025-12-01",
     "pricePaid": 1500,
     "isCustom": true,
-    "createdAt": "2025-12-01T12:00:00.000Z"
+    "createdAt": "2025-12-01T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=600&q=80&v=b1648",
+    "imageHash": "ee8c4b333ca160d6"
   },
   {
     "itemId": "item_00150",
@@ -4495,11 +4793,13 @@
     ],
     "price": 2600,
     "store": "FabIndia",
-    "imageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?auto=format&fit=crop&w=600&q=80&v=p1649",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2600,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80&v=b1649",
+    "imageHash": "2492538e5f39e859"
   },
   {
     "itemId": "item_00151",
@@ -4526,11 +4826,13 @@
     ],
     "price": 1650,
     "store": "Marks & Spencer",
-    "imageUrl": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1614975058789-41316d0e2e9c?auto=format&fit=crop&w=600&q=80&v=p1650",
     "dateAcquired": "2025-11-15",
     "pricePaid": 1650,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1564257631407-4deb1f99d992?auto=format&fit=crop&w=600&q=80&v=b1650",
+    "imageHash": "591760304d81412f"
   },
   {
     "itemId": "item_00152",
@@ -4557,11 +4859,13 @@
     ],
     "price": 2250,
     "store": "Biba",
-    "imageUrl": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80&v=p1651",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2250,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1578932750294-f5075e85f44a?auto=format&fit=crop&w=600&q=80&v=b1651",
+    "imageHash": "a3441d5ad8992167"
   },
   {
     "itemId": "item_00153",
@@ -4588,11 +4892,13 @@
     ],
     "price": 2550,
     "store": "Mango",
-    "imageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=600&q=80&v=p1652",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2550,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=600&q=80&v=b1652",
+    "imageHash": "6f181c684f5e1673"
   },
   {
     "itemId": "item_00154",
@@ -4619,11 +4925,13 @@
     ],
     "price": 2100,
     "store": "Uniqlo",
-    "imageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=600&q=80&v=p1653",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2100,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?auto=format&fit=crop&w=600&q=80&v=b1653",
+    "imageHash": "171d01da412b7d93"
   },
   {
     "itemId": "item_00155",
@@ -4650,11 +4958,13 @@
     ],
     "price": 1350,
     "store": "Snitch",
-    "imageUrl": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?auto=format&fit=crop&w=600&q=80&v=p1654",
     "dateAcquired": "2025-11-15",
     "pricePaid": 1350,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?auto=format&fit=crop&w=600&q=80&v=b1654",
+    "imageHash": "f4824b9ab3405733"
   },
   {
     "itemId": "item_00156",
@@ -4679,11 +4989,13 @@
     ],
     "price": 2400,
     "store": "Allen Solly",
-    "imageUrl": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1582552938357-32b906df40cb?auto=format&fit=crop&w=600&q=80&v=p1655",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2400,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1542272604-780c96856592?auto=format&fit=crop&w=600&q=80&v=b1655",
+    "imageHash": "81b2ed93f6301dd0"
   },
   {
     "itemId": "item_00157",
@@ -4709,11 +5021,13 @@
     ],
     "price": 1450,
     "store": "Levi's",
-    "imageUrl": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1542272604-780c96856592?auto=format&fit=crop&w=600&q=80&v=p1656",
     "dateAcquired": "2025-11-15",
     "pricePaid": 1450,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=600&q=80&v=b1656",
+    "imageHash": "14bcb3512754bb19"
   },
   {
     "itemId": "item_00158",
@@ -4739,11 +5053,13 @@
     ],
     "price": 1550,
     "store": "FabIndia",
-    "imageUrl": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?auto=format&fit=crop&w=600&q=80&v=p1657",
     "dateAcquired": "2025-11-15",
     "pricePaid": 1550,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=600&q=80&v=b1657",
+    "imageHash": "bee6129e34162b9d"
   },
   {
     "itemId": "item_00159",
@@ -4769,11 +5085,13 @@
     ],
     "price": 1700,
     "store": "Marks & Spencer",
-    "imageUrl": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1582552938357-32b906df40cb?auto=format&fit=crop&w=600&q=80&v=p1658",
     "dateAcquired": "2025-11-15",
     "pricePaid": 1700,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1542272604-780c96856592?auto=format&fit=crop&w=600&q=80&v=b1658",
+    "imageHash": "2c964c71aabe2bf6"
   },
   {
     "itemId": "item_00160",
@@ -4800,11 +5118,13 @@
     ],
     "price": 1600,
     "store": "FabIndia",
-    "imageUrl": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?auto=format&fit=crop&w=600&q=80&v=p1659",
     "dateAcquired": "2025-11-15",
     "pricePaid": 1600,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?auto=format&fit=crop&w=600&q=80&v=b1659",
+    "imageHash": "b996059cd51ee97c"
   },
   {
     "itemId": "item_00161",
@@ -4831,11 +5151,13 @@
     ],
     "price": 7000,
     "store": "Marks & Spencer",
-    "imageUrl": "https://images.unsplash.com/photo-1544022613-e87ca75a784a?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1521223890158-f9f7c3d5d504?auto=format&fit=crop&w=600&q=80&v=p1660",
     "dateAcquired": "2025-11-15",
     "pricePaid": 7000,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=600&q=80&v=b1660",
+    "imageHash": "97e654b13c7220df"
   },
   {
     "itemId": "item_00162",
@@ -4862,11 +5184,13 @@
     ],
     "price": 7850,
     "store": "Biba",
-    "imageUrl": "https://images.unsplash.com/photo-1544022613-e87ca75a784a?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=600&q=80&v=p1661",
     "dateAcquired": "2025-11-15",
     "pricePaid": 7850,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=600&q=80&v=b1661",
+    "imageHash": "34468dc7a2c63ac2"
   },
   {
     "itemId": "item_00163",
@@ -4893,11 +5217,13 @@
     ],
     "price": 2550,
     "store": "Zara",
-    "imageUrl": "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=600&q=80&v=p1662",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2550,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=600&q=80&v=b1662",
+    "imageHash": "303081b4a9100313"
   },
   {
     "itemId": "item_00164",
@@ -4924,11 +5250,13 @@
     ],
     "price": 2150,
     "store": "Westside",
-    "imageUrl": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=600&q=80&v=p1663",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2150,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?auto=format&fit=crop&w=600&q=80&v=b1663",
+    "imageHash": "765ef3a1e1b0a1d4"
   },
   {
     "itemId": "item_00165",
@@ -4955,11 +5283,13 @@
     ],
     "price": 3400,
     "store": "FabIndia",
-    "imageUrl": "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?auto=format&fit=crop&w=600&q=80&v=p1664",
     "dateAcquired": "2025-11-15",
     "pricePaid": 3400,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=600&q=80&v=b1664",
+    "imageHash": "7078b86f19c2571e"
   },
   {
     "itemId": "item_00166",
@@ -4985,11 +5315,13 @@
     ],
     "price": 6600,
     "store": "Snitch",
-    "imageUrl": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=600&q=80&v=p1665",
     "dateAcquired": "2025-11-15",
     "pricePaid": 6600,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=600&q=80&v=b1665",
+    "imageHash": "02558ea79f00521e"
   },
   {
     "itemId": "item_00167",
@@ -5015,11 +5347,13 @@
     ],
     "price": 3100,
     "store": "Snitch",
-    "imageUrl": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=600&q=80&v=p1666",
     "dateAcquired": "2025-11-15",
     "pricePaid": 3100,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=600&q=80&v=b1666",
+    "imageHash": "6f408ec40867139e"
   },
   {
     "itemId": "item_00168",
@@ -5042,11 +5376,13 @@
     ],
     "price": 1500,
     "store": "Bespoke Tailors",
-    "imageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=600&q=80&v=p1667",
     "dateAcquired": "2025-12-01",
     "pricePaid": 1500,
     "isCustom": true,
-    "createdAt": "2025-12-01T12:00:00.000Z"
+    "createdAt": "2025-12-01T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1614975058789-41316d0e2e9c?auto=format&fit=crop&w=600&q=80&v=b1667",
+    "imageHash": "0961e32b4af1d251"
   },
   {
     "itemId": "item_00169",
@@ -5072,11 +5408,13 @@
     ],
     "price": 2900,
     "store": "Biba",
-    "imageUrl": "https://images.unsplash.com/photo-1614975058789-41316d0e2e9c?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=600&q=80&v=p1668",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2900,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?auto=format&fit=crop&w=600&q=80&v=b1668",
+    "imageHash": "41d9b6b32dc4eeea"
   },
   {
     "itemId": "item_00170",
@@ -5102,11 +5440,13 @@
     ],
     "price": 3450,
     "store": "Biba",
-    "imageUrl": "https://images.unsplash.com/photo-1614975058789-41316d0e2e9c?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?auto=format&fit=crop&w=600&q=80&v=p1669",
     "dateAcquired": "2025-11-15",
     "pricePaid": 3450,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80&v=b1669",
+    "imageHash": "5cc1b4e0e8fc3c1e"
   },
   {
     "itemId": "item_00171",
@@ -5132,11 +5472,13 @@
     ],
     "price": 3500,
     "store": "Zara",
-    "imageUrl": "https://images.unsplash.com/photo-1614975058789-41316d0e2e9c?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80&v=p1670",
     "dateAcquired": "2025-11-15",
     "pricePaid": 3500,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=600&q=80&v=b1670",
+    "imageHash": "5df0264450258316"
   },
   {
     "itemId": "item_00172",
@@ -5162,11 +5504,13 @@
     ],
     "price": 3500,
     "store": "Marks & Spencer",
-    "imageUrl": "https://images.unsplash.com/photo-1614975058789-41316d0e2e9c?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=600&q=80&v=p1671",
     "dateAcquired": "2025-11-15",
     "pricePaid": 3500,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=600&q=80&v=b1671",
+    "imageHash": "df78ac7fbb25b489"
   },
   {
     "itemId": "item_00173",
@@ -5193,11 +5537,13 @@
     ],
     "price": 2050,
     "store": "Uniqlo",
-    "imageUrl": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=600&q=80&v=p1672",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2050,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=600&q=80&v=b1672",
+    "imageHash": "5c243776f8595228"
   },
   {
     "itemId": "item_00174",
@@ -5224,11 +5570,13 @@
     ],
     "price": 2500,
     "store": "Allen Solly",
-    "imageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=600&q=80&v=p1673",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2500,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1614975058789-41316d0e2e9c?auto=format&fit=crop&w=600&q=80&v=b1673",
+    "imageHash": "c6d20de2b4bf752f"
   },
   {
     "itemId": "item_00175",
@@ -5253,11 +5601,13 @@
     ],
     "price": 2600,
     "store": "Nike",
-    "imageUrl": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1542272604-780c96856592?auto=format&fit=crop&w=600&q=80&v=p1674",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2600,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=600&q=80&v=b1674",
+    "imageHash": "e6f9c2517759064e"
   },
   {
     "itemId": "item_00176",
@@ -5282,11 +5632,13 @@
     ],
     "price": 2400,
     "store": "Marks & Spencer",
-    "imageUrl": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1582552938357-32b906df40cb?auto=format&fit=crop&w=600&q=80&v=p1675",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2400,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?auto=format&fit=crop&w=600&q=80&v=b1675",
+    "imageHash": "d9e6cf3ba28fbd94"
   },
   {
     "itemId": "item_00177",
@@ -5311,11 +5663,13 @@
     ],
     "price": 2800,
     "store": "Biba",
-    "imageUrl": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1582552938357-32b906df40cb?auto=format&fit=crop&w=600&q=80&v=p1676",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2800,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1542272604-780c96856592?auto=format&fit=crop&w=600&q=80&v=b1676",
+    "imageHash": "8284dca26f4d5f1c"
   },
   {
     "itemId": "item_00178",
@@ -5340,11 +5694,13 @@
     ],
     "price": 2800,
     "store": "Snitch",
-    "imageUrl": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?auto=format&fit=crop&w=600&q=80&v=p1677",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2800,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?auto=format&fit=crop&w=600&q=80&v=b1677",
+    "imageHash": "f6c666899a5a183e"
   },
   {
     "itemId": "item_00179",
@@ -5369,11 +5725,13 @@
     ],
     "price": 2250,
     "store": "Marks & Spencer",
-    "imageUrl": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=600&q=80&v=p1678",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2250,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1582552938357-32b906df40cb?auto=format&fit=crop&w=600&q=80&v=b1678",
+    "imageHash": "c9d8ab1d34ccce30"
   },
   {
     "itemId": "item_00180",
@@ -5400,11 +5758,13 @@
     ],
     "price": 7450,
     "store": "Mango",
-    "imageUrl": "https://images.unsplash.com/photo-1544022613-e87ca75a784a?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?auto=format&fit=crop&w=600&q=80&v=p1679",
     "dateAcquired": "2025-11-15",
     "pricePaid": 7450,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1544441893-675973e31985?auto=format&fit=crop&w=600&q=80&v=b1679",
+    "imageHash": "5910436d681ce00b"
   },
   {
     "itemId": "item_00181",
@@ -5431,11 +5791,13 @@
     ],
     "price": 7000,
     "store": "Marks & Spencer",
-    "imageUrl": "https://images.unsplash.com/photo-1544022613-e87ca75a784a?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=600&q=80&v=p1680",
     "dateAcquired": "2025-11-15",
     "pricePaid": 7000,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1521223890158-f9f7c3d5d504?auto=format&fit=crop&w=600&q=80&v=b1680",
+    "imageHash": "585aaecef75eebfe"
   },
   {
     "itemId": "item_00182",
@@ -5460,11 +5822,13 @@
     ],
     "price": 3950,
     "store": "Biba",
-    "imageUrl": "https://images.unsplash.com/photo-1533867617858-e7b97e060509?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=600&q=80&v=p1681",
     "dateAcquired": "2025-11-15",
     "pricePaid": 3950,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=600&q=80&v=b1681",
+    "imageHash": "98e6de65e169686f"
   },
   {
     "itemId": "item_00183",
@@ -5489,11 +5853,13 @@
     ],
     "price": 4200,
     "store": "Mango",
-    "imageUrl": "https://images.unsplash.com/photo-1533867617858-e7b97e060509?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=600&q=80&v=p1682",
     "dateAcquired": "2025-11-15",
     "pricePaid": 4200,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=600&q=80&v=b1682",
+    "imageHash": "6d2338dcf0ca17d2"
   },
   {
     "itemId": "item_00184",
@@ -5518,11 +5884,13 @@
     ],
     "price": 4600,
     "store": "Snitch",
-    "imageUrl": "https://images.unsplash.com/photo-1533867617858-e7b97e060509?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=600&q=80&v=p1683",
     "dateAcquired": "2025-11-15",
     "pricePaid": 4600,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=600&q=80&v=b1683",
+    "imageHash": "c1bb4e3f4ba9ec8a"
   },
   {
     "itemId": "item_00185",
@@ -5546,11 +5914,13 @@
     ],
     "price": 4600,
     "store": "Nike",
-    "imageUrl": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=600&q=80&v=p1684",
     "dateAcquired": "2025-11-15",
     "pricePaid": 4600,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80&v=b1684",
+    "imageHash": "b074a8baff34603a"
   },
   {
     "itemId": "item_00186",
@@ -5577,11 +5947,13 @@
     ],
     "price": 1700,
     "store": "Levi's",
-    "imageUrl": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80&v=p1685",
     "dateAcquired": "2025-11-15",
     "pricePaid": 1700,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=600&q=80&v=b1685",
+    "imageHash": "475365c6f35c709b"
   },
   {
     "itemId": "item_00187",
@@ -5604,11 +5976,13 @@
     ],
     "price": 1500,
     "store": "Bespoke Tailors",
-    "imageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1614975058789-41316d0e2e9c?auto=format&fit=crop&w=600&q=80&v=p1686",
     "dateAcquired": "2025-12-01",
     "pricePaid": 1500,
     "isCustom": true,
-    "createdAt": "2025-12-01T12:00:00.000Z"
+    "createdAt": "2025-12-01T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1564257631407-4deb1f99d992?auto=format&fit=crop&w=600&q=80&v=b1686",
+    "imageHash": "41cc8de85118082c"
   },
   {
     "itemId": "item_00188",
@@ -5633,11 +6007,13 @@
     ],
     "price": 1600,
     "store": "H&M",
-    "imageUrl": "https://images.unsplash.com/photo-1564257631407-4deb1f99d992?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=600&q=80&v=p1687",
     "dateAcquired": "2025-11-15",
     "pricePaid": 1600,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=600&q=80&v=b1687",
+    "imageHash": "b3a9347a040c74b1"
   },
   {
     "itemId": "item_00189",
@@ -5662,11 +6038,13 @@
     ],
     "price": 2650,
     "store": "Westside",
-    "imageUrl": "https://images.unsplash.com/photo-1564257631407-4deb1f99d992?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=600&q=80&v=p1688",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2650,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?auto=format&fit=crop&w=600&q=80&v=b1688",
+    "imageHash": "6be585952a02248b"
   },
   {
     "itemId": "item_00190",
@@ -5691,11 +6069,13 @@
     ],
     "price": 2500,
     "store": "Nike",
-    "imageUrl": "https://images.unsplash.com/photo-1564257631407-4deb1f99d992?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?auto=format&fit=crop&w=600&q=80&v=p1689",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2500,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80&v=b1689",
+    "imageHash": "f6dc3fa07c44a5a3"
   },
   {
     "itemId": "item_00191",
@@ -5720,11 +6100,13 @@
     ],
     "price": 1750,
     "store": "H&M",
-    "imageUrl": "https://images.unsplash.com/photo-1564257631407-4deb1f99d992?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?auto=format&fit=crop&w=600&q=80&v=p1690",
     "dateAcquired": "2025-11-15",
     "pricePaid": 1750,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?auto=format&fit=crop&w=600&q=80&v=b1690",
+    "imageHash": "e23498560ce73601"
   },
   {
     "itemId": "item_00192",
@@ -5750,11 +6132,13 @@
     ],
     "price": 2200,
     "store": "Levi's",
-    "imageUrl": "https://images.unsplash.com/photo-1614975058789-41316d0e2e9c?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=600&q=80&v=p1691",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2200,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=600&q=80&v=b1691",
+    "imageHash": "4ab04f0eda7a3366"
   },
   {
     "itemId": "item_00193",
@@ -5780,11 +6164,13 @@
     ],
     "price": 3200,
     "store": "Levi's",
-    "imageUrl": "https://images.unsplash.com/photo-1614975058789-41316d0e2e9c?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=600&q=80&v=p1692",
     "dateAcquired": "2025-11-15",
     "pricePaid": 3200,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=600&q=80&v=b1692",
+    "imageHash": "5b083cf6a1a1b2fd"
   },
   {
     "itemId": "item_00194",
@@ -5809,11 +6195,13 @@
     ],
     "price": 2800,
     "store": "Mango",
-    "imageUrl": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=600&q=80&v=p1693",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2800,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1582552938357-32b906df40cb?auto=format&fit=crop&w=600&q=80&v=b1693",
+    "imageHash": "484bdd4aba654fa2"
   },
   {
     "itemId": "item_00195",
@@ -5838,11 +6226,13 @@
     ],
     "price": 3900,
     "store": "Marks & Spencer",
-    "imageUrl": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=600&q=80&v=p1694",
     "dateAcquired": "2025-11-15",
     "pricePaid": 3900,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?auto=format&fit=crop&w=600&q=80&v=b1694",
+    "imageHash": "892f76413d8db851"
   },
   {
     "itemId": "item_00196",
@@ -5867,11 +6257,13 @@
     ],
     "price": 2400,
     "store": "Allen Solly",
-    "imageUrl": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1542272604-780c96856592?auto=format&fit=crop&w=600&q=80&v=p1695",
     "dateAcquired": "2025-11-15",
     "pricePaid": 2400,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=600&q=80&v=b1695",
+    "imageHash": "20c78c643740b079"
   },
   {
     "itemId": "item_00197",
@@ -5897,11 +6289,13 @@
     ],
     "price": 1450,
     "store": "Levi's",
-    "imageUrl": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=600&q=80&v=p1696",
     "dateAcquired": "2025-11-15",
     "pricePaid": 1450,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1582552938357-32b906df40cb?auto=format&fit=crop&w=600&q=80&v=b1696",
+    "imageHash": "6b2c2c98f6e1143e"
   },
   {
     "itemId": "item_00198",
@@ -5927,11 +6321,13 @@
     ],
     "price": 1550,
     "store": "FabIndia",
-    "imageUrl": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=600&q=80&v=p1697",
     "dateAcquired": "2025-11-15",
     "pricePaid": 1550,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?auto=format&fit=crop&w=600&q=80&v=b1697",
+    "imageHash": "8c6ae35ae146923f"
   },
   {
     "itemId": "item_00199",
@@ -5957,11 +6353,13 @@
     ],
     "price": 3850,
     "store": "Nike",
-    "imageUrl": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1544441893-675973e31985?auto=format&fit=crop&w=600&q=80&v=p1698",
     "dateAcquired": "2025-11-15",
     "pricePaid": 3850,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1521223890158-f9f7c3d5d504?auto=format&fit=crop&w=600&q=80&v=b1698",
+    "imageHash": "946c030f4e8d35a4"
   },
   {
     "itemId": "item_00200",
@@ -5988,11 +6386,13 @@
     ],
     "price": 7450,
     "store": "Mango",
-    "imageUrl": "https://images.unsplash.com/photo-1544022613-e87ca75a784a?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?auto=format&fit=crop&w=600&q=80&v=p1699",
     "dateAcquired": "2025-11-15",
     "pricePaid": 7450,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?auto=format&fit=crop&w=600&q=80&v=b1699",
+    "imageHash": "17aa8f680584b99f"
   },
   {
     "itemId": "item_00201",
@@ -6018,11 +6418,13 @@
     ],
     "price": 4500,
     "store": "Biba",
-    "imageUrl": "https://images.unsplash.com/photo-1608256246200-53e635b5b65f?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=600&q=80&v=p1700",
     "dateAcquired": "2025-11-15",
     "pricePaid": 4500,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80&v=b1700",
+    "imageHash": "dfee0a0f6cdf3428"
   },
   {
     "itemId": "item_00202",
@@ -6048,11 +6450,13 @@
     ],
     "price": 3500,
     "store": "Uniqlo",
-    "imageUrl": "https://images.unsplash.com/photo-1608256246200-53e635b5b65f?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80&v=p1701",
     "dateAcquired": "2025-11-15",
     "pricePaid": 3500,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=600&q=80&v=b1701",
+    "imageHash": "96ffa85026e52169"
   },
   {
     "itemId": "item_00203",
@@ -6078,11 +6482,13 @@
     ],
     "price": 6400,
     "store": "FabIndia",
-    "imageUrl": "https://images.unsplash.com/photo-1608256246200-53e635b5b65f?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=600&q=80&v=p1702",
     "dateAcquired": "2025-11-15",
     "pricePaid": 6400,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=600&q=80&v=b1702",
+    "imageHash": "2fb4f33c04df43dc"
   },
   {
     "itemId": "item_00204",
@@ -6108,11 +6514,13 @@
     ],
     "price": 5050,
     "store": "Zara",
-    "imageUrl": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=600&q=80&v=p1703",
     "dateAcquired": "2025-11-15",
     "pricePaid": 5050,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?auto=format&fit=crop&w=600&q=80&v=b1703",
+    "imageHash": "2b4906febe3e7613"
   },
   {
     "itemId": "item_00205",
@@ -6138,11 +6546,13 @@
     ],
     "price": 6650,
     "store": "Zara",
-    "imageUrl": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?auto=format&fit=crop&w=600&q=80&v=p1704",
     "dateAcquired": "2025-11-15",
     "pricePaid": 6650,
     "isCustom": false,
-    "createdAt": "2025-11-15T12:00:00.000Z"
+    "createdAt": "2025-11-15T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=600&q=80&v=b1704",
+    "imageHash": "52d246e41cf8c714"
   },
   {
     "itemId": "item_00206",
@@ -6165,10 +6575,1143 @@
     ],
     "price": 1500,
     "store": "Bespoke Tailors",
-    "imageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80",
+    "imageUrl": "https://images.unsplash.com/photo-1564257631407-4deb1f99d992?auto=format&fit=crop&w=600&q=80&v=p1705",
     "dateAcquired": "2025-12-01",
     "pricePaid": 1500,
     "isCustom": true,
-    "createdAt": "2025-12-01T12:00:00.000Z"
+    "createdAt": "2025-12-01T12:00:00.000Z",
+    "backupImageUrl": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=600&q=80&v=b1705",
+    "imageHash": "6cde33e8f4ce0479"
+  },
+  {
+    "itemId": "W_C013_001",
+    "customerId": "C013",
+    "name": "Classic Oxford Cotton Shirt",
+    "category": "top",
+    "subcategory": "shirt",
+    "color": "camel",
+    "style": "smart-casual",
+    "occasions": [
+      "casual",
+      "workwear",
+      "festival"
+    ],
+    "seasons": [
+      "all-season",
+      "summer"
+    ],
+    "lastWorn": "2026-09-10T17:04:22.179Z",
+    "isTraditional": false,
+    "imageUrl": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=600&q=80&v=p1706",
+    "backupImageUrl": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=600&q=80&v=b1706",
+    "imageHash": "4f1116ab7b5a30b6"
+  },
+  {
+    "itemId": "W_C013_002",
+    "customerId": "C013",
+    "name": "Tailored Relaxed Fit Trousers",
+    "category": "bottom",
+    "subcategory": "pants",
+    "color": "black",
+    "style": "smart-casual",
+    "occasions": [
+      "workwear",
+      "casual",
+      "dateNight"
+    ],
+    "seasons": [
+      "all-season"
+    ],
+    "lastWorn": "2026-09-07T17:04:22.179Z",
+    "imageUrl": "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?auto=format&fit=crop&w=600&q=80&v=p1707",
+    "backupImageUrl": "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?auto=format&fit=crop&w=600&q=80&v=b1707",
+    "imageHash": "e99ced5f31d454d4"
+  },
+  {
+    "itemId": "W_C013_003",
+    "customerId": "C013",
+    "name": "Lightweight Weather-Resistant Overcoat",
+    "category": "outerwear",
+    "subcategory": "jacket",
+    "color": "navy",
+    "style": "casual",
+    "occasions": [
+      "workwear",
+      "casual",
+      "weekend"
+    ],
+    "seasons": [
+      "winter",
+      "monsoon"
+    ],
+    "lastWorn": "2026-09-02T17:04:22.179Z",
+    "imageUrl": "https://images.unsplash.com/photo-1521223890158-f9f7c3d5d504?auto=format&fit=crop&w=600&q=80&v=p1708",
+    "backupImageUrl": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=600&q=80&v=b1708",
+    "imageHash": "ea300f00a9f0ae34"
+  },
+  {
+    "itemId": "W_C013_004",
+    "customerId": "C013",
+    "name": "Handcrafted Minimalist Leather Footwear",
+    "category": "footwear",
+    "subcategory": "shoes",
+    "color": "brown",
+    "style": "smart-casual",
+    "occasions": [
+      "workwear",
+      "casual",
+      "festival"
+    ],
+    "seasons": [
+      "all-season"
+    ],
+    "lastWorn": "2026-09-09T17:04:22.179Z",
+    "imageUrl": "https://images.unsplash.com/photo-1520639888713-7851133b1ed0?auto=format&fit=crop&w=600&q=80&v=p1709",
+    "backupImageUrl": "https://images.unsplash.com/photo-1533867617858-e7b97e060509?auto=format&fit=crop&w=600&q=80&v=b1709",
+    "imageHash": "58eec9e615640d46"
+  },
+  {
+    "itemId": "W_C014_001",
+    "customerId": "C014",
+    "name": "Classic Oxford Cotton Shirt",
+    "category": "top",
+    "subcategory": "shirt",
+    "color": "burgundy",
+    "style": "vintage",
+    "occasions": [
+      "casual",
+      "workwear",
+      "festival"
+    ],
+    "seasons": [
+      "all-season",
+      "summer"
+    ],
+    "lastWorn": "2026-09-10T17:04:22.179Z",
+    "isTraditional": false,
+    "imageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80&v=p1710",
+    "backupImageUrl": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=600&q=80&v=b1710",
+    "imageHash": "e67b8703bd0344e1"
+  },
+  {
+    "itemId": "W_C014_002",
+    "customerId": "C014",
+    "name": "Tailored Relaxed Fit Trousers",
+    "category": "bottom",
+    "subcategory": "pants",
+    "color": "black",
+    "style": "smart-casual",
+    "occasions": [
+      "workwear",
+      "casual",
+      "dateNight"
+    ],
+    "seasons": [
+      "all-season"
+    ],
+    "lastWorn": "2026-09-07T17:04:22.179Z",
+    "imageUrl": "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?auto=format&fit=crop&w=600&q=80&v=p1711",
+    "backupImageUrl": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=600&q=80&v=b1711",
+    "imageHash": "2bee3ea483331a7d"
+  },
+  {
+    "itemId": "W_C014_003",
+    "customerId": "C014",
+    "name": "Lightweight Weather-Resistant Overcoat",
+    "category": "outerwear",
+    "subcategory": "jacket",
+    "color": "navy",
+    "style": "casual",
+    "occasions": [
+      "workwear",
+      "casual",
+      "weekend"
+    ],
+    "seasons": [
+      "winter",
+      "monsoon"
+    ],
+    "lastWorn": "2026-09-02T17:04:22.179Z",
+    "imageUrl": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=600&q=80&v=p1712",
+    "backupImageUrl": "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=600&q=80&v=b1712",
+    "imageHash": "4a5a28770407cd33"
+  },
+  {
+    "itemId": "W_C014_004",
+    "customerId": "C014",
+    "name": "Handcrafted Minimalist Leather Footwear",
+    "category": "footwear",
+    "subcategory": "shoes",
+    "color": "brown",
+    "style": "smart-casual",
+    "occasions": [
+      "workwear",
+      "casual",
+      "festival"
+    ],
+    "seasons": [
+      "all-season"
+    ],
+    "lastWorn": "2026-09-09T17:04:22.179Z",
+    "imageUrl": "https://images.unsplash.com/photo-1520639888713-7851133b1ed0?auto=format&fit=crop&w=600&q=80&v=p1713",
+    "backupImageUrl": "https://images.unsplash.com/photo-1533867617858-e7b97e060509?auto=format&fit=crop&w=600&q=80&v=b1713",
+    "imageHash": "1eeb23fea5a61936"
+  },
+  {
+    "itemId": "W_C015_001",
+    "customerId": "C015",
+    "name": "Classic Oxford Cotton Shirt",
+    "category": "top",
+    "subcategory": "shirt",
+    "color": "black",
+    "style": "chic",
+    "occasions": [
+      "casual",
+      "workwear",
+      "festival"
+    ],
+    "seasons": [
+      "all-season",
+      "summer"
+    ],
+    "lastWorn": "2026-09-10T17:04:22.179Z",
+    "isTraditional": false,
+    "imageUrl": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?auto=format&fit=crop&w=600&q=80&v=p1714",
+    "backupImageUrl": "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?auto=format&fit=crop&w=600&q=80&v=b1714",
+    "imageHash": "3d2c18a214241219"
+  },
+  {
+    "itemId": "W_C015_002",
+    "customerId": "C015",
+    "name": "Tailored Relaxed Fit Trousers",
+    "category": "bottom",
+    "subcategory": "pants",
+    "color": "black",
+    "style": "smart-casual",
+    "occasions": [
+      "workwear",
+      "casual",
+      "dateNight"
+    ],
+    "seasons": [
+      "all-season"
+    ],
+    "lastWorn": "2026-09-07T17:04:22.179Z",
+    "imageUrl": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=600&q=80&v=p1715",
+    "backupImageUrl": "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?auto=format&fit=crop&w=600&q=80&v=b1715",
+    "imageHash": "9db805667a077ac0"
+  },
+  {
+    "itemId": "W_C015_003",
+    "customerId": "C015",
+    "name": "Lightweight Weather-Resistant Overcoat",
+    "category": "outerwear",
+    "subcategory": "jacket",
+    "color": "navy",
+    "style": "casual",
+    "occasions": [
+      "workwear",
+      "casual",
+      "weekend"
+    ],
+    "seasons": [
+      "winter",
+      "monsoon"
+    ],
+    "lastWorn": "2026-09-02T17:04:22.179Z",
+    "imageUrl": "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=600&q=80&v=p1716",
+    "backupImageUrl": "https://images.unsplash.com/photo-1521223890158-f9f7c3d5d504?auto=format&fit=crop&w=600&q=80&v=b1716",
+    "imageHash": "f4336fac368d58c9"
+  },
+  {
+    "itemId": "W_C015_004",
+    "customerId": "C015",
+    "name": "Handcrafted Minimalist Leather Footwear",
+    "category": "footwear",
+    "subcategory": "shoes",
+    "color": "brown",
+    "style": "smart-casual",
+    "occasions": [
+      "workwear",
+      "casual",
+      "festival"
+    ],
+    "seasons": [
+      "all-season"
+    ],
+    "lastWorn": "2026-09-09T17:04:22.179Z",
+    "imageUrl": "https://images.unsplash.com/photo-1520639888713-7851133b1ed0?auto=format&fit=crop&w=600&q=80&v=p1717",
+    "backupImageUrl": "https://images.unsplash.com/photo-1533867617858-e7b97e060509?auto=format&fit=crop&w=600&q=80&v=b1717",
+    "imageHash": "f9ec8d447fbe5ad8"
+  },
+  {
+    "itemId": "W_C016_001",
+    "customerId": "C016",
+    "name": "Classic Oxford Cotton Shirt",
+    "category": "top",
+    "subcategory": "shirt",
+    "color": "white",
+    "style": "chic",
+    "occasions": [
+      "casual",
+      "workwear",
+      "festival"
+    ],
+    "seasons": [
+      "all-season",
+      "summer"
+    ],
+    "lastWorn": "2026-09-10T17:04:22.179Z",
+    "isTraditional": false,
+    "imageUrl": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=600&q=80&v=p1718",
+    "backupImageUrl": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?auto=format&fit=crop&w=600&q=80&v=b1718",
+    "imageHash": "c9e4592478d7874f"
+  },
+  {
+    "itemId": "W_C016_002",
+    "customerId": "C016",
+    "name": "Tailored Relaxed Fit Trousers",
+    "category": "bottom",
+    "subcategory": "pants",
+    "color": "black",
+    "style": "smart-casual",
+    "occasions": [
+      "workwear",
+      "casual",
+      "dateNight"
+    ],
+    "seasons": [
+      "all-season"
+    ],
+    "lastWorn": "2026-09-07T17:04:22.179Z",
+    "imageUrl": "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?auto=format&fit=crop&w=600&q=80&v=p1719",
+    "backupImageUrl": "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?auto=format&fit=crop&w=600&q=80&v=b1719",
+    "imageHash": "64b0a550f67b55f6"
+  },
+  {
+    "itemId": "W_C016_003",
+    "customerId": "C016",
+    "name": "Lightweight Weather-Resistant Overcoat",
+    "category": "outerwear",
+    "subcategory": "jacket",
+    "color": "navy",
+    "style": "casual",
+    "occasions": [
+      "workwear",
+      "casual",
+      "weekend"
+    ],
+    "seasons": [
+      "winter",
+      "monsoon"
+    ],
+    "lastWorn": "2026-09-02T17:04:22.179Z",
+    "imageUrl": "https://images.unsplash.com/photo-1521223890158-f9f7c3d5d504?auto=format&fit=crop&w=600&q=80&v=p1720",
+    "backupImageUrl": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=600&q=80&v=b1720",
+    "imageHash": "2cb443a4f46a63c6"
+  },
+  {
+    "itemId": "W_C016_004",
+    "customerId": "C016",
+    "name": "Handcrafted Minimalist Leather Footwear",
+    "category": "footwear",
+    "subcategory": "shoes",
+    "color": "brown",
+    "style": "smart-casual",
+    "occasions": [
+      "workwear",
+      "casual",
+      "festival"
+    ],
+    "seasons": [
+      "all-season"
+    ],
+    "lastWorn": "2026-09-09T17:04:22.179Z",
+    "imageUrl": "https://images.unsplash.com/photo-1520639888713-7851133b1ed0?auto=format&fit=crop&w=600&q=80&v=p1721",
+    "backupImageUrl": "https://images.unsplash.com/photo-1533867617858-e7b97e060509?auto=format&fit=crop&w=600&q=80&v=b1721",
+    "imageHash": "a3e3a41a281f99cb"
+  },
+  {
+    "itemId": "W_C017_001",
+    "customerId": "C017",
+    "name": "Classic Oxford Cotton Shirt",
+    "category": "top",
+    "subcategory": "shirt",
+    "color": "black",
+    "style": "streetwear",
+    "occasions": [
+      "casual",
+      "workwear",
+      "festival"
+    ],
+    "seasons": [
+      "all-season",
+      "summer"
+    ],
+    "lastWorn": "2026-09-10T17:04:22.179Z",
+    "isTraditional": false,
+    "imageUrl": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?auto=format&fit=crop&w=600&q=80&v=p1722",
+    "backupImageUrl": "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?auto=format&fit=crop&w=600&q=80&v=b1722",
+    "imageHash": "6efc130d894397c2"
+  },
+  {
+    "itemId": "W_C017_002",
+    "customerId": "C017",
+    "name": "Tailored Relaxed Fit Trousers",
+    "category": "bottom",
+    "subcategory": "pants",
+    "color": "black",
+    "style": "smart-casual",
+    "occasions": [
+      "workwear",
+      "casual",
+      "dateNight"
+    ],
+    "seasons": [
+      "all-season"
+    ],
+    "lastWorn": "2026-09-07T17:04:22.179Z",
+    "imageUrl": "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?auto=format&fit=crop&w=600&q=80&v=p1723",
+    "backupImageUrl": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=600&q=80&v=b1723",
+    "imageHash": "07fc7f29150dafaa"
+  },
+  {
+    "itemId": "W_C017_003",
+    "customerId": "C017",
+    "name": "Lightweight Weather-Resistant Overcoat",
+    "category": "outerwear",
+    "subcategory": "jacket",
+    "color": "navy",
+    "style": "casual",
+    "occasions": [
+      "workwear",
+      "casual",
+      "weekend"
+    ],
+    "seasons": [
+      "winter",
+      "monsoon"
+    ],
+    "lastWorn": "2026-09-02T17:04:22.179Z",
+    "imageUrl": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=600&q=80&v=p1724",
+    "backupImageUrl": "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=600&q=80&v=b1724",
+    "imageHash": "34611d5b3f3ad5fe"
+  },
+  {
+    "itemId": "W_C017_004",
+    "customerId": "C017",
+    "name": "Handcrafted Minimalist Leather Footwear",
+    "category": "footwear",
+    "subcategory": "shoes",
+    "color": "brown",
+    "style": "smart-casual",
+    "occasions": [
+      "workwear",
+      "casual",
+      "festival"
+    ],
+    "seasons": [
+      "all-season"
+    ],
+    "lastWorn": "2026-09-09T17:04:22.179Z",
+    "imageUrl": "https://images.unsplash.com/photo-1520639888713-7851133b1ed0?auto=format&fit=crop&w=600&q=80&v=p1725",
+    "backupImageUrl": "https://images.unsplash.com/photo-1533867617858-e7b97e060509?auto=format&fit=crop&w=600&q=80&v=b1725",
+    "imageHash": "7d1a0233d7883e39"
+  },
+  {
+    "itemId": "W_C018_001",
+    "customerId": "C018",
+    "name": "Classic Oxford Cotton Shirt",
+    "category": "top",
+    "subcategory": "shirt",
+    "color": "navy",
+    "style": "smart-casual",
+    "occasions": [
+      "casual",
+      "workwear",
+      "festival"
+    ],
+    "seasons": [
+      "all-season",
+      "summer"
+    ],
+    "lastWorn": "2026-09-10T17:04:22.179Z",
+    "isTraditional": false,
+    "imageUrl": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=600&q=80&v=p1726",
+    "backupImageUrl": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=600&q=80&v=b1726",
+    "imageHash": "2868892d7c4d161c"
+  },
+  {
+    "itemId": "W_C018_002",
+    "customerId": "C018",
+    "name": "Tailored Relaxed Fit Trousers",
+    "category": "bottom",
+    "subcategory": "pants",
+    "color": "black",
+    "style": "smart-casual",
+    "occasions": [
+      "workwear",
+      "casual",
+      "dateNight"
+    ],
+    "seasons": [
+      "all-season"
+    ],
+    "lastWorn": "2026-09-07T17:04:22.179Z",
+    "imageUrl": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=600&q=80&v=p1727",
+    "backupImageUrl": "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?auto=format&fit=crop&w=600&q=80&v=b1727",
+    "imageHash": "6eee7fe87a8863f4"
+  },
+  {
+    "itemId": "W_C018_003",
+    "customerId": "C018",
+    "name": "Lightweight Weather-Resistant Overcoat",
+    "category": "outerwear",
+    "subcategory": "jacket",
+    "color": "navy",
+    "style": "casual",
+    "occasions": [
+      "workwear",
+      "casual",
+      "weekend"
+    ],
+    "seasons": [
+      "winter",
+      "monsoon"
+    ],
+    "lastWorn": "2026-09-02T17:04:22.179Z",
+    "imageUrl": "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=600&q=80&v=p1728",
+    "backupImageUrl": "https://images.unsplash.com/photo-1521223890158-f9f7c3d5d504?auto=format&fit=crop&w=600&q=80&v=b1728",
+    "imageHash": "20bce555667039d1"
+  },
+  {
+    "itemId": "W_C018_004",
+    "customerId": "C018",
+    "name": "Handcrafted Minimalist Leather Footwear",
+    "category": "footwear",
+    "subcategory": "shoes",
+    "color": "brown",
+    "style": "smart-casual",
+    "occasions": [
+      "workwear",
+      "casual",
+      "festival"
+    ],
+    "seasons": [
+      "all-season"
+    ],
+    "lastWorn": "2026-09-09T17:04:22.179Z",
+    "imageUrl": "https://images.unsplash.com/photo-1520639888713-7851133b1ed0?auto=format&fit=crop&w=600&q=80&v=p1729",
+    "backupImageUrl": "https://images.unsplash.com/photo-1533867617858-e7b97e060509?auto=format&fit=crop&w=600&q=80&v=b1729",
+    "imageHash": "64a1dbb961a9c333"
+  },
+  {
+    "itemId": "W_C019_001",
+    "customerId": "C019",
+    "name": "Classic Oxford Cotton Shirt",
+    "category": "top",
+    "subcategory": "shirt",
+    "color": "yellow",
+    "style": "casual",
+    "occasions": [
+      "casual",
+      "workwear",
+      "festival"
+    ],
+    "seasons": [
+      "all-season",
+      "summer"
+    ],
+    "lastWorn": "2026-09-10T17:04:22.179Z",
+    "isTraditional": false,
+    "imageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80&v=p1730",
+    "backupImageUrl": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=600&q=80&v=b1730",
+    "imageHash": "091f2dc683b9903e"
+  },
+  {
+    "itemId": "W_C019_002",
+    "customerId": "C019",
+    "name": "Tailored Relaxed Fit Trousers",
+    "category": "bottom",
+    "subcategory": "pants",
+    "color": "black",
+    "style": "smart-casual",
+    "occasions": [
+      "workwear",
+      "casual",
+      "dateNight"
+    ],
+    "seasons": [
+      "all-season"
+    ],
+    "lastWorn": "2026-09-07T17:04:22.179Z",
+    "imageUrl": "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?auto=format&fit=crop&w=600&q=80&v=p1731",
+    "backupImageUrl": "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?auto=format&fit=crop&w=600&q=80&v=b1731",
+    "imageHash": "7f78e193ce8c00a6"
+  },
+  {
+    "itemId": "W_C019_003",
+    "customerId": "C019",
+    "name": "Lightweight Weather-Resistant Overcoat",
+    "category": "outerwear",
+    "subcategory": "jacket",
+    "color": "navy",
+    "style": "casual",
+    "occasions": [
+      "workwear",
+      "casual",
+      "weekend"
+    ],
+    "seasons": [
+      "winter",
+      "monsoon"
+    ],
+    "lastWorn": "2026-09-02T17:04:22.179Z",
+    "imageUrl": "https://images.unsplash.com/photo-1521223890158-f9f7c3d5d504?auto=format&fit=crop&w=600&q=80&v=p1732",
+    "backupImageUrl": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=600&q=80&v=b1732",
+    "imageHash": "09588e0c15d1fcaf"
+  },
+  {
+    "itemId": "W_C019_004",
+    "customerId": "C019",
+    "name": "Handcrafted Minimalist Leather Footwear",
+    "category": "footwear",
+    "subcategory": "shoes",
+    "color": "brown",
+    "style": "smart-casual",
+    "occasions": [
+      "workwear",
+      "casual",
+      "festival"
+    ],
+    "seasons": [
+      "all-season"
+    ],
+    "lastWorn": "2026-09-09T17:04:22.179Z",
+    "imageUrl": "https://images.unsplash.com/photo-1520639888713-7851133b1ed0?auto=format&fit=crop&w=600&q=80&v=p1733",
+    "backupImageUrl": "https://images.unsplash.com/photo-1533867617858-e7b97e060509?auto=format&fit=crop&w=600&q=80&v=b1733",
+    "imageHash": "4cc297d85201c086"
+  },
+  {
+    "itemId": "W_C020_001",
+    "customerId": "C020",
+    "name": "Classic Oxford Cotton Shirt",
+    "category": "top",
+    "subcategory": "shirt",
+    "color": "camel",
+    "style": "chic",
+    "occasions": [
+      "casual",
+      "workwear",
+      "festival"
+    ],
+    "seasons": [
+      "all-season",
+      "summer"
+    ],
+    "lastWorn": "2026-09-10T17:04:22.179Z",
+    "isTraditional": false,
+    "imageUrl": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?auto=format&fit=crop&w=600&q=80&v=p1734",
+    "backupImageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80&v=b1734",
+    "imageHash": "3d4306691b1e2f52"
+  },
+  {
+    "itemId": "W_C020_002",
+    "customerId": "C020",
+    "name": "Tailored Relaxed Fit Trousers",
+    "category": "bottom",
+    "subcategory": "pants",
+    "color": "black",
+    "style": "smart-casual",
+    "occasions": [
+      "workwear",
+      "casual",
+      "dateNight"
+    ],
+    "seasons": [
+      "all-season"
+    ],
+    "lastWorn": "2026-09-07T17:04:22.179Z",
+    "imageUrl": "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?auto=format&fit=crop&w=600&q=80&v=p1735",
+    "backupImageUrl": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=600&q=80&v=b1735",
+    "imageHash": "3f233c1265122387"
+  },
+  {
+    "itemId": "W_C020_003",
+    "customerId": "C020",
+    "name": "Lightweight Weather-Resistant Overcoat",
+    "category": "outerwear",
+    "subcategory": "jacket",
+    "color": "navy",
+    "style": "casual",
+    "occasions": [
+      "workwear",
+      "casual",
+      "weekend"
+    ],
+    "seasons": [
+      "winter",
+      "monsoon"
+    ],
+    "lastWorn": "2026-09-02T17:04:22.179Z",
+    "imageUrl": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=600&q=80&v=p1736",
+    "backupImageUrl": "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=600&q=80&v=b1736",
+    "imageHash": "0366e9273de59b00"
+  },
+  {
+    "itemId": "W_C020_004",
+    "customerId": "C020",
+    "name": "Handcrafted Minimalist Leather Footwear",
+    "category": "footwear",
+    "subcategory": "shoes",
+    "color": "brown",
+    "style": "smart-casual",
+    "occasions": [
+      "workwear",
+      "casual",
+      "festival"
+    ],
+    "seasons": [
+      "all-season"
+    ],
+    "lastWorn": "2026-09-09T17:04:22.179Z",
+    "imageUrl": "https://images.unsplash.com/photo-1520639888713-7851133b1ed0?auto=format&fit=crop&w=600&q=80&v=p1737",
+    "backupImageUrl": "https://images.unsplash.com/photo-1533867617858-e7b97e060509?auto=format&fit=crop&w=600&q=80&v=b1737",
+    "imageHash": "2d4046d41f6f532f"
+  },
+  {
+    "itemId": "W_C021_001",
+    "customerId": "C021",
+    "name": "Classic Oxford Cotton Shirt",
+    "category": "top",
+    "subcategory": "shirt",
+    "color": "tan",
+    "style": "smart-casual",
+    "occasions": [
+      "casual",
+      "workwear",
+      "festival"
+    ],
+    "seasons": [
+      "all-season",
+      "summer"
+    ],
+    "lastWorn": "2026-09-10T17:04:22.179Z",
+    "isTraditional": false,
+    "imageUrl": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=600&q=80&v=p1738",
+    "backupImageUrl": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?auto=format&fit=crop&w=600&q=80&v=b1738",
+    "imageHash": "a05973347c44b713"
+  },
+  {
+    "itemId": "W_C021_002",
+    "customerId": "C021",
+    "name": "Tailored Relaxed Fit Trousers",
+    "category": "bottom",
+    "subcategory": "pants",
+    "color": "black",
+    "style": "smart-casual",
+    "occasions": [
+      "workwear",
+      "casual",
+      "dateNight"
+    ],
+    "seasons": [
+      "all-season"
+    ],
+    "lastWorn": "2026-09-07T17:04:22.179Z",
+    "imageUrl": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=600&q=80&v=p1739",
+    "backupImageUrl": "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?auto=format&fit=crop&w=600&q=80&v=b1739",
+    "imageHash": "38a9eef4809f8ba3"
+  },
+  {
+    "itemId": "W_C021_003",
+    "customerId": "C021",
+    "name": "Lightweight Weather-Resistant Overcoat",
+    "category": "outerwear",
+    "subcategory": "jacket",
+    "color": "navy",
+    "style": "casual",
+    "occasions": [
+      "workwear",
+      "casual",
+      "weekend"
+    ],
+    "seasons": [
+      "winter",
+      "monsoon"
+    ],
+    "lastWorn": "2026-09-02T17:04:22.179Z",
+    "imageUrl": "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=600&q=80&v=p1740",
+    "backupImageUrl": "https://images.unsplash.com/photo-1521223890158-f9f7c3d5d504?auto=format&fit=crop&w=600&q=80&v=b1740",
+    "imageHash": "cf13f0be893598d1"
+  },
+  {
+    "itemId": "W_C021_004",
+    "customerId": "C021",
+    "name": "Handcrafted Minimalist Leather Footwear",
+    "category": "footwear",
+    "subcategory": "shoes",
+    "color": "brown",
+    "style": "smart-casual",
+    "occasions": [
+      "workwear",
+      "casual",
+      "festival"
+    ],
+    "seasons": [
+      "all-season"
+    ],
+    "lastWorn": "2026-09-09T17:04:22.179Z",
+    "imageUrl": "https://images.unsplash.com/photo-1520639888713-7851133b1ed0?auto=format&fit=crop&w=600&q=80&v=p1741",
+    "backupImageUrl": "https://images.unsplash.com/photo-1533867617858-e7b97e060509?auto=format&fit=crop&w=600&q=80&v=b1741",
+    "imageHash": "19ba6172fc02f056"
+  },
+  {
+    "itemId": "W_C022_001",
+    "customerId": "C022",
+    "name": "Classic Oxford Cotton Shirt",
+    "category": "top",
+    "subcategory": "shirt",
+    "color": "emerald",
+    "style": "vibrant",
+    "occasions": [
+      "casual",
+      "workwear",
+      "festival"
+    ],
+    "seasons": [
+      "all-season",
+      "summer"
+    ],
+    "lastWorn": "2026-09-10T17:04:22.179Z",
+    "isTraditional": false,
+    "imageUrl": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=600&q=80&v=p1742",
+    "backupImageUrl": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=600&q=80&v=b1742",
+    "imageHash": "9bd3d0eaa5c1cf7a"
+  },
+  {
+    "itemId": "W_C022_002",
+    "customerId": "C022",
+    "name": "Tailored Relaxed Fit Trousers",
+    "category": "bottom",
+    "subcategory": "pants",
+    "color": "black",
+    "style": "smart-casual",
+    "occasions": [
+      "workwear",
+      "casual",
+      "dateNight"
+    ],
+    "seasons": [
+      "all-season"
+    ],
+    "lastWorn": "2026-09-07T17:04:22.179Z",
+    "imageUrl": "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?auto=format&fit=crop&w=600&q=80&v=p1743",
+    "backupImageUrl": "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?auto=format&fit=crop&w=600&q=80&v=b1743",
+    "imageHash": "eee2def2f23519b3"
+  },
+  {
+    "itemId": "W_C022_003",
+    "customerId": "C022",
+    "name": "Lightweight Weather-Resistant Overcoat",
+    "category": "outerwear",
+    "subcategory": "jacket",
+    "color": "navy",
+    "style": "casual",
+    "occasions": [
+      "workwear",
+      "casual",
+      "weekend"
+    ],
+    "seasons": [
+      "winter",
+      "monsoon"
+    ],
+    "lastWorn": "2026-09-02T17:04:22.179Z",
+    "imageUrl": "https://images.unsplash.com/photo-1521223890158-f9f7c3d5d504?auto=format&fit=crop&w=600&q=80&v=p1744",
+    "backupImageUrl": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=600&q=80&v=b1744",
+    "imageHash": "f39df71d1cd867c3"
+  },
+  {
+    "itemId": "W_C022_004",
+    "customerId": "C022",
+    "name": "Handcrafted Minimalist Leather Footwear",
+    "category": "footwear",
+    "subcategory": "shoes",
+    "color": "brown",
+    "style": "smart-casual",
+    "occasions": [
+      "workwear",
+      "casual",
+      "festival"
+    ],
+    "seasons": [
+      "all-season"
+    ],
+    "lastWorn": "2026-09-09T17:04:22.179Z",
+    "imageUrl": "https://images.unsplash.com/photo-1520639888713-7851133b1ed0?auto=format&fit=crop&w=600&q=80&v=p1745",
+    "backupImageUrl": "https://images.unsplash.com/photo-1533867617858-e7b97e060509?auto=format&fit=crop&w=600&q=80&v=b1745",
+    "imageHash": "5be24a5875db90bb"
+  },
+  {
+    "itemId": "W_C023_001",
+    "customerId": "C023",
+    "name": "Classic Oxford Cotton Shirt",
+    "category": "top",
+    "subcategory": "shirt",
+    "color": "white",
+    "style": "traditional",
+    "occasions": [
+      "casual",
+      "workwear",
+      "festival"
+    ],
+    "seasons": [
+      "all-season",
+      "summer"
+    ],
+    "lastWorn": "2026-09-10T17:04:22.179Z",
+    "isTraditional": false,
+    "imageUrl": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=600&q=80&v=p1746",
+    "backupImageUrl": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=600&q=80&v=b1746",
+    "imageHash": "dccb4c6f93c53661"
+  },
+  {
+    "itemId": "W_C023_002",
+    "customerId": "C023",
+    "name": "Tailored Relaxed Fit Trousers",
+    "category": "bottom",
+    "subcategory": "pants",
+    "color": "black",
+    "style": "smart-casual",
+    "occasions": [
+      "workwear",
+      "casual",
+      "dateNight"
+    ],
+    "seasons": [
+      "all-season"
+    ],
+    "lastWorn": "2026-09-07T17:04:22.179Z",
+    "imageUrl": "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?auto=format&fit=crop&w=600&q=80&v=p1747",
+    "backupImageUrl": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=600&q=80&v=b1747",
+    "imageHash": "91e86981f68ada0b"
+  },
+  {
+    "itemId": "W_C023_003",
+    "customerId": "C023",
+    "name": "Lightweight Weather-Resistant Overcoat",
+    "category": "outerwear",
+    "subcategory": "jacket",
+    "color": "navy",
+    "style": "casual",
+    "occasions": [
+      "workwear",
+      "casual",
+      "weekend"
+    ],
+    "seasons": [
+      "winter",
+      "monsoon"
+    ],
+    "lastWorn": "2026-09-02T17:04:22.179Z",
+    "imageUrl": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=600&q=80&v=p1748",
+    "backupImageUrl": "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=600&q=80&v=b1748",
+    "imageHash": "503ce6779e889a8e"
+  },
+  {
+    "itemId": "W_C023_004",
+    "customerId": "C023",
+    "name": "Handcrafted Minimalist Leather Footwear",
+    "category": "footwear",
+    "subcategory": "shoes",
+    "color": "brown",
+    "style": "smart-casual",
+    "occasions": [
+      "workwear",
+      "casual",
+      "festival"
+    ],
+    "seasons": [
+      "all-season"
+    ],
+    "lastWorn": "2026-09-09T17:04:22.179Z",
+    "imageUrl": "https://images.unsplash.com/photo-1520639888713-7851133b1ed0?auto=format&fit=crop&w=600&q=80&v=p1749",
+    "backupImageUrl": "https://images.unsplash.com/photo-1533867617858-e7b97e060509?auto=format&fit=crop&w=600&q=80&v=b1749",
+    "imageHash": "3e0f4e779e99addd"
+  },
+  {
+    "itemId": "W_C024_001",
+    "customerId": "C024",
+    "name": "Classic Oxford Cotton Shirt",
+    "category": "top",
+    "subcategory": "shirt",
+    "color": "sand",
+    "style": "casual",
+    "occasions": [
+      "casual",
+      "workwear",
+      "festival"
+    ],
+    "seasons": [
+      "all-season",
+      "summer"
+    ],
+    "lastWorn": "2026-09-10T17:04:22.179Z",
+    "isTraditional": false,
+    "imageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&q=80&v=p1750",
+    "backupImageUrl": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=600&q=80&v=b1750",
+    "imageHash": "7379bb2450b45c2f"
+  },
+  {
+    "itemId": "W_C024_002",
+    "customerId": "C024",
+    "name": "Tailored Relaxed Fit Trousers",
+    "category": "bottom",
+    "subcategory": "pants",
+    "color": "black",
+    "style": "smart-casual",
+    "occasions": [
+      "workwear",
+      "casual",
+      "dateNight"
+    ],
+    "seasons": [
+      "all-season"
+    ],
+    "lastWorn": "2026-09-07T17:04:22.179Z",
+    "imageUrl": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=600&q=80&v=p1751",
+    "backupImageUrl": "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?auto=format&fit=crop&w=600&q=80&v=b1751",
+    "imageHash": "88b5e7edf0a4f3e5"
+  },
+  {
+    "itemId": "W_C024_003",
+    "customerId": "C024",
+    "name": "Lightweight Weather-Resistant Overcoat",
+    "category": "outerwear",
+    "subcategory": "jacket",
+    "color": "navy",
+    "style": "casual",
+    "occasions": [
+      "workwear",
+      "casual",
+      "weekend"
+    ],
+    "seasons": [
+      "winter",
+      "monsoon"
+    ],
+    "lastWorn": "2026-09-02T17:04:22.179Z",
+    "imageUrl": "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=600&q=80&v=p1752",
+    "backupImageUrl": "https://images.unsplash.com/photo-1521223890158-f9f7c3d5d504?auto=format&fit=crop&w=600&q=80&v=b1752",
+    "imageHash": "53fecbd57e2578da"
+  },
+  {
+    "itemId": "W_C024_004",
+    "customerId": "C024",
+    "name": "Handcrafted Minimalist Leather Footwear",
+    "category": "footwear",
+    "subcategory": "shoes",
+    "color": "brown",
+    "style": "smart-casual",
+    "occasions": [
+      "workwear",
+      "casual",
+      "festival"
+    ],
+    "seasons": [
+      "all-season"
+    ],
+    "lastWorn": "2026-09-09T17:04:22.179Z",
+    "imageUrl": "https://images.unsplash.com/photo-1520639888713-7851133b1ed0?auto=format&fit=crop&w=600&q=80&v=p1753",
+    "backupImageUrl": "https://images.unsplash.com/photo-1533867617858-e7b97e060509?auto=format&fit=crop&w=600&q=80&v=b1753",
+    "imageHash": "1291f210ace7119c"
+  },
+  {
+    "itemId": "W_C025_001",
+    "customerId": "C025",
+    "name": "Classic Oxford Cotton Shirt",
+    "category": "top",
+    "subcategory": "shirt",
+    "color": "black",
+    "style": "streetwear",
+    "occasions": [
+      "casual",
+      "workwear",
+      "festival"
+    ],
+    "seasons": [
+      "all-season",
+      "summer"
+    ],
+    "lastWorn": "2026-09-10T17:04:22.179Z",
+    "isTraditional": false,
+    "imageUrl": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?auto=format&fit=crop&w=600&q=80&v=p1754",
+    "backupImageUrl": "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?auto=format&fit=crop&w=600&q=80&v=b1754",
+    "imageHash": "7630e96e42bb6291"
+  },
+  {
+    "itemId": "W_C025_002",
+    "customerId": "C025",
+    "name": "Tailored Relaxed Fit Trousers",
+    "category": "bottom",
+    "subcategory": "pants",
+    "color": "black",
+    "style": "smart-casual",
+    "occasions": [
+      "workwear",
+      "casual",
+      "dateNight"
+    ],
+    "seasons": [
+      "all-season"
+    ],
+    "lastWorn": "2026-09-07T17:04:22.179Z",
+    "imageUrl": "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?auto=format&fit=crop&w=600&q=80&v=p1755",
+    "backupImageUrl": "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?auto=format&fit=crop&w=600&q=80&v=b1755",
+    "imageHash": "6eb0cc1f4bb25d54"
+  },
+  {
+    "itemId": "W_C025_003",
+    "customerId": "C025",
+    "name": "Lightweight Weather-Resistant Overcoat",
+    "category": "outerwear",
+    "subcategory": "jacket",
+    "color": "navy",
+    "style": "casual",
+    "occasions": [
+      "workwear",
+      "casual",
+      "weekend"
+    ],
+    "seasons": [
+      "winter",
+      "monsoon"
+    ],
+    "lastWorn": "2026-09-02T17:04:22.179Z",
+    "imageUrl": "https://images.unsplash.com/photo-1521223890158-f9f7c3d5d504?auto=format&fit=crop&w=600&q=80&v=p1756",
+    "backupImageUrl": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=600&q=80&v=b1756",
+    "imageHash": "6e3ee24b2b322cda"
+  },
+  {
+    "itemId": "W_C025_004",
+    "customerId": "C025",
+    "name": "Handcrafted Minimalist Leather Footwear",
+    "category": "footwear",
+    "subcategory": "shoes",
+    "color": "brown",
+    "style": "smart-casual",
+    "occasions": [
+      "workwear",
+      "casual",
+      "festival"
+    ],
+    "seasons": [
+      "all-season"
+    ],
+    "lastWorn": "2026-09-09T17:04:22.179Z",
+    "imageUrl": "https://images.unsplash.com/photo-1520639888713-7851133b1ed0?auto=format&fit=crop&w=600&q=80&v=p1757",
+    "backupImageUrl": "https://images.unsplash.com/photo-1533867617858-e7b97e060509?auto=format&fit=crop&w=600&q=80&v=b1757",
+    "imageHash": "60b629b75ad1804f"
   }
 ]

@@ -91,7 +91,7 @@ export async function deleteWardrobeItem(customerId: string, itemId: string): Pr
 }
 
 export function analyzeWardrobe(items: WardrobeDocument[], customer?: CustomerDocument): WardrobeAnalysis {
-  const categories: Category[] = ['top', 'bottom', 'dress', 'outerwear', 'shoes', 'accessory'];
+  const categories: Category[] = ['top', 'bottom', 'dress', 'outerwear', 'shoes', 'accessory', 'traditional'];
   const categoryCounts: Record<Category, number> = {
     top: 0,
     bottom: 0,
@@ -99,9 +99,21 @@ export function analyzeWardrobe(items: WardrobeDocument[], customer?: CustomerDo
     outerwear: 0,
     shoes: 0,
     accessory: 0,
+    traditional: 0,
   };
 
-  const occasions: Occasion[] = ['casual', 'college', 'workwear', 'dateNight', 'weekend', 'party'];
+  const occasions: Occasion[] = [
+    'casual',
+    'college',
+    'workwear',
+    'dateNight',
+    'weekend',
+    'party',
+    'wedding',
+    'festival',
+    'formal',
+    'travel',
+  ];
   const occasionCoverage: Record<Occasion, number> = {
     casual: 0,
     college: 0,
@@ -109,6 +121,10 @@ export function analyzeWardrobe(items: WardrobeDocument[], customer?: CustomerDo
     dateNight: 0,
     weekend: 0,
     party: 0,
+    wedding: 0,
+    festival: 0,
+    formal: 0,
+    travel: 0,
   };
 
   const colorFreq: Record<string, number> = {};
@@ -222,6 +238,7 @@ export function calculateWardrobeHealth(
     outerwear: 2,
     shoes: 2,
     accessory: 2,
+    traditional: 1,
   };
 
   // 1. Versatility score (how close to baselines across all 6 categories)

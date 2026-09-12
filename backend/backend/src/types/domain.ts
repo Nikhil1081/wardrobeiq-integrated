@@ -1,11 +1,46 @@
-export type Category = 'top' | 'bottom' | 'dress' | 'outerwear' | 'shoes' | 'accessory';
-export type Occasion = 'casual' | 'college' | 'workwear' | 'dateNight' | 'weekend' | 'party';
-export type Season = 'summer' | 'monsoon' | 'winter' | 'all-season';
+export type Category = 'top' | 'bottom' | 'dress' | 'outerwear' | 'shoes' | 'accessory' | 'traditional';
+export type Occasion =
+  | 'casual'
+  | 'college'
+  | 'workwear'
+  | 'dateNight'
+  | 'weekend'
+  | 'party'
+  | 'wedding'
+  | 'festival'
+  | 'formal'
+  | 'travel';
+export type Season = 'summer' | 'monsoon' | 'winter' | 'spring' | 'autumn' | 'tropical' | 'all-season';
 export type Priority = 'very_high' | 'high' | 'medium' | 'low';
 export type BrowsingEventType = 'viewed' | 'saved' | 'added_to_cart' | 'abandoned_cart';
 export type FeedbackType = 'love' | 'not_for_me';
 export type OfferType = 'bundle_discount' | 'percentage_off' | 'free_shipping' | 'seasonal_sale';
 export type ConditionType = 'category_pair' | 'minimum_purchase' | 'none';
+
+export interface UserDocument {
+  _id?: any;
+  userId: string;
+  customerId?: string;
+  email: string;
+  passwordHash: string;
+  name: string;
+  avatar: string;
+  role: 'user' | 'admin';
+  country: string;
+  region?: string;
+  city?: string;
+  climate?: string;
+  preferredLanguage?: string;
+  preferredStyles: string[];
+  preferredColors: string[];
+  avoidedColors: string[];
+  budget: number;
+  preferredOccasions: Occasion[];
+  currentSeason: Season;
+  themePreference: 'light' | 'dark' | 'system';
+  createdAt: string;
+  updatedAt: string;
+}
 
 export interface ProductDocument {
   _id?: any;
@@ -14,13 +49,28 @@ export interface ProductDocument {
   category: Category;
   subcategory: string;
   color: string;
+  secondaryColor?: string;
+  brand?: string;
+  style?: string;
   styleTags: string[];
+  material?: string;
+  pattern?: string;
   occasion: Occasion[];
   season: Season[];
+  weatherSuitability?: string[];
   price: number;
   originalPrice: number;
   store: string;
   imageUrl: string;
+  backupImageUrl?: string;
+  thumbnailUrl?: string;
+  imageHash?: string;
+  imageStatus?: 'verified' | 'duplicate_flagged' | 'broken_fallback';
+  isTraditional?: boolean;
+  country?: string;
+  region?: string;
+  description?: string;
+  tags?: string[];
   available: boolean;
   createdAt: string;
 }
@@ -30,12 +80,17 @@ export interface CustomerDocument {
   customerId: string;
   name: string;
   avatar: string;
+  country?: string;
+  region?: string;
+  city?: string;
+  climate?: string;
   preferredStyles: string[];
   preferredColors: string[];
   avoidedColors: string[];
   budget: number;
   preferredOccasions: Occasion[];
   currentSeason: Season;
+  themePreference?: 'light' | 'dark' | 'system';
   createdAt: string;
   updatedAt: string;
 }
@@ -49,12 +104,31 @@ export interface WardrobeDocument {
   category: Category;
   subcategory: string;
   color: string;
+  secondaryColor?: string;
+  brand?: string;
+  style?: string;
   styleTags: string[];
+  material?: string;
+  pattern?: string;
   occasion: Occasion[];
   season: Season[];
+  weatherSuitability?: string[];
+  size?: string;
+  fit?: string;
+  formalityLevel?: string;
+  isTraditional?: boolean;
+  country?: string;
+  region?: string;
+  description?: string;
+  tags?: string[];
+  favorite?: boolean;
   price: number;
   store: string;
   imageUrl: string;
+  backupImageUrl?: string;
+  thumbnailUrl?: string;
+  imageHash?: string;
+  imageStatus?: 'verified' | 'duplicate_flagged' | 'broken_fallback';
   dateAcquired: string;
   pricePaid?: number;
   isCustom: boolean;

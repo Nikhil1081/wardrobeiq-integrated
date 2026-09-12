@@ -7,7 +7,28 @@ import {
   saveOutfitService,
   deleteSavedOutfitService,
 } from '../services/outfit.service.js';
+import { generateWeatherOutfit } from '../tools/weatherOutfitEngine.js';
 import { sendSuccess } from '../utils/response.js';
+
+export async function getTodayOutfitHandler(req: Request, res: Response, next: NextFunction) {
+  try {
+    const customerId = (req.params.customerId || req.query.customerId || req.body.customerId || 'C001') as string;
+    const city = (req.query.city || req.body.city) as string | undefined;
+    const occasion = (req.query.occasion || req.body.occasion || 'casual') as string;
+    const preset = (req.query.preset || req.body.preset) as string | undefined;
+
+    const result = await generateWeatherOutfit({
+      customerId,
+      city,
+      occasion,
+      preset,
+    });
+
+    return sendSuccess(res, result);
+  } catch (err) {
+    next(err);
+  }
+}
 
 export async function generateOutfitHandler(req: Request, res: Response, next: NextFunction) {
   try {

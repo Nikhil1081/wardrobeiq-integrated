@@ -6,6 +6,7 @@ import {
   getSavedOutfitsHandler,
   saveOutfitHandler,
   deleteSavedOutfitHandler,
+  getTodayOutfitHandler,
 } from '../../controllers/outfit.controller.js';
 import { validateBody, validateParams } from '../../middleware/validate.js';
 import {
@@ -17,6 +18,11 @@ import {
 } from '../../validation/schemas.js';
 
 const router = Router();
+
+// What Should I Wear Today (Weather-Aware Styling Engine)
+router.get('/today', getTodayOutfitHandler);
+router.get('/today/:customerId', getTodayOutfitHandler);
+router.post('/today', getTodayOutfitHandler);
 
 router.post('/generate', validateBody(OutfitGenerateSchema), generateOutfitHandler);
 router.post('/replace', validateBody(OutfitReplaceSchema), replaceOutfitSlotHandler);

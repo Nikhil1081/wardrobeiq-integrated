@@ -16,6 +16,9 @@ export interface ProductCardDTO {
   productId: string;
   name: string;
   imageUrl: string;
+  backupImageUrl?: string;
+  isTraditional?: boolean;
+  culturalOrigin?: string;
   category: Category;
   subcategory: string;
   color: string;
@@ -63,6 +66,9 @@ export interface WardrobeItemDTO {
   productId?: string;
   name: string;
   imageUrl: string;
+  backupImageUrl?: string;
+  isTraditional?: boolean;
+  culturalOrigin?: string;
   category: Category;
   subcategory: string;
   color: string;
@@ -115,14 +121,16 @@ export interface OutfitItemDTO {
 
 export interface OutfitDTO {
   outfitId: string;
+  name?: string;
   occasion: Occasion;
   season: Season;
   items: OutfitItemDTO[];
-  coverage: number; // 0-100
-  caption: string;
+  coverage?: number; // 0-100
+  caption?: string;
+  rationale?: string;
   totalCost: number;
-  missingItems: Category[];
-  compatibilityScore: number; // 0-100
+  missingItems?: Category[];
+  compatibilityScore?: number; // 0-100
   createdAt?: string;
 }
 
@@ -130,6 +138,9 @@ export interface CustomerDTO {
   customerId: string;
   name: string;
   avatar: string;
+  country?: string;
+  city?: string;
+  climate?: string;
   preferredStyles: string[];
   preferredColors: string[];
   avoidedColors: string[];

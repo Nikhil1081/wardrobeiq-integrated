@@ -9,6 +9,7 @@ export const CATEGORY_BASELINES: Record<Category, number> = {
   outerwear: 2,
   shoes: 2,
   accessory: 2,
+  traditional: 1,
 };
 
 export interface BrowsingSignalSummary {

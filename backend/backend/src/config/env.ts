@@ -12,6 +12,7 @@ const envSchema = z.object({
   GROQ_MODEL: z.string().default('openai/gpt-oss-120b'),
   PORT: z.coerce.number().default(3000),
   FRONTEND_URL: z.string().default('http://localhost:5173'),
+  JWT_SECRET: z.string().default('wardrobeiq-secret-jwt-key-2026-production'),
   NODE_ENV: z.enum(['development', 'production', 'test']).default('development'),
 });
 

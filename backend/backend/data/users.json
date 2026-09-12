@@ -1,11 +1,51 @@
 [
   {
+    "userId": "admin_root",
+    "customerId": "admin_root",
+    "email": "admin@wardrobeiq.com",
+    "passwordHash": "$2b$10$t5pj1yxFienchYw4TRqEPO4WXfB5za5ouC90pSaO0o3p03shj0Wpu",
+    "name": "WardrobeIQ Administrator",
+    "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=300&q=80",
+    "role": "admin",
+    "country": "Global",
+    "city": "San Francisco",
+    "climate": "temperate",
+    "preferredLanguage": "English",
+    "preferredStyles": [
+      "smart-casual",
+      "minimalist"
+    ],
+    "preferredColors": [
+      "navy",
+      "charcoal",
+      "white"
+    ],
+    "avoidedColors": [
+      "neon"
+    ],
+    "budget": 10000,
+    "preferredOccasions": [
+      "workwear",
+      "casual",
+      "formal"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "dark",
+    "createdAt": "2025-01-01T00:00:00.000Z",
+    "updatedAt": "2026-09-12T17:18:17.725Z"
+  },
+  {
+    "userId": "C001",
     "customerId": "C001",
+    "email": "aarav.sharma@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Aarav Sharma",
     "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80",
+    "role": "admin",
     "country": "India",
     "city": "Mumbai",
     "climate": "tropical",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "streetwear",
       "casual",
@@ -33,12 +73,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C002",
     "customerId": "C002",
+    "email": "diya.patel@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Diya Patel",
     "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "India",
     "city": "Ahmedabad",
     "climate": "arid",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "minimalist",
       "ethnic",
@@ -66,12 +111,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C003",
     "customerId": "C003",
+    "email": "rohan.mehra@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Rohan Mehra",
     "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "India",
     "city": "New Delhi",
     "climate": "continental",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "formal",
       "ethnic",
@@ -99,12 +149,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C004",
     "customerId": "C004",
+    "email": "ananya.iyer@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Ananya Iyer",
     "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "India",
     "city": "Bengaluru",
     "climate": "tropical",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "smart-casual",
       "ethnic",
@@ -132,12 +187,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C005",
     "customerId": "C005",
+    "email": "kabir.khan@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Kabir Khan",
     "avatar": "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "India",
     "city": "Hyderabad",
     "climate": "tropical",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "streetwear",
       "ethnic"
@@ -164,12 +224,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C006",
     "customerId": "C006",
+    "email": "meera.nambiar@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Meera Nambiar",
     "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "India",
     "city": "Kochi",
     "climate": "tropical",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "minimalist",
       "ethnic",
@@ -197,12 +262,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C007",
     "customerId": "C007",
+    "email": "sakura.tanaka@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Sakura Tanaka",
     "avatar": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "Japan",
     "city": "Tokyo",
     "climate": "temperate",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "minimalist",
       "streetwear",
@@ -230,12 +300,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C008",
     "customerId": "C008",
+    "email": "kenji.sato@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Kenji Sato",
     "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "Japan",
     "city": "Kyoto",
     "climate": "temperate",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "minimalist",
       "workwear",
@@ -263,12 +338,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C009",
     "customerId": "C009",
+    "email": "min.jun.park@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Min-Jun Park",
     "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "South Korea",
     "city": "Seoul",
     "climate": "continental",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "streetwear",
       "chic",
@@ -296,12 +376,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C010",
     "customerId": "C010",
+    "email": "ji.eun.kim@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Ji-Eun Kim",
     "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "South Korea",
     "city": "Busan",
     "climate": "temperate",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "chic",
       "smart-casual",
@@ -329,12 +414,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C011",
     "customerId": "C011",
+    "email": "fatima.al.mansoor@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Fatima Al-Mansoor",
     "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "UAE",
     "city": "Dubai",
     "climate": "arid",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "chic",
       "traditional",
@@ -362,12 +452,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C012",
     "customerId": "C012",
+    "email": "tariq.al.hashemi@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Tariq Al-Hashemi",
     "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "UAE",
     "city": "Abu Dhabi",
     "climate": "arid",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "traditional",
       "formal",
@@ -395,12 +490,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C013",
     "customerId": "C013",
+    "email": "liam.o.connor@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Liam O'Connor",
     "avatar": "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "UK",
     "city": "London",
     "climate": "temperate",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "smart-casual",
       "workwear",
@@ -428,12 +528,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C014",
     "customerId": "C014",
+    "email": "emma.watson@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Emma Watson",
     "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "UK",
     "city": "Edinburgh",
     "climate": "temperate",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "vintage",
       "casual",
@@ -461,12 +566,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C015",
     "customerId": "C015",
+    "email": "lucas.dubois@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Lucas Dubois",
     "avatar": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "France",
     "city": "Paris",
     "climate": "temperate",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "chic",
       "minimalist",
@@ -494,12 +604,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C016",
     "customerId": "C016",
+    "email": "chloe.laurent@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Chloe Laurent",
     "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "France",
     "city": "Lyon",
     "climate": "temperate",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "chic",
       "casual",
@@ -527,12 +642,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C017",
     "customerId": "C017",
+    "email": "maximilian.schmidt@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Maximilian Schmidt",
     "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "Germany",
     "city": "Berlin",
     "climate": "continental",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "streetwear",
       "minimalist",
@@ -560,12 +680,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C018",
     "customerId": "C018",
+    "email": "hannah.weber@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Hannah Weber",
     "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "Germany",
     "city": "Munich",
     "climate": "continental",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "smart-casual",
       "traditional",
@@ -593,12 +718,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C019",
     "customerId": "C019",
+    "email": "mateo.silva@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Mateo Silva",
     "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "Brazil",
     "city": "São Paulo",
     "climate": "tropical",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "casual",
       "streetwear",
@@ -626,12 +756,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C020",
     "customerId": "C020",
+    "email": "isabella.rossi@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Isabella Rossi",
     "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "Italy",
     "city": "Milan",
     "climate": "temperate",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "chic",
       "formal",
@@ -659,12 +794,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C021",
     "customerId": "C021",
+    "email": "giovanni.bianchi@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Giovanni Bianchi",
     "avatar": "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "Italy",
     "city": "Florence",
     "climate": "temperate",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "smart-casual",
       "old-money"
@@ -691,12 +831,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C022",
     "customerId": "C022",
+    "email": "zainab.adeleke@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Zainab Adeleke",
     "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "Nigeria",
     "city": "Lagos",
     "climate": "tropical",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "vibrant",
       "traditional",
@@ -724,12 +869,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C023",
     "customerId": "C023",
+    "email": "chukwudi.okafor@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Chukwudi Okafor",
     "avatar": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "Nigeria",
     "city": "Abuja",
     "climate": "tropical",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "traditional",
       "formal",
@@ -757,12 +907,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C024",
     "customerId": "C024",
+    "email": "jack.thompson@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Jack Thompson",
     "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "Australia",
     "city": "Sydney",
     "climate": "temperate",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "casual",
       "beachwear",
@@ -790,12 +945,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C025",
     "customerId": "C025",
+    "email": "olivia.miller@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Olivia Miller",
     "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "Australia",
     "city": "Melbourne",
     "climate": "temperate",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "streetwear",
       "minimalist",
@@ -823,12 +983,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C026",
     "customerId": "C026",
+    "email": "carlos.rodriguez@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Carlos Rodriguez",
     "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "Spain",
     "city": "Madrid",
     "climate": "temperate",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "smart-casual",
       "casual",
@@ -856,12 +1021,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C027",
     "customerId": "C027",
+    "email": "elena.gomez@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Elena Gomez",
     "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "Spain",
     "city": "Barcelona",
     "climate": "temperate",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "boho",
       "chic",
@@ -889,12 +1059,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C028",
     "customerId": "C028",
+    "email": "noah.tremblay@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Noah Tremblay",
     "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "Canada",
     "city": "Montreal",
     "climate": "continental",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "workwear",
       "casual",
@@ -922,12 +1097,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C029",
     "customerId": "C029",
+    "email": "sophie.martin@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Sophie Martin",
     "avatar": "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "Canada",
     "city": "Vancouver",
     "climate": "temperate",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "athleisure",
       "minimalist",
@@ -955,12 +1135,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C030",
     "customerId": "C030",
+    "email": "ethan.harper@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Ethan Harper",
     "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "USA",
     "city": "New York",
     "climate": "continental",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "streetwear",
       "smart-casual",
@@ -988,12 +1173,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C031",
     "customerId": "C031",
+    "email": "mia.johnson@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Mia Johnson",
     "avatar": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "USA",
     "city": "Los Angeles",
     "climate": "temperate",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "casual",
       "athleisure",
@@ -1021,12 +1211,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C032",
     "customerId": "C032",
+    "email": "harper.davis@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Harper Davis",
     "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "USA",
     "city": "Austin",
     "climate": "tropical",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "boho",
       "casual",
@@ -1054,12 +1249,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C033",
     "customerId": "C033",
+    "email": "alexander.wright@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Alexander Wright",
     "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "USA",
     "city": "Chicago",
     "climate": "continental",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "smart-casual",
       "formal"
@@ -1086,12 +1286,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C034",
     "customerId": "C034",
+    "email": "kavita.reddy@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Kavita Reddy",
     "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "India",
     "city": "Chennai",
     "climate": "tropical",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "ethnic",
       "formal"
@@ -1118,12 +1323,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C035",
     "customerId": "C035",
+    "email": "vikram.sengupta@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Vikram Sengupta",
     "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "India",
     "city": "Kolkata",
     "climate": "tropical",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "smart-casual",
       "ethnic"
@@ -1150,12 +1360,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C036",
     "customerId": "C036",
+    "email": "aarav.sharma.2@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Aarav Sharma 2",
     "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "India",
     "city": "Mumbai",
     "climate": "tropical",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "streetwear",
       "casual",
@@ -1183,12 +1398,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C037",
     "customerId": "C037",
+    "email": "diya.patel.2@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Diya Patel 2",
     "avatar": "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "India",
     "city": "Ahmedabad",
     "climate": "arid",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "minimalist",
       "ethnic",
@@ -1216,12 +1436,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C038",
     "customerId": "C038",
+    "email": "rohan.mehra.2@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Rohan Mehra 2",
     "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "India",
     "city": "New Delhi",
     "climate": "continental",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "formal",
       "ethnic",
@@ -1249,12 +1474,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C039",
     "customerId": "C039",
+    "email": "ananya.iyer.2@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Ananya Iyer 2",
     "avatar": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "India",
     "city": "Bengaluru",
     "climate": "tropical",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "smart-casual",
       "ethnic",
@@ -1282,12 +1512,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C040",
     "customerId": "C040",
+    "email": "kabir.khan.2@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Kabir Khan 2",
     "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "India",
     "city": "Hyderabad",
     "climate": "tropical",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "streetwear",
       "ethnic"
@@ -1314,12 +1549,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C041",
     "customerId": "C041",
+    "email": "meera.nambiar.2@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Meera Nambiar 2",
     "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "India",
     "city": "Kochi",
     "climate": "tropical",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "minimalist",
       "ethnic",
@@ -1347,12 +1587,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C042",
     "customerId": "C042",
+    "email": "sakura.tanaka.2@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Sakura Tanaka 2",
     "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "Japan",
     "city": "Tokyo",
     "climate": "temperate",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "minimalist",
       "streetwear",
@@ -1380,12 +1625,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C043",
     "customerId": "C043",
+    "email": "kenji.sato.2@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Kenji Sato 2",
     "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "Japan",
     "city": "Kyoto",
     "climate": "temperate",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "minimalist",
       "workwear",
@@ -1413,12 +1663,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C044",
     "customerId": "C044",
+    "email": "min.jun.park.2@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Min-Jun Park 2",
     "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "South Korea",
     "city": "Seoul",
     "climate": "continental",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "streetwear",
       "chic",
@@ -1446,12 +1701,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C045",
     "customerId": "C045",
+    "email": "ji.eun.kim.2@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Ji-Eun Kim 2",
     "avatar": "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "South Korea",
     "city": "Busan",
     "climate": "temperate",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "chic",
       "smart-casual",
@@ -1479,12 +1739,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C046",
     "customerId": "C046",
+    "email": "fatima.al.mansoor.2@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Fatima Al-Mansoor 2",
     "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "UAE",
     "city": "Dubai",
     "climate": "arid",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "chic",
       "traditional",
@@ -1512,12 +1777,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C047",
     "customerId": "C047",
+    "email": "tariq.al.hashemi.2@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Tariq Al-Hashemi 2",
     "avatar": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "UAE",
     "city": "Abu Dhabi",
     "climate": "arid",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "traditional",
       "formal",
@@ -1545,12 +1815,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C048",
     "customerId": "C048",
+    "email": "liam.o.connor.2@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Liam O'Connor 2",
     "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "UK",
     "city": "London",
     "climate": "temperate",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "smart-casual",
       "workwear",
@@ -1578,12 +1853,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C049",
     "customerId": "C049",
+    "email": "emma.watson.2@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Emma Watson 2",
     "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "UK",
     "city": "Edinburgh",
     "climate": "temperate",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "vintage",
       "casual",
@@ -1611,12 +1891,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C050",
     "customerId": "C050",
+    "email": "lucas.dubois.2@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Lucas Dubois 2",
     "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "France",
     "city": "Paris",
     "climate": "temperate",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "chic",
       "minimalist",
@@ -1644,12 +1929,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C051",
     "customerId": "C051",
+    "email": "chloe.laurent.2@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Chloe Laurent 2",
     "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "France",
     "city": "Lyon",
     "climate": "temperate",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "chic",
       "casual",
@@ -1677,12 +1967,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C052",
     "customerId": "C052",
+    "email": "maximilian.schmidt.2@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Maximilian Schmidt 2",
     "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "Germany",
     "city": "Berlin",
     "climate": "continental",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "streetwear",
       "minimalist",
@@ -1710,12 +2005,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C053",
     "customerId": "C053",
+    "email": "hannah.weber.2@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Hannah Weber 2",
     "avatar": "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "Germany",
     "city": "Munich",
     "climate": "continental",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "smart-casual",
       "traditional",
@@ -1743,12 +2043,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C054",
     "customerId": "C054",
+    "email": "mateo.silva.2@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Mateo Silva 2",
     "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "Brazil",
     "city": "São Paulo",
     "climate": "tropical",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "casual",
       "streetwear",
@@ -1776,12 +2081,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C055",
     "customerId": "C055",
+    "email": "isabella.rossi.2@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Isabella Rossi 2",
     "avatar": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "Italy",
     "city": "Milan",
     "climate": "temperate",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "chic",
       "formal",
@@ -1809,12 +2119,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C056",
     "customerId": "C056",
+    "email": "giovanni.bianchi.2@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Giovanni Bianchi 2",
     "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "Italy",
     "city": "Florence",
     "climate": "temperate",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "smart-casual",
       "old-money"
@@ -1841,12 +2156,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C057",
     "customerId": "C057",
+    "email": "zainab.adeleke.2@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Zainab Adeleke 2",
     "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "Nigeria",
     "city": "Lagos",
     "climate": "tropical",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "vibrant",
       "traditional",
@@ -1874,12 +2194,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C058",
     "customerId": "C058",
+    "email": "chukwudi.okafor.2@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Chukwudi Okafor 2",
     "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "Nigeria",
     "city": "Abuja",
     "climate": "tropical",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "traditional",
       "formal",
@@ -1907,12 +2232,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C059",
     "customerId": "C059",
+    "email": "jack.thompson.2@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Jack Thompson 2",
     "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "Australia",
     "city": "Sydney",
     "climate": "temperate",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "casual",
       "beachwear",
@@ -1940,12 +2270,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C060",
     "customerId": "C060",
+    "email": "olivia.miller.2@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Olivia Miller 2",
     "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "Australia",
     "city": "Melbourne",
     "climate": "temperate",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "streetwear",
       "minimalist",
@@ -1973,12 +2308,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C061",
     "customerId": "C061",
+    "email": "carlos.rodriguez.2@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Carlos Rodriguez 2",
     "avatar": "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "Spain",
     "city": "Madrid",
     "climate": "temperate",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "smart-casual",
       "casual",
@@ -2006,12 +2346,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C062",
     "customerId": "C062",
+    "email": "elena.gomez.2@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Elena Gomez 2",
     "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "Spain",
     "city": "Barcelona",
     "climate": "temperate",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "boho",
       "chic",
@@ -2039,12 +2384,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C063",
     "customerId": "C063",
+    "email": "noah.tremblay.2@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Noah Tremblay 2",
     "avatar": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "Canada",
     "city": "Montreal",
     "climate": "continental",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "workwear",
       "casual",
@@ -2072,12 +2422,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C064",
     "customerId": "C064",
+    "email": "sophie.martin.2@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Sophie Martin 2",
     "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "Canada",
     "city": "Vancouver",
     "climate": "temperate",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "athleisure",
       "minimalist",
@@ -2105,12 +2460,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C065",
     "customerId": "C065",
+    "email": "ethan.harper.2@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Ethan Harper 2",
     "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "USA",
     "city": "New York",
     "climate": "continental",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "streetwear",
       "smart-casual",
@@ -2138,12 +2498,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C066",
     "customerId": "C066",
+    "email": "mia.johnson.2@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Mia Johnson 2",
     "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "USA",
     "city": "Los Angeles",
     "climate": "temperate",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "casual",
       "athleisure",
@@ -2171,12 +2536,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C067",
     "customerId": "C067",
+    "email": "harper.davis.2@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Harper Davis 2",
     "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "USA",
     "city": "Austin",
     "climate": "tropical",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "boho",
       "casual",
@@ -2204,12 +2574,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C068",
     "customerId": "C068",
+    "email": "alexander.wright.2@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Alexander Wright 2",
     "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "USA",
     "city": "Chicago",
     "climate": "continental",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "smart-casual",
       "formal"
@@ -2236,12 +2611,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C069",
     "customerId": "C069",
+    "email": "kavita.reddy.2@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Kavita Reddy 2",
     "avatar": "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "India",
     "city": "Chennai",
     "climate": "tropical",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "ethnic",
       "formal"
@@ -2268,12 +2648,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C070",
     "customerId": "C070",
+    "email": "vikram.sengupta.3@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Vikram Sengupta 3",
     "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "India",
     "city": "Kolkata",
     "climate": "tropical",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "smart-casual",
       "ethnic"
@@ -2300,12 +2685,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C071",
     "customerId": "C071",
+    "email": "aarav.sharma.3@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Aarav Sharma 3",
     "avatar": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "India",
     "city": "Mumbai",
     "climate": "tropical",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "streetwear",
       "casual",
@@ -2333,12 +2723,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C072",
     "customerId": "C072",
+    "email": "diya.patel.3@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Diya Patel 3",
     "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "India",
     "city": "Ahmedabad",
     "climate": "arid",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "minimalist",
       "ethnic",
@@ -2366,12 +2761,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C073",
     "customerId": "C073",
+    "email": "rohan.mehra.3@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Rohan Mehra 3",
     "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "India",
     "city": "New Delhi",
     "climate": "continental",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "formal",
       "ethnic",
@@ -2399,12 +2799,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C074",
     "customerId": "C074",
+    "email": "ananya.iyer.3@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Ananya Iyer 3",
     "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "India",
     "city": "Bengaluru",
     "climate": "tropical",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "smart-casual",
       "ethnic",
@@ -2432,12 +2837,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C075",
     "customerId": "C075",
+    "email": "kabir.khan.3@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Kabir Khan 3",
     "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "India",
     "city": "Hyderabad",
     "climate": "tropical",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "streetwear",
       "ethnic"
@@ -2464,12 +2874,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C076",
     "customerId": "C076",
+    "email": "meera.nambiar.3@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Meera Nambiar 3",
     "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "India",
     "city": "Kochi",
     "climate": "tropical",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "minimalist",
       "ethnic",
@@ -2497,12 +2912,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C077",
     "customerId": "C077",
+    "email": "sakura.tanaka.3@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Sakura Tanaka 3",
     "avatar": "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "Japan",
     "city": "Tokyo",
     "climate": "temperate",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "minimalist",
       "streetwear",
@@ -2530,12 +2950,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C078",
     "customerId": "C078",
+    "email": "kenji.sato.3@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Kenji Sato 3",
     "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "Japan",
     "city": "Kyoto",
     "climate": "temperate",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "minimalist",
       "workwear",
@@ -2563,12 +2988,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C079",
     "customerId": "C079",
+    "email": "min.jun.park.3@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Min-Jun Park 3",
     "avatar": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "South Korea",
     "city": "Seoul",
     "climate": "continental",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "streetwear",
       "chic",
@@ -2596,12 +3026,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C080",
     "customerId": "C080",
+    "email": "ji.eun.kim.3@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Ji-Eun Kim 3",
     "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "South Korea",
     "city": "Busan",
     "climate": "temperate",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "chic",
       "smart-casual",
@@ -2629,12 +3064,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C081",
     "customerId": "C081",
+    "email": "fatima.al.mansoor.3@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Fatima Al-Mansoor 3",
     "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "UAE",
     "city": "Dubai",
     "climate": "arid",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "chic",
       "traditional",
@@ -2662,12 +3102,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C082",
     "customerId": "C082",
+    "email": "tariq.al.hashemi.3@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Tariq Al-Hashemi 3",
     "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "UAE",
     "city": "Abu Dhabi",
     "climate": "arid",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "traditional",
       "formal",
@@ -2695,12 +3140,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C083",
     "customerId": "C083",
+    "email": "liam.o.connor.3@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Liam O'Connor 3",
     "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "UK",
     "city": "London",
     "climate": "temperate",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "smart-casual",
       "workwear",
@@ -2728,12 +3178,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C084",
     "customerId": "C084",
+    "email": "emma.watson.3@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Emma Watson 3",
     "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "UK",
     "city": "Edinburgh",
     "climate": "temperate",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "vintage",
       "casual",
@@ -2761,12 +3216,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C085",
     "customerId": "C085",
+    "email": "lucas.dubois.3@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Lucas Dubois 3",
     "avatar": "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "France",
     "city": "Paris",
     "climate": "temperate",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "chic",
       "minimalist",
@@ -2794,12 +3254,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C086",
     "customerId": "C086",
+    "email": "chloe.laurent.3@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Chloe Laurent 3",
     "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "France",
     "city": "Lyon",
     "climate": "temperate",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "chic",
       "casual",
@@ -2827,12 +3292,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C087",
     "customerId": "C087",
+    "email": "maximilian.schmidt.3@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Maximilian Schmidt 3",
     "avatar": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "Germany",
     "city": "Berlin",
     "climate": "continental",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "streetwear",
       "minimalist",
@@ -2860,12 +3330,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C088",
     "customerId": "C088",
+    "email": "hannah.weber.3@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Hannah Weber 3",
     "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "Germany",
     "city": "Munich",
     "climate": "continental",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "smart-casual",
       "traditional",
@@ -2893,12 +3368,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C089",
     "customerId": "C089",
+    "email": "mateo.silva.3@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Mateo Silva 3",
     "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "Brazil",
     "city": "São Paulo",
     "climate": "tropical",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "casual",
       "streetwear",
@@ -2926,12 +3406,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C090",
     "customerId": "C090",
+    "email": "isabella.rossi.3@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Isabella Rossi 3",
     "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "Italy",
     "city": "Milan",
     "climate": "temperate",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "chic",
       "formal",
@@ -2959,12 +3444,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C091",
     "customerId": "C091",
+    "email": "giovanni.bianchi.3@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Giovanni Bianchi 3",
     "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "Italy",
     "city": "Florence",
     "climate": "temperate",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "smart-casual",
       "old-money"
@@ -2991,12 +3481,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C092",
     "customerId": "C092",
+    "email": "zainab.adeleke.3@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Zainab Adeleke 3",
     "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "Nigeria",
     "city": "Lagos",
     "climate": "tropical",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "vibrant",
       "traditional",
@@ -3024,12 +3519,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C093",
     "customerId": "C093",
+    "email": "chukwudi.okafor.3@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Chukwudi Okafor 3",
     "avatar": "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "Nigeria",
     "city": "Abuja",
     "climate": "tropical",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "traditional",
       "formal",
@@ -3057,12 +3557,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C094",
     "customerId": "C094",
+    "email": "jack.thompson.3@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Jack Thompson 3",
     "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "Australia",
     "city": "Sydney",
     "climate": "temperate",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "casual",
       "beachwear",
@@ -3090,12 +3595,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C095",
     "customerId": "C095",
+    "email": "olivia.miller.3@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Olivia Miller 3",
     "avatar": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "Australia",
     "city": "Melbourne",
     "climate": "temperate",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "streetwear",
       "minimalist",
@@ -3123,12 +3633,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C096",
     "customerId": "C096",
+    "email": "carlos.rodriguez.3@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Carlos Rodriguez 3",
     "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "Spain",
     "city": "Madrid",
     "climate": "temperate",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "smart-casual",
       "casual",
@@ -3156,12 +3671,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C097",
     "customerId": "C097",
+    "email": "elena.gomez.3@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Elena Gomez 3",
     "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "Spain",
     "city": "Barcelona",
     "climate": "temperate",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "boho",
       "chic",
@@ -3189,12 +3709,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C098",
     "customerId": "C098",
+    "email": "noah.tremblay.3@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Noah Tremblay 3",
     "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "Canada",
     "city": "Montreal",
     "climate": "continental",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "workwear",
       "casual",
@@ -3222,12 +3747,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C099",
     "customerId": "C099",
+    "email": "sophie.martin.3@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Sophie Martin 3",
     "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "Canada",
     "city": "Vancouver",
     "climate": "temperate",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "athleisure",
       "minimalist",
@@ -3255,12 +3785,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C100",
     "customerId": "C100",
+    "email": "ethan.harper.3@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Ethan Harper 3",
     "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "USA",
     "city": "New York",
     "climate": "continental",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "streetwear",
       "smart-casual",
@@ -3288,12 +3823,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C101",
     "customerId": "C101",
+    "email": "mia.johnson.3@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Mia Johnson 3",
     "avatar": "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "USA",
     "city": "Los Angeles",
     "climate": "temperate",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "casual",
       "athleisure",
@@ -3321,12 +3861,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C102",
     "customerId": "C102",
+    "email": "harper.davis.3@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Harper Davis 3",
     "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "USA",
     "city": "Austin",
     "climate": "tropical",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "boho",
       "casual",
@@ -3354,12 +3899,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C103",
     "customerId": "C103",
+    "email": "alexander.wright.3@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Alexander Wright 3",
     "avatar": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "USA",
     "city": "Chicago",
     "climate": "continental",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "smart-casual",
       "formal"
@@ -3386,12 +3936,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C104",
     "customerId": "C104",
+    "email": "kavita.reddy.3@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Kavita Reddy 3",
     "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "India",
     "city": "Chennai",
     "climate": "tropical",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "ethnic",
       "formal"
@@ -3418,12 +3973,17 @@
     "updatedAt": "2026-09-12T17:18:17.726Z"
   },
   {
+    "userId": "C105",
     "customerId": "C105",
+    "email": "vikram.sengupta.4@wardrobeiq.demo",
+    "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Vikram Sengupta 4",
     "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80",
+    "role": "user",
     "country": "India",
     "city": "Kolkata",
     "climate": "tropical",
+    "preferredLanguage": "English",
     "preferredStyles": [
       "smart-casual",
       "ethnic"

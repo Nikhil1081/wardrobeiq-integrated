@@ -14,6 +14,7 @@ import { apiClient } from '../api/client';
 
 export type NavigationTab =
   | 'home'
+  | 'today'
   | 'closet'
   | 'gaps'
   | 'recommendations'
@@ -22,7 +23,8 @@ export type NavigationTab =
   | 'explore'
   | 'saved'
   | 'profile'
-  | 'settings';
+  | 'settings'
+  | 'admin';
 
 export interface ToastItem {
   id: string;

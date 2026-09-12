@@ -66,6 +66,7 @@ export async function getCustomerBrowsingSignals(customerId: string): Promise<{
     outerwear: 0,
     shoes: 0,
     accessory: 0,
+    traditional: 0,
   };
 
   const productIds = Array.from(new Set(history.map((h) => h.productId)));

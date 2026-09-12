@@ -3,6 +3,7 @@ import { getDB } from './mongo.js';
 import {
   ProductDocument,
   CustomerDocument,
+  UserDocument,
   WardrobeDocument,
   BrowsingHistoryDocument,
   OfferDocument,
@@ -12,6 +13,10 @@ import {
   OutfitHistoryDocument,
   AiConversationDocument,
 } from '../types/domain.js';
+
+export function getUsersCollection(): Collection<UserDocument> {
+  return getDB().collection<UserDocument>('users');
+}
 
 export function getProductsCollection(): Collection<ProductDocument> {
   return getDB().collection<ProductDocument>('products');

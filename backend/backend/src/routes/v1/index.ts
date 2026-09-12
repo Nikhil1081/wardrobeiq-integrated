@@ -12,12 +12,17 @@ import browsingRoutes from './browsing.routes.js';
 import feedbackRoutes from './feedback.routes.js';
 import offersRoutes from './offers.routes.js';
 import productsRoutes from './products.routes.js';
+import authRoutes from './auth.routes.js';
+import adminRoutes from './admin.routes.js';
 
 const router = Router();
 
 router.get('/health', (req, res) => {
   res.status(200).json({ status: 'healthy', timestamp: new Date().toISOString() });
 });
+
+router.use('/auth', authRoutes);
+router.use('/admin', adminRoutes);
 
 router.use('/home', homeRoutes);
 router.use('/closet', closetRoutes);

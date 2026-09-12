@@ -1,4 +1,5 @@
 import {
+  getUsersCollection,
   getProductsCollection,
   getCustomersCollection,
   getWardrobesCollection,
@@ -15,6 +16,10 @@ import { logger } from '../utils/logger.js';
 export async function createIndexes(): Promise<void> {
   try {
     logger.info('Creating MongoDB indexes...');
+
+    const users = getUsersCollection();
+    await users.createIndex({ email: 1 }, { unique: true });
+    await users.createIndex({ userId: 1 }, { unique: true });
 
     const products = getProductsCollection();
     await products.createIndex({ productId: 1 }, { unique: true });
