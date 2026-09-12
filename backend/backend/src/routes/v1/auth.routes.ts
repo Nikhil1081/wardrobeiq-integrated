@@ -1,4 +1,4 @@
-﻿import { Router } from 'express';
+import { Router } from 'express';
 import {
   registerHandler,
   loginHandler,
@@ -19,5 +19,6 @@ router.get('/me', requireAuth, meHandler);
 router.patch('/profile', requireAuth, updateProfileHandler);
 router.post('/reset-password', resetPasswordHandler);
 router.get('/demo-personas', demoPersonasHandler);
+router.get('/personas', demoPersonasHandler);
 
 export default router;
