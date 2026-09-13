@@ -51,109 +51,144 @@ export function scoreProductCandidate(
   customer: CustomerDocument,
   gaps: GapDTO[],
   ownedItems: WardrobeDocument[],
-  browsingScore = 0
+  browsingWeight = 0,
+  purchaseSignals?: { preferredStores?: string[]; recentPurchases?: any[]; averagePrice?: number },
+  browsingSignals?: { recentViewedSubcategories?: string[] },
+  weatherCondition?: string
 ): ScoredProductResult {
-  // 1. Gap Relevance (30%)
-  let gapRelevance = 5; // default minimal score
+  // 1. Gap Relevance (Weight: 30%)
+  let gapRaw = 20; // default baseline gap need
   let matchingGap: GapDTO | null = null;
 
   for (const gap of gaps) {
     if (gap.category === product.category) {
       matchingGap = gap;
-      // Scale based on priorityScore (0-100) -> (0-30)
-      gapRelevance = Math.round((gap.priorityScore / 100) * 30);
+      gapRaw = gap.priorityScore || 70;
       break;
     }
   }
+  const gapScore = Math.round((gapRaw / 100) * 30);
 
-  // 2. Style Compatibility (20%)
-  let styleCompatibility = 6;
+  // 2. Profile Score (Weight: 20%) - Color, Occasion, Budget
+  let profileRaw = 40;
+  const prodColor = product.color.toLowerCase();
+  const neutrals = ['black', 'white', 'grey', 'gray', 'beige', 'navy', 'cream', 'denim'];
+  let colorPts = 10;
+  if (customer.preferredColors && customer.preferredColors.some((c) => c.toLowerCase() === prodColor)) {
+    colorPts = 35;
+  } else if (neutrals.includes(prodColor)) {
+    colorPts = 25;
+  }
+
+  let occasionPts = 15;
+  if (customer.preferredOccasions && product.occasion) {
+    const hasOverlap = product.occasion.some((occ) => customer.preferredOccasions.includes(occ));
+    if (hasOverlap) occasionPts = 35;
+  }
+
+  let budgetPts = 30;
+  if (customer.budget && customer.budget > 0) {
+    if (product.price <= customer.budget) {
+      budgetPts = 30;
+    } else {
+      const overage = (product.price - customer.budget) / customer.budget;
+      budgetPts = Math.round(Math.max(0, 30 * (1 - overage)));
+    }
+  }
+  profileRaw = Math.min(100, colorPts + occasionPts + budgetPts);
+  const profileScore = Math.round((profileRaw / 100) * 20);
+
+  // 3. Purchase Score (Weight: 15%) - Store affinity, price consistency, history
+  let purchaseRaw = 40;
+  if (purchaseSignals) {
+    let storePts = 10;
+    if (purchaseSignals.preferredStores && purchaseSignals.preferredStores.includes(product.store)) {
+      storePts = 45;
+    }
+    let pricePts = 25;
+    if (purchaseSignals.averagePrice && purchaseSignals.averagePrice > 0) {
+      const diff = Math.abs(product.price - purchaseSignals.averagePrice) / purchaseSignals.averagePrice;
+      pricePts = Math.round(Math.max(10, 40 * (1 - Math.min(1, diff))));
+    }
+    purchaseRaw = Math.min(100, storePts + pricePts + 15);
+  }
+  const purchaseScore = Math.round((purchaseRaw / 100) * 15);
+
+  // 4. Browsing Score (Weight: 15%) - Recent telemetry, click/view velocity
+  let browsingRaw = Math.min(100, Math.round(browsingWeight * 15));
+  if (browsingSignals && browsingSignals.recentViewedSubcategories) {
+    if (browsingSignals.recentViewedSubcategories.includes(product.subcategory)) {
+      browsingRaw = Math.min(100, browsingRaw + 40);
+    }
+  }
+  const computedBrowsingScore = Math.max(5, Math.round((browsingRaw / 100) * 15));
+
+  // 5. Seasonal / Weather Score (Weight: 10%)
+  let seasonRaw = 50;
+  if (product.season) {
+    if (product.season.includes('all-season') || (customer.currentSeason && product.season.includes(customer.currentSeason))) {
+      seasonRaw = 90;
+    } else {
+      seasonRaw = 40;
+    }
+  }
+  if (weatherCondition && product.weatherSuitability) {
+    if (product.weatherSuitability.includes(weatherCondition.toLowerCase())) {
+      seasonRaw = Math.min(100, seasonRaw + 10);
+    }
+  }
+  const seasonalScore = Math.round((seasonRaw / 100) * 10);
+
+  // 6. Style Score (Weight: 10%)
+  let styleRaw = 40;
   if (customer.preferredStyles && customer.preferredStyles.length > 0 && product.styleTags) {
     const customerStyles = customer.preferredStyles.map((s) => s.toLowerCase());
     const matches = product.styleTags.filter((t) => customerStyles.includes(t.toLowerCase())).length;
-    if (matches >= 2) styleCompatibility = 20;
-    else if (matches === 1) styleCompatibility = 16;
-    else styleCompatibility = 8;
+    if (matches >= 2) styleRaw = 100;
+    else if (matches === 1) styleRaw = 80;
+    else styleRaw = 40;
   }
+  const styleScore = Math.round((styleRaw / 100) * 10);
 
-  // 3. Color Compatibility (15%)
-  let colorCompatibility = 6;
-  const prodColor = product.color.toLowerCase();
-  const neutrals = ['black', 'white', 'grey', 'gray', 'beige', 'navy', 'cream', 'denim'];
-
-  if (customer.preferredColors && customer.preferredColors.some((c) => c.toLowerCase() === prodColor)) {
-    colorCompatibility = 15;
-  } else if (neutrals.includes(prodColor)) {
-    colorCompatibility = 13;
-  }
-
-  // 4. Occasion Compatibility (15%)
-  let occasionCompatibility = 6;
-  if (customer.preferredOccasions && product.occasion) {
-    const hasOverlap = product.occasion.some((occ) => customer.preferredOccasions.includes(occ));
-    if (hasOverlap) occasionCompatibility = 15;
-    else occasionCompatibility = 8;
-  }
-
-  // 5. Budget Compatibility (10%)
-  let budgetCompatibility = 10;
-  if (customer.budget && customer.budget > 0) {
-    if (product.price <= customer.budget) {
-      budgetCompatibility = 10;
-    } else {
-      const overageRatio = (product.price - customer.budget) / customer.budget;
-      budgetCompatibility = Math.round(Math.max(0, 10 * (1 - overageRatio)));
-    }
-  }
-
-  // 6. Season Compatibility (10%)
-  let seasonCompatibility = 5;
-  if (product.season) {
-    if (product.season.includes('all-season') || (customer.currentSeason && product.season.includes(customer.currentSeason))) {
-      seasonCompatibility = 10;
-    } else {
-      seasonCompatibility = 4;
-    }
-  }
-
-  // 7. Browsing Boost (0 to 15%)
-  const browsingBoost = Math.min(15, Math.round(browsingScore * 2));
-
-  // 8. Duplicate Penalty (-30% to 0)
+  // Duplicate Check
   const duplicateCheck = detectDuplicate(product, ownedItems);
   const duplicatePenalty = duplicateCheck.penalty;
 
-  // Final Score calculation
+  // Final 6-Signal Score calculation: Gap(30%) + Profile(20%) + Purchase(15%) + Browsing(15%) + Season(10%) + Style(10%)
   const rawScore =
-    gapRelevance +
-    styleCompatibility +
-    colorCompatibility +
-    occasionCompatibility +
-    budgetCompatibility +
-    seasonCompatibility +
-    browsingBoost +
+    gapScore +
+    profileScore +
+    purchaseScore +
+    computedBrowsingScore +
+    seasonalScore +
+    styleScore +
     duplicatePenalty;
 
   const finalScore = Math.max(10, Math.min(99, Math.round(rawScore)));
 
   const scoreBreakdown: ScoreBreakdownDTO = {
-    gapRelevance,
-    styleCompatibility,
-    colorCompatibility,
-    occasionCompatibility,
-    budgetCompatibility,
-    seasonCompatibility,
-    browsingBoost,
+    gapScore,
+    profileScore,
+    purchaseScore,
+    browsingScore: computedBrowsingScore,
+    seasonalScore,
+    styleScore,
     duplicatePenalty,
     finalScore,
+    // Backwards compatibility mappings
+    gapRelevance: gapScore,
+    styleCompatibility: styleScore * 2,
+    colorCompatibility: Math.round(colorPts * 0.4),
+    occasionCompatibility: Math.round(occasionPts * 0.4),
+    budgetCompatibility: Math.round(budgetPts * 0.3),
+    seasonCompatibility: seasonalScore,
+    browsingBoost: computedBrowsingScore,
   };
 
   // Find compatible items from owned wardrobe to pair with
   const compatibleWardrobeItems = ownedItems
     .filter((owned) => {
-      // Must be from different category
       if (owned.category === product.category) return false;
-      // Pair tops with bottoms, outerwear with tops, etc.
       if (product.category === 'top') return owned.category === 'bottom' || owned.category === 'outerwear';
       if (product.category === 'bottom') return owned.category === 'top' || owned.category === 'shoes';
       if (product.category === 'outerwear') return owned.category === 'top' || owned.category === 'bottom';
@@ -169,25 +204,26 @@ export function scoreProductCandidate(
       imageUrl: o.imageUrl,
     }));
 
-  // Construct grounded WhyThis reason
+  // Construct transparent, customer-signal grounded WhyThis explanations
   const reasons: string[] = [];
   if (matchingGap) {
-    reasons.push(`Completes your ${matchingGap.category} gap (${matchingGap.priority.replace('_', ' ')} priority).`);
+    const priorityLabel = matchingGap.priority ? String(matchingGap.priority).replace('_', ' ') : 'high';
+    reasons.push(`Fills a gap in your ${matchingGap.category} collection (${priorityLabel} priority).`);
   }
-  if (styleCompatibility >= 15) {
-    reasons.push(`Matches your ${customer.preferredStyles?.join(' & ')} style.`);
+  if (browsingSignals && browsingSignals.recentViewedSubcategories && browsingSignals.recentViewedSubcategories.includes(product.subcategory)) {
+    reasons.push(`Matches your recent browsing for ${product.subcategory}.`);
   }
-  if (compatibleWardrobeItems.length > 0) {
-    reasons.push(`Pairs seamlessly with ${compatibleWardrobeItems.length} pieces currently in your closet.`);
+  if (purchaseSignals && purchaseSignals.preferredStores && purchaseSignals.preferredStores.includes(product.store)) {
+    reasons.push(`Aligns with your trusted store preference for ${product.store}.`);
   }
-  if (budgetCompatibility === 10) {
-    reasons.push(`Comfortably fits within your ₹${customer.budget} budget.`);
+  if (seasonalScore >= 8) {
+    reasons.push(`Suited for current ${customer.currentSeason || 'active'} climate in ${customer.city || customer.country || 'your region'}.`);
   }
-  if (browsingBoost > 5) {
-    reasons.push(`Aligns with your recent browsing activity.`);
+  if (styleScore >= 8) {
+    reasons.push(`Matches your preferred ${customer.preferredStyles?.join(' & ')} aesthetic.`);
   }
 
-  const whyThis = reasons.length > 0 ? reasons.join(' ') : 'High overall compatibility with your personal wardrobe profile.';
+  const whyThis = reasons.length > 0 ? reasons.join(' ') : `High overall styling match with your personal wardrobe profile.`;
 
   return {
     product,

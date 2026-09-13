@@ -2,7 +2,18 @@ export type Category = 'top' | 'bottom' | 'dress' | 'outerwear' | 'shoes' | 'acc
 export type Occasion = 'casual' | 'college' | 'workwear' | 'dateNight' | 'weekend' | 'party' | 'wedding' | 'festival' | 'formal' | 'travel';
 export type Season = 'summer' | 'monsoon' | 'winter' | 'spring' | 'autumn' | 'tropical' | 'all-season';
 export type Priority = 'very_high' | 'high' | 'medium' | 'low';
-export type BrowsingEventType = 'viewed' | 'saved' | 'added_to_cart' | 'abandoned_cart';
+export type BrowsingEventType =
+  | 'VIEW'
+  | 'CLICK'
+  | 'SEARCH'
+  | 'SAVE'
+  | 'WISHLIST'
+  | 'ADD_TO_WARDROBE'
+  | 'REMOVE_FROM_WISHLIST'
+  | 'viewed'
+  | 'saved'
+  | 'added_to_cart'
+  | 'abandoned_cart';
 export type FeedbackType = 'love' | 'not_for_me';
 export type OfferType = 'bundle_discount' | 'percentage_off' | 'free_shipping' | 'seasonal_sale';
 export type ConditionType = 'category_pair' | 'minimum_purchase' | 'none';

@@ -1,13 +1,19 @@
 import { Category, Occasion, Season, Priority, OfferType, ConditionType, BrowsingEventType, FeedbackType } from './domain';
 
 export interface ScoreBreakdownDTO {
-  gapRelevance: number;        // 0-30
-  styleCompatibility: number;  // 0-20
-  colorCompatibility: number;  // 0-15
-  occasionCompatibility: number;// 0-15
-  budgetCompatibility: number; // 0-10
-  seasonCompatibility: number; // 0-10
-  browsingBoost: number;       // 0-15
+  gapScore?: number;
+  profileScore?: number;
+  purchaseScore?: number;
+  browsingScore?: number;
+  seasonalScore?: number;
+  styleScore?: number;
+  gapRelevance?: number;        // 0-30
+  styleCompatibility?: number;  // 0-20
+  colorCompatibility?: number;  // 0-15
+  occasionCompatibility?: number;// 0-15
+  budgetCompatibility?: number; // 0-10
+  seasonCompatibility?: number; // 0-10
+  browsingBoost?: number;       // 0-15
   duplicatePenalty: number;    // -30 to 0
   finalScore: number;          // 0-100 (clamped)
 }
@@ -211,3 +217,71 @@ export interface AIStylistResponseDTO {
   conversationId: string;
   processingSteps: string[];
 }
+
+export interface PaginatedResult<T> {
+  items: T[];
+  total: number;
+  page: number;
+  limit: number;
+  totalPages: number;
+}
+
+export interface PurchaseDTO {
+  purchaseId: string;
+  customerId: string;
+  productId: string;
+  productName: string;
+  category: Category;
+  subcategory?: string;
+  pricePaid: number;
+  store: string;
+  purchaseDate: string;
+  orderId?: string;
+  rating?: number;
+  createdAt?: string;
+}
+
+export interface BrowsingInteractionDTO {
+  interactionId: string;
+  customerId: string;
+  eventType: BrowsingEventType;
+  productId?: string;
+  productName?: string;
+  category?: Category;
+  searchQuery?: string;
+  metadata?: Record<string, any>;
+  timestamp: string;
+}
+
+export interface AdminUserDTO {
+  userId: string;
+  email: string;
+  name: string;
+  role: 'user' | 'demo' | 'admin';
+  customerId?: string;
+  country?: string;
+  city?: string;
+  preferredStyles?: string[];
+  themePreference?: 'light' | 'dark' | 'system';
+  createdAt: string;
+}
+
+export interface AdminDashboardDTO {
+  counts: {
+    products: number;
+    personas: number;
+    wardrobeItems: number;
+    purchases: number;
+    browsingEvents: number;
+    users: number;
+  };
+  metrics: {
+    totalWardrobeValue: number;
+    totalGMV: number;
+    averageOrderValue: number;
+    purchasesPerCustomer: number;
+  };
+  wardrobeCategoryBreakdown: Record<Category, number>;
+  productCategoryBreakdown: Record<Category, number>;
+}
+

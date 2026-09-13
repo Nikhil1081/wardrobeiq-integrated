@@ -19,7 +19,7 @@ import {
 } from 'lucide-react';
 
 export const OutfitBuilderPage: React.FC = () => {
-  const { currentCustomerId, saveOutfitToDB, addClosetItem, showToast, dashboard } = useWardrobe();
+  const { currentCustomerId, saveOutfitToDB, addClosetItem, showToast, dashboard, closetItems } = useWardrobe();
 
   const [occasion, setOccasion] = useState<Occasion>('workwear');
   const [season, setSeason] = useState<Season>('summer');
@@ -29,6 +29,54 @@ export const OutfitBuilderPage: React.FC = () => {
   const [currentOutfit, setCurrentOutfit] = useState<OutfitDTO | null>(null);
   const [loading, setLoading] = useState<boolean>(false);
   const [shuffling, setShuffling] = useState<boolean>(false);
+
+  // Slot browser modal state
+  const [browsingSlot, setBrowsingSlot] = useState<Category | null>(null);
+  const [slotOptions, setSlotOptions] = useState<any[]>([]);
+  const [loadingSlotOptions, setLoadingSlotOptions] = useState<boolean>(false);
+
+  const handleOpenSlotBrowser = async (slot: Category) => {
+    setBrowsingSlot(slot);
+    setLoadingSlotOptions(true);
+    try {
+      const res = await apiClient.explore.getProducts({ category: slot, limit: 12 });
+      setSlotOptions(res.items || []);
+    } catch {
+      setSlotOptions([]);
+    } finally {
+      setLoadingSlotOptions(false);
+    }
+  };
+
+  const handleSelectSlotItem = (garment: {
+    itemId?: string;
+    productId?: string;
+    name: string;
+    imageUrl: string;
+    price: number;
+    category: Category;
+    source: 'wardrobe' | 'recommendation';
+  }) => {
+    if (!currentOutfit || !browsingSlot) return;
+    setCurrentOutfit({
+      ...currentOutfit,
+      items: currentOutfit.items.map((item) =>
+        item.slot === browsingSlot
+          ? {
+              ...item,
+              itemId: garment.itemId || garment.productId || `item_${Date.now()}`,
+              productId: garment.productId,
+              name: garment.name,
+              imageUrl: garment.imageUrl,
+              price: garment.price,
+              source: garment.source,
+            }
+          : item
+      ),
+    });
+    setBrowsingSlot(null);
+    showToast(`Updated ${browsingSlot} piece ✦`, `Selected "${garment.name}"`, 'rose');
+  };
 
   // Generate outfit on initial load or occasion change
   const handleGenerate = async () => {
@@ -331,16 +379,27 @@ export const OutfitBuilderPage: React.FC = () => {
                         {item.price > 0 ? `₹${item.price.toLocaleString()}` : 'Owned'}
                       </div>
 
-                      {/* Replace Button */}
+                      {/* Replace & Browse Buttons */}
                       {!item.locked && (
-                        <button
-                          type="button"
-                          onClick={() => handleReplaceSlot(item.slot)}
-                          className="w-full mt-2 py-1 rounded-lg text-[10px] font-bold uppercase tracking-wider glass-pill hover:border-luxury-lavender/40 text-luxury-lavender transition-colors flex items-center justify-center gap-1"
-                        >
-                          <RefreshCw className="w-3 h-3" />
-                          <span>Replace</span>
-                        </button>
+                        <div className="flex items-center gap-1.5 mt-2">
+                          <button
+                            type="button"
+                            onClick={() => handleReplaceSlot(item.slot)}
+                            className="flex-1 py-1 rounded-lg text-[9px] font-bold uppercase tracking-wider glass-pill hover:border-luxury-lavender/40 text-luxury-lavender transition-colors flex items-center justify-center gap-1"
+                            title="Auto-replace with next best item"
+                          >
+                            <RefreshCw className="w-2.5 h-2.5" />
+                            <span>Replace</span>
+                          </button>
+                          <button
+                            type="button"
+                            onClick={() => handleOpenSlotBrowser(item.slot)}
+                            className="px-2 py-1 rounded-lg text-[9px] font-bold uppercase tracking-wider bg-white/5 hover:bg-white/10 text-gray-300 transition-colors"
+                            title="Browse alternative garments"
+                          >
+                            Browse
+                          </button>
+                        </div>
                       )}
                     </div>
                   </div>
@@ -382,6 +441,106 @@ export const OutfitBuilderPage: React.FC = () => {
           ) : null}
         </div>
       </div>
+
+      {/* Slot Browser Modal */}
+      {browsingSlot && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-dark-950/80 backdrop-blur-md animate-fadeIn">
+          <div className="w-full max-w-2xl rounded-3xl glass-panel-elevated border border-white/10 p-6 space-y-4 max-h-[85vh] overflow-y-auto">
+            <div className="flex items-center justify-between pb-3 border-b border-white/5">
+              <div>
+                <h3 className="text-base font-bold text-luxury-cream capitalize">
+                  Choose {browsingSlot} Piece
+                </h3>
+                <p className="text-xs text-gray-400">
+                  Select an item from your wardrobe or catalogue to complete your ensemble
+                </p>
+              </div>
+              <button
+                onClick={() => setBrowsingSlot(null)}
+                className="p-2 rounded-xl bg-white/5 text-gray-400 hover:text-white"
+              >
+                <X className="w-4 h-4" />
+              </button>
+            </div>
+
+            {/* Owned Items for this Slot */}
+            <div>
+              <div className="text-xs font-bold uppercase tracking-wider text-luxury-peach mb-2">
+                From Your Closet ({closetItems.filter((i) => i.category === browsingSlot).length} owned)
+              </div>
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+                {closetItems
+                  .filter((i) => i.category === browsingSlot)
+                  .slice(0, 8)
+                  .map((item) => (
+                    <div
+                      key={item.itemId}
+                      onClick={() =>
+                        handleSelectSlotItem({
+                          itemId: item.itemId,
+                          productId: item.productId,
+                          name: item.name,
+                          imageUrl: item.imageUrl,
+                          price: item.price,
+                          category: item.category,
+                          source: 'wardrobe',
+                        })
+                      }
+                      className="group p-2 rounded-2xl glass-panel border border-white/5 hover:border-luxury-rose/50 cursor-pointer transition-all"
+                    >
+                      <div className="aspect-[3/4] rounded-xl overflow-hidden mb-2">
+                        <img
+                          src={item.imageUrl}
+                          alt={item.name}
+                          className="w-full h-full object-cover group-hover:scale-105 transition-transform"
+                        />
+                      </div>
+                      <div className="text-xs font-bold text-luxury-cream truncate">{item.name}</div>
+                      <div className="text-[10px] text-gray-400">Owned</div>
+                    </div>
+                  ))}
+              </div>
+            </div>
+
+            {/* AI Recommendations / Catalogue for this Slot */}
+            {slotOptions.length > 0 && (
+              <div className="pt-3 border-t border-white/5">
+                <div className="text-xs font-bold uppercase tracking-wider text-luxury-blush mb-2">
+                  Catalogue Recommendations
+                </div>
+                <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+                  {slotOptions.map((prod) => (
+                    <div
+                      key={prod.productId}
+                      onClick={() =>
+                        handleSelectSlotItem({
+                          productId: prod.productId,
+                          name: prod.name,
+                          imageUrl: prod.imageUrl,
+                          price: prod.price,
+                          category: prod.category,
+                          source: 'recommendation',
+                        })
+                      }
+                      className="group p-2 rounded-2xl glass-panel border border-white/5 hover:border-luxury-rose/50 cursor-pointer transition-all"
+                    >
+                      <div className="aspect-[3/4] rounded-xl overflow-hidden mb-2">
+                        <img
+                          src={prod.imageUrl}
+                          alt={prod.name}
+                          className="w-full h-full object-cover group-hover:scale-105 transition-transform"
+                        />
+                      </div>
+                      <div className="text-xs font-bold text-luxury-cream truncate">{prod.name}</div>
+                      <div className="text-[10px] text-luxury-peach font-mono">₹{prod.price.toLocaleString()}</div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+          </div>
+        </div>
+      )}
     </div>
   );
 };

@@ -1,15 +1,22 @@
 import { Category, Occasion, Season, Priority, OfferType, ConditionType, BrowsingEventType, FeedbackType } from './domain.js';
 
 export interface ScoreBreakdownDTO {
-  gapRelevance: number;        // 0-30
-  styleCompatibility: number;  // 0-20
-  colorCompatibility: number;  // 0-15
-  occasionCompatibility: number;// 0-15
-  budgetCompatibility: number; // 0-10
-  seasonCompatibility: number; // 0-10
-  browsingBoost: number;       // 0-15
-  duplicatePenalty: number;    // -30 to 0
-  finalScore: number;          // 0-100 (clamped)
+  gapScore: number;           // 0-30 (Weight: 30%)
+  profileScore: number;       // 0-20 (Weight: 20%)
+  purchaseScore: number;      // 0-15 (Weight: 15%)
+  browsingScore: number;      // 0-15 (Weight: 15%)
+  seasonalScore: number;      // 0-10 (Weight: 10%)
+  styleScore: number;         // 0-10 (Weight: 10%)
+  duplicatePenalty?: number;  // -30 to 0
+  finalScore: number;         // 0-100 (clamped)
+  // Backwards compatibility
+  gapRelevance?: number;
+  styleCompatibility?: number;
+  colorCompatibility?: number;
+  occasionCompatibility?: number;
+  budgetCompatibility?: number;
+  seasonCompatibility?: number;
+  browsingBoost?: number;
 }
 
 export interface ProductCardDTO {

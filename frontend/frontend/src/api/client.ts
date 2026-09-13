@@ -9,6 +9,11 @@ import {
   OfferDTO,
   ProductCardDTO,
   AIStylistResponseDTO,
+  PaginatedResult,
+  PurchaseDTO,
+  BrowsingInteractionDTO,
+  AdminUserDTO,
+  AdminDashboardDTO,
 } from '../types/dto';
 import { Category, Occasion, Season, FeedbackType, BrowsingEventType } from '../types/domain';
 
@@ -61,6 +66,41 @@ async function fetchJson<T>(url: string, options?: RequestInit): Promise<T> {
   const json = await res.json();
   // Unwrap standard { data: ... } response wrapper if present
   return json.data !== undefined ? json.data : json;
+}
+
+async function fetchPaginated<T>(url: string, options?: RequestInit): Promise<PaginatedResult<T>> {
+  const token = typeof window !== 'undefined' ? localStorage.getItem('wardrobeiq_token') : null;
+  const authHeaders: Record<string, string> = token ? { Authorization: `Bearer ${token}` } : {};
+
+  const res = await fetch(url, {
+    headers: {
+      'Content-Type': 'application/json',
+      ...authHeaders,
+      ...options?.headers,
+    },
+    ...options,
+  });
+
+  if (!res.ok) {
+    let errorMsg = `HTTP Error ${res.status}: ${res.statusText}`;
+    try {
+      const errJson = await res.json();
+      if (errJson.error?.message) errorMsg = errJson.error.message;
+      else if (errJson.message) errorMsg = errJson.message;
+    } catch {}
+    throw new Error(errorMsg);
+  }
+
+  const json = await res.json();
+  const items: T[] = Array.isArray(json.data) ? json.data : (Array.isArray(json) ? json : []);
+  const meta = json.meta || {};
+  return {
+    items,
+    total: meta.total ?? items.length,
+    page: meta.page ?? 1,
+    limit: meta.limit ?? items.length,
+    totalPages: meta.totalPages ?? 1,
+  };
 }
 
 export const apiClient = {
@@ -588,18 +628,134 @@ export const apiClient = {
     },
   },
 
-  // Admin Dataset Quality Endpoints
+  // Explore API (Catalogue, Interactions, Add to Wardrobe)
+  explore: {
+    getCollections: async () => {
+      return apiClient.getExploreCollections();
+    },
+    getProducts: async (params?: {
+      category?: string;
+      subcategory?: string;
+      color?: string;
+      style?: string;
+      occasion?: string;
+      season?: string;
+      search?: string;
+      page?: number;
+      limit?: number;
+      minPrice?: number;
+      maxPrice?: number;
+      sort?: string;
+    }): Promise<PaginatedResult<ProductCardDTO>> => {
+      const query = new URLSearchParams();
+      if (params) {
+        Object.entries(params).forEach(([key, val]) => {
+          if (val !== undefined && val !== null && val !== '' && val !== 'all') {
+            query.set(key, String(val));
+          }
+        });
+      }
+      const qs = query.toString();
+      return fetchPaginated<ProductCardDTO>(`${API_BASE}/explore/products${qs ? `?${qs}` : ''}`);
+    },
+    addToWardrobe: async (productId: string, customerId?: string): Promise<{ success: boolean; item: WardrobeItemDTO }> => {
+      return fetchJson<{ success: boolean; item: WardrobeItemDTO }>(`${API_BASE}/explore/add-to-wardrobe`, {
+        method: 'POST',
+        body: JSON.stringify({ productId, customerId }),
+      });
+    },
+    interact: async (data: {
+      eventType: BrowsingEventType;
+      productId?: string;
+      productName?: string;
+      category?: Category;
+      searchQuery?: string;
+      metadata?: any;
+    }): Promise<{ success: boolean }> => {
+      return fetchJson<{ success: boolean }>(`${API_BASE}/explore/interact`, {
+        method: 'POST',
+        body: JSON.stringify(data),
+      });
+    },
+  },
+
+  // Admin Dataset Quality & Control Center Endpoints
   admin: {
+    getDashboard: async (): Promise<AdminDashboardDTO> => {
+      return fetchJson<AdminDashboardDTO>(`${API_BASE}/admin/dashboard`);
+    },
+    getClothing: async (params?: {
+      page?: number;
+      limit?: number;
+      customerId?: string;
+      category?: string;
+      search?: string;
+    }): Promise<PaginatedResult<WardrobeItemDTO>> => {
+      const query = new URLSearchParams();
+      if (params) {
+        Object.entries(params).forEach(([key, val]) => {
+          if (val !== undefined && val !== null && val !== '' && val !== 'all') {
+            query.set(key, String(val));
+          }
+        });
+      }
+      const qs = query.toString();
+      return fetchPaginated<WardrobeItemDTO>(`${API_BASE}/admin/clothing${qs ? `?${qs}` : ''}`);
+    },
+    getPurchases: async (params?: {
+      page?: number;
+      limit?: number;
+      customerId?: string;
+      category?: string;
+      search?: string;
+    }): Promise<PaginatedResult<PurchaseDTO>> => {
+      const query = new URLSearchParams();
+      if (params) {
+        Object.entries(params).forEach(([key, val]) => {
+          if (val !== undefined && val !== null && val !== '' && val !== 'all') {
+            query.set(key, String(val));
+          }
+        });
+      }
+      const qs = query.toString();
+      return fetchPaginated<PurchaseDTO>(`${API_BASE}/admin/purchases${qs ? `?${qs}` : ''}`);
+    },
+    getBrowsing: async (params?: {
+      page?: number;
+      limit?: number;
+      customerId?: string;
+      eventType?: string;
+      search?: string;
+    }): Promise<PaginatedResult<BrowsingInteractionDTO>> => {
+      const query = new URLSearchParams();
+      if (params) {
+        Object.entries(params).forEach(([key, val]) => {
+          if (val !== undefined && val !== null && val !== '' && val !== 'all') {
+            query.set(key, String(val));
+          }
+        });
+      }
+      const qs = query.toString();
+      return fetchPaginated<BrowsingInteractionDTO>(`${API_BASE}/admin/browsing${qs ? `?${qs}` : ''}`);
+    },
+    getPersonas: async (params?: { search?: string; country?: string }): Promise<CustomerDTO[]> => {
+      const query = new URLSearchParams();
+      if (params?.search) query.set('search', params.search);
+      if (params?.country) query.set('country', params.country);
+      const qs = query.toString();
+      return fetchJson<CustomerDTO[]>(`${API_BASE}/admin/personas${qs ? `?${qs}` : ''}`);
+    },
+    getUsers: async (): Promise<AdminUserDTO[]> => {
+      return fetchJson<AdminUserDTO[]>(`${API_BASE}/admin/users`);
+    },
     getAudit: async (): Promise<any> => {
       return fetchJson<any>(`${API_BASE}/admin/dataset/audit`);
     },
-
     repairDataset: async (): Promise<any> => {
       return fetchJson<any>(`${API_BASE}/admin/dataset/repair`, {
         method: 'POST',
       });
     },
-
     validateImage: async (url: string): Promise<any> => {
       return fetchJson<any>(`${API_BASE}/admin/dataset/validate-image`, {
         method: 'POST',

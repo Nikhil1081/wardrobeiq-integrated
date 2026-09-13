@@ -12,7 +12,12 @@ import {
   FeedbackDocument,
   OutfitHistoryDocument,
   AiConversationDocument,
+  PurchaseDocument,
 } from '../types/domain.js';
+
+export function getPurchasesCollection(): Collection<PurchaseDocument> {
+  return getDB().collection<PurchaseDocument>('purchases');
+}
 
 export function getUsersCollection(): Collection<UserDocument> {
   return getDB().collection<UserDocument>('users');

@@ -10,6 +10,7 @@ import {
   getFeedbackCollection,
   getOutfitHistoryCollection,
   getAiConversationsCollection,
+  getPurchasesCollection,
 } from './collections.js';
 import { logger } from '../utils/logger.js';
 
@@ -46,6 +47,13 @@ export async function createIndexes(): Promise<void> {
     await browsing.createIndex({ productId: 1 });
     await browsing.createIndex({ timestamp: -1 });
     await browsing.createIndex({ customerId: 1, timestamp: -1 });
+    await browsing.createIndex({ eventType: 1 });
+
+    const purchases = getPurchasesCollection();
+    await purchases.createIndex({ purchaseId: 1 }, { unique: true });
+    await purchases.createIndex({ customerId: 1, purchaseDate: -1 });
+    await purchases.createIndex({ productId: 1 });
+    await purchases.createIndex({ customerId: 1, category: 1 });
 
     const offers = getOffersCollection();
     await offers.createIndex({ offerId: 1 }, { unique: true });

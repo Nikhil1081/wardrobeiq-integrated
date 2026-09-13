@@ -10,37 +10,35 @@ import {
   Monitor,
   Tablet,
   Smartphone,
-  Check,
   Zap,
   Sun,
   Moon,
   CloudSun,
   User,
-  Globe,
   LogIn,
+  LogOut,
+  ShieldCheck,
+  Sparkle,
 } from 'lucide-react';
 
 export const TopCommandBar: React.FC = () => {
   const {
-    customers,
     currentCustomer,
     currentCustomerId,
-    setCurrentCustomerId,
     dashboard,
     setActiveTab,
     viewportMode,
     setViewportMode,
   } = useWardrobe();
-  const { theme, setTheme, isDark, toggleTheme } = useTheme();
-  const { user, openAuthModal } = useAuth();
+  const { isDark, toggleTheme } = useTheme();
+  const { user, isAuthenticated, isAdmin, logout } = useAuth();
 
   const [searchFocused, setSearchFocused] = useState(false);
   const [searchValue, setSearchValue] = useState('');
-  const [personaOpen, setPersonaOpen] = useState(false);
+  const [accountOpen, setAccountOpen] = useState(false);
   const [notifOpen, setNotifOpen] = useState(false);
-  const [personaSearch, setPersonaSearch] = useState('');
 
-  const personaRef = useRef<HTMLDivElement>(null);
+  const accountRef = useRef<HTMLDivElement>(null);
   const notifRef = useRef<HTMLDivElement>(null);
   const searchRef = useRef<HTMLDivElement>(null);
 
@@ -50,14 +48,14 @@ export const TopCommandBar: React.FC = () => {
     { text: 'Show me my wardrobe gaps', action: () => setActiveTab('gaps') },
     { text: 'Create a date-night outfit', action: () => setActiveTab('outfits') },
     { text: 'Find something for monsoon', action: () => setActiveTab('recommendations') },
-    { text: 'Style clothes I already own', action: () => setActiveTab('outfits') },
+    { text: 'Explore full catalogue', action: () => setActiveTab('explore') },
   ];
 
   // Close popovers on click outside
   useEffect(() => {
     const handleClickOutside = (e: MouseEvent) => {
-      if (personaRef.current && !personaRef.current.contains(e.target as Node)) {
-        setPersonaOpen(false);
+      if (accountRef.current && !accountRef.current.contains(e.target as Node)) {
+        setAccountOpen(false);
       }
       if (notifRef.current && !notifRef.current.contains(e.target as Node)) {
         setNotifOpen(false);
@@ -78,17 +76,50 @@ export const TopCommandBar: React.FC = () => {
     }
   };
 
-  const firstName = currentCustomer?.name.split(' ')[0] || 'Neha';
+  const displayName = user?.name || currentCustomer?.name || 'Stylist';
+  const firstName = displayName.split(' ')[0];
+
+  const isDemoUser = (user?.customerId && user.customerId.startsWith('C')) || (!user && currentCustomerId.startsWith('C'));
+  const country = user?.country || currentCustomer?.country || 'Global';
+
+  const getRoleBadge = () => {
+    if (isAdmin || user?.role === 'admin') {
+      return (
+        <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md text-[10px] font-semibold bg-purple-500/20 text-purple-300 border border-purple-500/30">
+          <ShieldCheck className="w-2.5 h-2.5" />
+          Admin
+        </span>
+      );
+    }
+    if (isDemoUser) {
+      return (
+        <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md text-[10px] font-semibold bg-luxury-rose/20 text-luxury-blush border border-luxury-rose/30">
+          <Sparkle className="w-2.5 h-2.5" />
+          Demo Persona ({country})
+        </span>
+      );
+    }
+    return (
+      <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md text-[10px] font-semibold bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">
+        <User className="w-2.5 h-2.5" />
+        User
+      </span>
+    );
+  };
 
   return (
     <header className="sticky top-0 z-20 h-16 border-b border-white/5 bg-dark-950/70 backdrop-blur-xl px-6 flex items-center justify-between gap-4">
-      {/* Left Greeting */}
-      <div className="hidden lg:flex flex-col min-w-[170px]">
-        <div className="flex items-center gap-1.5 text-sm font-semibold text-luxury-cream">
-          <span>Hi, {firstName}</span>
-          <Sparkles className="w-3.5 h-3.5 text-luxury-blush animate-pulse" />
+      {/* Left Greeting & Role Badge */}
+      <div className="hidden lg:flex items-center gap-3 min-w-[200px]">
+        <div className="flex flex-col">
+          <div className="flex items-center gap-1.5 text-sm font-semibold text-luxury-cream">
+            <span>Hi, {firstName}</span>
+            <Sparkles className="w-3.5 h-3.5 text-luxury-blush animate-pulse" />
+          </div>
+          <div className="mt-0.5 flex items-center gap-1.5">
+            {getRoleBadge()}
+          </div>
         </div>
-        <span className="text-[11px] text-gray-400 font-medium">Let&apos;s style your day.</span>
       </div>
 
       {/* Center AI Command Bar */}
@@ -146,18 +177,8 @@ export const TopCommandBar: React.FC = () => {
         )}
       </div>
 
-      {/* Right Actions: Viewport preview, Notifications, Persona Switcher */}
+      {/* Right Actions: Wear Today, Theme, Viewport, Notifications, Account */}
       <div className="flex items-center gap-3">
-        {/* Sign In / Register Page Quick Link */}
-        <button
-          onClick={() => setActiveTab('auth')}
-          className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-luxury-rose/20 text-luxury-cream border border-luxury-rose/40 text-xs font-semibold hover:bg-luxury-rose/30 transition-all cursor-pointer shadow-sm"
-          title="Sign In, Register, or switch between 105 global personas"
-        >
-          <LogIn className="w-3.5 h-3.5 text-luxury-rose" />
-          <span>{user ? 'Account' : 'Sign In / Register'}</span>
-        </button>
-
         {/* Wear Today Quick Action */}
         <button
           onClick={() => setActiveTab('today')}
@@ -245,100 +266,79 @@ export const TopCommandBar: React.FC = () => {
           )}
         </div>
 
-        {/* Customer Persona Switcher (100+ Personas from MongoDB) */}
-        <div ref={personaRef} className="relative">
+        {/* Account Button & Popover */}
+        <div ref={accountRef} className="relative">
           <button
-            onClick={() => setPersonaOpen(!personaOpen)}
-            className="flex items-center gap-2.5 p-1.5 pr-3 rounded-2xl glass-panel hover:border-luxury-rose/30 transition-all group"
+            onClick={() => setAccountOpen(!accountOpen)}
+            className="flex items-center gap-2 p-1.5 pr-2.5 rounded-2xl glass-panel hover:border-luxury-rose/30 transition-all group cursor-pointer"
           >
             <img
-              src={currentCustomer?.avatar || 'https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=300&q=80'}
-              alt={currentCustomer?.name || 'Customer'}
+              src={user?.avatar || currentCustomer?.avatar || 'https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=300&q=80'}
+              alt={displayName}
               className="w-8 h-8 rounded-xl object-cover border border-white/10 group-hover:scale-105 transition-transform"
             />
             <div className="hidden md:flex flex-col text-left">
               <span className="text-xs font-semibold text-luxury-cream leading-tight">
-                {currentCustomer?.name || 'Aarav Sharma'}
+                {displayName}
               </span>
               <span className="text-[10px] text-gray-400 font-mono">
-                {currentCustomerId}
+                {user?.customerId || currentCustomerId}
               </span>
             </div>
             <ChevronDown className="w-3.5 h-3.5 text-gray-400 group-hover:text-white transition-colors" />
           </button>
 
-          {/* Persona Switcher Dropdown */}
-          {personaOpen && (
-            <div className="absolute right-0 mt-2 w-80 rounded-2xl glass-panel-elevated border border-white/10 shadow-2xl p-3 z-50">
-              <div className="px-2 py-1.5 border-b border-white/5 mb-2 flex items-center justify-between">
-                <div>
-                  <span className="text-xs font-bold uppercase tracking-wider text-luxury-blush">
-                    Switch Persona ({customers.length} Global)
-                  </span>
-                  <p className="text-[10px] text-gray-400">
-                    Live wardrobe, gaps &amp; scores per user
-                  </p>
-                </div>
-                <button
-                  onClick={() => {
-                    setPersonaOpen(false);
-                    openAuthModal();
-                  }}
-                  className="px-2 py-1 rounded-lg text-[10px] font-semibold bg-luxury-rose/20 text-luxury-rose hover:bg-luxury-rose/30 transition-colors"
-                >
-                  All 105 Personas
-                </button>
+          {accountOpen && (
+            <div className="absolute right-0 mt-2 w-64 rounded-2xl glass-panel-elevated border border-white/10 shadow-2xl p-3 z-50 animate-in fade-in slide-in-from-top-2">
+              <div className="p-2 border-b border-white/5 mb-2">
+                <div className="text-xs font-bold text-luxury-cream">{displayName}</div>
+                <div className="text-[11px] text-gray-400 truncate">{user?.email || `${(user?.customerId || currentCustomerId).toLowerCase()}@wardrobeiq.demo`}</div>
+                <div className="mt-1.5">{getRoleBadge()}</div>
               </div>
 
-              {/* Filter Search Input */}
-              <input
-                type="text"
-                placeholder="Search by name, country (India, UK...)"
-                value={personaSearch}
-                onChange={(e) => setPersonaSearch(e.target.value)}
-                className="w-full mb-2 px-3 py-1.5 rounded-xl text-xs bg-white/5 border border-white/10 focus:outline-none focus:border-luxury-rose text-white"
-              />
+              <div className="space-y-1 text-xs">
+                <button
+                  onClick={() => {
+                    setActiveTab('auth');
+                    setAccountOpen(false);
+                  }}
+                  className="w-full text-left px-3 py-2 rounded-xl text-gray-300 hover:text-white hover:bg-white/5 transition-all flex items-center justify-between"
+                >
+                  <span className="flex items-center gap-2">
+                    <LogIn className="w-3.5 h-3.5 text-luxury-rose" />
+                    Account / Switch User
+                  </span>
+                  <span className="text-gray-500">→</span>
+                </button>
 
-              <div className="max-h-72 overflow-y-auto space-y-1">
-                {customers
-                  .filter(
-                    (c) =>
-                      c.name.toLowerCase().includes(personaSearch.toLowerCase()) ||
-                      (c.country || '').toLowerCase().includes(personaSearch.toLowerCase()) ||
-                      (c.preferredStyles || []).some((s) => s.toLowerCase().includes(personaSearch.toLowerCase()))
-                  )
-                  .map((c) => {
-                    const isSelected = c.customerId === currentCustomerId;
-                    return (
-                      <button
-                        key={c.customerId}
-                        onClick={() => {
-                          setCurrentCustomerId(c.customerId);
-                          setPersonaOpen(false);
-                        }}
-                        className={`w-full flex items-center justify-between p-2 rounded-xl text-left transition-all ${
-                          isSelected
-                            ? 'bg-luxury-rose/20 border border-luxury-rose/40 text-luxury-cream'
-                            : 'hover:bg-white/[0.04] text-gray-300'
-                        }`}
-                      >
-                        <div className="flex items-center gap-2.5">
-                          <img
-                            src={c.avatar}
-                            alt={c.name}
-                            className="w-7 h-7 rounded-lg object-cover border border-white/10"
-                          />
-                          <div>
-                            <div className="text-xs font-semibold">{c.name}</div>
-                            <div className="text-[10px] text-gray-400 capitalize">
-                              {c.country || 'Global'} • {c.preferredStyles?.slice(0, 2).join(', ') || 'Casual'}
-                            </div>
-                          </div>
-                        </div>
-                        {isSelected && <Check className="w-4 h-4 text-luxury-blush" />}
-                      </button>
-                    );
-                  })}
+                {isAdmin && (
+                  <button
+                    onClick={() => {
+                      setActiveTab('admin');
+                      setAccountOpen(false);
+                    }}
+                    className="w-full text-left px-3 py-2 rounded-xl text-purple-300 hover:text-white hover:bg-purple-500/10 transition-all flex items-center justify-between"
+                  >
+                    <span className="flex items-center gap-2">
+                      <ShieldCheck className="w-3.5 h-3.5 text-purple-400" />
+                      Admin Control Center
+                    </span>
+                    <span className="text-purple-400">→</span>
+                  </button>
+                )}
+
+                {isAuthenticated && (
+                  <button
+                    onClick={() => {
+                      logout();
+                      setAccountOpen(false);
+                    }}
+                    className="w-full text-left px-3 py-2 rounded-xl text-rose-400 hover:text-rose-300 hover:bg-rose-500/10 transition-all flex items-center gap-2"
+                  >
+                    <LogOut className="w-3.5 h-3.5 text-rose-400" />
+                    Sign Out
+                  </button>
+                )}
               </div>
             </div>
           )}

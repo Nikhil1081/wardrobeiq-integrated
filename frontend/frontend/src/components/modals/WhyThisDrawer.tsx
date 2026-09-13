@@ -155,17 +155,17 @@ export const WhyThisDrawer: React.FC = () => {
                   </span>
                 </div>
 
-                <ScoreBar label="Gap Relevance" value={breakdown.gapRelevance} maxValue={30} color="rose" delayMs={50} />
-                <ScoreBar label="Style Compatibility" value={breakdown.styleCompatibility} maxValue={20} color="lavender" delayMs={100} />
-                <ScoreBar label="Color Harmony" value={breakdown.colorCompatibility} maxValue={15} color="peach" delayMs={150} />
-                <ScoreBar label="Occasion Alignment" value={breakdown.occasionCompatibility} maxValue={15} color="sage" delayMs={200} />
-                <ScoreBar label="Budget Fit" value={breakdown.budgetCompatibility} maxValue={10} color="peach" delayMs={250} />
-                <ScoreBar label="Season Coverage" value={breakdown.seasonCompatibility} maxValue={10} color="lavender" delayMs={300} />
+                <ScoreBar label="Gap Relevance" value={breakdown.gapRelevance ?? breakdown.gapScore ?? 0} maxValue={30} color="rose" delayMs={50} />
+                <ScoreBar label="Style Compatibility" value={breakdown.styleCompatibility ?? breakdown.styleScore ?? 0} maxValue={20} color="lavender" delayMs={100} />
+                <ScoreBar label="Color Harmony" value={breakdown.colorCompatibility ?? 0} maxValue={15} color="peach" delayMs={150} />
+                <ScoreBar label="Occasion Alignment" value={breakdown.occasionCompatibility ?? breakdown.profileScore ?? 0} maxValue={15} color="sage" delayMs={200} />
+                <ScoreBar label="Budget Fit" value={breakdown.budgetCompatibility ?? breakdown.purchaseScore ?? 0} maxValue={10} color="peach" delayMs={250} />
+                <ScoreBar label="Season Coverage" value={breakdown.seasonCompatibility ?? breakdown.seasonalScore ?? 0} maxValue={10} color="lavender" delayMs={300} />
 
-                {breakdown.browsingBoost > 0 && (
+                {(breakdown.browsingBoost ?? breakdown.browsingScore ?? 0) > 0 && (
                   <div className="flex justify-between text-xs text-luxury-blush pt-1">
                     <span>Browsing Telemetry Boost</span>
-                    <span className="font-mono">+{breakdown.browsingBoost}</span>
+                    <span className="font-mono">+{(breakdown.browsingBoost ?? breakdown.browsingScore ?? 0)}</span>
                   </div>
                 )}
 

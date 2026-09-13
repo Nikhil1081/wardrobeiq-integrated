@@ -2,6 +2,7 @@ import { getCustomerProfile } from '../tools/customerTools.js';
 import { getWardrobeItems, analyzeWardrobe } from '../tools/wardrobeTools.js';
 import { detectGaps } from '../tools/gapTools.js';
 import { getCustomerBrowsingSignals } from '../tools/browsingTools.js';
+import { getCustomerPurchaseSignals } from '../tools/purchaseTools.js';
 import { getRecommendationCandidates, getProductById, toProductCardDTO } from '../tools/catalogueTools.js';
 import { scoreProductCandidate } from '../tools/scoringTools.js';
 import { getProductOffers, validateOfferConditions, toOfferDTO } from '../tools/offerTools.js';
@@ -38,6 +39,7 @@ export async function getPersonalizedRecommendationsService(
   const wardrobe = await getWardrobeItems(customerId);
   const analysis = analyzeWardrobe(wardrobe, customer);
   const browsingSignals = await getCustomerBrowsingSignals(customerId);
+  const purchaseSignals = await getCustomerPurchaseSignals(customerId);
   const gaps = detectGaps(analysis, customer, wardrobe, browsingSignals.summary);
 
   const ownedProductIds = new Set(wardrobe.map((w) => w.productId).filter(Boolean) as string[]);
@@ -51,7 +53,7 @@ export async function getPersonalizedRecommendationsService(
   const targetCategory = filters?.category;
   const budgetCeiling = filters?.maxBudget || customer.budget;
 
-  // Retrieve candidate pool (excluding owned items and avoided colors)
+  // Retrieve candidate pool (strictly excluding owned items and avoided colors)
   const rawCandidates = await getRecommendationCandidates(
     customer,
     ownedProductIds,
@@ -59,8 +61,9 @@ export async function getPersonalizedRecommendationsService(
     budgetCeiling ? budgetCeiling * 1.3 : undefined
   );
 
-  // Apply runtime filters if passed
+  // Apply runtime filters and guarantee 100% duplicate exclusion
   const candidates = rawCandidates.filter((p) => {
+    if (ownedProductIds.has(p.productId)) return false;
     if (filters?.occasion && !p.occasion.includes(filters.occasion)) return false;
     if (filters?.season && !p.season.includes(filters.season) && !p.season.includes('all-season')) return false;
     if (filters?.color && p.color.toLowerCase() !== filters.color.toLowerCase()) return false;
@@ -68,10 +71,19 @@ export async function getPersonalizedRecommendationsService(
     return true;
   });
 
-  // Score candidate items
+  // Score candidate items using 6-signal weighted formula
   const scoredItems = candidates.map((prod) => {
-    const browsingScore = browsingSignals.productWeights.get(prod.productId) || 0;
-    return scoreProductCandidate(prod, customer, gaps, wardrobe, browsingScore);
+    const browsingWeight = browsingSignals.productWeights.get(prod.productId) || 0;
+    return scoreProductCandidate(
+      prod,
+      customer,
+      gaps,
+      wardrobe,
+      browsingWeight,
+      purchaseSignals,
+      browsingSignals.summary,
+      customer.climate
+    );
   });
 
   // Rank by score descending

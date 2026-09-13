@@ -14,10 +14,11 @@ export interface AuthResponse {
   token: string;
 }
 
-export function generateToken(user: { userId: string; email: string; role: string }): string {
+export function generateToken(user: { userId: string; customerId?: string; email: string; role: string }): string {
   return jwt.sign(
     {
       userId: user.userId,
+      customerId: user.customerId || user.userId,
       email: user.email,
       role: user.role,
     },

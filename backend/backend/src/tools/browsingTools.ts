@@ -7,28 +7,37 @@ export const BROWSING_WEIGHTS: Record<BrowsingEventType, number> = {
   saved: 2,
   added_to_cart: 3,
   abandoned_cart: 2,
+  VIEW: 1,
+  CLICK: 1.5,
+  SEARCH: 2,
+  SAVE: 3,
+  WISHLIST: 3,
+  ADD_TO_WARDROBE: 4,
+  REMOVE_FROM_WISHLIST: 1,
 };
 
 export async function recordBrowsingEvent(
   customerId: string,
-  productId: string,
-  eventType: BrowsingEventType,
+  productId?: string,
+  eventType: BrowsingEventType = 'VIEW',
   timestamp?: string
 ): Promise<BrowsingHistoryDocument> {
   const collection = getBrowsingHistoryCollection();
   const eventTime = timestamp || new Date().toISOString();
 
   // Find if customer interacted with this product before
-  const existing = await collection.findOne({ customerId, productId, eventType });
-  if (existing) {
-    await collection.updateOne(
-      { customerId, productId, eventType },
-      {
-        $inc: { viewCount: 1 },
-        $set: { timestamp: eventTime },
-      }
-    );
-    return { ...existing, viewCount: existing.viewCount + 1, timestamp: eventTime };
+  if (productId) {
+    const existing = await collection.findOne({ customerId, productId, eventType });
+    if (existing) {
+      const newCount = (existing.viewCount || 1) + 1;
+      await collection.updateOne(
+        { customerId, productId, eventType },
+        {
+          $set: { viewCount: newCount, timestamp: eventTime },
+        }
+      );
+      return { ...existing, viewCount: newCount, timestamp: eventTime };
+    }
   }
 
   const doc: BrowsingHistoryDocument = {
@@ -69,14 +78,15 @@ export async function getCustomerBrowsingSignals(customerId: string): Promise<{
     traditional: 0,
   };
 
-  const productIds = Array.from(new Set(history.map((h) => h.productId)));
+  const productIds = Array.from(new Set(history.map((h) => h.productId).filter(Boolean) as string[]));
   const products = await productsCollection.find({ productId: { $in: productIds } }).toArray();
   const productMap = new Map(products.map((p) => [p.productId, p]));
 
   const recentViewedSubcategories: string[] = [];
 
   for (const item of history) {
-    const weight = (BROWSING_WEIGHTS[item.eventType] || 1) * Math.min(3, item.viewCount);
+    if (!item.productId) continue;
+    const weight = (BROWSING_WEIGHTS[item.eventType] || 1) * Math.min(3, item.viewCount || 1);
     productWeights.set(item.productId, (productWeights.get(item.productId) || 0) + weight);
 
     const product = productMap.get(item.productId);

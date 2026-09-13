@@ -12,7 +12,18 @@ export type Occasion =
   | 'travel';
 export type Season = 'summer' | 'monsoon' | 'winter' | 'spring' | 'autumn' | 'tropical' | 'all-season';
 export type Priority = 'very_high' | 'high' | 'medium' | 'low';
-export type BrowsingEventType = 'viewed' | 'saved' | 'added_to_cart' | 'abandoned_cart';
+export type BrowsingEventType =
+  | 'viewed'
+  | 'saved'
+  | 'added_to_cart'
+  | 'abandoned_cart'
+  | 'VIEW'
+  | 'CLICK'
+  | 'SEARCH'
+  | 'SAVE'
+  | 'WISHLIST'
+  | 'ADD_TO_WARDROBE'
+  | 'REMOVE_FROM_WISHLIST';
 export type FeedbackType = 'love' | 'not_for_me';
 export type OfferType = 'bundle_discount' | 'percentage_off' | 'free_shipping' | 'seasonal_sale';
 export type ConditionType = 'category_pair' | 'minimum_purchase' | 'none';
@@ -136,14 +147,41 @@ export interface WardrobeDocument {
   updatedAt?: string;
 }
 
-export interface BrowsingHistoryDocument {
+export interface PurchaseDocument {
   _id?: any;
+  purchaseId: string;
   customerId: string;
   productId: string;
+  productName: string;
+  category: Category;
+  subcategory: string;
+  quantity: number;
+  price: number;
+  pricePaid: number;
+  store: string;
+  purchaseDate: string;
+  season: Season;
+  occasion: Occasion;
+  status: 'completed' | 'returned';
+  createdAt: string;
+}
+
+export interface BrowsingInteractionDocument {
+  _id?: any;
+  interactionId?: string;
+  customerId: string;
+  productId?: string;
   eventType: BrowsingEventType;
   timestamp: string;
-  viewCount: number;
+  category?: Category;
+  searchQuery?: string;
+  sessionId?: string;
+  source?: string;
+  metadata?: Record<string, any>;
+  viewCount?: number;
 }
+
+export type BrowsingHistoryDocument = BrowsingInteractionDocument;
 
 export interface OfferDocument {
   _id?: any;
