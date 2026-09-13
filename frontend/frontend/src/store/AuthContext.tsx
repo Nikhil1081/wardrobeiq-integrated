@@ -109,16 +109,16 @@ export const AuthProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
       // Client-side instant demo fallback so demo credentials never fail during backend cold starts
       const normalized = email.trim().toLowerCase();
       if (
-        (normalized === 'aarav.sharma@example.com' || normalized === 'aarav.sharma@wardrobeiq.demo') &&
-        pass === 'password123'
+        (normalized === 'aarav.sharma@example.com' || normalized === 'aarav.sharma@wardrobeiq.demo' || normalized === 'c001') &&
+        (pass === 'password123' || pass === 'admin123')
       ) {
         const aaravUser: AuthUser = {
           userId: 'C001',
           customerId: 'C001',
-          email: 'aarav.sharma@example.com',
+          email: 'aarav.sharma@wardrobeiq.demo',
           name: 'Aarav Sharma',
           avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80',
-          role: 'user',
+          role: 'admin',
           country: 'India',
           city: 'Mumbai',
           preferredStyles: ['streetwear', 'casual', 'ethnic'],
@@ -128,13 +128,13 @@ export const AuthProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
         return;
       }
       if (
-        (normalized === 'admin@wardrobeiq.internal' || normalized === 'admin@wardrobeiq.com') &&
+        (normalized === 'admin@wardrobeiq.internal' || normalized === 'admin@wardrobeiq.com' || normalized === 'admin') &&
         pass === 'admin123'
       ) {
         const adminUser: AuthUser = {
           userId: 'admin_root',
           customerId: 'admin_root',
-          email: 'admin@wardrobeiq.internal',
+          email: 'admin@wardrobeiq.com',
           name: 'WardrobeIQ Administrator',
           avatar: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=300&q=80',
           role: 'admin',
@@ -146,6 +146,16 @@ export const AuthProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
         setIsAuthModalOpen(false);
         return;
       }
+
+      // Check if email matches any loaded demo persona
+      const matched = demoPersonas.find(
+        (p) => p.email.toLowerCase() === normalized || p.userId.toLowerCase() === normalized
+      );
+      if (matched && (pass === 'password123' || pass === 'admin123')) {
+        loginAsDemoPersona(matched);
+        return;
+      }
+
       throw err;
     }
   };

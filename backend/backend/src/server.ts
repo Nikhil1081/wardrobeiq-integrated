@@ -12,19 +12,21 @@ async function startServer() {
     // Connect to MongoDB Atlas or fallback to embedded engine
     try {
       await connectDB();
+      await createIndexes();
+      await seedDatabase();
     } catch (connErr: any) {
-      logger.warn(`Could not connect to external MongoDB at ${env.MONGODB_URI} (${connErr?.message}). Initializing embedded MongoDB server...`);
-      const { MongoMemoryServer } = await import('mongodb-memory-server');
-      const mongod = await MongoMemoryServer.create();
-      const memUri = mongod.getUri();
-      await connectDB(memUri, env.MONGODB_DB_NAME);
+      logger.warn(`Could not connect to external MongoDB at ${env.MONGODB_URI} (${connErr?.message}). Trying embedded MongoDB server...`);
+      try {
+        const { MongoMemoryServer } = await import('mongodb-memory-server');
+        const mongod = await MongoMemoryServer.create();
+        const memUri = mongod.getUri();
+        await connectDB(memUri, env.MONGODB_DB_NAME);
+        await createIndexes();
+        await seedDatabase();
+      } catch (memErr: any) {
+        logger.warn(`Embedded MongoDB could not start (${memErr?.message}). Web server will continue running.`);
+      }
     }
-    
-    // Initialize indexes
-    await createIndexes();
-
-    // Auto-seed if database is empty
-    await seedDatabase();
 
     const app = createApp();
     const port = env.PORT || 3000;

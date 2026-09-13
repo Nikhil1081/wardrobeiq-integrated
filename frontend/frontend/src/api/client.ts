@@ -27,8 +27,8 @@ export const getApiBaseUrl = (): string => {
     if (host === 'localhost' || host === '127.0.0.1') {
       return '';
     }
-    // Deployed directly on Render single-service container
-    if (host === 'wardrobeiq.onrender.com') {
+    // Deployed directly on Render single-service container (any onrender.com host)
+    if (host.endsWith('onrender.com')) {
       return '';
     }
     // Any external host (Vercel, Netlify, Custom domain, etc.) -> connect to live Render backend
