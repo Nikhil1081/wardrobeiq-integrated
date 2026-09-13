@@ -1,0 +1,3452 @@
+[
+  {
+    "customerId": "C001",
+    "name": "Aarav Sharma",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80",
+    "country": "India",
+    "city": "Mumbai",
+    "climate": "tropical",
+    "preferredStyles": [
+      "streetwear",
+      "casual",
+      "ethnic"
+    ],
+    "preferredColors": [
+      "black",
+      "white",
+      "maroon"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 2500,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "light",
+    "createdAt": "2026-05-31T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C002",
+    "name": "Diya Patel",
+    "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=300&q=80",
+    "country": "India",
+    "city": "Ahmedabad",
+    "climate": "arid",
+    "preferredStyles": [
+      "minimalist",
+      "ethnic",
+      "smart-casual"
+    ],
+    "preferredColors": [
+      "cream",
+      "gold",
+      "emerald"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 4000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "dark",
+    "createdAt": "2026-06-01T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C003",
+    "name": "Rohan Mehra",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80",
+    "country": "India",
+    "city": "New Delhi",
+    "climate": "continental",
+    "preferredStyles": [
+      "formal",
+      "ethnic",
+      "smart-casual"
+    ],
+    "preferredColors": [
+      "navy",
+      "charcoal",
+      "beige"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 5000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "light",
+    "createdAt": "2026-06-02T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C004",
+    "name": "Ananya Iyer",
+    "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=300&q=80",
+    "country": "India",
+    "city": "Bengaluru",
+    "climate": "tropical",
+    "preferredStyles": [
+      "smart-casual",
+      "ethnic",
+      "chic"
+    ],
+    "preferredColors": [
+      "olive",
+      "mustard",
+      "white"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 6000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "dark",
+    "createdAt": "2026-06-03T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C005",
+    "name": "Kabir Khan",
+    "avatar": "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?auto=format&fit=crop&w=300&q=80",
+    "country": "India",
+    "city": "Hyderabad",
+    "climate": "tropical",
+    "preferredStyles": [
+      "streetwear",
+      "ethnic"
+    ],
+    "preferredColors": [
+      "black",
+      "royal-blue",
+      "white"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 7000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "light",
+    "createdAt": "2026-06-04T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C006",
+    "name": "Meera Nambiar",
+    "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=300&q=80",
+    "country": "India",
+    "city": "Kochi",
+    "climate": "tropical",
+    "preferredStyles": [
+      "minimalist",
+      "ethnic",
+      "casual"
+    ],
+    "preferredColors": [
+      "white",
+      "gold",
+      "sage"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 8000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "dark",
+    "createdAt": "2026-06-05T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C007",
+    "name": "Sakura Tanaka",
+    "avatar": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=300&q=80",
+    "country": "Japan",
+    "city": "Tokyo",
+    "climate": "temperate",
+    "preferredStyles": [
+      "minimalist",
+      "streetwear",
+      "traditional"
+    ],
+    "preferredColors": [
+      "indigo",
+      "white",
+      "black"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 9000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "light",
+    "createdAt": "2026-06-06T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C008",
+    "name": "Kenji Sato",
+    "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=300&q=80",
+    "country": "Japan",
+    "city": "Kyoto",
+    "climate": "temperate",
+    "preferredStyles": [
+      "minimalist",
+      "workwear",
+      "smart-casual"
+    ],
+    "preferredColors": [
+      "navy",
+      "grey",
+      "olive"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 2000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "dark",
+    "createdAt": "2026-06-07T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C009",
+    "name": "Min-Jun Park",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80",
+    "country": "South Korea",
+    "city": "Seoul",
+    "climate": "continental",
+    "preferredStyles": [
+      "streetwear",
+      "chic",
+      "minimalist"
+    ],
+    "preferredColors": [
+      "black",
+      "charcoal",
+      "cream"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 3000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "light",
+    "createdAt": "2026-06-08T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C010",
+    "name": "Ji-Eun Kim",
+    "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=300&q=80",
+    "country": "South Korea",
+    "city": "Busan",
+    "climate": "temperate",
+    "preferredStyles": [
+      "chic",
+      "smart-casual",
+      "traditional"
+    ],
+    "preferredColors": [
+      "pastel-pink",
+      "white",
+      "sky-blue"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 4000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "dark",
+    "createdAt": "2026-06-09T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C011",
+    "name": "Fatima Al-Mansoor",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80",
+    "country": "UAE",
+    "city": "Dubai",
+    "climate": "arid",
+    "preferredStyles": [
+      "chic",
+      "traditional",
+      "luxury"
+    ],
+    "preferredColors": [
+      "gold",
+      "black",
+      "champagne"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 5000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "light",
+    "createdAt": "2026-06-10T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C012",
+    "name": "Tariq Al-Hashemi",
+    "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=300&q=80",
+    "country": "UAE",
+    "city": "Abu Dhabi",
+    "climate": "arid",
+    "preferredStyles": [
+      "traditional",
+      "formal",
+      "smart-casual"
+    ],
+    "preferredColors": [
+      "white",
+      "sand",
+      "navy"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 6000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "dark",
+    "createdAt": "2026-06-11T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C013",
+    "name": "Liam O'Connor",
+    "avatar": "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?auto=format&fit=crop&w=300&q=80",
+    "country": "UK",
+    "city": "London",
+    "climate": "temperate",
+    "preferredStyles": [
+      "smart-casual",
+      "workwear",
+      "minimalist"
+    ],
+    "preferredColors": [
+      "camel",
+      "navy",
+      "grey"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 7000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "light",
+    "createdAt": "2026-06-12T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C014",
+    "name": "Emma Watson",
+    "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=300&q=80",
+    "country": "UK",
+    "city": "Edinburgh",
+    "climate": "temperate",
+    "preferredStyles": [
+      "vintage",
+      "casual",
+      "smart-casual"
+    ],
+    "preferredColors": [
+      "burgundy",
+      "forest-green",
+      "cream"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 8000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "dark",
+    "createdAt": "2026-06-13T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C015",
+    "name": "Lucas Dubois",
+    "avatar": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=300&q=80",
+    "country": "France",
+    "city": "Paris",
+    "climate": "temperate",
+    "preferredStyles": [
+      "chic",
+      "minimalist",
+      "smart-casual"
+    ],
+    "preferredColors": [
+      "black",
+      "navy",
+      "camel"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 9000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "light",
+    "createdAt": "2026-06-14T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C016",
+    "name": "Chloe Laurent",
+    "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=300&q=80",
+    "country": "France",
+    "city": "Lyon",
+    "climate": "temperate",
+    "preferredStyles": [
+      "chic",
+      "casual",
+      "vintage"
+    ],
+    "preferredColors": [
+      "white",
+      "terracotta",
+      "denim"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 2000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "dark",
+    "createdAt": "2026-06-15T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C017",
+    "name": "Maximilian Schmidt",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80",
+    "country": "Germany",
+    "city": "Berlin",
+    "climate": "continental",
+    "preferredStyles": [
+      "streetwear",
+      "minimalist",
+      "workwear"
+    ],
+    "preferredColors": [
+      "black",
+      "charcoal",
+      "olive"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 3000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "light",
+    "createdAt": "2026-06-16T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C018",
+    "name": "Hannah Weber",
+    "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=300&q=80",
+    "country": "Germany",
+    "city": "Munich",
+    "climate": "continental",
+    "preferredStyles": [
+      "smart-casual",
+      "traditional",
+      "casual"
+    ],
+    "preferredColors": [
+      "navy",
+      "white",
+      "sage"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 4000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "dark",
+    "createdAt": "2026-06-17T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C019",
+    "name": "Mateo Silva",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80",
+    "country": "Brazil",
+    "city": "São Paulo",
+    "climate": "tropical",
+    "preferredStyles": [
+      "casual",
+      "streetwear",
+      "athleisure"
+    ],
+    "preferredColors": [
+      "yellow",
+      "green",
+      "white"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 5000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "light",
+    "createdAt": "2026-06-18T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C020",
+    "name": "Isabella Rossi",
+    "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=300&q=80",
+    "country": "Italy",
+    "city": "Milan",
+    "climate": "temperate",
+    "preferredStyles": [
+      "chic",
+      "formal",
+      "luxury"
+    ],
+    "preferredColors": [
+      "camel",
+      "black",
+      "espresso"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 6000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "dark",
+    "createdAt": "2026-06-19T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C021",
+    "name": "Giovanni Bianchi",
+    "avatar": "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?auto=format&fit=crop&w=300&q=80",
+    "country": "Italy",
+    "city": "Florence",
+    "climate": "temperate",
+    "preferredStyles": [
+      "smart-casual",
+      "old-money"
+    ],
+    "preferredColors": [
+      "tan",
+      "navy",
+      "cream"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 7000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "light",
+    "createdAt": "2026-06-20T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C022",
+    "name": "Zainab Adeleke",
+    "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=300&q=80",
+    "country": "Nigeria",
+    "city": "Lagos",
+    "climate": "tropical",
+    "preferredStyles": [
+      "vibrant",
+      "traditional",
+      "chic"
+    ],
+    "preferredColors": [
+      "emerald",
+      "gold",
+      "royal-blue"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 8000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "dark",
+    "createdAt": "2026-06-21T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C023",
+    "name": "Chukwudi Okafor",
+    "avatar": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=300&q=80",
+    "country": "Nigeria",
+    "city": "Abuja",
+    "climate": "tropical",
+    "preferredStyles": [
+      "traditional",
+      "formal",
+      "smart-casual"
+    ],
+    "preferredColors": [
+      "white",
+      "burgundy",
+      "black"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 9000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "light",
+    "createdAt": "2026-06-22T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C024",
+    "name": "Jack Thompson",
+    "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=300&q=80",
+    "country": "Australia",
+    "city": "Sydney",
+    "climate": "temperate",
+    "preferredStyles": [
+      "casual",
+      "beachwear",
+      "athleisure"
+    ],
+    "preferredColors": [
+      "sand",
+      "sky-blue",
+      "white"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 2000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "dark",
+    "createdAt": "2026-06-23T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C025",
+    "name": "Olivia Miller",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80",
+    "country": "Australia",
+    "city": "Melbourne",
+    "climate": "temperate",
+    "preferredStyles": [
+      "streetwear",
+      "minimalist",
+      "smart-casual"
+    ],
+    "preferredColors": [
+      "black",
+      "khaki",
+      "cream"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 3000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "light",
+    "createdAt": "2026-06-24T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C026",
+    "name": "Carlos Rodriguez",
+    "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=300&q=80",
+    "country": "Spain",
+    "city": "Madrid",
+    "climate": "temperate",
+    "preferredStyles": [
+      "smart-casual",
+      "casual",
+      "chic"
+    ],
+    "preferredColors": [
+      "terracotta",
+      "white",
+      "navy"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 4000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "dark",
+    "createdAt": "2026-06-25T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C027",
+    "name": "Elena Gomez",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80",
+    "country": "Spain",
+    "city": "Barcelona",
+    "climate": "temperate",
+    "preferredStyles": [
+      "boho",
+      "chic",
+      "casual"
+    ],
+    "preferredColors": [
+      "mustard",
+      "teal",
+      "coral"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 5000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "light",
+    "createdAt": "2026-06-26T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C028",
+    "name": "Noah Tremblay",
+    "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=300&q=80",
+    "country": "Canada",
+    "city": "Montreal",
+    "climate": "continental",
+    "preferredStyles": [
+      "workwear",
+      "casual",
+      "streetwear"
+    ],
+    "preferredColors": [
+      "forest-green",
+      "navy",
+      "grey"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 6000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "dark",
+    "createdAt": "2026-06-27T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C029",
+    "name": "Sophie Martin",
+    "avatar": "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?auto=format&fit=crop&w=300&q=80",
+    "country": "Canada",
+    "city": "Vancouver",
+    "climate": "temperate",
+    "preferredStyles": [
+      "athleisure",
+      "minimalist",
+      "casual"
+    ],
+    "preferredColors": [
+      "slate",
+      "black",
+      "white"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 7000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "light",
+    "createdAt": "2026-06-28T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C030",
+    "name": "Ethan Harper",
+    "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=300&q=80",
+    "country": "USA",
+    "city": "New York",
+    "climate": "continental",
+    "preferredStyles": [
+      "streetwear",
+      "smart-casual",
+      "chic"
+    ],
+    "preferredColors": [
+      "black",
+      "camel",
+      "white"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 8000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "dark",
+    "createdAt": "2026-06-29T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C031",
+    "name": "Mia Johnson",
+    "avatar": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=300&q=80",
+    "country": "USA",
+    "city": "Los Angeles",
+    "climate": "temperate",
+    "preferredStyles": [
+      "casual",
+      "athleisure",
+      "streetwear"
+    ],
+    "preferredColors": [
+      "sage",
+      "white",
+      "lavender"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 9000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "light",
+    "createdAt": "2026-06-30T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C032",
+    "name": "Harper Davis",
+    "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=300&q=80",
+    "country": "USA",
+    "city": "Austin",
+    "climate": "tropical",
+    "preferredStyles": [
+      "boho",
+      "casual",
+      "vintage"
+    ],
+    "preferredColors": [
+      "denim",
+      "tan",
+      "white"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 2000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "dark",
+    "createdAt": "2026-07-01T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C033",
+    "name": "Alexander Wright",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80",
+    "country": "USA",
+    "city": "Chicago",
+    "climate": "continental",
+    "preferredStyles": [
+      "smart-casual",
+      "formal"
+    ],
+    "preferredColors": [
+      "navy",
+      "charcoal",
+      "burgundy"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 3000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "light",
+    "createdAt": "2026-07-02T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C034",
+    "name": "Kavita Reddy",
+    "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=300&q=80",
+    "country": "India",
+    "city": "Chennai",
+    "climate": "tropical",
+    "preferredStyles": [
+      "ethnic",
+      "formal"
+    ],
+    "preferredColors": [
+      "maroon",
+      "gold",
+      "copper"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 4000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "dark",
+    "createdAt": "2026-07-03T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C035",
+    "name": "Vikram Sengupta",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80",
+    "country": "India",
+    "city": "Kolkata",
+    "climate": "tropical",
+    "preferredStyles": [
+      "smart-casual",
+      "ethnic"
+    ],
+    "preferredColors": [
+      "white",
+      "khaki",
+      "indigo"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 5000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "light",
+    "createdAt": "2026-07-04T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C036",
+    "name": "Aarav Sharma 2",
+    "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=300&q=80",
+    "country": "India",
+    "city": "Mumbai",
+    "climate": "tropical",
+    "preferredStyles": [
+      "streetwear",
+      "casual",
+      "ethnic"
+    ],
+    "preferredColors": [
+      "black",
+      "white",
+      "maroon"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 6000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "dark",
+    "createdAt": "2026-07-05T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C037",
+    "name": "Diya Patel 2",
+    "avatar": "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?auto=format&fit=crop&w=300&q=80",
+    "country": "India",
+    "city": "Ahmedabad",
+    "climate": "arid",
+    "preferredStyles": [
+      "minimalist",
+      "ethnic",
+      "smart-casual"
+    ],
+    "preferredColors": [
+      "cream",
+      "gold",
+      "emerald"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 7000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "light",
+    "createdAt": "2026-07-06T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C038",
+    "name": "Rohan Mehra 2",
+    "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=300&q=80",
+    "country": "India",
+    "city": "New Delhi",
+    "climate": "continental",
+    "preferredStyles": [
+      "formal",
+      "ethnic",
+      "smart-casual"
+    ],
+    "preferredColors": [
+      "navy",
+      "charcoal",
+      "beige"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 8000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "dark",
+    "createdAt": "2026-07-07T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C039",
+    "name": "Ananya Iyer 2",
+    "avatar": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=300&q=80",
+    "country": "India",
+    "city": "Bengaluru",
+    "climate": "tropical",
+    "preferredStyles": [
+      "smart-casual",
+      "ethnic",
+      "chic"
+    ],
+    "preferredColors": [
+      "olive",
+      "mustard",
+      "white"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 9000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "light",
+    "createdAt": "2026-07-08T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C040",
+    "name": "Kabir Khan 2",
+    "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=300&q=80",
+    "country": "India",
+    "city": "Hyderabad",
+    "climate": "tropical",
+    "preferredStyles": [
+      "streetwear",
+      "ethnic"
+    ],
+    "preferredColors": [
+      "black",
+      "royal-blue",
+      "white"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 2000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "dark",
+    "createdAt": "2026-07-09T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C041",
+    "name": "Meera Nambiar 2",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80",
+    "country": "India",
+    "city": "Kochi",
+    "climate": "tropical",
+    "preferredStyles": [
+      "minimalist",
+      "ethnic",
+      "casual"
+    ],
+    "preferredColors": [
+      "white",
+      "gold",
+      "sage"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 3000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "light",
+    "createdAt": "2026-07-10T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C042",
+    "name": "Sakura Tanaka 2",
+    "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=300&q=80",
+    "country": "Japan",
+    "city": "Tokyo",
+    "climate": "temperate",
+    "preferredStyles": [
+      "minimalist",
+      "streetwear",
+      "traditional"
+    ],
+    "preferredColors": [
+      "indigo",
+      "white",
+      "black"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 4000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "dark",
+    "createdAt": "2026-07-11T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C043",
+    "name": "Kenji Sato 2",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80",
+    "country": "Japan",
+    "city": "Kyoto",
+    "climate": "temperate",
+    "preferredStyles": [
+      "minimalist",
+      "workwear",
+      "smart-casual"
+    ],
+    "preferredColors": [
+      "navy",
+      "grey",
+      "olive"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 5000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "light",
+    "createdAt": "2026-07-12T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C044",
+    "name": "Min-Jun Park 2",
+    "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=300&q=80",
+    "country": "South Korea",
+    "city": "Seoul",
+    "climate": "continental",
+    "preferredStyles": [
+      "streetwear",
+      "chic",
+      "minimalist"
+    ],
+    "preferredColors": [
+      "black",
+      "charcoal",
+      "cream"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 6000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "dark",
+    "createdAt": "2026-07-13T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C045",
+    "name": "Ji-Eun Kim 2",
+    "avatar": "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?auto=format&fit=crop&w=300&q=80",
+    "country": "South Korea",
+    "city": "Busan",
+    "climate": "temperate",
+    "preferredStyles": [
+      "chic",
+      "smart-casual",
+      "traditional"
+    ],
+    "preferredColors": [
+      "pastel-pink",
+      "white",
+      "sky-blue"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 7000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "light",
+    "createdAt": "2026-07-14T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C046",
+    "name": "Fatima Al-Mansoor 2",
+    "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=300&q=80",
+    "country": "UAE",
+    "city": "Dubai",
+    "climate": "arid",
+    "preferredStyles": [
+      "chic",
+      "traditional",
+      "luxury"
+    ],
+    "preferredColors": [
+      "gold",
+      "black",
+      "champagne"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 8000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "dark",
+    "createdAt": "2026-07-15T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C047",
+    "name": "Tariq Al-Hashemi 2",
+    "avatar": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=300&q=80",
+    "country": "UAE",
+    "city": "Abu Dhabi",
+    "climate": "arid",
+    "preferredStyles": [
+      "traditional",
+      "formal",
+      "smart-casual"
+    ],
+    "preferredColors": [
+      "white",
+      "sand",
+      "navy"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 9000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "light",
+    "createdAt": "2026-07-16T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C048",
+    "name": "Liam O'Connor 2",
+    "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=300&q=80",
+    "country": "UK",
+    "city": "London",
+    "climate": "temperate",
+    "preferredStyles": [
+      "smart-casual",
+      "workwear",
+      "minimalist"
+    ],
+    "preferredColors": [
+      "camel",
+      "navy",
+      "grey"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 2000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "dark",
+    "createdAt": "2026-07-17T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C049",
+    "name": "Emma Watson 2",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80",
+    "country": "UK",
+    "city": "Edinburgh",
+    "climate": "temperate",
+    "preferredStyles": [
+      "vintage",
+      "casual",
+      "smart-casual"
+    ],
+    "preferredColors": [
+      "burgundy",
+      "forest-green",
+      "cream"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 3000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "light",
+    "createdAt": "2026-07-18T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C050",
+    "name": "Lucas Dubois 2",
+    "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=300&q=80",
+    "country": "France",
+    "city": "Paris",
+    "climate": "temperate",
+    "preferredStyles": [
+      "chic",
+      "minimalist",
+      "smart-casual"
+    ],
+    "preferredColors": [
+      "black",
+      "navy",
+      "camel"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 4000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "dark",
+    "createdAt": "2026-07-19T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C051",
+    "name": "Chloe Laurent 2",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80",
+    "country": "France",
+    "city": "Lyon",
+    "climate": "temperate",
+    "preferredStyles": [
+      "chic",
+      "casual",
+      "vintage"
+    ],
+    "preferredColors": [
+      "white",
+      "terracotta",
+      "denim"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 5000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "light",
+    "createdAt": "2026-07-20T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C052",
+    "name": "Maximilian Schmidt 2",
+    "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=300&q=80",
+    "country": "Germany",
+    "city": "Berlin",
+    "climate": "continental",
+    "preferredStyles": [
+      "streetwear",
+      "minimalist",
+      "workwear"
+    ],
+    "preferredColors": [
+      "black",
+      "charcoal",
+      "olive"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 6000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "dark",
+    "createdAt": "2026-07-21T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C053",
+    "name": "Hannah Weber 2",
+    "avatar": "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?auto=format&fit=crop&w=300&q=80",
+    "country": "Germany",
+    "city": "Munich",
+    "climate": "continental",
+    "preferredStyles": [
+      "smart-casual",
+      "traditional",
+      "casual"
+    ],
+    "preferredColors": [
+      "navy",
+      "white",
+      "sage"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 7000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "light",
+    "createdAt": "2026-07-22T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C054",
+    "name": "Mateo Silva 2",
+    "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=300&q=80",
+    "country": "Brazil",
+    "city": "São Paulo",
+    "climate": "tropical",
+    "preferredStyles": [
+      "casual",
+      "streetwear",
+      "athleisure"
+    ],
+    "preferredColors": [
+      "yellow",
+      "green",
+      "white"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 8000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "dark",
+    "createdAt": "2026-07-23T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C055",
+    "name": "Isabella Rossi 2",
+    "avatar": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=300&q=80",
+    "country": "Italy",
+    "city": "Milan",
+    "climate": "temperate",
+    "preferredStyles": [
+      "chic",
+      "formal",
+      "luxury"
+    ],
+    "preferredColors": [
+      "camel",
+      "black",
+      "espresso"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 9000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "light",
+    "createdAt": "2026-07-24T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C056",
+    "name": "Giovanni Bianchi 2",
+    "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=300&q=80",
+    "country": "Italy",
+    "city": "Florence",
+    "climate": "temperate",
+    "preferredStyles": [
+      "smart-casual",
+      "old-money"
+    ],
+    "preferredColors": [
+      "tan",
+      "navy",
+      "cream"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 2000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "dark",
+    "createdAt": "2026-07-25T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C057",
+    "name": "Zainab Adeleke 2",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80",
+    "country": "Nigeria",
+    "city": "Lagos",
+    "climate": "tropical",
+    "preferredStyles": [
+      "vibrant",
+      "traditional",
+      "chic"
+    ],
+    "preferredColors": [
+      "emerald",
+      "gold",
+      "royal-blue"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 3000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "light",
+    "createdAt": "2026-07-26T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C058",
+    "name": "Chukwudi Okafor 2",
+    "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=300&q=80",
+    "country": "Nigeria",
+    "city": "Abuja",
+    "climate": "tropical",
+    "preferredStyles": [
+      "traditional",
+      "formal",
+      "smart-casual"
+    ],
+    "preferredColors": [
+      "white",
+      "burgundy",
+      "black"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 4000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "dark",
+    "createdAt": "2026-07-27T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C059",
+    "name": "Jack Thompson 2",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80",
+    "country": "Australia",
+    "city": "Sydney",
+    "climate": "temperate",
+    "preferredStyles": [
+      "casual",
+      "beachwear",
+      "athleisure"
+    ],
+    "preferredColors": [
+      "sand",
+      "sky-blue",
+      "white"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 5000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "light",
+    "createdAt": "2026-07-28T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C060",
+    "name": "Olivia Miller 2",
+    "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=300&q=80",
+    "country": "Australia",
+    "city": "Melbourne",
+    "climate": "temperate",
+    "preferredStyles": [
+      "streetwear",
+      "minimalist",
+      "smart-casual"
+    ],
+    "preferredColors": [
+      "black",
+      "khaki",
+      "cream"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 6000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "dark",
+    "createdAt": "2026-07-29T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C061",
+    "name": "Carlos Rodriguez 2",
+    "avatar": "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?auto=format&fit=crop&w=300&q=80",
+    "country": "Spain",
+    "city": "Madrid",
+    "climate": "temperate",
+    "preferredStyles": [
+      "smart-casual",
+      "casual",
+      "chic"
+    ],
+    "preferredColors": [
+      "terracotta",
+      "white",
+      "navy"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 7000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "light",
+    "createdAt": "2026-07-30T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C062",
+    "name": "Elena Gomez 2",
+    "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=300&q=80",
+    "country": "Spain",
+    "city": "Barcelona",
+    "climate": "temperate",
+    "preferredStyles": [
+      "boho",
+      "chic",
+      "casual"
+    ],
+    "preferredColors": [
+      "mustard",
+      "teal",
+      "coral"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 8000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "dark",
+    "createdAt": "2026-07-31T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C063",
+    "name": "Noah Tremblay 2",
+    "avatar": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=300&q=80",
+    "country": "Canada",
+    "city": "Montreal",
+    "climate": "continental",
+    "preferredStyles": [
+      "workwear",
+      "casual",
+      "streetwear"
+    ],
+    "preferredColors": [
+      "forest-green",
+      "navy",
+      "grey"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 9000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "light",
+    "createdAt": "2026-08-01T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C064",
+    "name": "Sophie Martin 2",
+    "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=300&q=80",
+    "country": "Canada",
+    "city": "Vancouver",
+    "climate": "temperate",
+    "preferredStyles": [
+      "athleisure",
+      "minimalist",
+      "casual"
+    ],
+    "preferredColors": [
+      "slate",
+      "black",
+      "white"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 2000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "dark",
+    "createdAt": "2026-08-02T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C065",
+    "name": "Ethan Harper 2",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80",
+    "country": "USA",
+    "city": "New York",
+    "climate": "continental",
+    "preferredStyles": [
+      "streetwear",
+      "smart-casual",
+      "chic"
+    ],
+    "preferredColors": [
+      "black",
+      "camel",
+      "white"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 3000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "light",
+    "createdAt": "2026-08-03T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C066",
+    "name": "Mia Johnson 2",
+    "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=300&q=80",
+    "country": "USA",
+    "city": "Los Angeles",
+    "climate": "temperate",
+    "preferredStyles": [
+      "casual",
+      "athleisure",
+      "streetwear"
+    ],
+    "preferredColors": [
+      "sage",
+      "white",
+      "lavender"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 4000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "dark",
+    "createdAt": "2026-08-04T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C067",
+    "name": "Harper Davis 2",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80",
+    "country": "USA",
+    "city": "Austin",
+    "climate": "tropical",
+    "preferredStyles": [
+      "boho",
+      "casual",
+      "vintage"
+    ],
+    "preferredColors": [
+      "denim",
+      "tan",
+      "white"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 5000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "light",
+    "createdAt": "2026-08-05T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C068",
+    "name": "Alexander Wright 2",
+    "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=300&q=80",
+    "country": "USA",
+    "city": "Chicago",
+    "climate": "continental",
+    "preferredStyles": [
+      "smart-casual",
+      "formal"
+    ],
+    "preferredColors": [
+      "navy",
+      "charcoal",
+      "burgundy"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 6000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "dark",
+    "createdAt": "2026-08-06T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C069",
+    "name": "Kavita Reddy 2",
+    "avatar": "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?auto=format&fit=crop&w=300&q=80",
+    "country": "India",
+    "city": "Chennai",
+    "climate": "tropical",
+    "preferredStyles": [
+      "ethnic",
+      "formal"
+    ],
+    "preferredColors": [
+      "maroon",
+      "gold",
+      "copper"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 7000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "light",
+    "createdAt": "2026-08-07T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C070",
+    "name": "Vikram Sengupta 3",
+    "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=300&q=80",
+    "country": "India",
+    "city": "Kolkata",
+    "climate": "tropical",
+    "preferredStyles": [
+      "smart-casual",
+      "ethnic"
+    ],
+    "preferredColors": [
+      "white",
+      "khaki",
+      "indigo"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 8000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "dark",
+    "createdAt": "2026-08-08T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C071",
+    "name": "Aarav Sharma 3",
+    "avatar": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=300&q=80",
+    "country": "India",
+    "city": "Mumbai",
+    "climate": "tropical",
+    "preferredStyles": [
+      "streetwear",
+      "casual",
+      "ethnic"
+    ],
+    "preferredColors": [
+      "black",
+      "white",
+      "maroon"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 9000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "light",
+    "createdAt": "2026-08-09T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C072",
+    "name": "Diya Patel 3",
+    "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=300&q=80",
+    "country": "India",
+    "city": "Ahmedabad",
+    "climate": "arid",
+    "preferredStyles": [
+      "minimalist",
+      "ethnic",
+      "smart-casual"
+    ],
+    "preferredColors": [
+      "cream",
+      "gold",
+      "emerald"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 2000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "dark",
+    "createdAt": "2026-08-10T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C073",
+    "name": "Rohan Mehra 3",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80",
+    "country": "India",
+    "city": "New Delhi",
+    "climate": "continental",
+    "preferredStyles": [
+      "formal",
+      "ethnic",
+      "smart-casual"
+    ],
+    "preferredColors": [
+      "navy",
+      "charcoal",
+      "beige"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 3000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "light",
+    "createdAt": "2026-08-11T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C074",
+    "name": "Ananya Iyer 3",
+    "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=300&q=80",
+    "country": "India",
+    "city": "Bengaluru",
+    "climate": "tropical",
+    "preferredStyles": [
+      "smart-casual",
+      "ethnic",
+      "chic"
+    ],
+    "preferredColors": [
+      "olive",
+      "mustard",
+      "white"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 4000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "dark",
+    "createdAt": "2026-08-12T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C075",
+    "name": "Kabir Khan 3",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80",
+    "country": "India",
+    "city": "Hyderabad",
+    "climate": "tropical",
+    "preferredStyles": [
+      "streetwear",
+      "ethnic"
+    ],
+    "preferredColors": [
+      "black",
+      "royal-blue",
+      "white"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 5000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "light",
+    "createdAt": "2026-08-13T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C076",
+    "name": "Meera Nambiar 3",
+    "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=300&q=80",
+    "country": "India",
+    "city": "Kochi",
+    "climate": "tropical",
+    "preferredStyles": [
+      "minimalist",
+      "ethnic",
+      "casual"
+    ],
+    "preferredColors": [
+      "white",
+      "gold",
+      "sage"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 6000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "dark",
+    "createdAt": "2026-08-14T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C077",
+    "name": "Sakura Tanaka 3",
+    "avatar": "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?auto=format&fit=crop&w=300&q=80",
+    "country": "Japan",
+    "city": "Tokyo",
+    "climate": "temperate",
+    "preferredStyles": [
+      "minimalist",
+      "streetwear",
+      "traditional"
+    ],
+    "preferredColors": [
+      "indigo",
+      "white",
+      "black"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 7000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "light",
+    "createdAt": "2026-08-15T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C078",
+    "name": "Kenji Sato 3",
+    "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=300&q=80",
+    "country": "Japan",
+    "city": "Kyoto",
+    "climate": "temperate",
+    "preferredStyles": [
+      "minimalist",
+      "workwear",
+      "smart-casual"
+    ],
+    "preferredColors": [
+      "navy",
+      "grey",
+      "olive"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 8000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "dark",
+    "createdAt": "2026-08-16T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C079",
+    "name": "Min-Jun Park 3",
+    "avatar": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=300&q=80",
+    "country": "South Korea",
+    "city": "Seoul",
+    "climate": "continental",
+    "preferredStyles": [
+      "streetwear",
+      "chic",
+      "minimalist"
+    ],
+    "preferredColors": [
+      "black",
+      "charcoal",
+      "cream"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 9000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "light",
+    "createdAt": "2026-08-17T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C080",
+    "name": "Ji-Eun Kim 3",
+    "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=300&q=80",
+    "country": "South Korea",
+    "city": "Busan",
+    "climate": "temperate",
+    "preferredStyles": [
+      "chic",
+      "smart-casual",
+      "traditional"
+    ],
+    "preferredColors": [
+      "pastel-pink",
+      "white",
+      "sky-blue"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 2000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "dark",
+    "createdAt": "2026-08-18T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C081",
+    "name": "Fatima Al-Mansoor 3",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80",
+    "country": "UAE",
+    "city": "Dubai",
+    "climate": "arid",
+    "preferredStyles": [
+      "chic",
+      "traditional",
+      "luxury"
+    ],
+    "preferredColors": [
+      "gold",
+      "black",
+      "champagne"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 3000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "light",
+    "createdAt": "2026-08-19T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C082",
+    "name": "Tariq Al-Hashemi 3",
+    "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=300&q=80",
+    "country": "UAE",
+    "city": "Abu Dhabi",
+    "climate": "arid",
+    "preferredStyles": [
+      "traditional",
+      "formal",
+      "smart-casual"
+    ],
+    "preferredColors": [
+      "white",
+      "sand",
+      "navy"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 4000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "dark",
+    "createdAt": "2026-08-20T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C083",
+    "name": "Liam O'Connor 3",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80",
+    "country": "UK",
+    "city": "London",
+    "climate": "temperate",
+    "preferredStyles": [
+      "smart-casual",
+      "workwear",
+      "minimalist"
+    ],
+    "preferredColors": [
+      "camel",
+      "navy",
+      "grey"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 5000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "light",
+    "createdAt": "2026-08-21T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C084",
+    "name": "Emma Watson 3",
+    "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=300&q=80",
+    "country": "UK",
+    "city": "Edinburgh",
+    "climate": "temperate",
+    "preferredStyles": [
+      "vintage",
+      "casual",
+      "smart-casual"
+    ],
+    "preferredColors": [
+      "burgundy",
+      "forest-green",
+      "cream"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 6000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "dark",
+    "createdAt": "2026-08-22T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C085",
+    "name": "Lucas Dubois 3",
+    "avatar": "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?auto=format&fit=crop&w=300&q=80",
+    "country": "France",
+    "city": "Paris",
+    "climate": "temperate",
+    "preferredStyles": [
+      "chic",
+      "minimalist",
+      "smart-casual"
+    ],
+    "preferredColors": [
+      "black",
+      "navy",
+      "camel"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 7000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "light",
+    "createdAt": "2026-08-23T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C086",
+    "name": "Chloe Laurent 3",
+    "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=300&q=80",
+    "country": "France",
+    "city": "Lyon",
+    "climate": "temperate",
+    "preferredStyles": [
+      "chic",
+      "casual",
+      "vintage"
+    ],
+    "preferredColors": [
+      "white",
+      "terracotta",
+      "denim"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 8000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "dark",
+    "createdAt": "2026-08-24T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C087",
+    "name": "Maximilian Schmidt 3",
+    "avatar": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=300&q=80",
+    "country": "Germany",
+    "city": "Berlin",
+    "climate": "continental",
+    "preferredStyles": [
+      "streetwear",
+      "minimalist",
+      "workwear"
+    ],
+    "preferredColors": [
+      "black",
+      "charcoal",
+      "olive"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 9000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "light",
+    "createdAt": "2026-08-25T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C088",
+    "name": "Hannah Weber 3",
+    "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=300&q=80",
+    "country": "Germany",
+    "city": "Munich",
+    "climate": "continental",
+    "preferredStyles": [
+      "smart-casual",
+      "traditional",
+      "casual"
+    ],
+    "preferredColors": [
+      "navy",
+      "white",
+      "sage"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 2000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "dark",
+    "createdAt": "2026-08-26T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C089",
+    "name": "Mateo Silva 3",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80",
+    "country": "Brazil",
+    "city": "São Paulo",
+    "climate": "tropical",
+    "preferredStyles": [
+      "casual",
+      "streetwear",
+      "athleisure"
+    ],
+    "preferredColors": [
+      "yellow",
+      "green",
+      "white"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 3000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "light",
+    "createdAt": "2026-08-27T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C090",
+    "name": "Isabella Rossi 3",
+    "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=300&q=80",
+    "country": "Italy",
+    "city": "Milan",
+    "climate": "temperate",
+    "preferredStyles": [
+      "chic",
+      "formal",
+      "luxury"
+    ],
+    "preferredColors": [
+      "camel",
+      "black",
+      "espresso"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 4000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "dark",
+    "createdAt": "2026-08-28T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C091",
+    "name": "Giovanni Bianchi 3",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80",
+    "country": "Italy",
+    "city": "Florence",
+    "climate": "temperate",
+    "preferredStyles": [
+      "smart-casual",
+      "old-money"
+    ],
+    "preferredColors": [
+      "tan",
+      "navy",
+      "cream"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 5000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "light",
+    "createdAt": "2026-08-29T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C092",
+    "name": "Zainab Adeleke 3",
+    "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=300&q=80",
+    "country": "Nigeria",
+    "city": "Lagos",
+    "climate": "tropical",
+    "preferredStyles": [
+      "vibrant",
+      "traditional",
+      "chic"
+    ],
+    "preferredColors": [
+      "emerald",
+      "gold",
+      "royal-blue"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 6000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "dark",
+    "createdAt": "2026-08-30T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C093",
+    "name": "Chukwudi Okafor 3",
+    "avatar": "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?auto=format&fit=crop&w=300&q=80",
+    "country": "Nigeria",
+    "city": "Abuja",
+    "climate": "tropical",
+    "preferredStyles": [
+      "traditional",
+      "formal",
+      "smart-casual"
+    ],
+    "preferredColors": [
+      "white",
+      "burgundy",
+      "black"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 7000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "light",
+    "createdAt": "2026-08-31T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C094",
+    "name": "Jack Thompson 3",
+    "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=300&q=80",
+    "country": "Australia",
+    "city": "Sydney",
+    "climate": "temperate",
+    "preferredStyles": [
+      "casual",
+      "beachwear",
+      "athleisure"
+    ],
+    "preferredColors": [
+      "sand",
+      "sky-blue",
+      "white"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 8000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "dark",
+    "createdAt": "2026-09-01T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C095",
+    "name": "Olivia Miller 3",
+    "avatar": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=300&q=80",
+    "country": "Australia",
+    "city": "Melbourne",
+    "climate": "temperate",
+    "preferredStyles": [
+      "streetwear",
+      "minimalist",
+      "smart-casual"
+    ],
+    "preferredColors": [
+      "black",
+      "khaki",
+      "cream"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 9000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "light",
+    "createdAt": "2026-09-02T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C096",
+    "name": "Carlos Rodriguez 3",
+    "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=300&q=80",
+    "country": "Spain",
+    "city": "Madrid",
+    "climate": "temperate",
+    "preferredStyles": [
+      "smart-casual",
+      "casual",
+      "chic"
+    ],
+    "preferredColors": [
+      "terracotta",
+      "white",
+      "navy"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 2000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "dark",
+    "createdAt": "2026-09-03T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C097",
+    "name": "Elena Gomez 3",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80",
+    "country": "Spain",
+    "city": "Barcelona",
+    "climate": "temperate",
+    "preferredStyles": [
+      "boho",
+      "chic",
+      "casual"
+    ],
+    "preferredColors": [
+      "mustard",
+      "teal",
+      "coral"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 3000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "light",
+    "createdAt": "2026-09-04T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C098",
+    "name": "Noah Tremblay 3",
+    "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=300&q=80",
+    "country": "Canada",
+    "city": "Montreal",
+    "climate": "continental",
+    "preferredStyles": [
+      "workwear",
+      "casual",
+      "streetwear"
+    ],
+    "preferredColors": [
+      "forest-green",
+      "navy",
+      "grey"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 4000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "dark",
+    "createdAt": "2026-09-05T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C099",
+    "name": "Sophie Martin 3",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80",
+    "country": "Canada",
+    "city": "Vancouver",
+    "climate": "temperate",
+    "preferredStyles": [
+      "athleisure",
+      "minimalist",
+      "casual"
+    ],
+    "preferredColors": [
+      "slate",
+      "black",
+      "white"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 5000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "light",
+    "createdAt": "2026-09-06T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C100",
+    "name": "Ethan Harper 3",
+    "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=300&q=80",
+    "country": "USA",
+    "city": "New York",
+    "climate": "continental",
+    "preferredStyles": [
+      "streetwear",
+      "smart-casual",
+      "chic"
+    ],
+    "preferredColors": [
+      "black",
+      "camel",
+      "white"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 6000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "dark",
+    "createdAt": "2026-09-07T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C101",
+    "name": "Mia Johnson 3",
+    "avatar": "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?auto=format&fit=crop&w=300&q=80",
+    "country": "USA",
+    "city": "Los Angeles",
+    "climate": "temperate",
+    "preferredStyles": [
+      "casual",
+      "athleisure",
+      "streetwear"
+    ],
+    "preferredColors": [
+      "sage",
+      "white",
+      "lavender"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 7000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "light",
+    "createdAt": "2026-09-08T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C102",
+    "name": "Harper Davis 3",
+    "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=300&q=80",
+    "country": "USA",
+    "city": "Austin",
+    "climate": "tropical",
+    "preferredStyles": [
+      "boho",
+      "casual",
+      "vintage"
+    ],
+    "preferredColors": [
+      "denim",
+      "tan",
+      "white"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 8000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "dark",
+    "createdAt": "2026-09-09T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C103",
+    "name": "Alexander Wright 3",
+    "avatar": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=300&q=80",
+    "country": "USA",
+    "city": "Chicago",
+    "climate": "continental",
+    "preferredStyles": [
+      "smart-casual",
+      "formal"
+    ],
+    "preferredColors": [
+      "navy",
+      "charcoal",
+      "burgundy"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 9000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "light",
+    "createdAt": "2026-09-10T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C104",
+    "name": "Kavita Reddy 3",
+    "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=300&q=80",
+    "country": "India",
+    "city": "Chennai",
+    "climate": "tropical",
+    "preferredStyles": [
+      "ethnic",
+      "formal"
+    ],
+    "preferredColors": [
+      "maroon",
+      "gold",
+      "copper"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 2000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "dark",
+    "createdAt": "2026-09-11T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  },
+  {
+    "customerId": "C105",
+    "name": "Vikram Sengupta 4",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80",
+    "country": "India",
+    "city": "Kolkata",
+    "climate": "tropical",
+    "preferredStyles": [
+      "smart-casual",
+      "ethnic"
+    ],
+    "preferredColors": [
+      "white",
+      "khaki",
+      "indigo"
+    ],
+    "avoidedColors": [
+      "neon",
+      "lime"
+    ],
+    "budget": 3000,
+    "preferredOccasions": [
+      "casual",
+      "workwear",
+      "weekend",
+      "festival"
+    ],
+    "currentSeason": "all-season",
+    "themePreference": "light",
+    "createdAt": "2026-09-12T17:18:17.726Z",
+    "updatedAt": "2026-09-12T17:18:17.726Z"
+  }
+]

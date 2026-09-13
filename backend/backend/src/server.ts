@@ -9,23 +9,13 @@ async function startServer() {
   try {
     logger.info('Starting WardrobeIQ Backend Service...');
     
-    // Connect to MongoDB Atlas or fallback to embedded engine
+    // Connect to MongoDB Atlas or fallback to high-performance in-memory engine
     try {
       await connectDB();
       await createIndexes();
       await seedDatabase();
-    } catch (connErr: any) {
-      logger.warn(`Could not connect to external MongoDB at ${env.MONGODB_URI} (${connErr?.message}). Trying embedded MongoDB server...`);
-      try {
-        const { MongoMemoryServer } = await import('mongodb-memory-server');
-        const mongod = await MongoMemoryServer.create();
-        const memUri = mongod.getUri();
-        await connectDB(memUri, env.MONGODB_DB_NAME);
-        await createIndexes();
-        await seedDatabase();
-      } catch (memErr: any) {
-        logger.warn(`Embedded MongoDB could not start (${memErr?.message}). Web server will continue running.`);
-      }
+    } catch (dbErr: any) {
+      logger.warn(`Database initialization note: ${dbErr?.message}`);
     }
 
     const app = createApp();

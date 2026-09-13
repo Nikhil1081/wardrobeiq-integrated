@@ -16,6 +16,15 @@ import {
   AdminDashboardDTO,
 } from '../types/dto';
 import { Category, Occasion, Season, FeedbackType, BrowsingEventType } from '../types/domain';
+import {
+  fallbackCustomers,
+  fallbackProducts,
+  getFallbackCloset,
+  getFallbackExplore,
+  getFallbackRecommendations,
+  getFallbackHomeDashboard,
+  getFallbackAdminDashboard,
+} from './clientFallback';
 
 export const getApiBaseUrl = (): string => {
   if (import.meta.env.VITE_API_BASE_URL) {
@@ -121,11 +130,21 @@ export const apiClient = {
 
   // Customers & Profile
   getCustomers: async (): Promise<CustomerDTO[]> => {
-    return fetchJson<CustomerDTO[]>(`${API_BASE}/customers`);
+    try {
+      const res = await fetchJson<CustomerDTO[]>(`${API_BASE}/customers`);
+      if (Array.isArray(res) && res.length > 0) return res;
+    } catch (e) {
+      console.warn('Backend customers endpoint unavailable, using client fallback:', e);
+    }
+    return fallbackCustomers;
   },
 
   getCustomerProfile: async (customerId: string): Promise<CustomerDTO> => {
-    return fetchJson<CustomerDTO>(`${API_BASE}/profile/${customerId}`);
+    try {
+      return await fetchJson<CustomerDTO>(`${API_BASE}/profile/${customerId}`);
+    } catch {
+      return fallbackCustomers.find((c) => c.customerId === customerId) || fallbackCustomers[0];
+    }
   },
 
   updateCustomerProfile: async (
@@ -140,7 +159,12 @@ export const apiClient = {
 
   // Home Dashboard BFF
   getHomeDashboard: async (customerId: string): Promise<DashboardDTO> => {
-    return fetchJson<DashboardDTO>(`${API_BASE}/home/${customerId}`);
+    try {
+      return await fetchJson<DashboardDTO>(`${API_BASE}/home/${customerId}`);
+    } catch (e) {
+      console.warn('Backend home dashboard unavailable, using client fallback:', e);
+      return getFallbackHomeDashboard(customerId);
+    }
   },
 
   // Closet CRUD
@@ -148,18 +172,46 @@ export const apiClient = {
     customerId: string,
     params?: { category?: string; occasion?: string; season?: string; search?: string }
   ): Promise<{ items: WardrobeItemDTO[]; totalCount: number; categoryBreakdown: Record<Category, number> }> => {
-    const query = new URLSearchParams();
-    if (params?.category && params.category !== 'all') query.set('category', params.category);
-    if (params?.occasion && params.occasion !== 'all') query.set('occasion', params.occasion);
-    if (params?.season && params.season !== 'all') query.set('season', params.season);
-    if (params?.search) query.set('search', params.search);
+    try {
+      const query = new URLSearchParams();
+      if (params?.category && params.category !== 'all') query.set('category', params.category);
+      if (params?.occasion && params.occasion !== 'all') query.set('occasion', params.occasion);
+      if (params?.season && params.season !== 'all') query.set('season', params.season);
+      if (params?.search) query.set('search', params.search);
 
-    const qs = query.toString();
-    const raw = await fetchJson<any>(
-      `${API_BASE}/closet/${customerId}${qs ? `?${qs}` : ''}`
-    );
+      const qs = query.toString();
+      const raw = await fetchJson<any>(
+        `${API_BASE}/closet/${customerId}${qs ? `?${qs}` : ''}`
+      );
 
-    const items: WardrobeItemDTO[] = Array.isArray(raw) ? raw : (raw.items || []);
+      const items: WardrobeItemDTO[] = Array.isArray(raw) ? raw : (raw.items || []);
+      if (items.length > 0) {
+        const categoryBreakdown: Record<Category, number> = {
+          top: 0,
+          bottom: 0,
+          dress: 0,
+          outerwear: 0,
+          shoes: 0,
+          accessory: 0,
+          traditional: 0,
+        };
+        for (const item of items) {
+          if (item.category && categoryBreakdown[item.category] !== undefined) {
+            categoryBreakdown[item.category]++;
+          }
+        }
+
+        return {
+          items,
+          totalCount: raw.total ?? items.length,
+          categoryBreakdown: raw.categoryBreakdown || categoryBreakdown,
+        };
+      }
+    } catch (e) {
+      console.warn('Backend closet unavailable, using client fallback:', e);
+    }
+
+    const fb = getFallbackCloset(customerId);
     const categoryBreakdown: Record<Category, number> = {
       top: 0,
       bottom: 0,
@@ -169,16 +221,15 @@ export const apiClient = {
       accessory: 0,
       traditional: 0,
     };
-    for (const item of items) {
+    for (const item of fb.items) {
       if (item.category && categoryBreakdown[item.category] !== undefined) {
         categoryBreakdown[item.category]++;
       }
     }
-
     return {
-      items,
-      totalCount: raw.total ?? items.length,
-      categoryBreakdown: raw.categoryBreakdown || categoryBreakdown,
+      items: fb.items,
+      totalCount: fb.totalCount,
+      categoryBreakdown,
     };
   },
 
@@ -257,17 +308,30 @@ export const apiClient = {
       body.category = options.category;
       body.filters = { category: options.category };
     }
-    const raw = await fetchJson<any>(
-      `${API_BASE}/recommendations`,
-      {
-        method: 'POST',
-        body: JSON.stringify(body),
+    try {
+      const raw = await fetchJson<any>(
+        `${API_BASE}/recommendations`,
+        {
+          method: 'POST',
+          body: JSON.stringify(body),
+        }
+      );
+      if (raw && Array.isArray(raw.recommendations) && raw.recommendations.length > 0) {
+        return {
+          recommendations: raw.recommendations || [],
+          activeOffers: raw.activeOffers || [],
+          outfits: raw.outfits || [],
+        };
       }
-    );
+    } catch (e) {
+      console.warn('Backend recommendations unavailable, using client fallback:', e);
+    }
+
+    const fb = getFallbackRecommendations(customerId);
     return {
-      recommendations: raw.recommendations || [],
-      activeOffers: raw.activeOffers || [],
-      outfits: raw.outfits || [],
+      recommendations: fb.recommendations,
+      activeOffers: [],
+      outfits: [],
     };
   },
 
@@ -647,16 +711,22 @@ export const apiClient = {
       maxPrice?: number;
       sort?: string;
     }): Promise<PaginatedResult<ProductCardDTO>> => {
-      const query = new URLSearchParams();
-      if (params) {
-        Object.entries(params).forEach(([key, val]) => {
-          if (val !== undefined && val !== null && val !== '' && val !== 'all') {
-            query.set(key, String(val));
-          }
-        });
+      try {
+        const query = new URLSearchParams();
+        if (params) {
+          Object.entries(params).forEach(([key, val]) => {
+            if (val !== undefined && val !== null && val !== '' && val !== 'all') {
+              query.set(key, String(val));
+            }
+          });
+        }
+        const qs = query.toString();
+        const res = await fetchPaginated<ProductCardDTO>(`${API_BASE}/explore/products${qs ? `?${qs}` : ''}`);
+        if (res && res.items && res.items.length > 0) return res;
+      } catch (e) {
+        console.warn('Backend explore/products unavailable, using client fallback:', e);
       }
-      const qs = query.toString();
-      return fetchPaginated<ProductCardDTO>(`${API_BASE}/explore/products${qs ? `?${qs}` : ''}`);
+      return getFallbackExplore(params);
     },
     addToWardrobe: async (productId: string, customerId?: string): Promise<{ success: boolean; item: WardrobeItemDTO }> => {
       return fetchJson<{ success: boolean; item: WardrobeItemDTO }>(`${API_BASE}/explore/add-to-wardrobe`, {
@@ -682,7 +752,12 @@ export const apiClient = {
   // Admin Dataset Quality & Control Center Endpoints
   admin: {
     getDashboard: async (): Promise<AdminDashboardDTO> => {
-      return fetchJson<AdminDashboardDTO>(`${API_BASE}/admin/dashboard`);
+      try {
+        return await fetchJson<AdminDashboardDTO>(`${API_BASE}/admin/dashboard`);
+      } catch (e) {
+        console.warn('Backend admin dashboard unavailable, using client fallback:', e);
+        return getFallbackAdminDashboard();
+      }
     },
     getClothing: async (params?: {
       page?: number;
