@@ -1,11 +1,14 @@
 import React from 'react';
 import { useWardrobe } from '../../store/WardrobeContext';
+import { apiClient } from '../../api/client';
 import { AlertCircle, RefreshCw } from 'lucide-react';
 
 export const ConnectionBanner: React.FC = () => {
   const { backendConnected, checkConnection, refreshAll } = useWardrobe();
 
   if (backendConnected) return null;
+
+  const targetApiUrl = apiClient.getApiUrl();
 
   return (
     <div className="bg-luxury-rose/10 border-b border-luxury-rose/30 px-4 py-2.5 backdrop-blur-md sticky top-0 z-40">
@@ -14,7 +17,7 @@ export const ConnectionBanner: React.FC = () => {
           <AlertCircle className="w-4 h-4 text-luxury-blush shrink-0" />
           <span>
             <strong className="font-semibold text-luxury-blush">Backend Connection Notice:</strong>{' '}
-            Express service at <code className="text-[11px] bg-black/40 px-1.5 py-0.5 rounded font-mono">http://localhost:3000/api/v1</code> is currently unreachable.
+            Express service at <code className="text-[11px] bg-black/40 px-1.5 py-0.5 rounded font-mono">{targetApiUrl}</code> is currently unreachable.
           </span>
         </div>
         <button

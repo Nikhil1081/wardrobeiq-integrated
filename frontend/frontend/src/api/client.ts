@@ -12,15 +12,24 @@ import {
 } from '../types/dto';
 import { Category, Occasion, Season, FeedbackType, BrowsingEventType } from '../types/domain';
 
-const getApiBaseUrl = (): string => {
+export const getApiBaseUrl = (): string => {
   if (import.meta.env.VITE_API_BASE_URL) {
     return (import.meta.env.VITE_API_BASE_URL as string).replace(/\/$/, '');
   }
-  // Auto-connect to live Render backend when deployed on Vercel
-  if (typeof window !== 'undefined' && window.location.hostname.includes('vercel.app')) {
+  if (typeof window !== 'undefined') {
+    const host = window.location.hostname;
+    // Local development: use relative path so Vite proxy forwards to localhost:3000
+    if (host === 'localhost' || host === '127.0.0.1') {
+      return '';
+    }
+    // Deployed directly on Render single-service container
+    if (host === 'wardrobeiq.onrender.com') {
+      return '';
+    }
+    // Any external host (Vercel, Netlify, Custom domain, etc.) -> connect to live Render backend
     return 'https://wardrobeiq.onrender.com';
   }
-  return '';
+  return 'https://wardrobeiq.onrender.com';
 };
 
 const BASE_URL = getApiBaseUrl();
@@ -63,6 +72,11 @@ export const apiClient = {
     } catch {}
     const res = await fetch(`${BASE_URL}/health`);
     return res.json();
+  },
+
+  getApiUrl: (): string => {
+    const base = getApiBaseUrl();
+    return base ? `${base}/api/v1` : 'http://localhost:3000/api/v1';
   },
 
   // Customers & Profile

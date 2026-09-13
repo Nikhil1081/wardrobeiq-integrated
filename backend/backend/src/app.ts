@@ -25,31 +25,13 @@ export function createApp(): Express {
     })
   );
 
-  // CORS Configuration
-  const allowedOrigins = [
-    env.FRONTEND_URL,
-    'http://localhost:5173',
-    'http://127.0.0.1:5173',
-    'http://localhost:3000',
-  ];
-
+  // CORS Configuration - Allow all client origins (Vercel, Render, Localhost, Mobile previews)
   app.use(
     cors({
-      origin: (origin, callback) => {
-        if (!origin) return callback(null, true);
-        if (
-          allowedOrigins.includes(origin) ||
-          origin.startsWith('http://localhost:') ||
-          origin.endsWith('.onrender.com') ||
-          origin.endsWith('.vercel.app')
-        ) {
-          return callback(null, true);
-        }
-        return callback(null, false);
-      },
+      origin: true,
       credentials: true,
-      methods: ['GET', 'POST', 'PATCH', 'DELETE', 'OPTIONS'],
-      allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With'],
+      methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
+      allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With', 'Accept'],
     })
   );
 
