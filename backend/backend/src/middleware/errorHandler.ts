@@ -1,6 +1,6 @@
 import { Request, Response, NextFunction } from 'express';
 import { logger } from '../utils/logger.js';
-import { sendError } from '../utils/response.js';
+import { sendError, ApiError } from '../utils/response.js';
 
 export class AppError extends Error {
   statusCode: number;
@@ -17,17 +17,37 @@ export class AppError extends Error {
 }
 
 export function errorHandler(err: any, req: Request, res: Response, next: NextFunction) {
-  logger.error(`Unhandled request error at ${req.method} ${req.originalUrl}`, err);
+  logger.error(`Request error at ${req.method} ${req.originalUrl}: ${err?.message || err}`, {
+    name: err?.name,
+    code: err?.code,
+    statusCode: err?.statusCode,
+    stack: err?.stack,
+  });
 
-  if (err instanceof AppError) {
-    return sendError(res, err.statusCode, err.code, err.message, err.details);
+  // Handle ApiError or AppError or any structured HTTP error
+  if (err instanceof ApiError || err instanceof AppError || (err && typeof err.statusCode === 'number')) {
+    return sendError(
+      res,
+      err.statusCode || 400,
+      err.code || 'BAD_REQUEST',
+      err.message || 'An error occurred while processing your request.',
+      err.details
+    );
   }
 
   // Handle common MongoDB duplicate key error (code 11000)
-  if (err.code === 11000) {
+  if (err?.code === 11000) {
     return sendError(res, 409, 'CONFLICT', 'Resource already exists with the provided unique identifier');
   }
 
-  // Standard safe 500 without stack trace exposure
-  return sendError(res, 500, 'INTERNAL_SERVER_ERROR', 'An unexpected error occurred. Please try again later.');
+  // Fallback for unhandled server exceptions
+  const message = err?.message || 'An unexpected error occurred. Please try again later.';
+  return sendError(
+    res,
+    500,
+    'INTERNAL_SERVER_ERROR',
+    message,
+    process.env.NODE_ENV !== 'production' ? { stack: err?.stack } : undefined
+  );
 }
+
