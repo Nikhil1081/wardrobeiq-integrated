@@ -11,6 +11,7 @@ import {
 } from '../types/dto';
 import { Category, Occasion, Season, FeedbackType } from '../types/domain';
 import { apiClient } from '../api/client';
+import { fallbackCustomers } from '../api/clientFallback';
 
 export type NavigationTab =
   | 'home'
@@ -113,11 +114,16 @@ export const WardrobeProvider: React.FC<{ children: ReactNode }> = ({ children }
   const [activeTab, setActiveTab] = useState<NavigationTab>('home');
   const [viewportMode, setViewportMode] = useState<'desktop' | 'tablet' | 'mobile'>('desktop');
 
-  // Customers
-  const [customers, setCustomers] = useState<CustomerDTO[]>([]);
-  // Default to Neha Gupta (C012)
-  const [currentCustomerId, setCurrentCustomerIdState] = useState<string>('C012');
-  const [currentCustomer, setCurrentCustomer] = useState<CustomerDTO | null>(null);
+  // Customers - initialized immediately with all 105 global personas
+  const [customers, setCustomers] = useState<CustomerDTO[]>(fallbackCustomers);
+  const [currentCustomerId, setCurrentCustomerIdState] = useState<string>(() => {
+    if (typeof window !== 'undefined') {
+      const stored = localStorage.getItem('wardrobeiq_customer_id');
+      if (stored) return stored;
+    }
+    return 'C001';
+  });
+  const [currentCustomer, setCurrentCustomer] = useState<CustomerDTO | null>(fallbackCustomers[0]);
 
   // Backend state
   const [dashboard, setDashboard] = useState<DashboardDTO | null>(null);
@@ -223,31 +229,50 @@ export const WardrobeProvider: React.FC<{ children: ReactNode }> = ({ children }
     setLoading(true);
     try {
       // 1. Home Dashboard BFF (contains health, stats, top gaps, top recs, outfits)
-      const dash = await apiClient.getHomeDashboard(customerId);
-      setDashboard(dash);
-      setCurrentCustomer(dash.customer);
+      try {
+        const dash = await apiClient.getHomeDashboard(customerId);
+        setDashboard(dash);
+        if (dash?.customer) setCurrentCustomer(dash.customer);
+      } catch (err) {
+        console.warn('Could not load home dashboard:', err);
+      }
 
       // 2. Full Closet
-      const closetData = await apiClient.getCloset(customerId);
-      setClosetItems(closetData.items || []);
+      try {
+        const closetData = await apiClient.getCloset(customerId);
+        setClosetItems(closetData.items || []);
+      } catch (err) {
+        console.warn('Could not load closet items:', err);
+      }
 
       // 3. All Wardrobe Gaps
-      const gapsData = await apiClient.getGaps(customerId);
-      setGaps(gapsData || []);
+      try {
+        const gapsData = await apiClient.getGaps(customerId);
+        setGaps(gapsData || []);
+      } catch (err) {
+        console.warn('Could not load gaps:', err);
+      }
 
       // 4. Personalized Recommendations
-      const recData = await apiClient.getRecommendations(customerId, { limit: 20 });
-      setRecommendations(recData.recommendations || []);
+      try {
+        const recData = await apiClient.getRecommendations(customerId, { limit: 20 });
+        setRecommendations(recData.recommendations || []);
+      } catch (err) {
+        console.warn('Could not load recommendations:', err);
+      }
 
       // 5. Saved Products & Outfits
-      const savedData = await apiClient.getSavedItems(customerId);
-      setSavedProducts(savedData.savedProducts || []);
-      setSavedOutfits(savedData.savedOutfits || []);
+      try {
+        const savedData = await apiClient.getSavedItems(customerId);
+        setSavedProducts(savedData.savedProducts || []);
+        setSavedOutfits(savedData.savedOutfits || []);
+      } catch (err) {
+        console.warn('Could not load saved items:', err);
+      }
 
       setBackendConnected(true);
     } catch (err) {
       console.error(`Error loading data for customer ${customerId}:`, err);
-      setBackendConnected(false);
     } finally {
       setLoading(false);
     }

@@ -1,5 +1,6 @@
 import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
 import { apiClient } from '../api/client';
+import { fallbackDemoPersonas } from '../api/clientFallback';
 
 export interface AuthUser {
   userId: string;
@@ -71,7 +72,7 @@ export const AuthProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
     return null;
   });
 
-  const [demoPersonas, setDemoPersonas] = useState<DemoPersona[]>([]);
+  const [demoPersonas, setDemoPersonas] = useState<DemoPersona[]>(fallbackDemoPersonas);
   const [loadingPersonas, setLoadingPersonas] = useState<boolean>(false);
   const [isAuthModalOpen, setIsAuthModalOpen] = useState<boolean>(false);
 
