@@ -233,9 +233,9 @@ Object.values(normalizedLegacyItems).forEach((arr) => (totalNormalizedLegacy += 
 console.log(`Preserved ${totalPreservedCustom} custom items and normalized ${totalNormalizedLegacy} legacy items.`);
 
 // ============================================================================
-// 5. GENERATE 73,500 WARDROBE RECORDS (105 PERSONAS × 700 RECORDS)
+// 5. GENERATE 7,350 WARDROBE RECORDS (105 PERSONAS × 70 RECORDS)
 // ============================================================================
-console.log('Generating 73,500 wardrobe records across 105 personas (exactly 100 per category)...');
+console.log('Generating 7,350 wardrobe records across 105 personas (exactly 10 per category)...');
 const wardrobes: any[] = [];
 let wardrobeItemCounter = 1;
 
@@ -250,15 +250,17 @@ const productsByCat: Record<Category, any[]> = {
   traditional: products.filter((p) => p.category === 'traditional'),
 };
 
+const ITEMS_PER_CATEGORY_PER_PERSONA = 10;
+
 for (let pNum = 1; pNum <= 105; pNum++) {
   const custId = `C${String(pNum).padStart(3, '0')}`;
   const personaCustom = preservedCustomItems[custId] || [];
   const personaLegacy = normalizedLegacyItems[custId] || [];
   const existingSpecial = [...personaCustom, ...personaLegacy];
 
-  // For each of the 7 categories: exactly 100 items
+  // For each of the 7 categories: exactly 10 items
   for (const cat of CATEGORIES) {
-    const specialInCat = existingSpecial.filter((item) => item.category === cat);
+    const specialInCat = existingSpecial.filter((item) => item.category === cat).slice(0, ITEMS_PER_CATEGORY_PER_PERSONA);
     // Add existing special items first
     specialInCat.forEach((spec) => {
       wardrobes.push({
@@ -268,7 +270,7 @@ for (let pNum = 1; pNum <= 105; pNum++) {
       });
     });
 
-    const neededFromCatalogue = 100 - specialInCat.length;
+    const neededFromCatalogue = ITEMS_PER_CATEGORY_PER_PERSONA - specialInCat.length;
     const catProds = productsByCat[cat];
 
     // Select products cyclically with persona-based offset so each persona has their own curated mix

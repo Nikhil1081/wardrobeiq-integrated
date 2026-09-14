@@ -90,20 +90,20 @@ export function getFallbackCloset(
 
   const fullCloset: WardrobeItemDTO[] = [];
   const categoryBreakdown: Record<Category, number> = {
-    top: 100,
-    bottom: 100,
-    dress: 100,
-    outerwear: 100,
-    shoes: 100,
-    accessory: 100,
-    traditional: 100,
+    top: 10,
+    bottom: 10,
+    dress: 10,
+    outerwear: 10,
+    shoes: 10,
+    accessory: 10,
+    traditional: 10,
   };
 
   ALL_CATEGORIES.forEach((cat) => {
     const catPool = productsByCategory[cat] || [];
     if (catPool.length === 0) return;
 
-    for (let i = 0; i < 100; i++) {
+    for (let i = 0; i < 10; i++) {
       const pIdx = (custNum * 13 + i) % catPool.length;
       const p = catPool[pIdx];
       const wearCount = ((custNum * 7 + i * 3) % 25) + 1;
@@ -329,15 +329,15 @@ export function getFallbackHomeDashboard(customerId: string): DashboardDTO {
       activeSeason: customer.currentSeason || 'all-season',
     },
     wardrobeStatistics: {
-      totalItems: 700,
+      totalItems: 70,
       categoryCounts: {
-        top: 100,
-        bottom: 100,
-        dress: 100,
-        outerwear: 100,
-        shoes: 100,
-        accessory: 100,
-        traditional: 100,
+        top: 10,
+        bottom: 10,
+        dress: 10,
+        outerwear: 10,
+        shoes: 10,
+        accessory: 10,
+        traditional: 10,
       },
       dominantColors: ['black', 'navy', 'white', 'beige'],
       dominantStyles: customer.preferredStyles,
@@ -418,25 +418,25 @@ export function getFallbackAdminDashboard(): AdminDashboardDTO {
     counts: {
       products: 812,
       personas: 105,
-      wardrobeItems: 73500,
+      wardrobeItems: 7350,
       purchases: 4095,
       browsingEvents: 5195,
       users: 106,
     },
     metrics: {
-      totalWardrobeValue: 18450000,
+      totalWardrobeValue: 1845000,
       totalGMV: 24500000,
       averageOrderValue: 5980,
       purchasesPerCustomer: 39,
     },
     wardrobeCategoryBreakdown: {
-      top: 10500,
-      bottom: 10500,
-      dress: 10500,
-      outerwear: 10500,
-      shoes: 10500,
-      accessory: 10500,
-      traditional: 10500,
+      top: 1050,
+      bottom: 1050,
+      dress: 1050,
+      outerwear: 1050,
+      shoes: 1050,
+      accessory: 1050,
+      traditional: 1050,
     },
     productCategoryBreakdown: {
       top: 116,
@@ -463,7 +463,7 @@ export function getFallbackClothing(params?: any): PaginatedResult<WardrobeItemD
   }
   const page = params?.page || 1;
   const limit = params?.limit || 50;
-  const total = 73500;
+  const total = 7350;
   const totalPages = Math.ceil(total / limit);
   const items = list.slice(((page - 1) % 14) * limit, ((page - 1) % 14 + 1) * limit);
   return { items, total, page, limit, totalPages };
@@ -545,7 +545,7 @@ export function getFallbackAudit(): any {
     timestamp: new Date().toISOString(),
     dimensions: {
       personas: { count: 105, target: 105, valid: true },
-      wardrobes: { count: 73500, target: 73500, valid: true },
+      wardrobes: { count: 7350, target: 7350, valid: true },
       products: { count: 812, target: 812, valid: true },
       images: { uniqueCount: 812, sharedCount: 0, valid: true },
       purchases: { count: 4095, valid: true },

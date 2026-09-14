@@ -72,12 +72,16 @@ export const AuthProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
     return null;
   });
 
-  const [demoPersonas, setDemoPersonas] = useState<DemoPersona[]>(fallbackDemoPersonas);
+  const [demoPersonas, setDemoPersonas] = useState<DemoPersona[]>([]);
   const [loadingPersonas, setLoadingPersonas] = useState<boolean>(false);
   const [isAuthModalOpen, setIsAuthModalOpen] = useState<boolean>(false);
 
   useEffect(() => {
     const fetchPersonas = async () => {
+      if (!user || user.role !== 'admin') {
+        setDemoPersonas([]);
+        return;
+      }
       try {
         setLoadingPersonas(true);
         const personas = await apiClient.auth.getDemoPersonas();
@@ -89,7 +93,7 @@ export const AuthProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
       }
     };
     fetchPersonas();
-  }, []);
+  }, [user]);
 
   const saveAuthSession = (userData: AuthUser, authToken: string) => {
     setUser(userData);

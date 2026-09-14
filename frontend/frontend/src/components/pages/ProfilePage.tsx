@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useWardrobe } from '../../store/WardrobeContext';
+import { useAuth } from '../../store/AuthContext';
 import { User, Sparkles, Check, DollarSign, Palette, Shield } from 'lucide-react';
 import { Season, Occasion } from '../../types/domain';
 
@@ -11,6 +12,7 @@ export const ProfilePage: React.FC = () => {
     setCurrentCustomerId,
     updateCustomerPreferences,
   } = useWardrobe();
+  const { isAdmin } = useAuth();
 
   const [preferredStyles, setPreferredStyles] = useState<string[]>([]);
   const [preferredColors, setPreferredColors] = useState<string[]>([]);
@@ -93,42 +95,44 @@ export const ProfilePage: React.FC = () => {
         </p>
       </div>
 
-      {/* Customer Switcher Strip */}
-      <div className="p-6 rounded-3xl glass-panel border border-white/5 space-y-4">
-        <div className="flex items-center justify-between">
-          <span className="text-xs font-bold uppercase tracking-wider text-luxury-peach">
-            Active Persona: {currentCustomer?.name} ({currentCustomerId})
-          </span>
-          <span className="text-[10px] text-gray-400 font-mono">12 Profiles in MongoDB</span>
-        </div>
+      {/* Customer Switcher Strip (Admin Only) */}
+      {isAdmin && (
+        <div className="p-6 rounded-3xl glass-panel border border-white/5 space-y-4">
+          <div className="flex items-center justify-between">
+            <span className="text-xs font-bold uppercase tracking-wider text-luxury-peach">
+              Admin Persona Inspector: {currentCustomer?.name} ({currentCustomerId})
+            </span>
+            <span className="text-[10px] text-gray-400 font-mono">105 Personas in Database</span>
+          </div>
 
-        <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 gap-2.5">
-          {customers.map((c) => {
-            const isSelected = c.customerId === currentCustomerId;
-            return (
-              <button
-                key={c.customerId}
-                onClick={() => setCurrentCustomerId(c.customerId)}
-                className={`p-2.5 rounded-2xl flex flex-col items-center text-center transition-all ${
-                  isSelected
-                    ? 'bg-luxury-rose/25 border border-luxury-rose/50 shadow-glow-rose scale-105'
-                    : 'glass-panel hover:border-white/20 opacity-70 hover:opacity-100'
-                }`}
-              >
-                <img
-                  src={c.avatar}
-                  alt={c.name}
-                  className="w-11 h-11 rounded-xl object-cover border border-white/10 mb-2"
-                />
-                <span className="text-xs font-bold text-luxury-cream truncate w-full">
-                  {c.name.split(' ')[0]}
-                </span>
-                <span className="text-[9px] text-gray-400 font-mono">{c.customerId}</span>
-              </button>
-            );
-          })}
+          <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 gap-2.5 max-h-64 overflow-y-auto pr-1">
+            {customers.map((c) => {
+              const isSelected = c.customerId === currentCustomerId;
+              return (
+                <button
+                  key={c.customerId}
+                  onClick={() => setCurrentCustomerId(c.customerId)}
+                  className={`p-2.5 rounded-2xl flex flex-col items-center text-center transition-all ${
+                    isSelected
+                      ? 'bg-luxury-rose/25 border border-luxury-rose/50 shadow-glow-rose scale-105'
+                      : 'glass-panel hover:border-white/20 opacity-70 hover:opacity-100'
+                  }`}
+                >
+                  <img
+                    src={c.avatar}
+                    alt={c.name}
+                    className="w-11 h-11 rounded-xl object-cover border border-white/10 mb-2"
+                  />
+                  <span className="text-xs font-bold text-luxury-cream truncate w-full">
+                    {c.name.split(' ')[0]}
+                  </span>
+                  <span className="text-[9px] text-gray-400 font-mono">{c.customerId}</span>
+                </button>
+              );
+            })}
+          </div>
         </div>
-      </div>
+      )}
 
       {/* Preferences Form */}
       <div className="p-6 md:p-8 rounded-3xl glass-panel border border-white/5 space-y-7">

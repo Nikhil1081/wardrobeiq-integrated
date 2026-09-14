@@ -12,10 +12,11 @@ export const AuthModal: React.FC = () => {
     loginAsDemoPersona,
     demoPersonas,
     loadingPersonas,
+    isAdmin,
   } = useAuth();
   const { setCurrentCustomerId, showToast } = useWardrobe();
 
-  const [activeTab, setActiveTab] = useState<'personas' | 'login' | 'register'>('personas');
+  const [activeTab, setActiveTab] = useState<'personas' | 'login' | 'register'>('login');
   const [searchTerm, setSearchTerm] = useState('');
 
   // Sign In Form
@@ -102,10 +103,10 @@ export const AuthModal: React.FC = () => {
             </div>
             <div>
               <h2 className="text-xl font-editorial font-bold text-gray-900 dark:text-white">
-                WardrobeIQ Account & Personas
+                WardrobeIQ Account & Authentication
               </h2>
               <p className="text-xs text-gray-500 dark:text-gray-400">
-                Explore as a global persona or sign in to your personal wardrobe
+                Sign in to your personalized AI wardrobe or register a new account
               </p>
             </div>
           </div>
@@ -119,17 +120,19 @@ export const AuthModal: React.FC = () => {
 
         {/* Tab Navigation */}
         <div className="flex items-center gap-2 px-6 pt-4 border-b border-white/5 dark:border-white/5 light:border-black/5">
-          <button
-            onClick={() => setActiveTab('personas')}
-            className={`flex items-center gap-2 px-4 py-2.5 rounded-t-xl text-sm font-medium transition-all ${
-              activeTab === 'personas'
-                ? 'border-b-2 border-luxury-rose text-luxury-rose bg-luxury-rose/10'
-                : 'text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-white'
-            }`}
-          >
-            <Globe className="w-4 h-4" />
-            <span>Global Demo Personas (100+)</span>
-          </button>
+          {isAdmin && (
+            <button
+              onClick={() => setActiveTab('personas')}
+              className={`flex items-center gap-2 px-4 py-2.5 rounded-t-xl text-sm font-medium transition-all ${
+                activeTab === 'personas'
+                  ? 'border-b-2 border-luxury-rose text-luxury-rose bg-luxury-rose/10'
+                  : 'text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-white'
+              }`}
+            >
+              <Globe className="w-4 h-4" />
+              <span>Admin Personas (105)</span>
+            </button>
+          )}
           <button
             onClick={() => setActiveTab('login')}
             className={`flex items-center gap-2 px-4 py-2.5 rounded-t-xl text-sm font-medium transition-all ${
@@ -157,7 +160,7 @@ export const AuthModal: React.FC = () => {
         {/* Tab Content */}
         <div className="flex-1 overflow-y-auto p-6">
           {/* Tab 1: Demo Personas */}
-          {activeTab === 'personas' && (
+          {isAdmin && activeTab === 'personas' && (
             <div className="space-y-4">
               <div className="flex items-center justify-between gap-4">
                 <input

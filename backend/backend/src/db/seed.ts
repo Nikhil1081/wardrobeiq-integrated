@@ -32,11 +32,6 @@ export async function seedDatabase(isClean = false): Promise<void> {
   const userCount = await usersCol.countDocuments();
   const purchaseCount = await purchasesCol.countDocuments();
 
-  if (count >= 800 && wardrobeCount >= 70000 && userCount >= 100 && purchaseCount > 0 && !isClean) {
-    logger.info(`Database already fully populated (${count} products, ${wardrobeCount} wardrobes, ${userCount} users, ${purchaseCount} purchases). Skipping seed.`);
-    return;
-  }
-
   const products = JSON.parse(fs.readFileSync(path.join(dataDir, 'products.json'), 'utf-8'));
   const customers = JSON.parse(fs.readFileSync(path.join(dataDir, 'customers.json'), 'utf-8'));
   const wardrobes = JSON.parse(fs.readFileSync(path.join(dataDir, 'wardrobes.json'), 'utf-8'));
@@ -49,7 +44,12 @@ export async function seedDatabase(isClean = false): Promise<void> {
     ? JSON.parse(fs.readFileSync(path.join(dataDir, 'users.json'), 'utf-8'))
     : [];
 
-  const shouldWipe = isClean || wardrobeCount < 70000 || count < 800;
+  if (count >= 800 && wardrobeCount === wardrobes.length && userCount >= 106 && purchaseCount > 0 && !isClean) {
+    logger.info(`Database already fully populated (${count} products, ${wardrobeCount} wardrobes, ${userCount} users, ${purchaseCount} purchases). Skipping seed.`);
+    return;
+  }
+
+  const shouldWipe = isClean || wardrobeCount !== wardrobes.length || count < 800;
 
   if (shouldWipe) {
     logger.info('Wiping collections for complete synchronized seed...');

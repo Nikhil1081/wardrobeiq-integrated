@@ -41,7 +41,7 @@
     "passwordHash": "$2b$10$BaaFwBHEABg47k2HqI/lVeOebrb1vkvKfgcBIyHabuDKJy/k96QXu",
     "name": "Aarav Sharma",
     "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80",
-    "role": "admin",
+    "role": "user",
     "country": "India",
     "city": "Mumbai",
     "climate": "tropical",

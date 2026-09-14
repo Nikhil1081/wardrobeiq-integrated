@@ -8,7 +8,7 @@ import {
   resetPasswordHandler,
   demoPersonasHandler,
 } from '../../controllers/auth.controller.js';
-import { requireAuth } from '../../middleware/auth.middleware.js';
+import { requireAuth, requireAdmin } from '../../middleware/auth.middleware.js';
 
 const router = Router();
 
@@ -18,7 +18,9 @@ router.post('/logout', logoutHandler);
 router.get('/me', requireAuth, meHandler);
 router.patch('/profile', requireAuth, updateProfileHandler);
 router.post('/reset-password', resetPasswordHandler);
-router.get('/demo-personas', demoPersonasHandler);
-router.get('/personas', demoPersonasHandler);
+
+// Admin-only persona exploration endpoints
+router.get('/demo-personas', requireAuth, requireAdmin, demoPersonasHandler);
+router.get('/personas', requireAuth, requireAdmin, demoPersonasHandler);
 
 export default router;

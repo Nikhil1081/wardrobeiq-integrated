@@ -118,6 +118,13 @@ export const WardrobeProvider: React.FC<{ children: ReactNode }> = ({ children }
   const [customers, setCustomers] = useState<CustomerDTO[]>(fallbackCustomers);
   const [currentCustomerId, setCurrentCustomerIdState] = useState<string>(() => {
     if (typeof window !== 'undefined') {
+      const storedUser = localStorage.getItem('wardrobeiq_user');
+      if (storedUser) {
+        try {
+          const parsed = JSON.parse(storedUser);
+          if (parsed.customerId || parsed.userId) return parsed.customerId || parsed.userId;
+        } catch {}
+      }
       const stored = localStorage.getItem('wardrobeiq_customer_id');
       if (stored) return stored;
     }
@@ -201,23 +208,16 @@ export const WardrobeProvider: React.FC<{ children: ReactNode }> = ({ children }
     }
   }, []);
 
-  // Load all 12 customers on initial mount
+  // Load customers on initial mount (allowed for admin; guarded for non-admin)
   useEffect(() => {
     async function loadCustomers() {
       try {
         const custList = await apiClient.getCustomers();
         if (Array.isArray(custList) && custList.length > 0) {
           setCustomers(custList);
-          // If C012 (Neha Gupta) exists, select her as default
-          const hasNeha = custList.some((c) => c.customerId === 'C012');
-          const chosenId = hasNeha ? 'C012' : custList[0].customerId;
-          setCurrentCustomerIdState(chosenId);
-          const active = custList.find((c) => c.customerId === chosenId) || custList[0];
-          setCurrentCustomer(active);
         }
       } catch (err) {
-        console.error('Failed to load customers from backend:', err);
-        setBackendConnected(false);
+        // Expected 403 for non-admin users
       }
     }
     loadCustomers();

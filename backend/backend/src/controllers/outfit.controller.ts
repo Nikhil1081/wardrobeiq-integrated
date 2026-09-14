@@ -12,7 +12,7 @@ import { sendSuccess } from '../utils/response.js';
 
 export async function getTodayOutfitHandler(req: Request, res: Response, next: NextFunction) {
   try {
-    const customerId = (req.params.customerId || req.query.customerId || req.body.customerId || 'C001') as string;
+    const customerId = (req.params.customerId || req.query.customerId || req.body.customerId || req.user?.customerId || req.user?.userId || 'C001') as string;
     const city = (req.query.city || req.body.city) as string | undefined;
     const occasion = (req.query.occasion || req.body.occasion || 'casual') as string;
     const preset = (req.query.preset || req.body.preset) as string | undefined;

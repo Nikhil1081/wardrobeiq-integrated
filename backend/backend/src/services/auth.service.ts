@@ -305,7 +305,7 @@ export async function getDemoPersonas(): Promise<Array<{
   styles: string[];
 }>> {
   const usersCol = getUsersCollection();
-  const users = await usersCol.find({}).limit(20).toArray();
+  const users = await usersCol.find({ role: { $ne: 'admin' } }).toArray();
   return users.map((u) => ({
     userId: u.userId,
     name: u.name,

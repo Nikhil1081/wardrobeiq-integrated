@@ -306,7 +306,7 @@ export const TopCommandBar: React.FC = () => {
                 >
                   <span className="flex items-center gap-2">
                     <LogIn className="w-3.5 h-3.5 text-luxury-rose" />
-                    Account / Switch User
+                    <span>{isAdmin ? 'Admin / Switch Persona' : 'My Account'}</span>
                   </span>
                   <span className="text-gray-500">→</span>
                 </button>

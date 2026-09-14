@@ -30,12 +30,18 @@ export function requireAuth(req: Request, res: Response, next: NextFunction) {
 
   // Support demo token fallback for direct offline/demo switching
   if (token.startsWith('demo_token_')) {
-    const custId = token.replace('demo_token_', '');
+    let custId = token.replace('demo_token_', '');
+    const lastUnderscore = custId.lastIndexOf('_');
+    if (lastUnderscore > 0 && /^\d+$/.test(custId.substring(lastUnderscore + 1))) {
+      custId = custId.substring(0, lastUnderscore);
+    }
+    const isAdmin = custId === 'admin_root' || custId === 'admin' || custId.toLowerCase().includes('admin');
+    const finalUserId = isAdmin ? 'admin_root' : custId;
     req.user = {
-      userId: custId,
-      customerId: custId,
-      email: `${custId.toLowerCase()}@wardrobeiq.demo`,
-      role: custId === 'admin_root' || custId === 'admin' ? 'admin' : 'demo',
+      userId: finalUserId,
+      customerId: finalUserId,
+      email: isAdmin ? 'admin@wardrobeiq.com' : `${finalUserId.toLowerCase()}@wardrobeiq.demo`,
+      role: isAdmin ? 'admin' : 'user',
     };
     return next();
   }
@@ -54,12 +60,18 @@ export function optionalAuth(req: Request, res: Response, next: NextFunction) {
   if (authHeader && authHeader.startsWith('Bearer ')) {
     const token = authHeader.split(' ')[1];
     if (token.startsWith('demo_token_')) {
-      const custId = token.replace('demo_token_', '');
+      let custId = token.replace('demo_token_', '');
+      const lastUnderscore = custId.lastIndexOf('_');
+      if (lastUnderscore > 0 && /^\d+$/.test(custId.substring(lastUnderscore + 1))) {
+        custId = custId.substring(0, lastUnderscore);
+      }
+      const isAdmin = custId === 'admin_root' || custId === 'admin' || custId.toLowerCase().includes('admin');
+      const finalUserId = isAdmin ? 'admin_root' : custId;
       req.user = {
-        userId: custId,
-        customerId: custId,
-        email: `${custId.toLowerCase()}@wardrobeiq.demo`,
-        role: custId === 'admin_root' || custId === 'admin' ? 'admin' : 'demo',
+        userId: finalUserId,
+        customerId: finalUserId,
+        email: isAdmin ? 'admin@wardrobeiq.com' : `${finalUserId.toLowerCase()}@wardrobeiq.demo`,
+        role: isAdmin ? 'admin' : 'user',
       };
       return next();
     }
@@ -82,18 +94,23 @@ export function requireAdmin(req: Request, res: Response, next: NextFunction) {
 
 export function requireOwnerOrAdmin(req: Request, res: Response, next: NextFunction) {
   if (!req.user) {
-    throw ApiError.unauthorized('Authentication required.');
+    throw ApiError.unauthorized('Authentication required. Please provide a valid token.');
   }
 
   if (req.user.role === 'admin') {
     return next();
   }
 
-  const targetId = req.params.customerId || req.params.userId || req.body?.customerId;
+  const targetId =
+    req.params.customerId ||
+    req.params.userId ||
+    req.body?.customerId ||
+    (req.query?.customerId as string);
+
   const userCustomerId = req.user.customerId || req.user.userId;
 
   if (targetId && userCustomerId && targetId !== userCustomerId && targetId !== req.user.userId) {
-    throw ApiError.forbidden('Access denied. You cannot access or modify another user\'s wardrobe or data.');
+    throw ApiError.forbidden('Access denied. You cannot access or modify another user\'s persona or data.');
   }
 
   next();

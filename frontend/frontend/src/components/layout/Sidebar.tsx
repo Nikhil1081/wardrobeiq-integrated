@@ -27,7 +27,7 @@ interface SidebarProps {
 
 export const Sidebar: React.FC<SidebarProps> = ({ collapsed, onToggleCollapse }) => {
   const { activeTab, setActiveTab, dashboard } = useWardrobe();
-  const { user, openAuthModal, isAuthenticated } = useAuth();
+  const { user, openAuthModal, isAuthenticated, isAdmin } = useAuth();
 
   const navItems: Array<{ id: NavigationTab; label: string; icon: React.ReactNode; badge?: number }> = [
     { id: 'home', label: 'Home', icon: <Home className="w-4 h-4" /> },
@@ -42,8 +42,8 @@ export const Sidebar: React.FC<SidebarProps> = ({ collapsed, onToggleCollapse })
   ];
 
   const bottomNavItems: Array<{ id: NavigationTab; label: string; icon: React.ReactNode }> = [
-    { id: 'auth', label: isAuthenticated ? 'Account & Personas' : 'Sign In / Register', icon: <LogIn className="w-4 h-4 text-luxury-rose" /> },
-    { id: 'admin', label: 'Admin Quality', icon: <ShieldCheck className="w-4 h-4 text-emerald-400" /> },
+    { id: 'auth', label: isAuthenticated ? (isAdmin ? 'Account & Personas' : 'My Account') : 'Sign In / Register', icon: <LogIn className="w-4 h-4 text-luxury-rose" /> },
+    ...(isAdmin ? [{ id: 'admin' as NavigationTab, label: 'Admin Quality', icon: <ShieldCheck className="w-4 h-4 text-emerald-400" /> }] : []),
     { id: 'profile', label: 'Profile', icon: <User className="w-4 h-4" /> },
     { id: 'settings', label: 'Settings', icon: <Settings className="w-4 h-4" /> },
   ];
@@ -166,7 +166,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ collapsed, onToggleCollapse })
           className={`w-full flex items-center gap-3 p-2.5 rounded-xl border border-white/10 bg-white/5 hover:bg-white/10 transition-all ${
             collapsed ? 'justify-center' : ''
           }`}
-          title="Sign In / Register / Switch Persona"
+          title={isAdmin ? 'Admin / Switch Persona' : 'My Account'}
         >
           {user ? (
             <img
@@ -182,10 +182,10 @@ export const Sidebar: React.FC<SidebarProps> = ({ collapsed, onToggleCollapse })
           {!collapsed && (
             <div className="flex-1 min-w-0 text-left">
               <p className="text-xs font-semibold text-gray-900 dark:text-white truncate">
-                {user?.name || 'Guest / Demo Persona'}
+                {user?.name || 'My Account'}
               </p>
               <p className="text-[10px] text-luxury-rose font-medium truncate">
-                {user?.role === 'admin' ? 'Administrator' : '100+ Personas • Switch'}
+                {isAdmin ? 'Administrator' : (user?.email || 'Active Account')}
               </p>
             </div>
           )}

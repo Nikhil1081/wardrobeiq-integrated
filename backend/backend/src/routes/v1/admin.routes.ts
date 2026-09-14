@@ -14,13 +14,11 @@ import { requireAuth, requireAdmin, optionalAuth } from '../../middleware/auth.m
 
 const router = Router();
 
-// Public / Health inspection
-router.get('/dataset/audit', getDatasetAuditHandler);
-router.post('/dataset/validate-image', postValidateImageHandler);
-
-// Protected Admin Control Center (Requires Admin Privileges)
+// Protected Admin Control Center & Quality Management (Requires Admin Privileges)
 router.use(requireAuth, requireAdmin);
 
+router.get('/dataset/audit', getDatasetAuditHandler);
+router.post('/dataset/validate-image', postValidateImageHandler);
 router.post('/dataset/repair', postDatasetRepairHandler);
 router.get('/dashboard', getAdminDashboardHandler);
 router.get('/clothing', getAdminClothingHandler);

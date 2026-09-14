@@ -19,6 +19,7 @@ export const AuthPage: React.FC = () => {
   const {
     user,
     isAuthenticated,
+    isAdmin,
     login,
     register,
     loginAsDemoPersona,
@@ -29,7 +30,7 @@ export const AuthPage: React.FC = () => {
   const { setActiveTab, showToast, setCurrentCustomerId } = useWardrobe();
 
   const [activeSubTab, setActiveSubTab] = useState<'login' | 'register' | 'personas'>(
-    isAuthenticated ? 'personas' : 'login'
+    isAuthenticated && isAdmin ? 'personas' : 'login'
   );
 
   // Login Form
@@ -180,7 +181,7 @@ export const AuthPage: React.FC = () => {
                     <MapPin className="w-3.5 h-3.5 text-luxury-rose" />
                     {user.city || 'Global'}, {user.country || 'World'}
                   </span>
-                  <span>•</span>
+                  <span>ï¿½</span>
                   <span className="capitalize text-luxury-peach">
                     {user.preferredStyles?.join(', ') || 'Casual'}
                   </span>
@@ -222,6 +223,7 @@ export const AuthPage: React.FC = () => {
         >
           Create Account
         </button>
+        {isAdmin && (
         <button
           onClick={() => setActiveSubTab('personas')}
           className={`px-6 py-3 text-sm font-semibold border-b-2 transition-all cursor-pointer flex items-center gap-1.5 ${
@@ -231,8 +233,9 @@ export const AuthPage: React.FC = () => {
           }`}
         >
           <Sparkles className="w-4 h-4 text-luxury-blush" />
-          <span>105 Global Personas (1-Click Switch)</span>
+          <span>105 Global Personas (Admin Switcher)</span>
         </button>
+      )}
       </div>
 
       {/* TAB 1: SIGN IN */}
@@ -278,7 +281,7 @@ export const AuthPage: React.FC = () => {
                     required
                     value={loginPassword}
                     onChange={(e) => setLoginPassword(e.target.value)}
-                    placeholder="••••••••"
+                    placeholder="ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
                     className="w-full pl-10 pr-4 py-2.5 rounded-xl text-sm bg-white/5 border border-white/10 focus:border-luxury-rose text-gray-900 dark:text-white focus:outline-none"
                   />
                 </div>
@@ -469,7 +472,7 @@ export const AuthPage: React.FC = () => {
       )}
 
       {/* TAB 3: 105 DEMO PERSONAS DIRECTORY */}
-      {activeSubTab === 'personas' && (
+      {isAdmin && activeSubTab === 'personas' && (
         <div className="space-y-6">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
             <div>

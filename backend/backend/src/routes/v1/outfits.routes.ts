@@ -8,6 +8,7 @@ import {
   deleteSavedOutfitHandler,
   getTodayOutfitHandler,
 } from '../../controllers/outfit.controller.js';
+import { requireAuth, requireOwnerOrAdmin } from '../../middleware/auth.middleware.js';
 import { validateBody, validateParams } from '../../middleware/validate.js';
 import {
   OutfitGenerateSchema,
@@ -18,6 +19,8 @@ import {
 } from '../../validation/schemas.js';
 
 const router = Router();
+
+router.use(requireAuth, requireOwnerOrAdmin);
 
 // What Should I Wear Today (Weather-Aware Styling Engine)
 router.get('/today', getTodayOutfitHandler);
