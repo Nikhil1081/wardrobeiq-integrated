@@ -24,14 +24,9 @@ export async function aiStylistStreamHandler(req: Request, res: Response, next: 
       res.write(`event: ${event}\ndata: ${JSON.stringify(data)}\n\n`);
     };
 
-    sendSse('step', { step: 'Understanding request' });
-    sendSse('step', { step: 'Checking your closet' });
-    sendSse('step', { step: 'Detecting wardrobe gaps' });
-    sendSse('step', { step: 'Finding compatible pieces' });
-    sendSse('step', { step: 'Ranking recommendations' });
-    sendSse('step', { step: 'Building your look' });
-
-    const response = await runStylistWorkflow(customerId, message, conversationId);
+    const response = await runStylistWorkflow(customerId, message, conversationId, (stepName) => {
+      sendSse('step', { step: stepName });
+    });
 
     sendSse('result', response);
     sendSse('done', { status: 'complete' });
