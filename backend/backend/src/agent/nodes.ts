@@ -249,9 +249,16 @@ export async function generateOutfitsNode(state: AgentStateType) {
 
 // 13. generate_explanation
 export async function generateExplanationNode(state: AgentStateType) {
-  if (!state.customer) return { responseMessage: 'Customer not found' };
-
-  const customer = state.customer;
+  let customer = state.customer;
+  if (!customer) {
+    customer = await getCustomerProfile(state.customerId || 'C001');
+  }
+  if (!customer) {
+    customer = await getCustomerProfile('C001');
+  }
+  if (!customer) {
+    return { responseMessage: 'I am ready to help curate your wardrobe! Tell me what style or occasion you are dressing for.' };
+  }
   const gaps = state.gaps || [];
   const recs = state.rankedRecommendations || [];
   const outfits = state.generatedOutfits || [];
