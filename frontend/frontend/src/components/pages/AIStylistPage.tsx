@@ -106,8 +106,9 @@ export const AIStylistPage: React.FC = () => {
         }
       );
 
-      // If SSE didn't return complete result or stream failed, do standard fallback
-      if (!streamResult) {
+      // If SSE didn't return complete result or returned Customer not found, do standard resilient call
+      const resMsg = streamResult ? (streamResult as any).message : null;
+      if (!streamResult || !resMsg || resMsg === 'Customer not found') {
         streamResult = await apiClient.askAIStylist(currentCustomerId, textToSend);
       }
 

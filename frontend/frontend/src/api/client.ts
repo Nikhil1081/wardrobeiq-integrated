@@ -28,6 +28,7 @@ import {
   getFallbackGaps,
   getFallbackSavedItems,
   getFallbackExploreCollections,
+  getFallbackStylistResponse,
   getFallbackClothing,
   getFallbackPurchases,
   getFallbackBrowsing,
@@ -570,10 +571,18 @@ export const apiClient = {
     message: string,
     conversationId?: string
   ): Promise<AIStylistResponseDTO> => {
-    return fetchJson<AIStylistResponseDTO>(`${API_BASE}/ai/stylist`, {
-      method: 'POST',
-      body: JSON.stringify({ customerId, message, conversationId }),
-    });
+    try {
+      const res = await fetchJson<AIStylistResponseDTO>(`${API_BASE}/ai/stylist`, {
+        method: 'POST',
+        body: JSON.stringify({ customerId, message, conversationId }),
+      });
+      if (res && res.message && res.message !== 'Customer not found') {
+        return res;
+      }
+    } catch (e) {
+      console.warn('Backend AI stylist unavailable, using client fallback:', e);
+    }
+    return getFallbackStylistResponse(customerId, message);
   },
 
   // AI Stylist: Streaming Call (SSE)

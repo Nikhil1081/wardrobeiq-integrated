@@ -617,3 +617,33 @@ export function registerFallbackUser(data: any): { user: any; token: string } {
     token: `demo_token_${tempId}`,
   };
 }
+
+export function getFallbackStylistResponse(customerId: string, message: string): any {
+  const isAdm = customerId === 'admin_root' || customerId === 'admin';
+  const customer = isAdm
+    ? { name: 'WardrobeIQ Administrator', preferredStyles: ['smart-casual', 'minimalist', 'classic'] }
+    : fallbackCustomers.find((c) => c.customerId === customerId) || fallbackCustomers[0];
+
+  const recsData = getFallbackRecommendations(isAdm ? 'C001' : customerId);
+  const gaps = getFallbackGaps(isAdm ? 'C001' : customerId);
+  const topRec = recsData.recommendations[0];
+  const name = customer.name.split(' ')[0] || 'there';
+
+  const reply = `Hi ${name}! I reviewed your closet and styling preferences. I recommend adding **${topRec?.name || 'Classic Cotton Oxford Shirt'}** (₹${topRec?.price || 1900}), which fills a key styling gap in your collection. It pairs seamlessly with your weekly wardrobe pieces and complements your ${customer.preferredStyles?.[0] || 'smart-casual'} look.`;
+
+  return {
+    message: reply,
+    recommendations: recsData.recommendations.slice(0, 3),
+    gaps: gaps.slice(0, 1),
+    outfits: [],
+    conversationId: `conv_${Date.now()}`,
+    processingSteps: [
+      'Understanding request',
+      'Checking your closet',
+      'Detecting wardrobe gaps',
+      'Finding compatible pieces',
+      'Ranking recommendations',
+      'Building your look',
+    ],
+  };
+}
