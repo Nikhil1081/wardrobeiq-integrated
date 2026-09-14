@@ -275,11 +275,11 @@ export const AdminQualityPage: React.FC = () => {
       <div className="flex items-center gap-2 overflow-x-auto pb-1 scrollbar-none border-b border-white/5">
         {[
           { id: 'dashboard', label: 'Dashboard', icon: LayoutDashboard, count: null },
-          { id: 'personas', label: '105 Personas', icon: Users, count: dashboardData?.counts.personas || 105 },
-          { id: 'users', label: 'Registered Users', icon: UserCheck, count: dashboardData?.counts.users },
-          { id: 'clothing', label: 'All Clothing', icon: Shirt, count: dashboardData?.counts.wardrobeItems || '73.5k' },
-          { id: 'purchases', label: 'Purchases', icon: ShoppingBag, count: dashboardData?.counts.purchases || '4,095' },
-          { id: 'browsing', label: 'Browsing Events', icon: Activity, count: dashboardData?.counts.browsingEvents || '5,195' },
+          { id: 'personas', label: '105 Personas', icon: Users, count: dashboardData?.counts?.personas || 105 },
+          { id: 'users', label: 'Registered Users', icon: UserCheck, count: dashboardData?.counts?.users },
+          { id: 'clothing', label: 'All Clothing', icon: Shirt, count: dashboardData?.counts?.wardrobeItems || '73.5k' },
+          { id: 'purchases', label: 'Purchases', icon: ShoppingBag, count: dashboardData?.counts?.purchases || '4,095' },
+          { id: 'browsing', label: 'Browsing Events', icon: Activity, count: dashboardData?.counts?.browsingEvents || '5,195' },
         ].map((tab) => {
           const Icon = tab.icon;
           const isActive = activeTab === tab.id;
@@ -316,7 +316,7 @@ export const AdminQualityPage: React.FC = () => {
                 <Shirt className="w-4 h-4 text-purple-400" />
               </span>
               <div className="text-3xl font-editorial font-bold text-luxury-cream mt-2">
-                {dashboardData?.counts.products ?? 812}
+                {dashboardData?.counts?.products ?? 812}
               </div>
               <span className="text-[11px] text-emerald-400 mt-1 block">
                 100% Unique Verified Images
@@ -329,7 +329,7 @@ export const AdminQualityPage: React.FC = () => {
                 <Shirt className="w-4 h-4 text-luxury-rose" />
               </span>
               <div className="text-3xl font-editorial font-bold text-luxury-cream mt-2">
-                {(dashboardData?.counts.wardrobeItems ?? 73500).toLocaleString()}
+                {(dashboardData?.counts?.wardrobeItems ?? 73500).toLocaleString()}
               </div>
               <span className="text-[11px] text-gray-400 mt-1 block">
                 700 items × 105 personas
@@ -342,10 +342,10 @@ export const AdminQualityPage: React.FC = () => {
                 <DollarSign className="w-4 h-4 text-emerald-400" />
               </span>
               <div className="text-3xl font-editorial font-bold text-luxury-cream mt-2">
-                ₹{((dashboardData?.metrics.totalGMV ?? 14200000) / 100000).toFixed(1)}L
+                ₹{((dashboardData?.metrics?.totalGMV ?? 14200000) / 100000).toFixed(1)}L
               </div>
               <span className="text-[11px] text-emerald-400 mt-1 block">
-                AOV: ₹{(dashboardData?.metrics.averageOrderValue ?? 3450).toFixed(0)}
+                AOV: ₹{(dashboardData?.metrics?.averageOrderValue ?? 3450).toFixed(0)}
               </span>
             </div>
 
@@ -355,7 +355,7 @@ export const AdminQualityPage: React.FC = () => {
                 <Activity className="w-4 h-4 text-amber-400" />
               </span>
               <div className="text-3xl font-editorial font-bold text-luxury-cream mt-2">
-                {(dashboardData?.counts.browsingEvents ?? 5195).toLocaleString()}
+                {(dashboardData?.counts?.browsingEvents ?? 5195).toLocaleString()}
               </div>
               <span className="text-[11px] text-amber-400 mt-1 block">
                 7 Signal Event Types Active

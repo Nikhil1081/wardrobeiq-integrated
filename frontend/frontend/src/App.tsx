@@ -26,6 +26,57 @@ import { ProductDetailDrawer } from './components/modals/ProductDetailDrawer';
 import { OfferModal } from './components/modals/OfferModal';
 import { AuthModal } from './components/modals/AuthModal';
 
+interface ErrorBoundaryProps {
+  children: React.ReactNode;
+}
+interface ErrorBoundaryState {
+  hasError: boolean;
+  error: Error | null;
+}
+
+class ErrorBoundary extends React.Component<ErrorBoundaryProps, ErrorBoundaryState> {
+  constructor(props: ErrorBoundaryProps) {
+    super(props);
+    this.state = { hasError: false, error: null };
+  }
+
+  static getDerivedStateFromError(error: Error): ErrorBoundaryState {
+    return { hasError: true, error };
+  }
+
+  componentDidCatch(error: Error, errorInfo: React.ErrorInfo) {
+    console.error('Unhandled runtime error in view:', error, errorInfo);
+  }
+
+  render() {
+    if (this.state.hasError) {
+      return (
+        <div className="min-h-[50vh] flex items-center justify-center p-6">
+          <div className="max-w-md w-full p-8 rounded-3xl glass-panel-elevated border border-luxury-rose/30 text-center space-y-4">
+            <div className="w-12 h-12 rounded-2xl bg-luxury-rose/20 text-luxury-blush flex items-center justify-center mx-auto text-xl font-bold">
+              ✦
+            </div>
+            <h3 className="text-xl font-editorial font-bold text-luxury-cream">View Temporarily Unavailable</h3>
+            <p className="text-xs text-gray-400">
+              {this.state.error?.message || 'A transient rendering notice occurred.'}
+            </p>
+            <button
+              onClick={() => {
+                this.setState({ hasError: false, error: null });
+                window.location.reload();
+              }}
+              className="px-5 py-2.5 rounded-xl bg-luxury-rose/20 border border-luxury-rose/40 text-luxury-blush hover:bg-luxury-rose/30 text-xs font-semibold transition-all cursor-pointer"
+            >
+              Reload View
+            </button>
+          </div>
+        </div>
+      );
+    }
+    return this.props.children;
+  }
+}
+
 const AppContent: React.FC = () => {
   const { activeTab } = useWardrobe();
 
@@ -64,7 +115,9 @@ const AppContent: React.FC = () => {
 
   return (
     <AppShell>
-      {renderActiveTab()}
+      <ErrorBoundary>
+        {renderActiveTab()}
+      </ErrorBoundary>
 
       {/* Global Modals & Drawers */}
       <AddItemModal />

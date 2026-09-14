@@ -42,7 +42,7 @@ export const AIStylistPage: React.FC = () => {
     {
       id: 'welcome_msg',
       sender: 'assistant',
-      text: `Hello ${currentCustomer?.name.split(' ')[0] || 'there'} ✦\n\nYour closet is my canvas. I've analyzed your owned pieces and current style preferences. Tell me what you're dressing for, or ask how to complete what you already own.`,
+      text: `Hello ${currentCustomer?.name?.split(' ')[0] || 'there'} ✦\n\nYour closet is my canvas. I've analyzed your owned pieces and current style preferences. Tell me what you're dressing for, or ask how to complete what you already own.`,
       timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
     },
   ]);

@@ -182,8 +182,8 @@ export const OutfitBuilderPage: React.FC = () => {
 
   const styles = ['Minimal', 'Casual', 'Classic', 'Street', 'Smart-Casual', 'Formal'];
 
-  const closetPiecesCount = currentOutfit?.items.filter((i) => i.source === 'wardrobe').length || 0;
-  const aiPiecesCount = currentOutfit?.items.filter((i) => i.source === 'recommendation').length || 0;
+  const closetPiecesCount = currentOutfit?.items?.filter((i) => i.source === 'wardrobe').length || 0;
+  const aiPiecesCount = currentOutfit?.items?.filter((i) => i.source === 'recommendation').length || 0;
 
   return (
     <div className="space-y-8">
