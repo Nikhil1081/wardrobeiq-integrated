@@ -123,7 +123,7 @@ export const AuthProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
           email: 'aarav.sharma@wardrobeiq.demo',
           name: 'Aarav Sharma',
           avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80',
-          role: 'admin',
+          role: 'user',
           country: 'India',
           city: 'Mumbai',
           preferredStyles: ['streetwear', 'casual', 'ethnic'],
@@ -228,6 +228,7 @@ export const AuthProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
     setToken(null);
     localStorage.removeItem('wardrobeiq_user');
     localStorage.removeItem('wardrobeiq_token');
+    localStorage.removeItem('wardrobeiq_customer_id');
   };
 
   return (

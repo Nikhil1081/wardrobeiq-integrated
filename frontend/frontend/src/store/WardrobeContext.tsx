@@ -208,9 +208,20 @@ export const WardrobeProvider: React.FC<{ children: ReactNode }> = ({ children }
     }
   }, []);
 
-  // Load customers on initial mount (allowed for admin; guarded for non-admin)
+  // Load customers on initial mount (allowed for admin only)
   useEffect(() => {
     async function loadCustomers() {
+      if (typeof window !== 'undefined') {
+        const storedUser = localStorage.getItem('wardrobeiq_user');
+        let isAdmin = false;
+        if (storedUser) {
+          try {
+            const parsed = JSON.parse(storedUser);
+            if (parsed.role === 'admin' || parsed.userId === 'admin_root') isAdmin = true;
+          } catch {}
+        }
+        if (!isAdmin) return;
+      }
       try {
         const custList = await apiClient.getCustomers();
         if (Array.isArray(custList) && custList.length > 0) {
@@ -288,6 +299,25 @@ export const WardrobeProvider: React.FC<{ children: ReactNode }> = ({ children }
     setCurrentCustomerIdState(id);
     const found = customers.find((c) => c.customerId === id);
     if (found) setCurrentCustomer(found);
+    if (typeof window !== 'undefined') {
+      localStorage.setItem('wardrobeiq_customer_id', id);
+      const currentToken = localStorage.getItem('wardrobeiq_token');
+      if (!currentToken || currentToken.startsWith('demo_token_') || currentToken.startsWith('client_token_')) {
+        const isAdm = id === 'admin_root' || id === 'admin';
+        localStorage.setItem('wardrobeiq_token', isAdm ? 'demo_token_admin_root' : `demo_token_${id}`);
+        const updatedUser = {
+          userId: id,
+          customerId: id,
+          email: isAdm ? 'admin@wardrobeiq.com' : `${id.toLowerCase()}@wardrobeiq.demo`,
+          name: found?.name || id,
+          avatar: found?.avatar || 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80',
+          role: isAdm ? 'admin' : 'user',
+          country: found?.country || 'India',
+          preferredStyles: found?.preferredStyles || ['smart-casual'],
+        };
+        localStorage.setItem('wardrobeiq_user', JSON.stringify(updatedUser));
+      }
+    }
     showToast(`Switched persona to ${found?.name || id} ✦`, 'Wardrobe, gaps & recommendations reloaded from MongoDB', 'info');
   };
 

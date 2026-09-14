@@ -17,12 +17,18 @@ export class AppError extends Error {
 }
 
 export function errorHandler(err: any, req: Request, res: Response, next: NextFunction) {
-  logger.error(`Request error at ${req.method} ${req.originalUrl}: ${err?.message || err}`, {
-    name: err?.name,
-    code: err?.code,
-    statusCode: err?.statusCode,
-    stack: err?.stack,
-  });
+  const status = err?.statusCode || (err instanceof ApiError || err instanceof AppError ? err.statusCode : 500);
+
+  if (status >= 500) {
+    logger.error(`Server error at ${req.method} ${req.originalUrl}: ${err?.message || err}`, {
+      name: err?.name,
+      code: err?.code,
+      statusCode: status,
+      stack: err?.stack,
+    });
+  } else {
+    logger.warn(`Client notice [${status}] at ${req.method} ${req.originalUrl}: ${err?.message || err}`);
+  }
 
   // Handle ApiError or AppError or any structured HTTP error
   if (err instanceof ApiError || err instanceof AppError || (err && typeof err.statusCode === 'number')) {
