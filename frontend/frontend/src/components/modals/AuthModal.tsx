@@ -88,8 +88,8 @@ export const AuthModal: React.FC = () => {
   const filteredPersonas = demoPersonas.filter(
     (p) =>
       p.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      p.country.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      p.role.toLowerCase().includes(searchTerm.toLowerCase())
+      (p.country || '').toLowerCase().includes(searchTerm.toLowerCase()) ||
+      (p.role || '').toLowerCase().includes(searchTerm.toLowerCase())
   );
 
   return (
@@ -204,7 +204,7 @@ export const AuthModal: React.FC = () => {
                           <Globe className="w-3 h-3 text-luxury-rose" /> {persona.country}
                         </p>
                         <p className="text-[11px] text-gray-400 dark:text-gray-500 truncate mt-0.5">
-                          {persona.styles.join(', ')}
+                          {(persona.styles || []).join(', ')}
                         </p>
                       </div>
                       <span className="text-xs px-2.5 py-1 rounded-lg bg-luxury-rose/10 text-luxury-rose font-medium group-hover:bg-luxury-rose group-hover:text-white transition-colors">

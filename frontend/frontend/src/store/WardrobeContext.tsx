@@ -12,6 +12,22 @@ import {
 import { Category, Occasion, Season, FeedbackType } from '../types/domain';
 import { apiClient } from '../api/client';
 import { fallbackCustomers } from '../api/clientFallback';
+import { useAuth } from './AuthContext';
+
+export const ADMIN_VIRTUAL_CUSTOMER: CustomerDTO = {
+  customerId: 'admin_root',
+  name: 'WardrobeIQ Administrator',
+  avatar: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=300&q=80',
+  country: 'Global',
+  city: 'San Francisco',
+  preferredStyles: ['smart-casual', 'minimalist'],
+  budget: 50000,
+  preferredColors: ['black', 'white', 'navy', 'gray'],
+  avoidedColors: [],
+  climate: 'temperate',
+  currentSeason: 'all-season',
+  preferredOccasions: ['workwear', 'casual', 'formal'],
+};
 
 export type NavigationTab =
   | 'home'
@@ -111,6 +127,7 @@ interface WardrobeContextType {
 const WardrobeContext = createContext<WardrobeContextType | undefined>(undefined);
 
 export const WardrobeProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
+  const { user } = useAuth();
   const [activeTab, setActiveTab] = useState<NavigationTab>('home');
   const [viewportMode, setViewportMode] = useState<'desktop' | 'tablet' | 'mobile'>('desktop');
 
@@ -130,7 +147,36 @@ export const WardrobeProvider: React.FC<{ children: ReactNode }> = ({ children }
     }
     return 'C001';
   });
-  const [currentCustomer, setCurrentCustomer] = useState<CustomerDTO | null>(fallbackCustomers[0]);
+  const [currentCustomer, setCurrentCustomer] = useState<CustomerDTO | null>(() => {
+    if (typeof window !== 'undefined') {
+      const storedUser = localStorage.getItem('wardrobeiq_user');
+      if (storedUser) {
+        try {
+          const parsed = JSON.parse(storedUser);
+          if (parsed.role === 'admin' || parsed.userId === 'admin_root') return ADMIN_VIRTUAL_CUSTOMER;
+          const found = fallbackCustomers.find((c) => c.customerId === (parsed.customerId || parsed.userId));
+          if (found) return found;
+        } catch {}
+      }
+    }
+    return fallbackCustomers[0];
+  });
+
+  // Synchronize active customer state when authenticated user changes
+  useEffect(() => {
+    if (user?.role === 'admin' || user?.userId === 'admin_root') {
+      if (currentCustomerId !== 'admin_root') {
+        setCurrentCustomerIdState('admin_root');
+      }
+      setCurrentCustomer(ADMIN_VIRTUAL_CUSTOMER);
+    } else if (user?.customerId && user.customerId !== currentCustomerId) {
+      setCurrentCustomerIdState(user.customerId);
+      const found =
+        customers.find((c) => c.customerId === user.customerId) ||
+        fallbackCustomers.find((c) => c.customerId === user.customerId);
+      if (found) setCurrentCustomer(found);
+    }
+  }, [user]);
 
   // Backend state
   const [dashboard, setDashboard] = useState<DashboardDTO | null>(null);
@@ -297,7 +343,10 @@ export const WardrobeProvider: React.FC<{ children: ReactNode }> = ({ children }
 
   const setCurrentCustomerId = (id: string) => {
     setCurrentCustomerIdState(id);
-    const found = customers.find((c) => c.customerId === id);
+    const isAdm = id === 'admin_root' || id === 'admin';
+    const found = isAdm
+      ? ADMIN_VIRTUAL_CUSTOMER
+      : (customers.find((c) => c.customerId === id) || fallbackCustomers.find((c) => c.customerId === id));
     if (found) setCurrentCustomer(found);
     if (typeof window !== 'undefined') {
       localStorage.setItem('wardrobeiq_customer_id', id);

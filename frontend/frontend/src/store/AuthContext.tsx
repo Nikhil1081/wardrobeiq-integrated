@@ -72,28 +72,40 @@ export const AuthProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
     return null;
   });
 
-  const [demoPersonas, setDemoPersonas] = useState<DemoPersona[]>([]);
+  const [demoPersonas, setDemoPersonas] = useState<DemoPersona[]>(() => {
+    return fallbackDemoPersonas.filter((p) => p.role !== 'admin');
+  });
   const [loadingPersonas, setLoadingPersonas] = useState<boolean>(false);
   const [isAuthModalOpen, setIsAuthModalOpen] = useState<boolean>(false);
 
   useEffect(() => {
+    let isMounted = true;
     const fetchPersonas = async () => {
       if (!user || user.role !== 'admin') {
-        setDemoPersonas([]);
         return;
       }
       try {
         setLoadingPersonas(true);
         const personas = await apiClient.auth.getDemoPersonas();
-        setDemoPersonas(personas);
+        if (isMounted && Array.isArray(personas) && personas.length > 0) {
+          const userPersonas = personas.filter((p) => p.role !== 'admin');
+          if (userPersonas.length > 0) {
+            setDemoPersonas(userPersonas);
+          }
+        }
       } catch (err) {
-        console.warn('Could not load demo personas:', err);
+        console.warn('Could not load demo personas from API, retaining fallback:', err);
       } finally {
-        setLoadingPersonas(false);
+        if (isMounted) {
+          setLoadingPersonas(false);
+        }
       }
     };
     fetchPersonas();
-  }, [user]);
+    return () => {
+      isMounted = false;
+    };
+  }, [user?.role]);
 
   const saveAuthSession = (userData: AuthUser, authToken: string) => {
     setUser(userData);
@@ -237,7 +249,7 @@ export const AuthProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
         user,
         token,
         isAuthenticated: !!user,
-        isAdmin: user?.role === 'admin',
+        isAdmin: user?.role === 'admin' || user?.userId === 'admin_root',
         login,
         register,
         loginAsDemoPersona,

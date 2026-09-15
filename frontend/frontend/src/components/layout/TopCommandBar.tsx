@@ -76,14 +76,27 @@ export const TopCommandBar: React.FC = () => {
     }
   };
 
-  const displayName = user?.name || currentCustomer?.name || 'Stylist';
-  const firstName = displayName.split(' ')[0];
+  const isAdministrator = isAdmin || user?.role === 'admin' || user?.userId === 'admin_root';
 
-  const isDemoUser = (user?.customerId && user.customerId.startsWith('C')) || (!user && currentCustomerId.startsWith('C'));
+  const displayName = isAdministrator
+    ? (user?.name || 'WardrobeIQ Administrator')
+    : (user?.name || currentCustomer?.name || 'Stylist');
+
+  const greetingName = isAdministrator ? 'Administrator' : displayName.split(' ')[0];
+
+  const avatarUrl = isAdministrator
+    ? (user?.avatar || 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=300&q=80')
+    : (user?.avatar || currentCustomer?.avatar || 'https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=300&q=80');
+
+  const userSubtext = isAdministrator
+    ? 'admin_root'
+    : (user?.customerId || currentCustomerId);
+
+  const isDemoUser = !isAdministrator && ((user?.customerId && user.customerId.startsWith('C')) || (!user && currentCustomerId.startsWith('C')));
   const country = user?.country || currentCustomer?.country || 'Global';
 
   const getRoleBadge = () => {
-    if (isAdmin || user?.role === 'admin') {
+    if (isAdministrator) {
       return (
         <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md text-[10px] font-semibold bg-purple-500/20 text-purple-300 border border-purple-500/30">
           <ShieldCheck className="w-2.5 h-2.5" />
@@ -113,7 +126,7 @@ export const TopCommandBar: React.FC = () => {
       <div className="hidden lg:flex items-center gap-3 min-w-[200px]">
         <div className="flex flex-col">
           <div className="flex items-center gap-1.5 text-sm font-semibold text-luxury-cream">
-            <span>Hi, {firstName}</span>
+            <span>Hi, {greetingName}</span>
             <Sparkles className="w-3.5 h-3.5 text-luxury-blush animate-pulse" />
           </div>
           <div className="mt-0.5 flex items-center gap-1.5">
@@ -273,7 +286,7 @@ export const TopCommandBar: React.FC = () => {
             className="flex items-center gap-2 p-1.5 pr-2.5 rounded-2xl glass-panel hover:border-luxury-rose/30 transition-all group cursor-pointer"
           >
             <img
-              src={user?.avatar || currentCustomer?.avatar || 'https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=300&q=80'}
+              src={avatarUrl}
               alt={displayName}
               className="w-8 h-8 rounded-xl object-cover border border-white/10 group-hover:scale-105 transition-transform"
             />
@@ -282,7 +295,7 @@ export const TopCommandBar: React.FC = () => {
                 {displayName}
               </span>
               <span className="text-[10px] text-gray-400 font-mono">
-                {user?.customerId || currentCustomerId}
+                {userSubtext}
               </span>
             </div>
             <ChevronDown className="w-3.5 h-3.5 text-gray-400 group-hover:text-white transition-colors" />
@@ -292,7 +305,9 @@ export const TopCommandBar: React.FC = () => {
             <div className="absolute right-0 mt-2 w-64 rounded-2xl glass-panel-elevated border border-white/10 shadow-2xl p-3 z-50 animate-in fade-in slide-in-from-top-2">
               <div className="p-2 border-b border-white/5 mb-2">
                 <div className="text-xs font-bold text-luxury-cream">{displayName}</div>
-                <div className="text-[11px] text-gray-400 truncate">{user?.email || `${(user?.customerId || currentCustomerId).toLowerCase()}@wardrobeiq.demo`}</div>
+                <div className="text-[11px] text-gray-400 truncate">
+                  {isAdministrator ? (user?.email || 'admin@wardrobeiq.com') : (user?.email || `${userSubtext.toLowerCase()}@wardrobeiq.demo`)}
+                </div>
                 <div className="mt-1.5">{getRoleBadge()}</div>
               </div>
 
@@ -306,12 +321,12 @@ export const TopCommandBar: React.FC = () => {
                 >
                   <span className="flex items-center gap-2">
                     <LogIn className="w-3.5 h-3.5 text-luxury-rose" />
-                    <span>{isAdmin ? 'Admin / Switch Persona' : 'My Account'}</span>
+                    <span>{isAdministrator ? 'Admin / Switch Persona' : 'My Account'}</span>
                   </span>
                   <span className="text-gray-500">→</span>
                 </button>
 
-                {isAdmin && (
+                {isAdministrator && (
                   <button
                     onClick={() => {
                       setActiveTab('admin');

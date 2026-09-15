@@ -119,8 +119,8 @@ export const AuthPage: React.FC = () => {
   const filteredPersonas = demoPersonas.filter(
     (p) =>
       p.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      p.country.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      p.styles.some((s) => s.toLowerCase().includes(searchQuery.toLowerCase()))
+      (p.country || '').toLowerCase().includes(searchQuery.toLowerCase()) ||
+      (p.styles || []).some((s) => s.toLowerCase().includes(searchQuery.toLowerCase()))
   );
 
   return (
@@ -528,7 +528,7 @@ export const AuthPage: React.FC = () => {
                           <span>{persona.country}</span>
                         </div>
                         <div className="text-[10px] text-gray-400 capitalize truncate mt-0.5">
-                          {persona.styles.slice(0, 2).join(', ')}
+                          {(persona.styles || []).slice(0, 2).join(', ')}
                         </div>
                       </div>
                     </div>
